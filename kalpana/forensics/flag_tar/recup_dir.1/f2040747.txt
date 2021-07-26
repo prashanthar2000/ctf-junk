@@ -1,0 +1,10 @@
+LICATE
+  If set, the profiler will pre-symbolicate profiles.
+  *Note* This will add a significant pause when gathering data, and
+  is intended mainly for local development.
+
+  MOZ_PROFILER_LUL_TEST
+  If set to any value, runs LUL unit tests at startup.
+
+  This platform %s native unwinding.
+

@@ -1,0 +1,40 @@
+7;
+        uint mantissa = f32 & 0x007FFFFFu;
+        if (exponent == 128)
+        {
+            // Infinity or NaN
+            // NaN bits that are masked out by 0x3FF get discarded.
+            // This can turn some NaNs to infinity, but this is allowed by the spec.
+            f16 = sign | (0x1Fu << 10);
+            f16 |= (mantissa & 0x3FFu);
+        }
+        else if (exponent > 15)
+        {
+            // Overflow - flush to Infinity
+            f16 = sign | (0x1Fu << 10);
+        }
+        else if (exponent > -15)
+        {
+            // Representable value
+            exponent += 15;
+            mantissa >>= 13;
+            f16 = sign | uint(exponent << 10) | mantissa;
+        }
+        else
+        {
+            f16 = sign;
+        }
+        return f16;
+    }
+#endif
+
+uint packHalf2x16_emu(vec2 v)
+{
+    #if defined(GL_ARB_shading_language_packing)
+        return packHalf2x16(v);
+    #else
+        uint x = f32tof16(v.x);
+        uint y = f32tof16(v.y);
+        return (y << 16) | x;
+    #endif
+}

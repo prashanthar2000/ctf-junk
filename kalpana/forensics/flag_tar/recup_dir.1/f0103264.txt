@@ -1,0 +1,2921 @@
+%u&apos;" modified="2020-10-09T21:10:56Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/backup/Pictures/chandhana/MjAxOTA2MDYxMTM0NTdfSU1HXzEzNjUuSlBH~" added="2020-10-09T21:10:57Z" modified="2020-10-09T21:10:57Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-trash"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-09T21:10:57Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/backup/Pictures/chandhana/MjAxOTA2MDYxMTM1MDZfSU1HXzEzNjYuSlBH~" added="2020-10-09T21:10:58Z" modified="2020-10-09T21:10:58Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-trash"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-09T21:10:58Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/backup/Pictures/chandhana/MjAxOTA2MDYxMTM1MTFfSU1HXzEzNjcuSlBH~" added="2020-10-09T21:10:59Z" modified="2020-10-09T21:10:59Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-trash"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-09T21:10:59Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/backup/Pictures/chandhana/MjAxOTA2MDYxMTM1MTlfSU1HXzEzNjguSlBH~" added="2020-10-09T21:10:59Z" modified="2020-10-09T21:10:59Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-trash"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-09T21:10:59Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/backup/Pictures/chandhana/MjAxOTA2MDYxMTMwNTRfSU1HXzEzNjAuSlBH~" added="2020-10-09T21:11:01Z" modified="2020-10-09T21:11:01Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-trash"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-09T21:11:01Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/backup/Pictures/chandhana/MjAxOTA2MDYxMTMxMTVfSU1HXzEzNjEuSlBH~" added="2020-10-09T21:11:02Z" modified="2020-10-09T21:11:02Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-trash"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-09T21:11:02Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/backup/Pictures/chandhana/MjAxOTA2MDYxMTMxMzFfSU1HXzEzNjIuSlBH~" added="2020-10-09T21:11:04Z" modified="2020-10-09T21:11:04Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-trash"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-09T21:11:04Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/backup/Pictures/chandhana/MjAxOTA2MDYxMTMxNTJfSU1HXzEzNjMuSlBH~" added="2020-10-09T21:11:05Z" modified="2020-10-09T21:11:05Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-trash"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-09T21:11:05Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/backup/Pictures/chandhana/OTE2MzY0NzQzMzczKDEpLmpwZw==~" added="2020-10-09T21:11:05Z" modified="2020-10-09T21:11:05Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-trash"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-09T21:11:05Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/backup/Pictures/chandhana/OTE2MzY0NzQzMzczLmpwZw==~" added="2020-10-09T21:11:06Z" modified="2020-10-09T21:11:06Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-trash"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-09T21:11:06Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/backup/Pictures/chandhana/OTE5MzUzNDM1NTkyX3N0YXR1c18yNzNhMzgzMDExYWM0MjI0ODI4NmJmZWNjNjJlZjhiOC5qcGc=~" added="2020-10-09T21:11:07Z" modified="2020-10-09T21:11:07Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-trash"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-09T21:11:07Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/backup/Pictures/chandhana/OTE5MzUzNDM1NTkyX3N0YXR1c185YTIzY2NlMzMwZDk0ZjI2Yjg1ZWFlYzRjMTE5OWIyZi5qcGc=~" added="2020-10-09T21:11:07Z" modified="2020-10-09T21:11:07Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-trash"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-09T21:11:07Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/backup/Pictures/chandhana/SU1HLTIwMTkwMzIwLVdBMDAwNy5qcGc=~" added="2020-10-09T21:11:08Z" modified="2020-10-09T21:11:09Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-trash"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-09T21:11:09Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/backup/Pictures/chandhana/SU1HLTIwMTkwNDAyLVdBMDAxMC5qcGc=~" added="2020-10-09T21:11:08Z" modified="2020-10-09T21:11:09Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-trash"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-09T21:11:09Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/backup/Pictures/chandhana/SU1HLTIwMTkwNjI5LVdBMDAwMC5qcGc=~" added="2020-10-09T21:11:10Z" modified="2020-10-09T21:11:12Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-trash"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-09T21:11:12Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/backup/Pictures/chandhana/SU1HLTIwMTkwNjI5LVdBMDAwMS5qcGc=~" added="2020-10-09T21:11:10Z" modified="2020-10-09T21:11:13Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-trash"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-09T21:11:13Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/backup/Pictures/chandhana/U2NyZWVuc2hvdF8yMDE5MDQxNi0wODE3NTMucG5n~" added="2020-10-09T21:11:13Z" modified="2020-10-09T21:11:14Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-trash"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-09T21:11:14Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/backup/Pictures/chandhana/U2NyZWVuc2hvdF8yMDIwMDIyNS0xNTE2MDIucG5n~" added="2020-10-09T21:11:14Z" modified="2020-10-09T21:11:16Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-trash"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-09T21:11:16Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Downloads/Generate%20Code.pdf" added="2020-10-10T08:26:52Z" modified="2020-10-10T08:31:33Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2020-10-10T08:28:39Z" count="2"/>
+          <bookmark:application name="Telegram" exec="&apos;Telegram %u&apos;" modified="2020-10-10T08:31:33Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/os/unit2/threads-models-scheduling-1_20200826030528.pdf" added="2020-10-10T15:46:54Z" modified="2020-10-10T15:46:55Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-10T15:46:55Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_prashanth0/Marvels.Daredevil.S03E03.720p.NF.WEB-DL.x265-HETeam.mkv" added="2020-10-10T19:07:45Z" modified="2020-10-10T19:07:45Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-matroska"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-10T19:07:45Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_prashanth0/Marvels.Daredevil.S03E04.720p.NF.WEB-DL.x265-HETeam.mkv" added="2020-10-10T19:31:01Z" modified="2020-10-10T19:31:01Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-matroska"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-10T19:31:01Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_prashanth0/Marvels.Daredevil.S03E05.720p.NF.WEB-DL.x265-HETeam.mkv" added="2020-10-10T20:23:55Z" modified="2020-10-10T20:23:55Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-matroska"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-10T20:23:55Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_prashanth0/Marvels.Daredevil.S03E06.720p.NF.WEB-DL.x265-HETeam.mkv" added="2020-10-10T21:00:15Z" modified="2020-10-10T21:00:15Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-matroska"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-10T21:00:15Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/VirtualBox%20VMs/security_onion/xac" added="2020-10-11T09:08:02Z" modified="2020-10-11T09:11:07Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-11T09:11:07Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/VirtualBox%20VMs/security_onion/xad" added="2020-10-11T16:54:11Z" modified="2020-10-11T17:03:08Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-11T17:03:08Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/os/2-3.zip" added="2020-10-12T13:28:07Z" modified="2020-10-12T13:28:08Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-12T13:28:08Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/os/Unit-1-20201006T042134Z-001.zip" added="2020-10-12T13:29:02Z" modified="2020-10-12T13:29:02Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-12T13:29:02Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/mi/pptx/u1/Unit1/_1.pptx.extracted/ppt/media/image1.png" added="2020-10-13T19:01:19Z" modified="2020-10-13T19:02:16Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-13T19:02:16Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/mi/pptx/u1/Unit1/_1.pptx.extracted/ppt/media/image2.png" added="2020-10-13T19:01:20Z" modified="2020-10-13T19:02:17Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-13T19:02:17Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/mi/pptx/u1/Unit1/_1.pptx.extracted/ppt/media/image3.png" added="2020-10-13T19:01:21Z" modified="2020-10-13T19:01:21Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-13T19:01:21Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/mi/pptx/u1/Unit1/_1.pptx.extracted/ppt/media/image4.png" added="2020-10-13T19:01:21Z" modified="2020-10-13T19:01:21Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-13T19:01:21Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/mi/pptx/u1/Unit1/_1.pptx.extracted/ppt/media/image5.GIF" added="2020-10-13T19:01:21Z" modified="2020-10-13T19:01:23Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/gif"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-13T19:01:23Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/mi/pptx/u1/Unit1/_1.pptx.extracted/ppt/media/image6.png" added="2020-10-13T19:01:22Z" modified="2020-10-13T19:01:26Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-13T19:01:26Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/mi/pptx/u1/Unit1/_1.pptx.extracted/ppt/media/image7.png" added="2020-10-13T19:01:22Z" modified="2020-10-13T19:01:26Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-13T19:01:26Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/mi/pptx/u1/Unit1/_1.pptx.extracted/ppt/media/image8.png" added="2020-10-13T19:01:22Z" modified="2020-10-13T19:01:26Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-13T19:01:26Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/mi/pptx/u1/Unit1/_1.pptx.extracted/ppt/media/image9.png" added="2020-10-13T19:01:27Z" modified="2020-10-13T19:01:27Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-13T19:01:27Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/mi/pptx/u1/Unit1/_1.pptx.extracted/ppt/media/image10.png" added="2020-10-13T19:01:27Z" modified="2020-10-13T19:01:27Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-13T19:01:27Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/mi/pptx/u1/Unit1/_1.pptx.extracted/ppt/media/image11.png" added="2020-10-13T19:01:27Z" modified="2020-10-13T19:01:27Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-13T19:01:27Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/mi/pptx/u1/Unit1/_1.pptx.extracted/ppt/media/image12.png" added="2020-10-13T19:01:27Z" modified="2020-10-13T19:01:27Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-13T19:01:27Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/mi/pptx/u1/Unit1/_1.pptx.extracted/ppt/media/image13.png" added="2020-10-13T19:01:28Z" modified="2020-10-13T19:01:28Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-13T19:01:28Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/mi/pptx/u1/Unit1/_1.pptx.extracted/ppt/media/image14.jpeg" added="2020-10-13T19:01:28Z" modified="2020-10-13T19:01:28Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-13T19:01:28Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/mi/pptx/u1/Unit1/_1.pptx.extracted/ppt/media/image15.png" added="2020-10-13T19:01:28Z" modified="2020-10-13T19:01:28Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-13T19:01:28Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/mi/pptx/u1/Unit1/_1.pptx.extracted/ppt/media/image16.png" added="2020-10-13T19:01:28Z" modified="2020-10-13T19:01:28Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-13T19:01:28Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/mi/pptx/u1/Unit1/_1.pptx.extracted/ppt/media/image17.png" added="2020-10-13T19:01:28Z" modified="2020-10-13T19:01:28Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-13T19:01:28Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/mi/pptx/u1/Unit1/_1.pptx.extracted/ppt/media/image18.png" added="2020-10-13T19:01:29Z" modified="2020-10-13T19:01:29Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-13T19:01:29Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/mi/pptx/u1/Unit1/_1.pptx.extracted/ppt/media/image19.GIF" added="2020-10-13T19:01:29Z" modified="2020-10-13T19:01:29Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/gif"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-13T19:01:29Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/mi/pptx/u1/Unit1/_1.pptx.extracted/ppt/media/image20.GIF" added="2020-10-13T19:01:29Z" modified="2020-10-13T19:01:30Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/gif"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-13T19:01:30Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/mi/pptx/u1/Unit1/_1.pptx.extracted/ppt/media/image21.GIF" added="2020-10-13T19:01:29Z" modified="2020-10-13T19:01:35Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/gif"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-13T19:01:35Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/mi/pptx/u1/Unit1/_1.pptx.extracted/ppt/media/image22.GIF" added="2020-10-13T19:01:29Z" modified="2020-10-13T19:01:53Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/gif"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-13T19:01:53Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/blockchain/notes/2unit/Unit-2-3.pptx" added="2020-10-15T09:02:47Z" modified="2020-10-15T09:24:17Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-15T09:02:48Z" count="2"/>
+          <bookmark:application name="Caja" exec="&apos;libreoffice --impress %U&apos;" modified="2020-10-15T09:24:17Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/blockchain/notes/2unit/Unit-2-4.pptx" added="2020-10-15T09:02:58Z" modified="2020-10-15T09:45:41Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-15T09:02:58Z" count="2"/>
+          <bookmark:application name="Caja" exec="&apos;libreoffice --impress %U&apos;" modified="2020-10-15T09:45:41Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/blockchain/notes/2unit/Unit-2-5.pptx" added="2020-10-15T09:03:08Z" modified="2020-10-15T09:47:26Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-15T09:03:09Z" count="2"/>
+          <bookmark:application name="Caja" exec="&apos;libreoffice --impress %U&apos;" modified="2020-10-15T09:47:26Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/blockchain/notes/2unit/Unit-2-6.pptx" added="2020-10-15T09:03:18Z" modified="2020-10-15T09:54:19Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-15T09:03:19Z" count="2"/>
+          <bookmark:application name="Caja" exec="&apos;libreoffice --impress %U&apos;" modified="2020-10-15T09:54:19Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/blockchain/notes/2unit/Unit-2-7.pptx" added="2020-10-15T09:03:32Z" modified="2020-10-15T13:56:06Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-15T09:03:32Z" count="2"/>
+          <bookmark:application name="Caja" exec="&apos;libreoffice --impress %U&apos;" modified="2020-10-15T13:56:06Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/blockchain/notes/2unit/Unit-2-8.pptx" added="2020-10-15T09:03:42Z" modified="2020-10-15T14:05:31Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-15T09:03:45Z" count="2"/>
+          <bookmark:application name="Caja" exec="&apos;libreoffice --impress %U&apos;" modified="2020-10-15T14:05:31Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/blockchain/notes/2unit/Unit-2-9.pptx" added="2020-10-15T09:04:07Z" modified="2020-10-15T15:14:55Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-15T09:04:07Z" count="2"/>
+          <bookmark:application name="Caja" exec="&apos;libreoffice --impress %U&apos;" modified="2020-10-15T15:14:55Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/blockchain/notes/2unit/Unit-2-10.pptx" added="2020-10-15T09:04:16Z" modified="2020-10-15T15:52:30Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-15T09:04:18Z" count="2"/>
+          <bookmark:application name="Caja" exec="&apos;libreoffice --impress %U&apos;" modified="2020-10-15T15:52:30Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/blockchain/notes/2unit/Unit-2-1.pptx" added="2020-10-15T09:05:39Z" modified="2020-10-15T09:06:48Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-15T09:05:40Z" count="2"/>
+          <bookmark:application name="Caja" exec="&apos;libreoffice --impress %U&apos;" modified="2020-10-15T09:06:48Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/blockchain/notes/Blockchain%20Question%20bank.docx" added="2020-10-15T13:42:20Z" modified="2020-10-15T13:42:22Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-15T13:42:22Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_prashanth0/Marvels.Daredevil.S03E10.720p.NF.WEB-DL.x265-HETeam.mkv" added="2020-10-16T13:00:57Z" modified="2020-10-16T13:00:57Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-matroska"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-16T13:00:57Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_prashanth0/Marvels.Daredevil.S03E11.720p.NF.WEB-DL.x265-HETeam.mkv" added="2020-10-16T13:45:18Z" modified="2020-10-16T13:45:18Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-matroska"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-16T13:45:18Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_prashanth0/Marvels.Daredevil.S03E12.720p.NF.WEB-DL.x265-HETeam.mkv" added="2020-10-16T15:03:06Z" modified="2020-10-16T15:03:06Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-matroska"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-16T15:03:06Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_prashanth0/Marvels.Daredevil.S03E13.720p.NF.WEB-DL.x265-HETeam.mkv" added="2020-10-16T17:22:30Z" modified="2020-10-16T17:22:30Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-matroska"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-16T17:22:30Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_prashanth0/Silicon.Valley.S06E01.WEB.H264.tbs%5Beztv%5D.mkv" added="2020-10-17T18:37:32Z" modified="2020-10-17T18:37:32Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-matroska"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-17T18:37:32Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_prashanth0/CV_MATHANGPEDDI.pdf" added="2020-10-17T19:15:13Z" modified="2020-10-17T19:15:13Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-17T19:15:13Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_prashanth0/Copy%20of%20Resume.pdf" added="2020-10-18T06:44:14Z" modified="2020-10-18T06:44:14Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-18T06:44:14Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/resume/Copy%20of%20Resume.pdf" added="2020-10-18T06:44:30Z" modified="2020-10-18T06:44:31Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-18T06:44:31Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/ft2/try/in03.txt" added="2020-10-20T08:57:58Z" modified="2020-10-20T08:59:36Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-20T08:57:59Z" count="2"/>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-20T08:59:36Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/ft2/try/main.c" added="2020-10-20T08:58:08Z" modified="2020-10-20T08:59:36Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-20T08:58:09Z" count="2"/>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-20T08:59:36Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/ft2/try/ex1.c" added="2020-10-20T08:58:16Z" modified="2020-10-20T08:59:36Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-20T08:58:16Z" count="2"/>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-20T08:59:36Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/ft2/try/out03.txt" added="2020-10-20T08:58:22Z" modified="2020-10-20T08:59:36Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-20T08:58:22Z" count="2"/>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-20T08:59:36Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/ft2/try/in00.txt" added="2020-10-20T08:58:29Z" modified="2020-10-20T08:59:36Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-20T08:58:29Z" count="2"/>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-20T08:59:36Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/ft2/try/sll.h" added="2020-10-20T08:58:37Z" modified="2020-10-20T08:59:36Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-chdr"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-20T08:58:37Z" count="2"/>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-20T08:59:36Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/ft2/try/out01.txt" added="2020-10-20T08:58:44Z" modified="2020-10-20T08:59:36Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-20T08:58:45Z" count="2"/>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-20T08:59:36Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/ft2/try/ex2.c" added="2020-10-20T08:58:52Z" modified="2020-10-20T08:59:36Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-20T08:58:52Z" count="2"/>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-20T08:59:36Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/ft2/try/in01.txt" added="2020-10-20T08:58:59Z" modified="2020-10-20T08:59:36Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-20T08:58:59Z" count="2"/>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-20T08:59:36Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/ft2/try/out00.txt" added="2020-10-20T08:59:06Z" modified="2020-10-20T08:59:36Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-20T08:59:07Z" count="2"/>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-20T08:59:36Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CSc138/Socket%20Programming1%20-%20TCP_VS_UDP/tcpClient.py" added="2020-10-20T15:00:13Z" modified="2020-10-20T15:00:13Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-20T15:00:13Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CSc138/Socket%20Programming1%20-%20TCP_VS_UDP/udpClient.py" added="2020-10-20T15:00:13Z" modified="2020-10-20T15:00:13Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-20T15:00:13Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CSc138/Socket%20Programming1%20-%20TCP_VS_UDP/tcpServer.py" added="2020-10-20T15:00:13Z" modified="2020-10-20T15:02:53Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-20T15:02:53Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CSc138/Socket%20Programming1%20-%20TCP_VS_UDP/udpServer.py" added="2020-10-20T15:00:13Z" modified="2020-10-20T15:00:13Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-20T15:00:13Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CSc138/Socket%20Programming2%20-%20Email%20Client/Icon%0D" added="2020-10-20T18:00:21Z" modified="2020-10-20T18:00:21Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-20T18:00:21Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CSc138/Socket%20Programming2%20-%20Email%20Client/Mail.py" added="2020-10-20T18:00:26Z" modified="2020-10-20T18:55:13Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-20T18:55:13Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK5/Mail.py" added="2020-10-20T18:15:10Z" modified="2020-10-20T20:18:16Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-20T20:18:16Z" count="43"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///usr/lib/python2.7/smtplib.py" added="2020-10-20T19:29:19Z" modified="2020-10-20T19:29:19Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-20T19:29:19Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK5/SMTPClientfinal.py" added="2020-10-20T19:47:07Z" modified="2020-10-20T19:50:53Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-20T19:50:53Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK5" added="2020-10-20T20:29:00Z" modified="2020-10-20T20:29:00Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="mate-screenshot" exec="&apos;mate-screenshot %u&apos;" modified="2020-10-20T20:29:00Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK5/task4_2.png" added="2020-10-20T20:29:02Z" modified="2020-10-20T20:29:02Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-20T20:29:02Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK5/PES1201800410.pdf" added="2020-10-20T21:03:04Z" modified="2020-10-20T21:03:04Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-20T21:03:04Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_prashanth0/SMTPClient.py" added="2020-10-20T21:05:48Z" modified="2020-10-20T21:05:48Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-20T21:05:48Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/.config/obs-studio/logs/2020-10-21%2015-09-21.txt" added="2020-10-21T09:40:08Z" modified="2020-10-21T09:40:08Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-21T09:40:08Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/.config/obs-studio/logs/2020-10-21%2014-52-29.txt" added="2020-10-21T09:40:08Z" modified="2020-10-21T09:40:08Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-21T09:40:08Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/.config/obs-studio/logs/2020-10-21%2014-55-20.txt" added="2020-10-21T09:40:08Z" modified="2020-10-21T09:40:08Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-21T09:40:08Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/.config/obs-studio/logs/2020-10-21%2014-58-26.txt" added="2020-10-21T09:40:08Z" modified="2020-10-21T09:40:08Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-21T09:40:08Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/.config/obs-studio/logs/2020-10-21%2014-59-52.txt" added="2020-10-21T09:40:08Z" modified="2020-10-21T09:40:08Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-21T09:40:08Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/tmp/temp" added="2020-10-21T16:07:16Z" modified="2020-10-21T16:07:16Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-21T16:07:16Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/redmi.y1/Disable-Force-Encryption-Treble.zip" added="2020-10-21T16:25:25Z" modified="2020-10-21T16:25:26Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-21T16:25:26Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/os/tmp/pc2.c" added="2020-10-22T11:49:14Z" modified="2020-10-22T11:49:46Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-22T11:49:15Z" count="2"/>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-22T11:49:46Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/os/tmp/WEEK6.c" added="2020-10-22T11:49:21Z" modified="2020-10-22T11:49:46Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-22T11:49:21Z" count="2"/>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-22T11:49:46Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_prashanth0/May28Semaphores.ppt" added="2020-10-22T14:30:12Z" modified="2020-10-22T14:30:12Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.ms-powerpoint"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-22T14:30:12Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/os/PES1201800410_Prashanth_A_R_WEEK6/prob1.c" added="2020-10-22T14:36:35Z" modified="2020-10-22T14:36:35Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-22T14:36:35Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_prashanth0/pc1.c" added="2020-10-22T15:26:24Z" modified="2020-10-22T15:26:24Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-22T15:26:24Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_prashanth0/pc2.c" added="2020-10-22T15:26:44Z" modified="2020-10-22T15:26:44Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-22T15:26:44Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/os/tmp/whileNegative.c" added="2020-10-22T15:32:23Z" modified="2020-10-22T15:34:54Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-22T15:34:54Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/os/PES1201800410_Prashanth_A_R_WEEK6" added="2020-10-22T16:33:11Z" modified="2020-10-22T16:33:11Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="mate-screenshot" exec="&apos;mate-screenshot %u&apos;" modified="2020-10-22T16:33:11Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/os/PES1201800410_Prashanth_A_R_WEEK6/problem2.png" added="2020-10-22T16:33:13Z" modified="2020-10-22T16:33:13Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-22T16:33:13Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/os/PES1201800410_Prashanth_A_R_WEEK6/problem1.png" added="2020-10-22T16:34:02Z" modified="2020-10-22T16:34:02Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-22T16:34:02Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/os/PES1201800410_Prashanth_A_R_WEEK6/PES1201800410_Prashanth_A_R_WEEK6.zip" added="2020-10-22T16:44:34Z" modified="2020-10-22T16:44:34Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-22T16:44:34Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/os/PES1201800410_Prashanth_A_R_WEEK6/PES1201800410.pdf" added="2020-10-22T16:44:48Z" modified="2020-10-22T16:44:48Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-22T16:44:48Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_prashanth0/PES1201800410_Prashanth_A_R_WEEK6.zip" added="2020-10-22T16:45:09Z" modified="2020-10-22T16:45:09Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-22T16:45:09Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/.cache/.fr-w5dtSt/PES1201800410_Prashanth_A_R_WEEK6/prob1.c" added="2020-10-22T16:45:13Z" modified="2020-10-22T16:45:13Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-22T16:45:13Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_prashanth0/Marvel&apos;s%20Jessica%20Jones%20S01E01%20WEBRip%20720p%20x265%20AAC%20E-Subs%20%5BGWC%5D.mkv" added="2020-10-22T16:49:20Z" modified="2020-10-22T16:49:20Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-matroska"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-22T16:49:20Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_prashanth0/OD219985597734772000" added="2020-10-23T07:47:32Z" modified="2020-10-23T07:47:32Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-23T07:47:32Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/haddop" added="2020-10-23T12:44:03Z" modified="2020-10-23T14:40:06Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-23T14:40:06Z" count="8"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/addTwoNumber.c" added="2020-10-24T09:24:34Z" modified="2020-10-24T09:51:29Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-24T09:46:19Z" count="31"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-24T09:51:29Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_prashanth0/Assignment%203%20-%20Dynamic%20Programming%20(1).pdf" added="2020-10-24T10:26:52Z" modified="2020-10-24T10:26:52Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-24T10:26:52Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Downloads/qwiklabs-gcp-00-29215e0ecf1a-36483f6c0026.json" added="2020-10-24T14:34:15Z" modified="2020-10-24T14:34:15Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-24T14:34:15Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/gen_pycode.py" added="2020-10-24T17:04:17Z" modified="2020-10-24T17:25:04Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-24T17:25:04Z" count="40"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/ft2/2ass/sample_logcat.txt" added="2020-10-25T12:18:00Z" modified="2020-10-25T12:18:01Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-25T12:18:01Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/ft2/day17.zip" added="2020-10-25T19:34:42Z" modified="2020-10-25T19:34:42Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-25T19:34:42Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/ft2/day2/day9.zip" added="2020-10-25T19:35:38Z" modified="2020-10-25T19:35:39Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-25T19:35:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/ft2/day9.zip" added="2020-10-25T19:36:00Z" modified="2020-10-25T19:36:01Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-25T19:36:01Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/ft2/day10.zip" added="2020-10-25T19:38:16Z" modified="2020-10-25T19:38:16Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-25T19:38:16Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/ft2/day11.zip" added="2020-10-25T19:38:23Z" modified="2020-10-25T19:38:24Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-25T19:38:24Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/ft2/day12.zip" added="2020-10-25T19:38:46Z" modified="2020-10-25T19:38:46Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-25T19:38:46Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/ft2/day13.zip" added="2020-10-25T19:39:32Z" modified="2020-10-25T19:39:33Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-25T19:39:33Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/ft2/day14.zip" added="2020-10-25T19:39:40Z" modified="2020-10-25T19:39:40Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-25T19:39:40Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/ft2/day15.zip" added="2020-10-25T19:39:47Z" modified="2020-10-25T19:39:47Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-25T19:39:47Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/ft2/zip_files/unzip.sh" added="2020-10-25T19:54:21Z" modified="2020-10-25T19:57:39Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-25T19:57:39Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Downloads/google_downloads" added="2020-10-25T20:18:02Z" modified="2020-10-25T20:18:02Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2020-10-25T20:18:02Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Downloads/Copy%20of%20Resume.pdf" added="2020-10-25T20:44:46Z" modified="2020-10-26T11:54:19Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-26T11:54:19Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Downloads/google_downloads/results-20201026-122947.csv" added="2020-10-26T07:01:53Z" modified="2020-10-26T07:01:53Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/csv"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2020-10-26T07:01:53Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Downloads/google_downloads/results-20201026-123032.csv" added="2020-10-26T07:01:58Z" modified="2020-10-26T07:01:58Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/csv"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2020-10-26T07:01:58Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_prashanth0/CV_Nikhil.pdf" added="2020-10-26T11:58:07Z" modified="2020-10-26T11:58:07Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-26T11:58:07Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Videos" added="2020-10-26T16:46:27Z" modified="2020-10-26T16:46:27Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="obs" exec="&apos;obs %u&apos;" modified="2020-10-26T16:46:27Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Videos/Screencast%202020-10-26%2022:29:21.mp4" added="2020-10-26T16:59:26Z" modified="2020-10-26T16:59:26Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="kazam" exec="&apos;kazam %u&apos;" modified="2020-10-26T16:59:26Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6-7/2020-10-24%2019-03-15.mkv" added="2020-10-26T17:07:36Z" modified="2020-10-26T17:08:44Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-matroska"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-26T17:08:44Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/ft2/day17/mergeSort.py" added="2020-10-26T17:09:52Z" modified="2020-10-26T17:09:52Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-26T17:09:52Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/ft2/day17/a1.c" added="2020-10-26T17:29:45Z" modified="2020-10-26T17:29:45Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-26T17:29:45Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/ft2/day17/polymain.c" added="2020-10-26T17:29:45Z" modified="2020-10-26T17:29:45Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-26T17:29:45Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6-7/Week%206%20-%20Cisco%20Packet%20Tracer%201%20-%20IPv4%20Static%20Addressing%20and%20Routing.pdf" added="2020-10-26T18:59:06Z" modified="2020-10-26T18:59:07Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-26T18:59:07Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/prashanth/New%20Volume/Videos/One%20Piece%20Season%201,2,3%20%7BEnG%20SubbeD%7D%20%5BEpisode%201-92%5D%20L@mBerT/Season_1%20First_Voyage%20%5B1-62%5D%20L@mBerT/OP-14%20L@mBerT.mkv" added="2020-10-26T19:12:11Z" modified="2020-10-26T19:12:23Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-matroska"/>
+        <bookmark:applications>
+          <bookmark:application name="Caja" exec="&apos;mpv --player-operation-mode=pseudo-gui -- %U&apos;" modified="2020-10-26T19:12:23Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/prashanth/New%20Volume/Videos/One%20Piece%20Season%201,2,3%20%7BEnG%20SubbeD%7D%20%5BEpisode%201-92%5D%20L@mBerT/Season_1%20First_Voyage%20%5B1-62%5D%20L@mBerT/OP-15%20L@mBerT.mkv" added="2020-10-26T19:13:47Z" modified="2020-10-26T19:13:56Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-matroska"/>
+        <bookmark:applications>
+          <bookmark:application name="Caja" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2020-10-26T19:13:56Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/prashanth/New%20Volume/Videos/One%20Piece%20Season%201,2,3%20%7BEnG%20SubbeD%7D%20%5BEpisode%201-92%5D%20L@mBerT/Season_1%20First_Voyage%20%5B1-62%5D%20L@mBerT/OP-16%20L@mBerT.mkv" added="2020-10-26T19:34:29Z" modified="2020-10-26T19:34:36Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-matroska"/>
+        <bookmark:applications>
+          <bookmark:application name="Caja" exec="&apos;mpv --player-operation-mode=pseudo-gui -- %U&apos;" modified="2020-10-26T19:34:36Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6-7/PacketTracer_731_amd64.deb" added="2020-10-26T20:05:24Z" modified="2020-10-26T20:08:07Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-26T20:08:07Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/blockchain/project/ishida2019.pdf" added="2020-10-26T20:26:34Z" modified="2020-10-26T20:26:35Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-26T20:26:35Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/blockchain/project/han2020.pdf" added="2020-10-26T20:26:45Z" modified="2020-10-26T20:26:46Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-26T20:26:46Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/blockchain/project/10.1109@BIGCOM.2019.00040.pdf" added="2020-10-26T20:26:52Z" modified="2020-10-26T20:26:53Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-26T20:26:53Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/blockchain/project/savelyev2017.pdf" added="2020-10-26T20:26:58Z" modified="2020-10-26T20:26:59Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-26T20:26:59Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Videos/photos/Pramodh_Kumar_B.jpeg" added="2020-10-27T12:54:32Z" modified="2020-10-27T20:07:19Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-27T12:54:32Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-27T20:07:19Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6-7" added="2020-10-27T15:40:07Z" modified="2020-10-27T15:40:07Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="mate-screenshot" exec="&apos;mate-screenshot %u&apos;" modified="2020-10-27T15:40:07Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6-7/pc0_pc3.png" added="2020-10-27T15:40:08Z" modified="2020-10-27T15:40:08Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T15:40:08Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6-7/pc0_pc2.png" added="2020-10-27T15:41:29Z" modified="2020-10-27T15:41:29Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T15:41:29Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6-7/all.png" added="2020-10-27T15:42:16Z" modified="2020-10-27T15:42:16Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T15:42:16Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6-7/pc2_pc3.png" added="2020-10-27T15:42:39Z" modified="2020-10-27T15:42:39Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T15:42:39Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Desktop/pc01.1.1.2-pc06.6.6.2.png" added="2020-10-27T17:20:47Z" modified="2020-10-27T17:20:47Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T17:20:47Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Desktop/pc01.xxxtopc06.x.png" added="2020-10-27T17:40:33Z" modified="2020-10-27T17:40:33Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T17:40:33Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Desktop/pc0-pc3.png" added="2020-10-27T17:41:07Z" modified="2020-10-27T17:41:07Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T17:41:07Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Desktop/pc06.xtopc2.png" added="2020-10-27T17:41:46Z" modified="2020-10-27T17:41:46Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T17:41:46Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Desktop/all.png" added="2020-10-27T17:42:27Z" modified="2020-10-27T17:42:27Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T17:42:27Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/all.png" added="2020-10-27T17:52:11Z" modified="2020-10-27T17:52:21Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-27T17:52:21Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/pc0-pc3.png" added="2020-10-27T17:52:12Z" modified="2020-10-27T17:52:21Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-27T17:52:21Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/pc0_pc2.png" added="2020-10-27T17:52:14Z" modified="2020-10-27T17:52:21Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-27T17:52:21Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/pc0_pc3.png" added="2020-10-27T17:52:15Z" modified="2020-10-27T17:52:23Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-27T17:52:23Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/pc01.1.1.2-pc06.6.6.2.png" added="2020-10-27T17:52:16Z" modified="2020-10-27T17:52:23Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-27T17:52:23Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/pc01.xxxtopc06.x.png" added="2020-10-27T17:52:17Z" modified="2020-10-27T17:52:23Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-27T17:52:23Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/pc2_pc3.png" added="2020-10-27T17:52:18Z" modified="2020-10-27T17:52:23Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-27T17:52:23Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/pc06.xtopc2.png" added="2020-10-27T17:52:19Z" modified="2020-10-27T17:52:22Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-27T17:52:22Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/task2_all.png" added="2020-10-27T17:52:19Z" modified="2020-10-27T17:52:21Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-27T17:52:21Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6" added="2020-10-27T17:54:57Z" modified="2020-10-27T17:54:57Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="mate-screenshot" exec="&apos;mate-screenshot %u&apos;" modified="2020-10-27T17:54:57Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/task1PC0.png" added="2020-10-27T17:54:59Z" modified="2020-10-27T17:54:59Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T17:54:59Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/task1_PC1.png" added="2020-10-27T17:55:15Z" modified="2020-10-27T17:55:15Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T17:55:15Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/task1_router0_routing_table.png" added="2020-10-27T17:55:40Z" modified="2020-10-27T17:55:40Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T17:55:40Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/task1_router0_fe0.png" added="2020-10-27T17:56:09Z" modified="2020-10-27T17:56:09Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T17:56:09Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/task1_router0_fa1.png" added="2020-10-27T17:56:30Z" modified="2020-10-27T17:56:30Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T17:56:30Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/task1_router1_Fa0.png" added="2020-10-27T17:56:50Z" modified="2020-10-27T17:56:50Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T17:56:50Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/task1_router1_fa1.png" added="2020-10-27T17:57:00Z" modified="2020-10-27T17:57:00Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T17:57:00Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/task1_router1_routing_table.png" added="2020-10-27T17:57:12Z" modified="2020-10-27T17:57:12Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T17:57:12Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/task1_pc2.png" added="2020-10-27T17:57:29Z" modified="2020-10-27T17:57:29Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T17:57:29Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/task1_pc3.png" added="2020-10-27T17:57:42Z" modified="2020-10-27T17:57:42Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T17:57:42Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/task1.pkt" added="2020-10-27T17:58:15Z" modified="2020-10-27T19:40:04Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-pkt"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-27T19:40:04Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/task2.pkt" added="2020-10-27T17:58:15Z" modified="2020-10-27T19:40:14Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-pkt"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-27T19:40:14Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/task2" added="2020-10-27T18:05:23Z" modified="2020-10-27T18:05:23Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="mate-screenshot" exec="&apos;mate-screenshot %u&apos;" modified="2020-10-27T18:05:23Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/task2/pc01.x.png" added="2020-10-27T18:05:26Z" modified="2020-10-27T19:36:30Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T18:05:26Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-27T19:36:30Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/task2/pc11.x.png" added="2020-10-27T18:05:45Z" modified="2020-10-27T19:36:29Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T18:05:45Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-27T19:36:29Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/task2/router0_fa0.png" added="2020-10-27T18:06:03Z" modified="2020-10-27T19:36:28Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T18:06:03Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-27T19:36:28Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/task2/router0_fa1.png" added="2020-10-27T18:06:11Z" modified="2020-10-27T19:36:28Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T18:06:11Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-27T19:36:28Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/task2/route0_routing_table.png" added="2020-10-27T18:06:29Z" modified="2020-10-27T19:36:28Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T18:06:29Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-27T19:36:28Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/task2/router1_fa0.png" added="2020-10-27T18:06:52Z" modified="2020-10-27T19:36:27Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T18:06:52Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-27T19:36:27Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/task2/router1_fa1.png" added="2020-10-27T18:07:02Z" modified="2020-10-27T19:36:27Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T18:07:02Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-27T19:36:27Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/task2/router1_eth0.png" added="2020-10-27T18:07:12Z" modified="2020-10-27T19:36:28Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T18:07:12Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-27T19:36:28Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/task2/router1_routeing_table.png" added="2020-10-27T18:07:25Z" modified="2020-10-27T19:36:27Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T18:07:25Z" count="1"/>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-10-27T18:22:44Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-27T19:36:27Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/task2/pc2.png" added="2020-10-27T18:07:41Z" modified="2020-10-27T19:36:29Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T18:07:41Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-27T19:36:29Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/task2/pc3.png" added="2020-10-27T18:07:51Z" modified="2020-10-27T19:36:29Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T18:07:51Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-27T19:36:29Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/task2/pc0.png" added="2020-10-27T18:08:02Z" modified="2020-10-27T19:36:33Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T18:08:02Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-27T19:36:33Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/task2/route2_fa0.png" added="2020-10-27T18:08:16Z" modified="2020-10-27T19:36:28Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T18:08:16Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-27T19:36:28Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/task2/router2_fa1.png" added="2020-10-27T18:08:24Z" modified="2020-10-27T19:36:26Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T18:08:24Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-27T19:36:26Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/task2/router2_routing_table.png" added="2020-10-27T18:08:39Z" modified="2020-10-27T19:36:26Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T18:08:39Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-27T19:36:26Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/task2/router1_routing_Table.png" added="2020-10-27T18:21:44Z" modified="2020-10-27T18:22:45Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T18:21:44Z" count="1"/>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-10-27T18:22:45Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK7" added="2020-10-27T18:22:11Z" modified="2020-10-27T18:22:11Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="mate-screenshot" exec="&apos;mate-screenshot %u&apos;" modified="2020-10-27T18:22:11Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK7/router1_fa0.png" added="2020-10-27T18:22:13Z" modified="2020-10-27T18:22:13Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T18:22:13Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK7/router1_fa1.png" added="2020-10-27T18:23:16Z" modified="2020-10-27T18:23:16Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T18:23:16Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK7/pc0.png" added="2020-10-27T18:23:30Z" modified="2020-10-27T18:23:30Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T18:23:30Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK7/router2_fa0.png" added="2020-10-27T18:30:21Z" modified="2020-10-27T18:32:24Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T18:32:24Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK7/router2_eth0.png" added="2020-10-27T18:32:04Z" modified="2020-10-27T18:32:04Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T18:32:04Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK7/router2_fa1.png" added="2020-10-27T18:32:14Z" modified="2020-10-27T18:32:14Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T18:32:14Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK7/router1_routing_table.png" added="2020-10-27T18:34:38Z" modified="2020-10-27T18:34:38Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T18:34:38Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK7/dns_server_config.png" added="2020-10-27T18:36:11Z" modified="2020-10-27T18:36:11Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T18:36:11Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK7/dns_server_ip_config.png" added="2020-10-27T18:37:10Z" modified="2020-10-27T18:37:10Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T18:37:10Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK7/server1_ip_config.png" added="2020-10-27T18:39:24Z" modified="2020-10-27T18:40:11Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T18:40:11Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK7/server1_html_page.png" added="2020-10-27T18:41:04Z" modified="2020-10-27T18:41:04Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T18:41:04Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK7/model.png" added="2020-10-27T18:58:48Z" modified="2020-10-27T18:58:48Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T18:58:48Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Videos/cisco_lifeofpacket.png" added="2020-10-27T19:01:58Z" modified="2020-10-27T19:02:36Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-27T19:02:36Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK7/phase1.png" added="2020-10-27T19:15:31Z" modified="2020-10-27T19:15:31Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T19:15:31Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK7/phase2.png" added="2020-10-27T19:15:53Z" modified="2020-10-27T19:15:53Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T19:15:53Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK7/week7.pkt" added="2020-10-27T19:17:39Z" modified="2020-10-27T19:59:34Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-pkt"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-27T19:59:34Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/task2/pc0-pc3.png" added="2020-10-27T19:36:15Z" modified="2020-10-27T19:36:34Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-27T19:36:34Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/task2/pc01.1.1.2-pc06.6.6.2.png" added="2020-10-27T19:36:15Z" modified="2020-10-27T19:36:31Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-27T19:36:31Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/task2/task2_all.png" added="2020-10-27T19:36:25Z" modified="2020-10-27T19:36:33Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-27T19:36:33Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/task2/pc06.xtopc2.png" added="2020-10-27T19:36:29Z" modified="2020-10-27T19:36:29Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-27T19:36:29Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/task2/pc01.xxxtopc06.x.png" added="2020-10-27T19:36:29Z" modified="2020-10-27T19:36:29Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2020-10-27T19:36:29Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK6/PES1201800410.pdf" added="2020-10-27T19:39:59Z" modified="2020-10-27T19:39:59Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-27T19:39:59Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK7/1st_request.png" added="2020-10-27T19:48:31Z" modified="2020-10-27T19:48:31Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T19:48:31Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK7/response.png" added="2020-10-27T19:49:21Z" modified="2020-10-27T19:49:21Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T19:49:21Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK7/arp%20requests.png" added="2020-10-27T19:49:36Z" modified="2020-10-27T19:49:36Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-27T19:49:36Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/cn/CN_lab_PES1201800410_WEEK7/PES1201800410.pdf" added="2020-10-27T19:59:27Z" modified="2020-10-28T14:46:50Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-28T14:46:50Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Desktop/Screenshot%20at%202020-10-28%2010-52-40.png" added="2020-10-28T05:23:09Z" modified="2020-10-29T06:53:21Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-28T05:23:09Z" count="1"/>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2020-10-28T05:23:21Z" count="1"/>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-10-29T06:53:21Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Desktop/edit1.png" added="2020-10-28T05:24:47Z" modified="2020-10-29T06:53:21Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="MATE Screenshot" exec="&apos;eom %u&apos;" modified="2020-10-28T05:24:47Z" count="1"/>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2020-10-28T05:24:54Z" count="1"/>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-10-29T06:53:21Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/androrat/Automatic%20Call%20Recorder_12.0_mod_apkdone.com.apk" added="2020-10-28T12:01:58Z" modified="2020-10-28T12:01:58Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.android.package-archive"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-28T12:01:58Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/androrat/Auto%20Call%20Recorder.ver.1.92.build.92/AndroidManifest.xml" added="2020-10-28T12:40:51Z" modified="2020-10-28T12:43:45Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/xml"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-28T12:43:45Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/ft2/day7/1_intro.txt" added="2020-10-28T13:35:28Z" modified="2020-10-28T13:35:28Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-28T13:35:28Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/ft2/day7/0_re.py" added="2020-10-28T13:35:42Z" modified="2020-10-28T13:35:42Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-28T13:35:42Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/ft2/day7/1_single_char_re.py" added="2020-10-28T13:35:42Z" modified="2020-10-28T13:35:42Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-28T13:35:42Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/ft2/day8/1_single_char_re.py" added="2020-10-28T13:46:56Z" modified="2020-10-28T13:46:56Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-28T13:46:56Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/ft2/day8/2_multiple_char_re.py" added="2020-10-28T13:46:56Z" modified="2020-10-28T13:46:56Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-28T13:46:56Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/ft2/day9/3_anchor.py" added="2020-10-28T13:54:09Z" modified="2020-10-28T13:54:09Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-28T13:54:09Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Documents/semV/ft2/day9/4_back_reference.py" added="2020-10-28T13:54:09Z" modified="2020-10-28T13:54:09Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-10-28T13:54:09Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_prashanth0/PES1201802023_Week7.pdf" added="2020-10-28T17:00:53Z" modified="2020-10-28T17:00:53Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-10-28T17:00:53Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

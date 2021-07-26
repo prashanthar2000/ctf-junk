@@ -1,0 +1,4 @@
+the CodeCache_lock
+      is not continuously held, the displayed name might be wrong or no name
+      might be found at all. The likelihood for that to happen increases
+      over time passed between analysis and print step.

@@ -1,0 +1,12 @@
+Field %3u:  `%s`
+Catalog:    `%s`
+Database:   `%s`
+Table:      `%s`
+Org_table:  `%s`
+Type:       %s
+Collation:  %s (%u)
+Length:     %lu
+Max_length: %lu
+Decimals:   %u
+Flags:      %s
+

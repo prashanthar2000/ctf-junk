@@ -1,0 +1,7 @@
+ %f ]
+   /Shading
+      << /ShadingType 2
+         /ColorSpace /DeviceRGB
+         /Coords [ %f %f %f %f ]
+         /Domain [ %f %f ]
+         /Function %d 0 R

@@ -1,0 +1,38 @@
+steg / forensics 
+http://fotoforensics.com/
+
+foremost to recover data same like binwalk but better
+https://hexed.it/ for manipulating hex data mainly png files 
+https://georgeom.net/StegOnline/checklist
+https://aperisolve.fr/  -- awsome for image steg
+
+
+cryptographi
+boxentriq -- for solving cryptographic problems to find the type most probably 
+ras factors -- http://www.factordb.com/
+2rsa with no c given -- https://github.com/KaLiMaLi555/WriteUPs/tree/master/ChujowyCTF2020/crypto/babyRSA
+morse code -- https://morsecode.world/international/decoder/audio-decoder-adaptive.html
+
+sql-injection
+https://medium.com/@ismailtasdelen/sql-injection-payload-list-b97656cfd66b
+
+
+buffer overflow 
+from pwn import * 
+cyclic(100)
+cyclic_find(p32(address))
+
+disassemble main
+
+https://github.com/datajerk/ctf-write-ups/blob/master/nahamconctf2020/dangerous/README.md
+
+web-domain finder -- https://crt.sh/
+
+
+bandit to check common security of python programm  -- pip install bandit
+
+
+web scanning tools 
+acunetix -- paid 
+nessus
+

@@ -1,0 +1,13 @@
+ert, int offset, int bits)
+{
+    if (offset < 0 || bits <= 0 || offset >= 32 || bits > 32 || offset + bits > 32)
+    {
+        return base;
+    }
+    uint maskMsb = (1u << (bits - 1));
+    uint insertMask = ((maskMsb - 1u) | maskMsb) << offset;
+    uint baseMask = ~insertMask;
+    uint resultUnsigned = (asuint(base) & baseMask) | ((asuint(insert) << offset) & 
+                           insertMask);
+    return asint(resultUnsigned);
+}

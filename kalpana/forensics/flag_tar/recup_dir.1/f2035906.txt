@@ -1,0 +1,56 @@
+#if !defined(GL_ARB_shading_language_packing)
+    float f16tof32(uint val)
+    {
+        uint sign = (val & 0x8000u) << 16;
+        int exponent = int((val & 0x7C00u) >> 10);
+        uint mantissa = val & 0x03FFu;
+        float f32 = 0.0;
+        if(exponent == 0)
+        {
+            if (mantissa != 0u)
+            {
+                const float scale = 1.0 / (1 << 24);
+                f32 = scale * mantissa;
+            }
+        }
+        else if (exponent == 31)
+        {
+            return uintBitsToFloat(sign | 0x7F800000u | mantissa);
+        }
+        else
+        {
+            exponent -= 15;
+            float scale;
+            if(exponent < 0)
+            {
+                // The negative unary operator is buggy on OSX.
+                // Work around this by using abs instead.
+                scale = 1.0 / (1 << abs(exponent));
+            }
+            else
+            {
+                scale = 1 << exponent;
+            }
+            float decimal = 1.0 + float(mantissa) / float(1 << 10);
+            f32 = scale * decimal;
+        }
+
+        if (sign != 0u)
+        {
+            f32 = -f32;
+        }
+
+        return f32;
+    }
+#endif
+
+vec2 unpackHalf2x16_emu(uint u)
+{
+    #if defined(GL_ARB_shading_language_packing)
+        return unpackHalf2x16(u);
+    #else
+        uint y = (u >> 16);
+        uint x = u & 0xFFFFu;
+        return vec2(f16tof32(x), f16tof32(y));
+    #endif
+}

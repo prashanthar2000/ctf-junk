@@ -1,0 +1,7 @@
+new_id
+ WHERE TABLE_ID = :old_id;
+UPDATE SYS_INDEXES SET TABLE_ID = :new_id
+ WHERE TABLE_ID = :old_id;
+UPDATE SYS_VIRTUAL SET TABLE_ID = :new_id
+ WHERE TABLE_ID = :old_id;
+END;

@@ -1,0 +1,5 @@
+ring describing edge> }
+  if the node is some internal thing that is not a proper JavaScript value
+  (like a shape or a scope chain element). The destination of the i'th array
+  element's edge is the node of the i+1'th array element; the destination of
+  the last array element is implicitly |target|.

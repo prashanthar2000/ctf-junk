@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+	<name>BolI-UmFodWw</name>
+	<SSIDConfig>
+		<SSID>
+			<hex>426F6C492D556D466F645777</hex>
+			<name>BolI-UmFodWw</name>
+		</SSID>
+	</SSIDConfig>
+	<connectionType>ESS</connectionType>
+	<connectionMode>auto</connectionMode>
+	<MSM>
+		<security>
+			<authEncryption>
+				<authentication>WPA2PSK</authentication>
+				<encryption>AES</encryption>
+				<useOneX>false</useOneX>
+			</authEncryption>
+			<sharedKey>
+				<keyType>passPhrase</keyType>
+				<protected>true</protected>
+				<keyMaterial>01000000D08C9DDF0115D1118C7A00C04FC297EB0100000001B744BA51EEBA408244EA5F4F4D1D9300000000020000000000106600000001000020000000311C2622E8627F4130997108E89A6FF014FED34F536DA4F728605F574FFA595E000000000E8000000002000020000000DE99C3099096CDCBB6457BAA60F655A0AB5888CF07B0703E31BA8A0A4EE23DF510000000CE30A92C1E849814E5B05A1AECCE4AEC4000000028AF886BEA3C917507BDC546DE4CFB78A3CD3CB905D212DBC0BAF0D773C9DFFDACF27D9244E301006F8D6AC245BF532003227C93CE6BC67E67DA052E2C1583BB</keyMaterial>
+			</sharedKey>
+		</security>
+	</MSM>
+</WLANProfile>

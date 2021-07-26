@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+	<name>Honor 9 Lite_B21C</name>
+	<SSIDConfig>
+		<SSID>
+			<hex>486F6E6F722039204C6974655F42323143</hex>
+			<name>Honor 9 Lite_B21C</name>
+		</SSID>
+	</SSIDConfig>
+	<connectionType>ESS</connectionType>
+	<connectionMode>auto</connectionMode>
+	<MSM>
+		<security>
+			<authEncryption>
+				<authentication>WPA2PSK</authentication>
+				<encryption>AES</encryption>
+				<useOneX>false</useOneX>
+			</authEncryption>
+			<sharedKey>
+				<keyType>passPhrase</keyType>
+				<protected>true</protected>
+				<keyMaterial>01000000D08C9DDF0115D1118C7A00C04FC297EB01000000A7257D8D3F66134CA3380A5C96EAD772000000000200000000001066000000010000200000006CFF3AC35B38FA617C5D512A196BF473ED182FCFA6458B0F89BC36B7B46BA6CB000000000E8000000002000020000000E028684F1F65ADFAFD3ADF83B33785D7D22342ED6711BFB70BEC1C67D7F0FF3D10000000678C1DC1491CCB552079ABF7C1351A6E40000000077FD159C4016605243D810B6BF826177B81C6D8AD2D657CB99E0E9A5C0F9EAA93F4C0833A10FA6BD61CDAE6C311BBA4A2D2241B77B77186DAA3C5A3767BF600</keyMaterial>
+			</sharedKey>
+		</security>
+	</MSM>
+</WLANProfile>

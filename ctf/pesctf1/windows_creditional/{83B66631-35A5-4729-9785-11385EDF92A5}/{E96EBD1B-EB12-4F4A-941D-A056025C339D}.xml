@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+	<name>B6Dw-YXJo</name>
+	<SSIDConfig>
+		<SSID>
+			<hex>423644772D59584A6F</hex>
+			<name>B6Dw-YXJo</name>
+		</SSID>
+	</SSIDConfig>
+	<connectionType>ESS</connectionType>
+	<connectionMode>auto</connectionMode>
+	<MSM>
+		<security>
+			<authEncryption>
+				<authentication>WPA2PSK</authentication>
+				<encryption>AES</encryption>
+				<useOneX>false</useOneX>
+			</authEncryption>
+			<sharedKey>
+				<keyType>passPhrase</keyType>
+				<protected>true</protected>
+				<keyMaterial>01000000D08C9DDF0115D1118C7A00C04FC297EB01000000A7257D8D3F66134CA3380A5C96EAD7720000000002000000000010660000000100002000000037561D0F07811B788D470250424154E80AF0873158A231B4BC3604F4CE7BEFCE000000000E80000000020000200000007C12EDA56BDE1D1E68615F811545FD4B3BF17BCC11AFD484CAA6E2825DFE746D10000000A42D296A782407B6F19D4A584284746D40000000D083CDF54194C5A96D111C5984373AD5AC78298B1F4B30974655BE3DC48B8A73D07D57BFD73B8F5861C70E2416FC04E316B5E390A7CE521B53E9F0EA3E98755E</keyMaterial>
+			</sharedKey>
+		</security>
+	</MSM>
+</WLANProfile>

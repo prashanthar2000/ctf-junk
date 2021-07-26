@@ -1,0 +1,9 @@
+    Using command line, ignoring X server
+Warning! Multiple definitions of keyboard layout
+         Using command line, ignoring X server
+Trying to build keymap using the following components:
+keycodes:   evdev+aliases(qwerty)
+types:      complete
+compat:     complete
+symbols:    pc+us+inet(evdev)
+geometry:   pc(pc105)

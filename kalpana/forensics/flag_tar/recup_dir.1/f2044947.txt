@@ -1,0 +1,18 @@
+temsToApplyINSERT OR IGNORE INTO itemsToUpload(guid, syncChangeCounter, isDeleted)
+             VALUES (?, 1, 1)Staging tombstones to uploadStaging tags to uploadStaging structure to uploadINSERT OR IGNORE INTO itemsToUpload(id, guid, syncChangeCounter,
+                                                 parentGuid, parentTitle,
+                                                 dateAdded, type, title,
+                                                 placeId, isQuery, url, keyword,
+                                                 position, tagFolderName)
+             
+             WHERE b.guid IN (Staging remaining locally changed items for uploadINSERT OR IGNORE INTO itemsToUpload(id, guid, syncChangeCounter,
+                                             parentGuid, parentTitle, dateAdded,
+                                             type, title, placeId, isQuery, url,
+                                             keyword, position, tagFolderName)
+         
+         JOIN itemsToApply n ON n.mergedGuid = b.guid
+         WHERE n.localDateAddedMicroseconds < n.remoteDateAddedMicrosecondsStaging items with older local dates addedINSERT INTO itemsToUpload(id, guid, syncChangeCounter, parentGuid,
+                                       parentTitle, dateAdded, type, title,
+                                       placeId, isQuery, url, keyword, position,
+                                       tagFolderName)
+             

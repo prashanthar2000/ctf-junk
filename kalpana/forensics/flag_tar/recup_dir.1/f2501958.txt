@@ -1,0 +1,3 @@
+lu, Shrink Threshold: %lu(%.1lf%%), Grow Threshold: %lu(%.1lf%%)]
+      [Rehash Count: %lu, Rehash Threshold: %lu, Hash Seed: 0x%x]
+      [Age Threshold: %lu]

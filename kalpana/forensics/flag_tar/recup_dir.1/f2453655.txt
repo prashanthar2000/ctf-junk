@@ -1,0 +1,4 @@
+s small as segment size.
+  As a result, each granule contains exactly one block (or a part of one block)
+  or is displayed as empty (' ') if it's BlobType does not match the selection.
+  Occupied granules show their BlobType character, see legend.

@@ -1,0 +1,2 @@
+le_indexindex_data
+CREATE INDEX index_data_value_locale_index ON index_data (index_id, value_locale, object_data_key, value) WHERE value_locale IS NOT NULLZ

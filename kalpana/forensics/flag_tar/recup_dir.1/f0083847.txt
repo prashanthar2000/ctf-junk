@@ -1,0 +1,1 @@
+ul  3 15:58:32 rtkit-daemon[1068]: Successfully made thread 998 of process 998 owned by '138' high priority at nice level -11.

@@ -1,0 +1,6 @@
+etchCount      INTEGER,
+  LastFetched     INTEGER,
+  LastModified    INTEGER,
+  ExpirationTime  INTEGER,
+  ItemType        INTEGER DEFAULT 0
+);

@@ -1,0 +1,901 @@
+d type assertion:
+	%v is go:notinheap<dd class="ssa-prog"><unknown line number>Anatolian_HieroglyphsCompareAndSwapUintptrFloat.SetFloat64(NaN)Inscriptional_PahlaviInvalid rounding modeLoweredAtomicAddconstLoweredAtomicExchangeNOT/NOTW generated %sNewPtr: elem mismatchNonloop blocks in %s:Other_Grapheme_ExtendSliceBounds op %v: %vSumBytes generated %sTIME(ns):BYTES:ALLOCSUnknownAttribute(%d)|_GLOBAL_OFFSET_TABLE__cgo_unsetenv missingaddvar: n=%v t=%v nilafter top-level valueambiguous selector %varray literal elementasmins: missing op %vasync stack too largebad Get: invalid namebad i/i/r/r opcode %vbad i/r/r/r opcode %vbad type for index %vbad type in compare: bad type in slice %v
+block device requiredbrcom: no com for %v
+brrev: no rev for %v
+bufio: negative countcan't find import: %qcannot use _ as valuecaptured by a closurecheckdead: runnable gconcurrent map writesconverted OpPhi to %vdefer on system stackdisable optimizationsexec: already startedexternal %v nil type
+findrunnable: wrong pfixedlit: bad kind %dgcprog: Ptr at index gdata ADDR left op %vgo:cgo_dynamic_linkergo:cgo_export_dynamicgo:cgo_import_dynamicgo:yeswritebarrierrecillegal bit number
+%villegal mb option:
+%vin string escape codeinitialization loop:
+input[1] not in AX %sinsert resched checksinvalid .P suffix: %vinvalid .S suffix: %vinvalid .U suffix: %vinvalid .W suffix: %vinvalid NUL characterinvalid ValAndOff.addinvalid character %#Uinvalid condition: %vinvalid expression %vinvalid line number: invalid makeValAndOffinvalid named captureinvalid newnode indexinvalid predecessors
+lexinit: %s bad etypelink has been severedlowerJALR: not a JALRmissed typecheck: %+vmissing function bodynegative shift amountno args for OpAddr %somovlit add %d (%#x)
+package not installedpanic on system stackpanicExtendSlice3AcappanicExtendSlice3AlenpanicExtendSliceAcapUpanicExtendSliceAlenUphase error in importpopdcl: no stack markread-only file systemreflect.Value.Complexreflect.Value.Pointerreleasep: invalid argroot already in queueruntime.complex128divruntime.concatstring2runtime.concatstring3runtime.concatstring4runtime.concatstring5runtime.concatstringsruntime.goPanicIndexUruntime.goPanicSliceBruntime.makemap_smallruntime.nilinterequalruntime.panicdottypeEruntime.panicdottypeIruntime.racefuncenterruntime.racereadrangeruntime.selectnbrecv2runtime/internal/mathruntime: confused by runtime: newstack at runtime: newstack sp=runtime: searchIdx = runtime: work.nwait= seeking in output: %vset bit is not 0 or 1setnoneq on same nodeshift count too largeslice-literal-elementsliceheader{%v,%v,%v}src %s: v%d cache=%s
+stale NFS file handlestartlockedm: m has pstartm: m is spinningstate not recoverablestring not terminatedstructfield: oops %v
+sym->size=%d, invalidtimer data corruptiontoo many values in %vtrace/breakpoint traptypecheckdef nil defnunexpected method: %vunhandled OLITERAL %vunknown empty Contextunknown ril opcode %vunknown rre opcode %vunsupported MOV at %vuse distances for %s
+user defined signal 1user defined signal 2virtual timer expiredwalkinrange cmpdir %vwasm: bad LoweredAddrwrote %d bytes to %p
+ but current index is  received during fork
+%s -> %s [color="%s"];%s needs a stack slot
+%v: wrong width or LSB-18014398509481983p970/lib/time/zoneinfo.zip4656612873077392578125AtomicCompareAndSwap32AtomicCompareAndSwap64DwarfAbstractFunc(%v)
+Inscriptional_ParthianLoweredAtomicStorezeroMOV to shifter operandNyiakeng_Puachue_HmongSIGSTKFLT: stack faultSIGTSTP: keyboard stop	rel %d+%d t=%d %s+%d
+	rel %d+%d t=%d %s+%x
+address already in useargument list too longasmand: bad address %vasmins: illegal 64: %vassembly checks failedbad g->status in readybad sweepgen in refillcall not at safe pointcall pointer method oncanSSA of PAUTOHEAP %vcannot allocate memorycannot declare name %vchangeroot on non-rootcomment not terminatedconstant too large: %sduplicated defer entryerror parsing regexp: expected empty map: %vexponent has no digitsfreeIndex is not validfunction type expectedgenerate DWARF symbolsgetenv before env initgo object %s %s %s %s
+go.cuinfo.packagename.go:cgo_import_dynamic gsignal quirk too lategzip: invalid checksumhashfor with AMEM typeinlnode replaced curfninteger divide by zerointerface conversion: internal inconsistencyinvalid FIDBR mask: %vinvalid UTF-8 encodinginvalid array bound %vinvalid break label %sinvalid debug value %vinvalid digit %q in %sinvalid handling of %vinvalid indirect of %Linvalid ldp source: %vinvalid number base %dinvalid package name _invalid register in %vlookdot badwidth %v %pmethod has no receiverminpc or maxpc invalidmissing inlvar for %v
+missing typecheck: %+vnegative pc offset: %vnetwork is unreachablenon-Go function at pc=non-zero offset in ABXoffset too large in %soldoverflow is not nilpanicExtendSlice3AcapUpanicExtendSlice3AlenUpc invalid: %v size=%dprint assembly listingprint version and exitprotocol not availableprotocol not supportedputscope(%v,%d): vars:reflect.Value.MapIndexreflectlite.Value.Typerelease to compile forremote address changedremoveroot on non-rootruntime.deferprocStackruntime.float64toint64runtime.gcWriteBarrierruntime.goPanicSlice3Bruntime.goPanicSlice3Cruntime.goPanicSliceBUruntime.goschedguardedruntime.int64tofloat64runtime.main not on m0runtime.mapaccess1_fatruntime.mapaccess2_fatruntime.racewriterangeruntime.typedslicecopyruntime: out of memoryruntime: work.nwait = runtime:scanstack: gp=s.freeindex > s.nelemsscanstack - bad statussend on closed channelshift out of range: %vspan has no free spacespurious value [%d]=%dstack not a power of 2struct literal elementtimer goroutine (idle)trace reader (blocked)trace: alloc too largetype assertion inlinedunexpected RangeClauseunexpected call op: %vunhandled %%N mode: %dunknown experiment %s
+unsupported load at %vwirep: invalid p statewrite output to `file`  %s: orig:%s cache:%s
+ (agrees with previous)!pc invalid: %v size=%d%d uncompiled functions%s:   flow: %s = %s%v:
+) must be a power of 2
+-json version must be 023283064365386962890625<invalid reflect.Value><span class="depcycle">ABI0ABIInternalABICountBlock %v done, locs:
+%vCPU time limit exceededLogical_Order_ExceptionLoweredAtomicAddconst32LoweredAtomicAddconst64LoweredAtomicExchange32LoweredAtomicExchange64MB during sweep; swept Noncharacter_Code_PointSIGIO: i/o now possibleSIGSYS: bad system call", missing CPU support
+after b=%s, rewrite=%s
+append: len-only updatearch %s not implementedasmins: unknown z %d %vbad sized float type %vbytes.Buffer: too largechan receive (nil chan)close of closed channelconstant not in root #0constant shift overflowdeadcode after regallocdebug liveness analysisdeclReader.ReadByte: %vdelete copied value %s
+device or resource busydisable bounds checkingdwarfSym of non-TEXT %vexec: Stdin already setexpected array type: %vexpected case, found %vexporter: unknown Ctypefatal: morestack on g0
+flate: internal error: garbage collection scangcDrain phase incorrectgcprog: negative varintgdata NAME not PFUNC %dillegal SP reference
+%villegal SYS argument
+%villegal bit position
+%villegal combination: %vindex out of range [%x]interrupted system callinvalid URI for requestinvalid arrangement: %vinvalid column number: invalid escape sequenceinvalid instruction %v
+invalid instruction: %vinvalid ldp source: %v
+invalid load of TLS: %vinvalid m->lockedInt = invalid map key type %vleft over markroot jobslibfuzzerTraceConstCmp1libfuzzerTraceConstCmp2libfuzzerTraceConstCmp4libfuzzerTraceConstCmp8makechan: bad alignmentmissing ONONAME for %v
+missing argument to newmissing protocol schememissing type in runfinqmisuse of profBuf.writenanotime returning zerono space left on devicenon-empty constants: %vnon-empty root list: %vnon-empty undo list: %vnon-empty value map: %vnon-integer %s index %vnote: missing where/whyoffset out of range: %vop must be OLEN or OCAPoperation not permittedoperation not supportedpackage %s; expected %spackage mismatch for %vpanic during preemptoffprocresize: invalid argprofiling timer expiredrange is not valid: %v
+reflect.Value.Interfacereflect.Value.NumMethodreflect.methodValueCallreturn outside functionruntime.arm64HasATOMICSruntime.float64touint32runtime.float64touint64runtime.goPanicSlice3BUruntime.goPanicSlice3CUruntime.panicnildottyperuntime.racefuncenterfpruntime.slicestringcopyruntime.uint32tofloat64runtime.uint64tofloat64runtime/internal/atomicruntime: internal errorruntime: invalid type  runtime: netpoll failedruntime: s.allocCount= s.allocCount > s.nelemssave suppressed in: %s
+schedule: holding locksshort branch too far
+%vshrinkstack at bad timesm,SM,um,UM=%d,%d,%d,%dspan has no free stacksstack growth after forksyntax error in patternsystem huge page size (time: invalid duration unaligned pointer writeunaligned stack size %dunexpected Ctype for %Tunexpected integer sizeunexpected map key typeunexpected pointer sizeunexpected signal valueunhandled BasicLit kindunhandled operation: %vunknown Syslook func %vunknown aux type for %sunknown conv func %c2%cunknown escape sequenceunknown op in build: %vunknown op in select %vunknown store opcode %vunlock of unlocked lockunsupported zeroing: %vvalue %s appears twice!varexpr unexpected ODOTwork.nwait > work.nproc  processing control %s
+!"#$%&'()*,:;<=>?[]^`{|}%s discards result of %v%s: %v escapes to heap:
+%v declared but not used%v with unexpected ninit%v: After inlining %+v
+
+%v: inlining call to %v
+%v: missing or wrong LSB%v: undefined: %v in %v
+%v:%v non-looping label
+/usr/share/lib/zoneinfo/116415321826934814453125582076609134674072265625Cannot repeat -json flagGCProg.emit: empty arrayLoweredAtomicStorezero32LoweredAtomicStorezero64Pkg: unexpected kind: %vSetSliceBounds op %v: %v", required CPU feature
+ambiguous selector %v.%vanylit: not struct/arrayarray bound is too largeas imported package namebad defer entry in panicbad defer size class: i=bad insn in loadform: %xbad type for map key: %vbefore b=%s, rewrite=%s
+block index out of rangebypassed recovery failedcan't scan our own stackcannot use %L as type %vcomplex division by zeroconnection reset by peerconstant %v overflows %vconstant modulo overflowcouldn't find dot sep %qcurfn mismatch: %v != %vdebug generated wrappersdouble traceGCSweepStartfile size limit exceededflate: maxBits too largefloating point exceptionfreeReg %s (dump %s/%s)
+funccompile %v inside %vfunccompile missing typefunchdr: dclcontext = %dfunction not implementedgcDrainN phase incorrectgcprog: repeat %d × %d
+hash of unhashable type implausible condition
+%vimport const %v %L = %v
+import path contains NULimpossible byte registerincrease debug verbosityinitSpan: unaligned baseinl body for %v %#v: %v
+interfacefield: oops %v
+invalid .P/.W suffix: %vinvalid alignment for %vinvalid argument to Intninvalid arrangement: %v
+invalid constant type %vinvalid derefs count: %vinvalid operation: %v %vinvalid use of ... in %vjson: unsupported type: key align too big for %vkey size to large for %vlevel 2 not synchronizedlink number out of rangelive at end, no uses v%dlowered deadcode for csemissing argument to makemode.prepareArgs mode %dmode.prepareArgs type %Tmultiple toplevel scopesmust specify FPSCR(n)
+%vnewconst on non-constantnon-empty nodes list: %vout of streams resourcesqueuefinalizer during GCrange partially overlapsrunqsteal: runq overflowruntime.goPanicSliceAcapruntime.goPanicSliceAlenruntime.mapassign_fast32runtime.mapassign_fast64runtime.mapdelete_fast32runtime.mapdelete_fast64runtime.morestack_noctxtruntime: epollctl failedruntime: found obj at *(runtime: s.searchAddr = span has no free objectsstack trace unavailable
+structure needs cleaningtabwriter: panic during teeHole: negative derefsunexpected class: %v, %vunexpected exponent baseunexpected mantissa baseunexpected packname: %#vunhandled OCONV %s -> %sunknown debug key -d %s
+unknown second op for %vunknown storex opcode %vunsupported rounding: %vwidth not calculated: %vwrite barrier prohibited to unused region of span%v already has a location%v evaluated but not used%v: Before inlining: %+v
+%v: cannot inline %v: %s
+%v: constant %d too large-- inlining tree for %s:
+2006-01-02T15:04:05Z07:002910383045673370361328125<div class="ast">%v</div><dt class="ssa-prog-src">AtomicCompareAndSwapRel32GODEBUG: can not enable "LoweredAtomicAdd32VariantLoweredAtomicAdd64Variant
+	(*interface vs *struct)
+	(*struct vs *interface)_cgo_thread_start missingaddstr count %d too smallallgadd: bad status Gidleappend outside assignmentarena already initializedasmins: Zaut sb type ADDRasmins: unknown mov %d %vaux is of unknown type %Tbad Get: invalid registerbad Set: invalid registerbad Tee: invalid registerbad sized complex type %vbad sized integer type %vbad status in shrinkstackbad system huge page sizebad write barrier type %vcan't open import: %q: %vcannot slice %v (type %v)cannot use index registerchansend: spurious wakeupcheckdead: no m for timercontinue is not in a loopdowidth: unknown type: %vduplicate index in %s: %delem align too big for %velem size to large for %ventry block %v is missingentry block must be firstexpected ODCLFUNC, got %vexpected non-empty []byteexpected pointer type: %vfor %.v = range %v { %v }gcprog: invalid Ptr indexgdata unhandled op %v %v
+illegal base register: %villegal combination %v%v
+import %q: read error: %vimported and not used: %qinconsistent poll.fdMutexindex bounds check elidedinjecting attributes: %v
+inl body for %v %#v: %+v
+invalid continue label %sinvalid cross-device linkinvalid newnode undo passinvalid radix point in %sinvalid recursive type %vinvalid register pair %v
+invalid store multiple %sjson: unsupported value: leaking param content: %vload spill for %v from %vmark left on the dclstackmarked go:cgo_unsafe_argsmishandled instruction %vmissing stack in newstackmissing traceGCSweepStartnegative offset for *Loadnet/url: invalid userinfono buffer space availableno such device or addressno such file or directoryoperation now in progressprint dump of GC programsreflect: Bits of nil Typereleasep: invalid p stateremaining pointer buffersresource deadlock avoidedruntime.checkptrAlignmentruntime.goPanicSlice3Acapruntime.goPanicSlice3Alenruntime.goPanicSliceAcapUruntime.goPanicSliceAlenUruntime.mapaccess1_fast32runtime.mapaccess1_fast64runtime.mapaccess2_fast32runtime.mapaccess2_fast64runtime.mapassign_faststrruntime.mapdelete_faststrruntime.memclrHasPointersruntime.panicmakeslicelenruntime.racecallbackthunkruntime.read_tls_fallbackruntime.slicebytetostringruntime.slicerunetostringruntime.stringtoslicebyteruntime.stringtosliceruneruntime: epollwait on fd runtime: misaligned func runtime: program exceeds runtime·lock: lock countshiftOp: bad operator: %vsigcmp vs sortinter %v %vslice bounds out of rangesocket type not supportedstartm: p has runnable gsstoplockedm: not runnablesyntax error: unexpected unexpected block node: %vunexpected fault address unexpected type %v for %vunhandled binary op %v %sunknown internal map typeunsupported broadcast: %vuses added in wrong orderzero-width instruction
+%v using unaddressable value%0d | %0d | %s (%s) pc=%d
+%v already has inline body0o/0O-style octal literals1455191522836685180664062572759576141834259033203125: day-of-year out of range<li class="ssa-end-block">AUTO var with offset %v %dBegin processing block %v
+CSE.large partition (%d): Func.initLSym called twiceGODEBUG: can not disable "InvertBranch: not a branchNewArray: invalid bound %vODOT's LHS is not a structProgs.settext called twiceSCOND_EQ = 0 ^ C_SCOND_XORSCOND_HI = 8 ^ C_SCOND_XORSCOND_HS = 2 ^ C_SCOND_XORSCOND_LO = 3 ^ C_SCOND_XORSCOND_LS = 9 ^ C_SCOND_XORSCOND_MI = 4 ^ C_SCOND_XORSCOND_NE = 1 ^ C_SCOND_XORSCOND_PL = 5 ^ C_SCOND_XORSCOND_VC = 7 ^ C_SCOND_XORSCOND_VS = 6 ^ C_SCOND_XORSIGSTOP: stop, unblockableTYPE_CONST with symbol: %vambiguous selector (%v).%vautolabel outside functionautomatic outside functionbad opcode i/r or i/r/r %vbad type %T for CCop in %vbranch not implemented: %sbranch target too far awaycall from unknown functioncannot use indexed addresscompiling standard libraryconstant addition overflowconstant definition loop%sconstant division overflowcorrupted semaphore ticketdebug missing line numbersdowidth without betypeinitencountered a cycle via %sentersyscall inconsistent expecting := or = or commafield offset doesn't matchfield tag must be a stringfixedlit: invalid index %vforEachP: P did not run fnfreeSpan given cached spanfreedefer with d.fn != nilfuncpctab %s [valfunc=%s]
+gcprog: flush %d literals
+illegal CR field number
+%vinitSpan: unaligned lengthinternal: bad mov[bhw]z
+%vinvalid argument %L for %vinvalid argument to Int31ninvalid argument to Int63ninvalid operation %v in %vinvalid operation on op %vinvalid port %q after hostinvalid request descriptorliteral operation on R0
+%vmethod mismatch: %v for %vmissing argument to %s: %vmissing key in map literalname not unique on networkno CSI structure availableno message of desired typenot substituting name %+v
+notewakeup - double wakeupoffset must be zero in SWPoffset out of range: %d
+%vordered complex compare %vorig value set twice %s %sout of memory (stackalloc)parent=%s, update %s %s %spersistentalloc: size == 0phi after non-phi @ %s: %spprof: use of zero Profileprint named pc-value tablerequired key not availableruntime.checkptrArithmeticruntime.goPanicSlice3AcapUruntime.goPanicSlice3AlenUruntime.mapaccess1_faststrruntime.mapaccess2_faststrruntime: bad span s.state=runtime: pipe failed with serializing pragcgobuf: %vset pkg directory `suffix`shrinking stack in libcallslicelit: invalid index %vssa types cannot be copiedstartlockedm: locked to mesymbolAccess called for %stoo many arguments to %v%stoo many methods on %v: %dtracing is already enabledtype assertion not inlinedtypecheckdefstack mismatchtypeinit before betypeinitunexpected fnsym: %v != %vunindexed symbol referenceunsupported addr MOV at %vunsupported name %d for %vuse new object file formatvalue %s still has %d argsvalue %s still has %d usesvar without type, init: %vwalkexpr init == &n->ninitwalkexpr: invalid index %v is not assignable to type !#$%&()*+-./:<=>?@[]^_{|}~ %s:     from %v (%v) at %s
+%s:%d: unknown directive %q%v is both field and method%v: bad field offset for %s363797880709171295166015625<li class="ssa-value-list"><td id="%v-exp" class="%v">G waiting list is corruptedOMAPLIT entry not OKEY: %v
+Proved slicemask not neededSCOND_GE = 10 ^ C_SCOND_XORSCOND_GT = 12 ^ C_SCOND_XORSCOND_LE = 13 ^ C_SCOND_XORSCOND_LT = 11 ^ C_SCOND_XORSCOND_NV = 15 ^ C_SCOND_XORSIGILL: illegal instructionSIGXCPU: cpu limit exceededaddress not a stack addressafter object key:value pairafter top level declarationbad arg 0 to OpLocalAddr %vbad arg 1 to OpLocalAddr %vbad containsClosure: %v, %vbad float type with size %dbad number of registers: %dbad optab entry (18): %d
+%vbreak label not defined: %scannot generate mask #%x
+%vcase statement out of placechannel number out of rangeclosure converted to globalcommunication error on sendcompile: end GCProg for %v
+couldn't de-virtualize calldwarf: null reference in %dflag needs an argument: -%sfound non-orig name node %vgcstopm: not waiting for gcgdata unhandled OLITERAL %vgrowslice: cap out of rangehead before tail in loop %sillegal system register:
+%vinteger constant too big %dinternal lockOSThread errorinvalid aliasnode undo passinvalid alignment %d for %vinvalid boolean flag %s: %vinvalid profile bucket typeinvalid stp destination: %vkey was rejected by servicelarge ONEW with EscNone: %vmakechan: size out of rangemakeslice: cap out of rangemakeslice: len out of rangemalformed constant: %s (%v)missing arguments to appendmissing arguments to deletemspan.sweep: bad span statenon-constant array bound %vnot a XENIX named type fileos: process not initializedos: unsupported signal typeprogToPointerMask: overflowputAbstractScope(%v): vars:ret block %s has successorsrun internal dclstack checkrunlock of unlocked rwmutexruntime.mapassign_fast32ptrruntime.mapassign_fast64ptrruntime: asyncPreemptStack=runtime: checkdead: find g runtime: checkdead: nmidle=runtime: corrupted polldescruntime: netpollinit failedruntime: thread ID overflowruntime·unlock: lock countsignal received during forksigsend: inconsistent stateslice: omit slice operationstack size not a power of 2startm: negative nmspinningstopTheWorld: holding locksstore aux is not a type: %stempAt called with nil typetime: invalid location nametoo many variables in rangeunexpected Interface for %Tunexpected argument %v (%T)unexpected assembler op: %sunsupported instruction:%v
+used block b%d in free listused value v%d in free listv%d now available in %s:%s
+work.nwait was > work.nprocwrite cpu profile to `file` args stack map entries for  bits, but current index is %s is shadowed during return%v has offset against gotref%v with length %v is too big%v, arg %d of %s, is missing//%s only allowed in runtime18189894035458564758300781259094947017729282379150390625FixedStack is not power-of-2FmtUnsigned in format stringGP registers overflow uint32Merging in state from %v:
+%vPrepended_Concatenation_MarkSIGHUP: terminal line hangupSIGWINCH: window size change[originating from goroutine algtype1: unexpected type %vasmidx: bad address %d/%d/%dbad bool AuxInt value for %vbad int register width %d:%sbad int8 AuxInt value for %vbad reordering in looprotateblockAsm not implemented: %scan't find field in expr %v
+can't preserve unlinked spancannot convert %L to type %vcomparing uncomparable type conversion to unsafe.Pointercpu profiling already in usedestination address requireddiv already using REGTMP: %vexit block %s has successorsexpected OTFUNC node, got %vexpecting for loop conditionfatal: morestack on gsignal
+file descriptor in bad statefindrunnable: netpoll with pgcstopm: negative nmspinninggenValue not implemented: %simport %q: mapping input: %vimport %s: reading input: %vimport path must be a stringinlFlood: missing Func on %vinvalid negative shift countinvalid runtime symbol tableinvalid slice index: %v > %vinvalid stp destination: %v
+invalid typecheckpartialcallmarked go:yeswritebarrierrecmemDefsAtBlockEnds[%s] = %s
+mheap.freeSpanLocked - span missing channel element typemissing import reader for %vmissing stack in shrinkstackmspan.sweep: m is not lockednewProfBuf: buffer too largenewline in character literalnewproc1: new g is not Gdeadnewproc1: newg missing stackno last store found - cycle?no register available for %snot enough arguments to %v%snotewakeup - double wakeup (octal escape value > 255: %dodd branch target address
+%voffset against tls var in %voffset must be zero in LDREXoffset must be zero in STREXos: process already finishedos: process already releasedpath inconsistency: %v != %vphi %s not at start of blockprint optimization decisionsprotocol driver not attachedread symbol ABIs from `file`reflect: In of non-func typeregion exceeds uintptr rangeret block %s has nil controlruntime.memclrNoHeapPointersruntime.slicebytetostringtmpruntime: bad lfnode address runtime: casgstatus: oldval=runtime: no module data for runtime: stat overflow: val seeking in output [0, 1]: %vselect cases cannot be listsstrconv: ε > (den<<shift)/2too many arguments to %s: %vtoo many arguments to appendtoo many arguments to deletetype %v is not an expressiontype %v must be go:notinheapunexpected addr1: type=%d %vunexpected constant type: %vunexpected end of JSON inputunexpected state: %v, %v, %vunhandled declaration tag %vunhandled op with sym effectunknown indirect call familyunsupported compression for usage: //go:cgo_ldflag "arg"var %L has size %d offset %dweird decoding: %v, %v => %v%-16s%-12d%-6d%-6d%-8o%-10d`
+%v: constant %d too large: %v%v: internal compiler error: %v	memory required for source-c must be at least 1, got %d45474735088646411895751953125MRS register value overlap
+%vMSR register value overlap
+%vNumComponents func arg structSCOND_NONE = 14 ^ C_SCOND_XORSIGPIPE: write to broken pipeSIGPWR: power failure restartSoleComponent func arg structV%d: %s CI:%d II:%d IA:%d %s
+addspecial on invalid pointerassuming %v is unsafe uintptraux in %s not implemented %#vbad constant for MOVK: %#x
+%vbad conversion to untyped: %vbad index for entry point: %vbad int16 AuxInt value for %vbad int32 AuxInt value for %vbad ptr to array in slice %v
+bad signed index extension %sblock %s >= f.NumBlocks()=%d?block %s appears twice in %s!bufio.Scanner: token too longcan SSA LHS %v but not RHS %scompile: start GCProg for %v
+constant %v truncated to realconstant subtraction overflowconstant truncated to integerconverted OpPhi bool -> int%ddebug non-static initializersexec: Wait was already calledexecuting on Go runtime stackfindroot didn't find any rootgc done but gcphase != _GCoffgcprog: invalid Advance indexgfput: bad status (not Gdead)https://golang.org/issue/new
+illegal prefetch operation
+%vimport %s: not a package fileineffective ZR destination
+%vinvalid character class rangeinvalid length of trace eventio: read/write on closed pipekey indirect incorrect for %vlabel %s defined and not usedlastidx index is not zero: %vliteral span too large: %d
+%vmachine is not on the networkmethod has multiple receiversmissing statement after labelmissing { after select clausemissing { after switch clauseno XENIX semaphores availablenumerical result out of rangeoperation already in progressoverflow: %v complex constantoverflow: %v integer constantpadding contained in alphabetpanic call can't have resultspasses %s and %s out of orderphase error in optab: %d (%v)protocol family not supportedreflect: Elem of invalid typereflect: In of non-func type reflect: Key of non-map type reflect: Out of non-func typeruntime: impossible type kindruntime: levelShift[level] = runtime: marking free object runtime: mmap: access denied
+runtime: p.gcMarkWorkerMode= runtime: split stack overflowruntime: stat underflow: val runtime: sudog with non-nil cruntime: summary max pages = runtime: unknown pc in defer semacquire not on the G stackstring concatenation too longsyntax error scanning booleantoo many arguments to new(%v)too many arguments to recovertoo many open files in systemtrace: reading after shutdowntwo live mems @ %s: %s and %sunaryOp: bad operation: %v %vundecomposed named type %s %vunexpected %s, expecting chanunexpected <-, expecting chanunexpected kind tag in %q: %vunexpected op in rldc case
+%vunexpected op in sldi case
+%vunknown conditional branch %vunsupported setting GO386=%s
+usage: //go:%s local [remote]write block profile to `file`write mutex profile to `file` (types from different scopes) in prepareForSweep; sweepgen  locals stack map entries for %v repeated on left side of :=%v.%v is a field, not a method%v: .COND on bcond instruction227373675443232059478759765625<div><strong>%v</strong></div><li class="ssa-long-value %s">GODEBUG: unknown cpu feature "InitTextSym double init for %sMapIter.Key called before NextProved %v does not need fix-upSIGPROF: profiling alarm clockSIGUSR1: user-defined signal 1SIGUSR2: user-defined signal 2SIGVTALRM: virtual alarm clockWriteInt: bad integer size: %dabi mismatch detected between addpool: %v in %v needs reloc
+aliasnewnode invalid argumentsaliasnode i2s contains n1 nodeanylit: not lit, op=%v node=%vassignment to entry in nil mapat %v: %v clobbered out of %v
+bad float register width %d:%scan't split flag generator: %scannot convert %L to type %v%scannot use %L as type %v in %scheckdead: inconsistent countsconstants not in the first DAGcontinue label not defined: %sdo not hide any compiler panicelem indirect incorrect for %vexpected OTYPE, got %v: %v, %vexpecting case or default or }failed to get system page sizefreedefer with d._panic != nilgcprog: End wrote program for illegal indexed instruction
+%villegal prefetch operation:
+%vin exponent of numeric literalinappropriate ioctl for deviceinvalid extended register: %v
+invalid function symbol table
+invalid index shift amount: %vinvalid offset on MOVW $tlsvarinvalid pointer found on stackinvalid value %q for -lang: %vjmp/branch/loop without targetlabel %s already defined at %slive at end, too many uses v%dload flags not implemented: %vlooking for beginning of valuemalformed integer constant: %smarking %v as escaping uintptrmissing stack map index for %vnil register for value: %s
+%s
+no function type for [%p] %+v
+non-empty root in undo newrootnon-method on %v method %v %v
+non-name %v on left side of :=not same expressions: %v != %vphi of flags not supported: %sprint help about SSA debuggingprotocol wrong type for socketreflect: Elem of invalid type reflect: Len of non-array typereflect: Out of non-func type reorder3 unexpected lvalue %#vrunqputslow: queue is not fullruntime: bad pointer in frame runtime: epollctl failed with runtime: found in object at *(runtime: impossible type kind socket operation on non-socketstrings: negative Repeat countsync: inconsistent mutex statesync: unlock of unlocked mutexsyslook: can't find runtime.%stoo many architecture familiestoo many arguments to make(%v)too many ids for this functionunexpected op in rldic case
+%vwrite memory profile to `file`writing an unreferenced symbol%s has %d uses, but has Uses=%d%s:%d: invalid symabi type "%s"%v %L recorded as live on entry%v is not a top level statement%v: unresolvable capture %v %v
+) not in usable address space: ...additional frames elided...
+.lib section in a.out corrupted11368683772161602973937988281255684341886080801486968994140625<li class="ssa-start-block">%s:Block %s should have a positionGCProg.emit: unexpected type %vSIGSEGV: segmentation violationTYPE_SHIFT is not supported on WriteOff: off overflow %d in %saddress constant needs DWORD
+%valiasnode for non-existing nodeassigning to non-1-length arraybad OSLICEHEADER list length %dbad addr MOV from name %v at %vbad unsigned index extension %sbad write barrier buffer boundscall from within the Go runtimecannot assign requested addresscannot use R0 as shift value %scannot use both -race and -msancannot write benchmark data: %vcasgstatus: bad incoming valuescheckmark found unmarked objectchildren of unknown node %d->%vconst initializer cannot be nilconstant not found in undo passcouldn't find register to spillentersyscallblock inconsistent expected ODCLFUNC node, got %+vfatal: bad g in signal handler
+fmt: unknown base; can't happenillegal combination %v %v %v %villegal types for operand: %v%simported and not used: %q as %sin literal null (expecting 'l')in literal null (expecting 'u')in literal true (expecting 'e')in literal true (expecting 'r')in literal true (expecting 'u')inlFlood: unexpected %v, %v, %vinternal error - misuse of itabjson: invalid number literal %qlen larger than cap in make(%v)malformed time zone informationmemory is first in a tuple: %s
+mergeRuneSets odd length []runemkdotargslice: typecheck failedno witness for reachable phi %snode must be a map or a channelnon in-use span in unswept listoffset must be zero in MOVM; %voverflow in spadj: %d + %d = %dpacer: sweep done at heap size package statement must be firstprocess.OpLoadReg targeting g: prog: unknown position (line 0)reflect: Len of non-array type reflect: NumIn of non-func typereject local (relative) importsrequired version of the runtimeresetspinning: not a spinning mretjmp block %s has nil controlruntime: cannot allocate memoryruntime: profBuf already closedruntime: split stack overflow: should not call Add with n1==n2slice bounds out of range [%x:]slice bounds out of range [:%x]store flags not implemented: %vsubstituting name %+v  ->  %+v
+symbol %s listed multiple timestime: missing unit in duration underscores in numeric literalsunindexed symbol reference: %v
+unsupported constant load at %vunsupported map key type for %vusefield %v %v without paramfldvalue %s is not a phi operationvmkcall %v needs %v args got %vweird float conversion %v -> %vwrite assembly header to `file`writeBytes with unfinished bits  memory=v%d ptr=%v zeromask=%b
+ (types from different packages)%s <span class="stats">%s</span>%v: cannot inline %v: recursive
+28421709430404007434844970703125: day-of-year does not match day:!<-||&&==!=<<=>>=+-|^*/%&&^<<>><span class="%s ssa-long-value">Branch prediction rule %s < %s%sMOVOconst can only do constant=0MapIter.Value called before NextProcessing %v, initial state:
+%vSIGFPE: floating-point exceptionSIGTTOU: background write to ttyWriteAddr: off overflow %d in %s" not supported for cpu option "append benchmark times to `file`array bound must be non-negativebufio: invalid use of UnreadBytebufio: invalid use of UnreadRunebufio: tried to fill full buffercan't use both mask and CR(n)
+%vcannot supply data for %v var %vcannot use %L as type %v in %s%scannot use REGTMP as source: %v
+constant %v truncated to integerconstant multiplication overflowdoDecl: unexpected Op for %v: %vemitting DWARF for %s failed: %vend outside usable address spaceexpected end of string, found %qexplicit conversion missing typeexpression has untyped type: %+vfixedlit: rhs not OSTRUCTKEY: %vgcprog: advance to %d by repeat
+go:notinheap map key not allowedhash_iter size not correct %d %dheap closure, captured vars = %vif block %s has no control valueillegal FPSCR/CR field number
+%vin literal false (expecting 'a')in literal false (expecting 'e')in literal false (expecting 'l')in literal false (expecting 's')invalid encoding for argument %vinvalid identifier character %#Uinvalid negative shift count: %dinvalid slice index %v (type %v)invalid type %v for OSLICEHEADERinvalid use of ... in call to %vlive values at end of each blockliveness cache initialized twicemethod redeclared: %v.%v
+	%v
+	%vmissing len argument to make(%v)negative %s argument in make(%v)non-Go code disabled sigaltstacknon-bool %L used as if conditionnumerical argument out of domainpanic while printing panic valuephase error in avxOptab: %d (%v)phis in single-predecessor blockreflect.nameFrom: tag too long: reflect: NumIn of non-func type reflect: NumOut of non-func typeremovespecial on invalid pointerresource temporarily unavailableruntime: mcall function returnedruntime: newstack called from g=runtime: root level max pages = runtime: stack split at bad timeruntime: sudog with non-nil elemruntime: sudog with non-nil nextruntime: sudog with non-nil prevscanstack: goroutine not stoppedslice bounds out of range [%x::]slice bounds out of range [:%x:]slice bounds out of range [::%x]software caused connection abortsweep increased allocation countsync: Unlock of unlocked RWMutexsync: negative WaitGroup countertoo many arguments in call to %vtruncfltlit: unexpected Etype %vtypechecking loop involving %v%stypeptrdata: unexpected type, %vunexpected Prog in jalrToSym: %vunexpected definition for %v: %vunexpected dot in identifier: %vunknown TLS base location for %vunknown TLS base register for %vunsupported unsigned store at %vuse of closed network connectionwalkstmt ended up with name: %+vweird RegAlloc location: %s (%T)zero for type %v not implemented    check, all, build, intrinsics of method on nil interface value%s argument too large in make(%v)%v ignoring self-assignment in %S%v undefined (ambiguous selector)142108547152020037174224853515625710542735760100185871124267578125<ul class="%s ssa-print-func %s">GODEBUG: no value specified for "SIGCHLD: child status has changedSIGTTIN: background read from ttySIGXFSZ: file size limit exceededbase outside usable address spacebinaryOp: bad operation: %v %v %vbranch out of range (%#x)
+%v [%s]breaking cycle with v%d in %s:%s
+bytes.Buffer.Grow: negative countcan't find source for %s->%s: %s
+cannot divide in NOSPLIT functioncannot fallthrough in type switchcannot parenthesize embedded typecannot provide data for %v sym %vcompile: unknown architecture %q
+concurrent map read and map writeembedded type cannot be a pointerfindrunnable: negative nmspinningframe size %d not a multiple of 8freeing stack not in a stack spanheapBitsSetType: unexpected shiftillegal destination register: %v
+invalid arrangement on Vd.<T>: %vinvalid composite literal type %vinvalid extended register op: %v
+invalid offset against tls var %vinvalid post-increment offset: %vinvalid recursive type alias %v%sinvalid value %q for flag -%s: %vleafCounts[maxBits][maxBits] != nmarking %v as escaping ...uintptrmethod call without receiver: %+vmin must be a non-zero power of 2misrounded allocation in sysAllocmissing condition in if statementmissing return at end of functionmissing type in composite literalnon-bool %L used as for conditionnon-empty root in undo changerootorder.init shared node with ninitparent=%s, new limits %s %s %s %sprepwrite: bad off=%d siz=%d s=%vreflect.nameFrom: name too long: reflect: Field index out of rangereflect: NumOut of non-func type reflect: array index out of rangereflect: chanDir of non-chan typereflect: slice index out of rangeregexp: unhandled case in compileretjmp block %s has nil Aux fieldruntime: castogscanstatus oldval=runtime: epollcreate failed with runtime: failed mSpanList.insert runtime: goroutine stack exceeds runtime: memory allocated by OS [runtime: name offset out of rangeruntime: text offset out of rangeruntime: type offset out of rangeshould be something like "go1.12"should be used only in the linkershould not call Equal with n1==n2slice bounds out of range [%x:%y]stack closure, captured vars = %vstackalloc not on scheduler stackstoplockedm: inconsistent lockingswapSuccessors with len(Succs)=%dsync: RUnlock of unlocked RWMutextoo many levels of symbolic linkstrunccplxlit: unexpected Etype %vtype %L larger than address spacetypecheck import [%v] %L { %#v }
+unexpected floating-point type %vunexpected integer size %d for %vunexpected untyped expression: %vunhandled shift op %v etype=%s/%sv%d no longer available in %s:%s
+value %s has %d args, expected %dwaiting for unsupported file typewalkexpr: switch 1 unknown op %+Sweird complex conversion %v -> %vweird integer truncation %v -> %vwrite to file.a instead of file.o%v: jump displacement %d too large%v	memory required for destination3552713678800500929355621337890625: day-of-year does not match monthBP: Block %s, local=%s, certain=%sBenchmarkExportSize:%s 1 %d bytes
+First time we've seen filename: %qMark stmt entry-block %s %s %s %s
+Other_Default_Ignorable_Code_PointSIGURG: urgent condition on socketUnexpected optimizer-logging level^go([1-9][0-9]*)\.(0|[1-9][0-9]*)$asmins: illegal in %d-bit mode: %vasmins: illegal in 64-bit mode: %vat %v: stack-only var %v now dead
+at %v: stack-only var %v now live
+bad %s type: want uintptr, have %scan't handle aux %s (type %d) yet
+can't synthesize large constant
+%vcannot declare init - must be funccannot declare main - must be funccannot typecheck interface data %vdeclared pointer receiver type: %vdoaddtimer: P already set in timerdummyInitFn still has declarationsencoding mistake: %d, %v, %v => %dexecutable file not found in $PATHexit block %s has no control valueexpected %d registers, got %d: %v.expecting method or interface namefallthrough statement out of placeflag provided but not defined: -%sforEachP: sched.safePointWait != 0funcbody: unexpected dclcontext %dgcprog: advance to %d by literals
+generate DWARF inline info recordsgo:notinheap map value not allowedif block %s len(Succs)==%d, want 2illegal combination %v %v %v %v %vin \u hexadecimal character escapeinvalid load of 32-bit address: %vinvalid nested repetition operatorinvalid offset against GOT slot %vinvalid offset against TOC slot %vinvalid or unsupported Perl syntaxinvalid receiver type %v (%L / %L)invalid use of ... with builtin %vispaddedfield called non-struct %vmaplit: entry is not a literal: %vmethods are too far away on %v: %dmissing value in const declarationmspan.ensureSwept: m is not lockednewnode for Value already insertedno type specified for OSLICEHEADERnot enough arguments in call to %voffset out of range [-255,254]: %vout of memory allocating allArenasoverflow in PCDATA instruction: %vpointer in non-pointer register %vposet not empty at the end of undoprint information about nil checksproduced invalid special opcode %dreflect.FuncOf: too many argumentsreflect: ChanDir of non-chan type reflect: Field index out of boundsreflect: Field of non-struct type reflect: Method index out of rangereflect: string index out of rangerequire symbol to apply relocationruntime.SetFinalizer: cannot pass runtime: g is running but p is notruntime: netpollBreak write failedruntime: unexpected return pc for schedule: spinning with local workset expected package import `path`slice bounds out of range [%x:%y:]slice bounds out of range [:%x:%y]the immediate should be MOVCON: %vtoo many arguments in call to %v%stoo many references: cannot splicetrace: non-empty full trace bufferuse of .(type) outside type switchuse of package %v without selectorwrite an execution trace to `file`wrong # of args for OpLocalAddr %s (disagrees with previous, ignored)%+v is not a MOV pseudo-instruction%v: can inline %#v as: %#v { %#v }
+'_' must separate successive digits177635683940025046467781066894531252006-01-02T15:04:05.999999999Z07:0088817841970012523233890533447265625</div><div style="width: 92%"><pre>NewPtr: pointer to elem Type is nilOpConvert should be a no-op: %s; %sRESUME can only be used on toplevelStarting %v with state from b%v:
+%vaddrescapes before param assignmentarray index %d out of bounds [0:%d]at %v: overwrote %v in register %v
+bad Get: argument is not a registerbad Set: argument is not a registerbad Tee: argument is not a registerbad integer sign extension %v -> %vbad r/r, r/r/r or r/r/r/r opcode %vbuildssa: unknown position (line 0)cannot use EXRL with odd offset: %vcannot use LARL with odd offset: %vcompareOp: bad comparison: %v %v %vcontrol value for %s is missing: %vdebug runtime-initialized variablesdefer block %s has no control valueencoding/hex: odd length hex stringfile type does not support deadlinefinal stage: pc invalid: %v size=%dfindfunc: bad findfunctab entry idxfindrunnable: netpoll with spinninggenAsStatic as.Left not typecheckedgreyobject: obj not pointer-alignedgzip.Write: Extra data is too largegzip: invalid compression level: %dhexadecimal floating-point literalsimport %s: not a go object file: %simport path cannot be absolute pathimpossible 32-bit move wide: %#x
+%vimpossible 64-bit move wide: %#x
+%vinconsistent memory phi %s %d %s %sinitplan arraylit: invalid index %vinstruction size too large: %d > %dinvalid floating-point immediate
+%vinvalid form for a TOC access in %vliteral span too large: %d (R%d)
+%vmantissa scaling failed for %f (%s)mheap.freeSpanLocked - invalid freemissing lvalue case in safeexpr: %vmissing string argument after _Namenetwork dropped connection on resetno new variables on left side of :=non-ONAME temp function argument %vpersistentalloc: align is too largepidleput: P has non-empty run queueprocessDest.OpLoadReg targeting g: receiver with no sym: [%v] %L  (%v)runtime/pprof: converting profile: runtime: close polldesc w/o unblockshould not call Ordered with n1==n2switch string(byteslice) bad op: %vsystem register is not readable: %vsystem register is not writable: %vtoo many predeclared types: %d > %dtraceback did not unwind completelytransport endpoint is not connectedunexpected TYPE_ADDR with NAME_NONEusage: //go:cgo_import_static localusing BECOME (%v) is not supported!%v: inlining call to %v %#v { %#v }
+) is larger than maximum page size (0123456789abcdefghijklmnopqrstuvwxyz444089209850062616169452667236328125:
+	%v is go:notinheap, but %v is not<span class="%s ssa-block">%s</span><span class="%s ssa-value">%s</span>Fields: type %v does not have fieldsGo pointer stored into non-Go memoryMStats vs MemStatsType size mismatchREGTMP used in large offset load: %vSetSliceBounds %v given three boundsUnexpected nonzero FCONST operand %vWriteAddr: bad address size %d in %saccessing a corrupted shared librarybad alignment of keys in bmap for %vbad live variable at entry of %v: %Lblock with no primary predecessor %sbranch too far %#x vs %#x [%p]
+%v
+%vdebug parse tree after type checkingfailed to locate precursor fn for %vgcprog: extra data at end of programgcprog: found end instruction after illegal SAE with memory argument: %vimmediate constant out of range: %v
+invalid boolean value %q for -%s: %vjson: encoding error for type %q: %qlen larger than cap for OSLICEHEADERmakeFuncDebugEntry double process %vmergeSym with two non-nil syms %s %smultiplication of zero with infinityneed unsafe.Pointer for OSLICEHEADERnil first register for value: %s
+%s
+no function definition for [%p] %+v
+not enough arguments in call to %v%sonebitwalktype1: unexpected type, %vop %s doesn't have a float aux fieldop %s doesn't have an int8 aux fieldoverflow: %v floating-point constantprogedit: unsupported name %d for %vreflect: NumField of non-struct typeruntime: bad notifyList size - sync=runtime: invalid pc-encoded table f=runtime: invalid typeBitsBulkBarrierruntime: mcall called on m->g0 stackruntime: sudog with non-nil waitlinkruntime: unblock on closing polldescruntime: wrong goroutine in newstackset runtime.MemProfileRate to `rate`setlineno: unknown position (line 0)shift amount out of range 0 to 4: %vshould not call SetOrder with n1==n2signal arrived during cgo execution
+strings.Builder.Grow: negative countsuccessor block %v for %v is missingsyntax error scanning complex numbertoo many fields in an SSAable structtrace: non-empty global trace bufferuncaching span but s.allocCount == 0unknown width for load %d in type %vunrecognized register: expecting CR
+unsupported register extension type.usage: compile [options] file.go...
+walkrange: v2 != nil while v1 == nilwriteStringRef: string not added: %qx+d %s w; x:%v %v delta:%v w:%v d:%v id="%s" onload="makeDraggable(evt)" %q exponent requires decimal mantissa) is smaller than minimum page size (2220446049250313080847263336181640625<div class="l%v line-number">%v</div><div class="lines" style="width: 8%">After merge, %v matches b%v exactly.
+Branch prediction rule stay in loop%sDo not know how to compare %v with %vOCALLMETH: n.Left not an ODOTMETH: %vREGTMP used in large offset store: %vWriteString: bad string size: %d < %d_cgo_notify_runtime_init_done missingadd `directory` to import search pathall goroutines are asleep - deadlock!allocValToReg.OpLoadReg targeting g: aux in MOVDaddr is of unknown type %Tbad alignment of elems in bmap for %vbad offset of overflow in bmap for %vbytes.Buffer: truncation out of rangecaninl on non-typechecked function %vcannot call non-function %s (type %v)cannot exec a shared library directlycannot find %v in local variable listcannot refer to blank field or methodcannot refer to unexported name %s.%schan of go:notinheap type not allowedcompile functions as late as possibledefer block %s len(Succs)==%d, want 2dvarint: bad offset for funcdata - %vencodeB: could not encode instructionencodeI: could not encode instructionencodeJ: could not encode instructionencodeR: could not encode instructionencodeS: could not encode instructionencodeU: could not encode instructionexec: StdinPipe after process startedexpected %v return arguments, have %vexpecting field name or embedded typeextra expression in const declarationfailed to reserve page summary memoryfinal index required in 3-index slicegzip.Write: non-Latin-1 header stringillegal immediate for PSTATE field
+%villegal syscall, sysnum too large: %vimmediate does not fit in 32-bits: %dinstrument unsafe pointer conversionsintrinsic substitution for %v with %sinvalid %s index %v (index too large)invalid BOM in the middle of the fileliteral with nonzero value in SSA: %vmask (%v) must be in the range [0, 7]multiple definitions for FUNCDATA $%dnil second register for value: %s
+%s
+no limit on number of errors reportednon-intrinsic AS2FUNC not expanded %vnon-small OMAKESLICE with EscNone: %vop %s doesn't have an int16 aux fieldop %s doesn't have an int32 aux fieldoperation not possible due to RF-killplain block %s has non-nil control %splain block %s len(Succs)==%d, want 1read import configuration from `file`reflect.Value.Bytes of non-byte slicereflect.Value.Bytes of non-rune slicereflect: Bits of non-arithmetic Type reflect: IsVariadic of non-func type reflect: NumField of non-struct type reflect: funcLayout of non-func type runtime: allocation size out of rangeruntime: failed mSpanList.insertBack runtime: netpoll: break fd ready for set relative `path` for local importssetprofilebucket: profile already setshift amount out of range 0 to 31: %vstartTheWorld: inconsistent mp->nextpstrings: Repeat count causes overflowtoo many instructions, have %d max %dtrace: non-empty trace buffer in proctrying to free an already freed blocktrying to free an already freed valueunexpected TYPE_ADDR with NAME_GOTREFunexpected long move, op %v tab %v
+%vunknown width for store %d in type %vusage: //go:cgo_dynamic_linker "path"value too large for defined data typeweird integer sign extension %v -> %v1110223024625156540423631668090820312555511151231257827021181583404541015625after decimal point in numeric literalarg size to reflect.call more than 1GBasmins: illegal in mode %d: %v (%d %d)bad index for linknamed symbol: %v %d
+bad reg %s for symbol type %T, want %sbuiltin type missing from typIndex: %vcan not access a needed shared librarycannot assign type %v to %L in range%schannel element type too large (>64kB)concurrent map iteration and map writeconst initializer %v is not a constantconstrained unpredictable behavior: %vcould not open hash-testing logfile %scoverage instrumentation for libfuzzerencoding alphabet is not 64-bytes longexporter: unexpected · in symbol nameexpression in %s must be function callforce compiler to emit soft-float codegcBgMarkWorker: blackening not enabledhmap size not correct: got %d, want %didentifier cannot begin with digit %#Uindex out of range [%x] with length %ylocation pair %s has non-tuple type %vmakechan: invalid channel element typemiddle index required in 3-index sliceno NT_GNU_BUILD_ID found in ELF binaryonebitwalktype1: invalid alignment, %vpredecessor block %v for %v is missingprint information about write barriersretjmp block %s len(Succs)==%d, want 0runtime: blocked read on free polldescruntime: sudog with non-false isSelectshow full file names in error messagessubstArgTypes: too many argument typessyscall: readInt with unsupported sizetime: missing Location in call to Dateunexpected package-level statement: %vuse of builtin %v not in function callwrite linker-specific object to `file`%s:%d: invalid symabi: unknown abi "%s"%v register %s recorded as live at call%v undefined (type %v has no method %v)//%s only allowed in cgo-generated code2006-01-02 15:04:05.999999999 -0700 MST277555756156289135105907917022705078125<span class="no-line-number">(?)</span>Add entry for %v: 	b%vv%v-b%vv%v = 	%v
+Invalid GOWASM value. No such feature: OCALLINTER: n.Left not an ODOTINTER: %vVARLIVE variable %v must be Auto or Argadding tempAt to wrong closure functionat %v: %v spilled to stack location %v
+can't move a value with a memory arg %scan't pick a register from an empty setcannot assign to struct field %v in mapcannot fallthrough final case in switchcannot read sources for function %v: %vexporter: unexpected '...' with %v callgoto %s jumps into block starting at %sheapBitsSetTypeGCProg: small allocationimport %s: object is [%s] expected [%s]impossible %#v node after dot insertioninterface method cannot have annotationinvalid variable name %v in type switchleaking param: %v to result %v level=%dlive values in unreachable block %v: %vmarked go:norace with -race compilationmemory no longer live from dottype loadmismatched count during itab table copymissing argument to repetition operatormissing second (key) argument to deletemspan.sweep: bad span state after sweepname list not allowed in interface typenegative minwidth, tabwidth, or paddingnon-%s character in escape sequence: %codd offset for floating point op: %d
+%vout of memory allocating heap arena mapplain/dead block %s has a control valuepredeclared type missing from cache: %druntime: blocked write on free polldescruntime: casfrom_Gscanstatus failed gp=runtime: function symbol table header: should not call SetNonEqual with n1==n2stack growth not allowed in system callstrings.NewReplacer: odd argument countsuspendG from non-preemptible goroutinesyntax.Iterate: unexpected node type %Ttrailing backslash at end of expressiontransport endpoint is already connectedtwo live memory values in %s: %s and %suntranslatable storage class for %v: %sweird package in name: %v => %v, not %q%v register %s recorded as live on entry13877787807814456755295395851135253906256938893903907228377647697925567626953125DwarfFixupTable.Finalize invoked for %s
+Error %s in regexp for phase %s, flag %sInvalid GOARM value. Must be 5, 6, or 7.MapIter.Key called on exhausted iteratoraddress family not supported by protocolappend: len-only update (in local slice)bulkBarrierPreWrite: unaligned argumentsbvequal: lengths %d and %d are not equalcached const %s should have AuxInt of %dcan't find empty register on edge %s->%scannot free workbufs when work.full != 0cannot specify directive with type aliascontrol value %s for %s doesn't dominatedecomposeComplexPhi: bad complex size %ddeferproc: d.panic != nil after newdeferduplicate %s %s in %s
+	previous %s at %vexpected ONAME or OCLOSURE node, got %+vheap profile: %d: %d [%d: %d] @ heap/%d
+immediate %d in %v cannot fit in 32 bitsimport path contains space character: %qinvalid mask for shift: %x (shift %d)
+%vinvalid offset for DQ form load/store %vinvalid offset for DS form load/store %vinvalid operation: %v (non-chan type %v)invalid operation: %v (shift of type %v)invalid slice index %v (index too large)loop finding    succ %s of %s is header
+non-integer %s argument in make(%v) - %vop %s doesn't have a ValAndOff aux fieldrefill of span with free space remainingreflect.Value.SetBytes of non-byte slicereflect.Value.setRunes of non-rune slicereflect: FieldByName of non-struct type register out of range, want %d < %d < %druntime.SetFinalizer: first argument is runtime: netpollBreak write failed with runtime: out of memory: cannot allocate runtime: typeBitsBulkBarrier with type  substArgTypes: not enough argument typestarget must be an even-numbered registertoo many RestArgs: got %v, maximum is 3
+unexpected TYPE_ADDR with index==REG_TLSunexpected semicolon or newline before {unknown destination type %+v in CALL: %vunsupported register-register move at %vwrite barrier prohibited by caller; %v%s received on thread with no signal stack
+%q exponent requires hexadecimal mantissa%s requires function call, not conversion34694469519536141888238489627838134765625<div class="l%v line-number ast">%v</div><span class="l%v line-number">(%s)</span>CONVNOP sign mismatch %v (%s) -> %v (%s)
+MapIter.Next called on exhausted iteratorPC padding invalid: want %#d, has %#d: %vUnable to create after-phase dump file %saddr of undeclared ONAME %v. declared: %vbinary: varint overflows a 64-bit integerbreak is not in a loop, switch, or selectbucket align not multiple of key align %vbytes.Buffer.WriteTo: invalid Write countbytes.Reader.WriteTo: invalid Write countcan't call pointer on a non-pointer Valuecannot have multiple controls using flagscap for OSLICEHEADER must be non-negativecmpZero: want comparison operator, got %vdo not know how to handle TYPE_ADDR in %vdon't know how to handle %v with -dynlinkexpected branch at write barrier block %vgcSweep being done but phase is not GCoffif block %s has non-bool control value %sillegal rounding with memory argument: %vinternal: miscalculated offset %d [%d]
+%vlen for OSLICEHEADER must be non-negativemethods must have a unique non-blank namemheap.freeSpanLocked - invalid span statemheap.freeSpanLocked - invalid stack freemultiple defaults in select (first at %v)multiple defaults in switch (first at %v)net/url: invalid control character in URLnumber of bytes (%v) not in range [1,256]objects added out of order or overlappingprint information about defer compilationprint information about slice compilationreceiver with no type on %v method %v %v
+reflect.Value.Addr of unaddressable valuereflect: FieldByIndex of non-struct type runtime.SetFinalizer: second argument is runtime: blocked read on closing polldescruntime: spurious wakeup of trace reader
+runtime: typeBitsBulkBarrier without typesetCheckmarked and isCheckmarked disagreestaticassign of const generated code: %+vstopTheWorld: not stopped (stopwait != 0)strconv: illegal AppendInt/FormatInt basetruncate64Fto32F: truncation is not exacttwo stores live simultaneously: %v and %vunexpected alignment in dextratype for %vusage: //go:linkname localname [linkname]variable address class %v not implemented <span class="l%v line-number">(%s)</span> received but handler not on signal stack
+%v does not fit into 20-bit signed integer%v escapes to heap, not allowed in runtime173472347597680709441192448139190673828125867361737988403547205962240695953369140625CONVNOP unrecognized non-integer %v -> %v
+CONVNOP width mismatch %v (%d) -> %v (%d)
+Generating location lists for function %q
+MapIter.Value called on exhausted iteratorSkipping empty location list for %v in %s
+acquireSudog: found s.elem != nil in cacheaddition of infinities with opposite signsat %v: arg %v now on stack in location %v
+bucket align not multiple of elem align %vcannot use ... on first argument to appenddo not know how to handle nil symbol in %vduplicate field name in struct literal: %sencodingForProg: bad RISC-V instruction %sentry block %s of %s has predecessor(s) %vexpression in %s must not be parenthesizedgoto %s jumps over declaration of %s at %sillegal PSTATE field for immediate move
+%villegal combination: %v %v %v %v %v, %d %dimport path contains control character: %qinternal error parsing default lang %q: %vlocal variable with class %v unimplementedlooking for beginning of object key stringloop finding    succ %s of %s has no loop
+non-empty mark queue after concurrent markon a locked thread with no template threadoutput not in same register as an input %spersistentalloc: align is not a power of 2plain/dead block %s len(Succs)==%d, want 2print information about append compilationruntime: blocked write on closing polldescsource operand is not a memory address: %vsource register must be even in STREXD: %vsubtraction of infinities with equal signssync/atomic: store of nil value into Valuetracked field must be in named struct typetried to free an already free register %d
+type %v has both field and method named %vunexpected %s, expecting { after if clauseunexpected signal during runtime executionunknown float width for load %d in type %vval %s is in reg but not live at end of %svalue %s has an Aux value %v but shouldn't//%s is not allowed in the standard libraryARM(64) bit field lsb constant out of rangeMark stmt effectively-empty-block %s %s %s
+VARLIVE variable %v must have Addrtaken setarg of tuple selector %s is not a tuple: %schild dcl collision on symbol %s within %v
+duintxxLSym: misaligned: v=%d wid=%d off=%dgcBgMarkWorker: unexpected gcMarkWorkerModegrew heap, but no adequate free space foundheapBitsSetTypeGCProg: unexpected bit countimport %q: unknown export format version %dindex must be non-negative integer constantinput[0] and output not in same register %sinterrupted system call should be restartedinvalid arrangement on VMOV Rn, Vd.<T>: %v
+invalid field name %v in struct initializerinvalid mask for rotate: %x (start != 0)
+%vinvalid operation: %v (non-numeric type %v)invalid use of ... in type conversion to %vkey size not a multiple of key align for %vmismatched zero/store sizes: %d and %d [%s]mixed named and unnamed function parametersmultiple Read calls return no data or errormultiple-value %v() in single-value contextnon-canonical import path %q (should be %q)print information about closure compilationprogedit: unsupported inst %v for splittingprove poset not empty after function %s: %vreflect: nil type passed to Type.Implementsroot level max pages doesn't fit in summaryruntime.SetFinalizer: finalizer already setruntime.SetFinalizer: first argument is nilruntime: casfrom_Gscanstatus bad oldval gp=runtime: heapBitsSetTypeGCProg: total bits runtime: releaseSudog with non-nil gp.paramtracked field must be exported (upper case)unfinished open-coded defers in deferreturnunknown float width for store %d in type %vunknown runnable goroutine during bootstrapunreachable case in rewriteToUseTOC with %vuse base address selection entries in DWARFuse of [...] array outside of array literalvalue %s has non-final memory arg (%d < %d) using value obtained using unexported field%v redeclared %s
+	previous declaration at %v:
+	%v is pointer to interface, not interface<button onclick="hideBlock(this)">-</button>Flag* ops should never make it to codegen %vSetFields of %v: width previously calculatedarg %d of value %s does not dominate, arg=%scannot declare in post statement of for loopcannot handle the floating point constant %vcannot type switch on non-interface value %Leager typechecking of inline function bodiesencoding alphabet contains newline characterencodingForProg: not a RISC-V instruction %sevconst changed Type: %v had type %v, now %vgcmarknewobject called while doing checkmarkhexadecimal mantissa requires a 'p' exponentinterface contains embedded non-interface %vinvalid arrangement on op Vn.<T>, Vd.<T>: %vinvalid arrangement, should be 8B or 16B: %vm:%d unique:%d final:%d rematerializable:%d
+negative unsigned integer; type %v, value %vout of memory allocating heap arena metadatapanic during %s while compiling %s:
+
+%v
+
+%s
+reflect: FieldByNameFunc of non-struct type reflect: funcLayout with interface receiver ret block %s has non-memory control value %sruntime: lfstack.push invalid packing: node=%s: parameter %v leaks to %s with derefs=%d:
+%s:%d: invalid symabi: syntax is "%s sym abi"%v: cannot inline global closure variable %v
+ARM(64) bit field width constant out of rangeCheckLoweredPhi called with non-phi value: %vMark stmt new line %s %s %s %s prev pos = %s
+PxxxPEXTERNPAUTOPAUTOHEAPPPARAMPPARAMOUTPFUNCadd location lists to DWARF in optimized modearguments to copy must be slices; have %L, %Lassembling DWARF inlined routine info for %v
+autolabel prefix must start with '.', have %qaux field has int64 type op=%s type=%s aux=%vbad mpint length: %d > %d (type %v, value %v)cannot CLEAR %d bytes, must be greater than 0cannot parenthesize type in composite literalcannot send after transport endpoint shutdowncannot use %L as type %v in const initializercompiling complete package (no C or assembly)dgcprog: %v: offset=%d but ptrdata=%d size=%ddisable printing of columns in error messagesdo not know how to handle %v without TYPE_MEMelem size not a multiple of elem align for %verror in shape across %+v %v %+v / %d %d [%s]exit block %s has non-memory control value %sexitsyscall: syscall frame is no longer validfirst argument to delete must be map; have %LheapBitsSetType: called with non-pointer typeillegal broadcast without memory argument: %vimport %s: unexpected package format byte: %vimport path %q is reserved and cannot be usedimport path contains backslash; use slash: %qinvalid case %L in switch (incomparable type)invalid character literal (missing closing ')invalid operation: %v (%v cannot be compared)live flag in %s's predecessors not consistentmarked as having an escaping uintptr argumentmath/big: cannot unmarshal %q into a *big.Intmixture of field:value and value initializersnon-assignment as a temp function argument %vonebitwalktype1: invalid TARRAY alignment, %vreflect: internal error: invalid method indexreflect: nil type passed to Type.AssignableToruntime: failed mSpanList.remove span.npages=starting block %v when block %v has not endedtype aliases only supported as of -lang=go1.9value %s has an AuxInt value %d but shouldn'tvar declaration not allowed in %s initializerxposmap.set(%d), file index not found in map
+zerorange count not a multiple of widthptr %d%v is go:notinheap; heap allocation disallowed%v	expected register in %s position but got %sAUIPC needing PC-relative reloc missing symbolInvertFlags should never make it to codegen %vPutInlinedFunc(caller=%v,callee=%v,abbrev=%d)
+SSAable array must have no more than 1 elementascompatet: assignment count mismatch: %d = %dbytes.Reader.UnreadByte: at beginning of slicecan't find inlIndex %d in imap for prog at %d
+cannot define new methods on non-local type %vcannot inline function containing closure: %+vcost %d of %s exceeds max large caller cost %ddefer block %s has non-memory control value %selse must be followed by if or statement blockembedded type cannot be a pointer to interfacefirst path segment in URL cannot contain colonheap-allocated closure, not allowed in runtimeinput[0] and output[0] not in same register %sinvalid mask for rotate: %x (end != bit 63)
+%vinvalid operation %v (3-index slice of string)loop finding    succ %s of %s is IRRED, in %s
+math/big: mismatched montgomery number lengthsmemory reservation exceeds address space limitnegative frame size %d - did you mean NOFRAME?panicwrap: unexpected string after type name: reflect.Value.Slice: slice index out of boundsreflect: nil type passed to Type.ConvertibleToruntime: debugCallV1 called by unknown caller runtime: failed to create new OS thread (have runtime: name offset base pointer out of rangeruntime: note: your Linux kernel may be buggy
+runtime: panic before malloc heap initialized
+runtime: text offset base pointer out of rangeruntime: type offset base pointer out of rangeslice bounds out of range [:%x] with length %ystarting merge block %s with end state of %s:
+stopTheWorld: not stopped (status != _Pgcstop)sysGrow bounds not aligned to pallocChunkBytes%v: cannot inline escaping closure variable %v
+%v	expected immediate in %s position but got %s:
+	%v does not implement %v (missing %v method)P has cached GC work at end of mark terminationUnexpected alignment: %d for PCALIGN directive
+addpool: %v in %v shouldn't go to default case
+arguments of comparison must be lvalues - %v %varm ops not initialized, call arm.buildop firstassignment mismatch: %d variables but %d valuesat %v: load with unexpected source op: %v (%v)
+at %v: unexpected spill of unnamed register %s
+attempting to link in too many shared librariesbufio: reader returned negative count from Readcannot assign %v to %L in multiple assignment%sconflicting package names %s and %s for path %qconflicting package names %v and %v for path %qcreateSimpleVar unexpected class %v for node %vdwarf: unsupported attribute form %d / class %dencodingForProg: no encoding for instruction %sexporter: CANNOT EXPORT: %v
+Please notify gri@
+first argument to append must be slice; have %Lfirst argument to copy should be slice; have %Lframe size %d not 0 or a positive multiple of 4function too complex: cost %d exceeds budget %dimport path contains invalid UTF-8 sequence: %qimport path contains invalid character '%c': %qin %s, badly placed LoweredGetClosurePtr: %v %vinvalid receiver type %v (%v is a pointer type)multiple nil cases in type switch (first at %v)newStackAllocState called without previous freenon-declaration statement outside function bodynote: flush literal pool at %#x: len=%d ref=%x
+print information about type assertion inliningprogedit: FNED needs an integer register outputprogedit: FNES needs an integer register outputregister element index out of range 0 to %d: %vremove `prefix` from recorded source file pathsretjmp block %s has non-memory control value %ssigned immediate %d in %v cannot fit in %d bitsslice bounds out of range [::%x] with length %ytaking address of TLS variable is not supportedunexpected blank symbol in interface method setunknown field '%v' in struct literal of type %v%v undefined (type %v has no field or method %v)%v: unaligned frame size %d - must be 16 aligned%v	expected immediate in raw position but got %sInvalid GOPPC64 value. Must be power8 or power9.Pseudo-op should not make it to codegen: %s ###
+Time.MarshalJSON: year outside of range [0,9999]Time.MarshalText: year outside of range [0,9999]bufio: writer returned negative count from Writebvget: index %d is out of bounds with length %d
+bvset: index %d is out of bounds with length %d
+digraph "" { margin=0; size="4,40"; ranksep=.2; division of zero by zero or infinity by infinityedge [fontsize=16,fontname="Menlo,Times,serif"];final argument in variadic function missing typego:nosplit and go:systemstack cannot be combinedinvalid %s index %v (index must be non-negative)invalid operation: %v (send to non-chan type %v)isStaticCompositeLiteral: rhs not OSTRUCTKEY: %vmemory no longer live from 2-result dottype loadnon-method call to method without first arg: %+vruntime: cannot map pages in arena address spaceruntime: malformed profBuf buffer - invalid sizeschedule does not include all values in block %sselect case must be receive, send or assign recvslice bounds out of range [:%x] with capacity %ystore order is wrong: there are stores before %vstrconv: illegal AppendFloat/FormatFloat bitSizeunknown TLS base register for linux with -shared%.5d <span class="l%v line-number">(%s)</span> %s// generated by compile -asmhdr from package %s
+
+AddTupleFirst* should never make it to codegen %vOLITERAL/ONAME/OTYPE should never have calls: %+vat %v: unexpected arg op on already-live slot %v
+build code compatible with C/C++ memory sanitizercasgstatus: waiting for Gwaiting but is Grunnableclosure type does not match order's assigned typeconflicting package heights %v and %v for path %qdirectly calling duff when dynamically linking Godisplacement must be in range [0, 4096) to use %vescape sequence is invalid Unicode code point %#Uinternal error: fillWindow called with stale datainvalid expression %v: argument is a method valueinvalid memory address or nil pointer dereferenceinvalid or incomplete multibyte or wide charactermips ops not initialized, call mips.buildop firstpanicwrap: unexpected string after package name: reduce the size limit for stack allocated objectsreflect.Value.Slice: slice of unaddressable arrays.allocCount != s.nelems && freeIndex == s.nelemsslice bounds out of range [::%x] with capacity %yspill/restore type %s doesn't fit in slot type %sstrconv: internal error, rest != 0 but needed > 0strconv: num > den<<shift in adjustLastDigitFixedstrings.Reader.UnreadByte: at beginning of stringstrings.Reader.WriteTo: invalid WriteString counttwo final stores - simultaneous live stores %s %sargument is TYPE_ADDR, should be TYPE_CONST, in %vargument is TYPE_CONST, should be TYPE_ADDR, in %vattempt to execute system stack code on user stackbvunset: index %d is out of bounds with length %d
+encodeR: instruction uses rs2, but rs2 was nonzeroinvalid operation: %v (mismatched types %v and %v)invalid operation: %v (signed shift count type %v)invalid receiver type %v (%v is an interface type)mallocgc called with gcphase == _GCmarkterminationprogedit: tried to rewrite nonexistent instructionrecord `id` as the build id in the export metadatarecursive call during initialization - linker skewresult and addend are not in the same register: %v%v capturing by %s: %v (addr=%v assign=%v width=%d)%v undefined (cannot refer to unexported method %v)%v undefined (type %v is interface with no methods)%v	expected register in %s position but got nothing<dt class="ssa-prog-src"></dt><dd class="ssa-prog">arm64 ops not initialized, call arm64.buildop firstcannot import package as init - init must be a funcduplicate nil case not detected during typecheckingfatal: systemstack called from unexpected goroutineinternal error: DwarfAbstractFunc double process %vintersymbol jumps should be expressed as AUIPC+JALRinvalid character literal (more than one character)invalid operation %v (slice of unaddressable value)invalid receiver type %v (%v is not a defined type)invalid register numbers in ARM64 register list: %vinvalid slice index %v (index must be non-negative)invalid value %q for -lang: max known version is %qpotentially overlapping in-use allocations detectedppc64 ops not initialized, call ppc64.buildop firsts390x ops not initialized, call s390x.buildop firstunexpected register setting for branch with CR: %d
+variable %v both output param and heap output paramweird float to unsigned integer conversion %v -> %vweird unsigned integer to float conversion %v -> %vx86 tables not initialized, call x86.instinit first<td id="%v-col" class="collapsed"><div>%v</div></td>Induction variable: limits %v%v,%v%v, increment %d%sat %v: slot %v in register %v with no location entrycan not break addition/subtraction when S bit is setcannot disable optimizations while compiling runtimecasfrom_Gscanstatus: gp->status is not in scan statefunction symbol %s has the wrong ABI %v, expected %vinvalid operation: %v (send to receive-only type %v)math/big: cannot unmarshal %q into a *big.Float (%v)print information about DWARF location list creationruntime.SetFinalizer: pointer not in allocated blockruntime: use of FixAlloc_Alloc before FixAlloc_Init
+stack object's type symbol not generated for type %s-importmap argument must be of the form source=actualInvalid GOMIPS value. Must be hardfloat or softfloat.NOFRAME functions must have a frame size of 0, not %dblock pred/succ not crosslinked correctly %d:%s %d:%sblock succ/pred not crosslinked correctly %d:%s %d:%sbufio.Scan: too many empty tokens without progressingcannot call non-function %s (type %v), declared at %sconst declaration cannot have type without expressionduplicate case %v in type switch
+	previous case at %sexpected 2 params (len, cap) for OSLICEHEADER, got %dfunc init must have no arguments and no return valuesfunc main must have no arguments and no return valuesfunction symbol table not sorted by program counter: import %q while compiling that package (import cycle)invalid operation: %v (operator %v not defined on %s)invalid operation: %v (receive from non-chan type %v)reflect.Value.Slice: string slice index out of boundsreflect: non-interface type passed to Type.Implementssyntax error: cannot use ... with non-final parameterMark stmt end of block differs %s %s %s prev pos = %s
+	goroutine running on other thread; stack unavailable
+bvbulkalloc too big: nbit=%d count=%d nword=%d size=%dbytes.Buffer: reader returned negative count from Readcompile: version %q does not match go tool version %q
+concurrency during compilation, 1 means no concurrencygcControllerState.findRunnable: blackening not enabledgenerate code that can be linked into a shared libraryillegal combination %v; %v %v %v; from %d %d; to %d %dindex and destination registers should be distinct: %vinitialization unfinished, but failed to identify loopinstruction missing from switch in asm9.go:buildop: %vinvalid operation: %v (receive from send-only type %v)no goroutines (main called runtime.Goexit) - deadlock!not enough arguments in call to method expression %v%spartial call type does not match order's assigned typereflect.FuncOf does not support more than 50 argumentsselect assignment must have receive on right hand side%s:%d: invalid importmap: syntax is "importmap old=new"%v redeclared %s
+	previous declaration during import %qInvalid GOMIPS64 value. Must be hardfloat or softfloat.bufio.Scanner: SplitFunc returns negative advance countcannot handle alias type declaration (issue #25838): %vcasfrom_Gscanstatus:top gp->status is not in scan statedo not know how to handle TYPE_ADDR in %v with -dynlinkduplicate default case not detected during typecheckinggentraceback callback cannot be used with non-zero skipinvalid library name %q in cgo_import_dynamic directiveinvalid operation: %v (map can only be compared to nil)newproc: function arguments too large for new goroutineos: invalid use of WriteAt on file opened with O_APPENDprint information about DWARF inlined function creationreflect.FuncOf: last arg of variadic func must be slicereflect: internal error: invalid use of makeMethodValuestack frame too large (>1GB): %d MB locals + %d MB argsversion,destination for JSON compiler/optimizer loggingFunction address for %v should be in R12 %d but is in %dadd `definition` of the form source=actual to import mapassignment mismatch: 1 variable but %v returns %d valuesdotdotdot base type does not match order's assigned typeillegal system call; system call number out of range: %vin gcMark expecting to see gcphase as _GCmarkterminationinvalid case %v in switch (mismatched types %v and bool)invalid operation: %v (func can only be compared to nil)likeliness prediction %d for block %s with %d successorsout array in span0 is too small, need at least %d for %vout array in span7 is too small, need at least %d for %vout array in span9 is too small, need at least %d for %vphi length %s does not match pred length %d for block %sptrEncoder.encode should have emptied ptrSeen via defersstrings: illegal use of non-zero Builder copied by valuesyntax error: cannot use ... with non-final parameter %s%v [label="%v%s\n%v",id="graph_node_%v_%v",tooltip="%v"];%v: cannot inline re-assigned closure variable at %v: %v
+Did not find a flag matching %s in -d=ssa/%s debug optionWe require the multiplcand to be stored in R3 for MLGR %sarguments to copy have different element types: %L and %Lascompatet: too many function calls evaluating parameterscannot use promoted field %v in struct literal of type %vexpected successors of write barrier block %v to be plainexpected successors of write barrier block %v to convergegentraceback cannot trace user goroutine on its own stackinvalid case %v in switch (can only compare %s %v to nil)invalid operation: %v (cannot close receive-only channel)invalid operation: %v (slice can only be compared to nil)invalid operation: %v (type %v does not support indexing)invalid slice index %v (out of bounds for %d-byte string)non-Go code set up signal handler without SA_ONSTACK flagruntime: netpoll: break fd ready for something unexpectedruntime:stoplockedm: g is not Grunnable or Gscanrunnable
+sync: WaitGroup misuse: Add called concurrently with Waittypecheckclosure: var %S does not have decldepth assignedusage: //go:cgo_import_dynamic local [remote ["library"]]value %v has an AuxInt value that is not an exact float32%v: doesn't support BL offset(REG) with non-zero offset %dCould not create file %s for logging optimizer actions, %vLoweredGetClosurePtr appeared outside of entry block, b=%sassignment mismatch: %d variables but %v returns %d valuesimplicit assignment of unexported field '%s' in %v literalinvalid string index %v (out of bounds for %d-byte string)invalid type assertion: %v (non-interface type %v on left)print debug information about items in `list`; try -d helpsecond argument to copy should be slice or string; have %Lwrite barrier control value has more than one argument: %s%s requires %s or later (-lang was set to %s; check go.mod)//go:linkname only allowed in Go files that import "unsafe"BuildFuncDebug on func %v that has not been fully processedCALL can only be used on toplevel, try CALLNORESUME insteadDid not find a phase matching %s in -d=ssa/... debug optionbufio.Scanner: SplitFunc returns advance count beyond inputcannot handle NAME_EXTERN on both sides in %v with -dynlinkcannot use same register as both source and destination: %vempty character literal or unescaped ' in character literalfound induction variable %v (inc = %v, min = %v, max = %v)
+invalid array index %v (out of bounds for %d-element array)invalid operation: operator %v not defined on untyped floatinvalid slice index %v (out of bounds for %d-element array)loop finding    succ %s of %s provides loop with header %s
+package mismatch in selector: %v in package %q, but want %qruntime: mmap: too much locked memory (check 'ulimit -l').
+storeOrder: value is missing, total count = %d, values = %vsync/atomic: store of inconsistently typed value into Valuesync: WaitGroup is reused before previous Wait has returnedunknown TLS base location for linux/freebsd without -shared%v undefined (cannot refer to unexported field or method %v)//go:linkname requires linkname argument or -p compiler flag:
+	%v does not implement %v (%v method has pointer receiver)block %s not in loop branches to non-header block %s in loopedge[constraint=false,color=gray,style=solid,arrowhead=dot];invalid case %v in switch on %v (mismatched types %v and %v)invalid operation: %v (shift count type %v, must be integer)invalid operation: range %v (receive from send-only type %v)runtime: malformed profBuf buffer - tag and data out of sync%v -> %v [label=" %d ",style="%s",color="%s",arrowhead="%s"];%v undefined (type %v is pointer to interface, not interface)AUIPC needing PC-relative reloc missing following instructionMark stmt differing-pred %s %s %s %s, different=%s ending %s
+arguments to copy have different element types: %L and stringcan only use //go:noescape with external func implementationscannot switch on %L (struct containing %v cannot be compared)generate code that will be linked against Go shared librariesinvalid operation: operator %v not defined on untyped complexmask, index, and destination registers should be distinct: %vruntime: may need to increase max user processes (ulimit -u)
+0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZdebuginfo unused node (AllocFrame should truncate fn.Func.Dcl)do not know how to handle LEAQ-type insn to non-register in %vfirst argument to append must be typed slice; have untyped nilfound bad pointer in Go heap (incorrect use of unsafe or cgo?)runtime: internal error: misuse of lockOSThread/unlockOSThread:
+	%v does not implement %v (%v method is marked 'nointerface')Could not create directory %s for logging optimizer actions, %vassemble: instruction with branch-like opcode lacks destinationinvalid method expression %v (needs pointer receiver: (*%v).%S)invalid operation: %v (struct containing %v cannot be compared)ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_Value live at entry. It shouldn't be. func %s, node %v, value %vcalling method %v with receiver %L requires explicit dereferenceflate: invalid compression level %d: want value in range [-2, 9]preprocess: found symbol that does not start with TEXT directiveusage: //go:cgo_import_dynamic local [remote ["lib.a/object.o"]]%s:%d: invalid packagefile: syntax is "packagefile path=filename"%v	expected %s register in %s position but got non-%s register %sCannot disable required SSA phase %s using -d=ssa/%s debug optionlocation lists requested but register mapping not available on %vruntime.SetFinalizer: pointer not at beginning of allocated blockruntime: note: mlock workaround for kernel bug failed with errno strconv: internal error: extFloat.FixedDecimal called with n == 0syntax error: cannot use ... in receiver or result parameter listtried to assign register %d to %s/%s but it is already used by %s%v undefined (type %v has no field or method %v, but does have %v)added block target for h=%v, b=%v, x=%v, y=%v, tgt.v=%s, tgt.i=%d
+internal error: DwarfFixupTable.SetPrecursorFunc double call on %vinvalid expression %v: selector implies indirection of embedded %vinvalid operation: %v (operator %v not defined on untyped complex)no scratch memory available; forgot to declare usesScratch for Op?runtime: ReadTrace called from multiple goroutines simultaneously
+support references to Go symbols defined in other shared librariesunknown field '%v' in struct literal of type %v (but does have %v)usage: -d arg[,arg]* and arg is <key>[=<value>]
+
+<key> is one of:
+
+internal error: RegisterChildDIEOffsets vars/offsets length mismatchphi arg at different location than phi: %v @ %s, but arg %v @ %s
+%s
+runtime:greyobject: checkmarks finds unexpected unmarked object obj=%v	immediate in raw position cannot be larger than 32 bits but got %dFUNCDATA use of go_args_stackmap(SB) without FUNCDATA_ArgsPointerMapsinternal error: DwarfFixupTable.Finalize call during parallel backendToNearestEvenToNearestAwayToZeroAwayFromZeroToNegativeInfToPositiveInfadded phi target for h=%v, b=%v, s=%v, x=%v, y=%v, tgt.v=%s, tgt.i=%d
+bytes.Buffer: UnreadByte: previous operation was not a successful readruntime: note: see https://golang.org/wiki/LinuxKernelSignalVectorBug
+stack frame too large (>1GB): %d MB locals + %d MB args + %d MB calleeblock %s in loop branches to non-header block %s in non-containing loopcannot export %v (%d) node
+	==> please file an issue and assign to gri@cannot import %v (%d) node
+	==> please file an issue and assign to gri@invalid operation: %v (arguments have type %v, expected floating-point)too many concurrent operations on a single file or socket (max 1048575)impossible type assertion:
+	%v does not implement %v (missing %v method)internal error: DwarfFixupTable.Finalize orphan abstract function for %v:
+	%v does not implement %v (missing %v method)
+		have %v%0S
+		want %v%0S-%s option should be '<version>,<destination>' where <version> is a numberinternal error: AbsFuncDwarfSym requested for %v, not seen during inliningruntime: cannot set cpu profile rate until previous profile has finished.
+%v	signed immediate in %s position cannot be larger than %d bits but got %dcannot import %s: old export format no longer supported (recompile library)do not know how to handle LEA-type insn to non-register in %v with -dynlinkPlease file a bug report including a short program that triggers the error.
+cannot use concurrent backend compilation with provided flags; invoked as %vdo not know how to handle LEAQ-type insn to non-register in %v with -dynlinkruntime: found space for saved base pointer, but no framepointer experiment
+impossible type switch case: %L cannot have dynamic type %v (missing %v method):
+	%v does not implement %v (wrong type for %v method)
+		have %v%0S
+		want %v%0Soptimizer logging destination looked like file:// URI but failed to parse: err=%vscope tracking inconsistency, no variables declared but scopes were not retracted-%s option should be '<version>,<destination>' where <version> is a number: err=%vimpossible type assertion:
+	%v does not implement %v (%v method has pointer receiver)optimizer logging destination '<version>,<directory>' but could not create %s: err=%vreflect.Value.Interface: cannot return value obtained from unexported field or methodAssigning a bogus line to XPos with no file will cause mysterious downstream failures.onebitwalktype1: invalid initial alignment: type %v has alignment %d, but offset is %v%s:   warning: truncated explanation due to assignment cycle; see golang.org/issue/35518
+%v: TLS MRC instruction must write to R0 as it might get translated into a BL instructioninternal error: DwarfFixupTable has orphaned fixup on %v targeting %v relidx=%d dclidx=%d-importmap argument must be of the form source=actual; source and actual must be non-emptyimpossible type switch case: %L cannot have dynamic type %v (%v method has pointer receiver)Unexpected op mixed with OpArg/OpPhi/OpLoweredGetClosurePtr at beginning of block %s in %s
+%soptimizer logging destination '<version>,<directory>' but could not create <directory>: err=%vnode [style=filled,fillcolor=white,fontsize=16,fontname="Menlo,Times,serif",margin="0.01,0.03"];optimizer logging destination %s was neither %s-prefixed directory nor file://-prefixed file URIimpossible type assertion:
+	%v does not implement %v (missing %v method)
+		have %v%0S
+		want %v%0SSxxxSTEXTSRODATASNOPTRDATASDATASBSSSNOPTRBSSSTLSBSSSDWARFINFOSDWARFRANGESDWARFLOCSDWARFMISCSABIALIASimpossible type assertion:
+	%v does not implement %v (wrong type for %v method)
+		have %v%0S
+		want %v%0Simpossible type switch case: %L cannot have dynamic type %v (wrong type for %v method)
+	have %v%S
+	want %v%Sinternal error: DwarfFixupTable.ReferenceChildDIE unable to locate child DIE offset for dclIdx=%d src=%v tgt=%vPhaseOptions usage:
+
+    go tool compile -d=ssa/<phase>/<flag>[=<value>|<function_name>]
+
+where:
+
+- <phase> is one of:
+<div class="zoom"><button onclick="return graphReduce('%s');">-</button> <button onclick="return graphEnlarge('%s');">+</button></div>TYPE_NONETYPE_BRANCHTYPE_TEXTSIZETYPE_MEMTYPE_CONSTTYPE_FCONSTTYPE_SCONSTTYPE_REGTYPE_ADDRTYPE_SHIFTTYPE_REGREGTYPE_REGREG2TYPE_INDIRTYPE_REGLISTNoMatchEmptyMatchLiteralCharClassAnyCharNotNLAnyCharBeginLineEndLineBeginTextEndTextWordBoundaryNoWordBoundaryCaptureStarPlusQuestRepeatConcatAlternateEOFnameliteralopop=opop=:=<-*([{)]},;:....breakcasechanconstcontinuedefaultdeferelsefallthroughforfuncgogotoifimportinterfacemappackagerangereturnselectstructswitchtypevarxxxINT8UINT8INT16UINT16INT32UINT32INT64UINT64INTUINTUINTPTRCOMPLEX64COMPLEX128FLOAT32FLOAT64BOOLPTRFUNCSLICEARRAYSTRUCTCHANMAPINTERFORWANYSTRINGUNSAFEPTRIDEALNILBLANKFUNCARGSCHANARGSSSATUPLENTYPE00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+<value> is key-specific.
+
+Key "checkptr" supports values:
+	"0": instrumentation disabled
+	"1": conversions involving unsafe.Pointer are instrumented
+	"2": conversions to unsafe.Pointer force heap allocation
+
+Key "pctab" supports values:
+	"pctospadj", "pctofile", "pctoline", "pctoinline", "pctopcdata"
+R_ADDRR_ADDRPOWERR_ADDRARM64R_ADDRMIPSR_ADDROFFR_WEAKADDROFFR_SIZER_CALLR_CALLARMR_CALLARM64R_CALLINDR_CALLPOWERR_CALLMIPSR_CALLRISCVR_CONSTR_PCRELR_TLS_LER_TLS_IER_GOTOFFR_PLT0R_PLT1R_PLT2R_USEFIELDR_USETYPER_METHODOFFR_POWER_TOCR_GOTPCRELR_JMPMIPSR_DWARFSECREFR_DWARFFILEREFR_ARM64_TLS_LER_ARM64_TLS_IER_ARM64_GOTPCRELR_ARM64_GOTR_ARM64_PCRELR_ARM64_LDST8R_ARM64_LDST32R_ARM64_LDST64R_ARM64_LDST128R_POWER_TLS_LER_POWER_TLS_IER_POWER_TLSR_ADDRPOWER_DSR_ADDRPOWER_GOTR_ADDRPOWER_PCRELR_ADDRPOWER_TOCRELR_ADDRPOWER_TOCREL_DSR_RISCV_PCREL_ITYPER_RISCV_PCREL_STYPER_PCRELDBLR_ADDRMIPSUR_ADDRMIPSTLSR_ADDRCUOFFR_WASMIMPORTR_XCOFFREF
+<a href="#" onclick="toggle_visibility('help');return false;" id="helplink">help</a>
+<div id="help">
+
+<p>
+Click on a value or block to toggle highlighting of that value/block
+and its uses.  (Values and blocks are highlighted by ID, and IDs of
+dead items may be reused, so not all highlights necessarily correspond
+to the clicked item.)
+</p>
+
+<p>
+Faded out values and blocks are dead code that has not been eliminated.
+</p>
+
+<p>
+Values printed in italics have a dependency cycle.
+</p>
+
+<p>
+<b>CFG</b>: Dashed edge is for unlikely branches. Blue color is for backward edges.
+Edge with a dot means that this edge follows the order in which blocks were laidout.
+</p>
+
+</div>
+
+
+- <flag> is one of:
+    on, off, debug, mem, time, test, stats, dump
+
+- <value> defaults to 1
+
+- <function_name> is required for the "dump" flag, and specifies the
+  name of function to dump after <phase>
+
+Phase "all" supports flags "time", "mem", and "dump".
+Phase "intrinsics" supports flags "on", "off", and "debug".
+
+If the "dump" flag is specified, the output is written on a file named
+<phase>__<function_name>_<seq>.dump; otherwise it is directed to stdout.
+
+Examples:
+
+    -d=ssa/check/on
+enables checking after each phase
+
+    -d=ssa/all/time
+enables time reporting for all phases
+
+    -d=ssa/prove/debug=2
+sets debugging level to 2 in the prove pass
+
+Multiple flags can be passed at once, by separating them with
+commas. For example:
+
+    -d=ssa/check/on,ssa/all/time
+XXXNAMENONAMETYPEPACKLITERALADDSUBORXORADDSTRADDRANDANDAPPENDBYTES2STRBYTES2STRTMPRUNES2STRSTR2BYTESSTR2BYTESTMPSTR2RUNESASAS2AS2DOTTYPEAS2FUNCAS2MAPRAS2RECVASOPCALLCALLFUNCCALLMETHCALLINTERCALLPARTCAPCLOSECLOSURECOMPLITMAPLITSTRUCTLITARRAYLITSLICELITPTRLITCONVCONVIFACECONVNOPCOPYDCLDCLFUNCDCLFIELDDCLCONSTDCLTYPEDELETEDOTDOTPTRDOTMETHDOTINTERXDOTDOTTYPEDOTTYPE2EQNELTLEGEGTDEREFINDEXINDEXMAPKEYSTRUCTKEYLENMAKEMAKECHANMAKEMAPMAKESLICEMULDIVMODLSHRSHANDANDNOTNEWNEWOBJNOTBITNOTPLUSNEGORORPANICPRINTPRINTNPARENSENDSLICESLICEARRSLICESTRSLICE3SLICE3ARRSLICEHEADERRECOVERRECVRUNESTRSELRECVSELRECV2IOTAREALIMAGCOMPLEXALIGNOFOFFSETOFSIZEOFBLOCKBREAKCASECONTINUEDEFEREMPTYFALLFORFORUNTILGOTOIFLABELGORANGERETURNSELECTSWITCHTYPESWTCHANTMAPTSTRUCTTINTERTFUNCTARRAYDDDDDDARGINLCALLEFACEITABIDATASPTRCLOSUREVARCFUNCCHECKNILVARDEFVARKILLVARLIVERESULTINLMARKRETJMPGETGEND<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<style>
+
+body {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 18px;
+    display: inline-block;
+    margin: 0 1em .5em 0;
+}
+
+#helplink {
+    display: inline-block;
+}
+
+#help {
+    display: none;
+}
+
+.stats {
+    font-size: 60%;
+}
+
+table {
+    border: 1px solid black;
+    table-layout: fixed;
+    width: 300px;
+}
+
+th, td {
+    border: 1px solid black;
+    overflow: hidden;
+    width: 400px;
+    vertical-align: top;
+    padding: 5px;
+}
+
+td > h2 {
+    cursor: pointer;
+    font-size: 120%;
+}
+
+td.collapsed {
+    font-size: 12px;
+    width: 12px;
+    border: 0px;
+    padding: 0;
+    cursor: pointer;
+    background: #fafafa;
+}
+
+td.collapsed  div {
+     -moz-transform: rotate(-90.0deg);  /* FF3.5+ */
+       -o-transform: rotate(-90.0deg);  /* Opera 10.5 */
+  -webkit-transform: rotate(-90.0deg);  /* Saf3.1+, Chrome */
+             filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083);  /* IE6,IE7 */
+         -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)"; /* IE8 */
+         margin-top: 10.3em;
+         margin-left: -10em;
+         margin-right: -10em;
+         text-align: right;
+}
+
+code, pre, .lines, .ast {
+    font-family: Menlo, monospace;
+    font-size: 12px;
+}
+
+pre {
+    -moz-tab-size: 4;
+    -o-tab-size:   4;
+    tab-size:      4;
+}
+
+.allow-x-scroll {
+    overflow-x: scroll;
+}
+
+.lines {
+    float: left;
+    overflow: hidden;
+    text-align: right;
+}
+
+.lines div {
+    padding-right: 10px;
+    color: gray;
+}
+
+div.line-number {
+    font-size: 12px;
+}
+
+.ast {
+    white-space: nowrap;
+}
+
+td.ssa-prog {
+    width: 600px;
+    word-wrap: break-word;
+}
+
+li {
+    list-style-type: none;
+}
+
+li.ssa-long-value {
+    text-indent: -2em;  /* indent wrapped lines */
+}
+
+li.ssa-value-list {
+    display: inline;
+}
+
+li.ssa-start-block {
+    padding: 0;
+    margin: 0;
+}
+
+li.ssa-end-block {
+    padding: 0;
+    margin: 0;
+}
+
+ul.ssa-print-func {
+    padding-left: 0;
+}
+
+li.ssa-start-block button {
+    padding: 0 1em;
+    margin: 0;
+    border: none;
+    display: inline;
+    font-size: 14px;
+    float: right;
+}
+
+button:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
+
+dl.ssa-gen {
+    padding-left: 0;
+}
+
+dt.ssa-prog-src {
+    padding: 0;
+    margin: 0;
+    float: left;
+    width: 4em;
+}
+
+dd.ssa-prog {
+    padding: 0;
+    margin-right: 0;
+    margin-left: 4em;
+}
+
+.dead-value {
+    color: gray;
+}
+
+.dead-block {
+    opacity: 0.5;
+}
+
+.depcycle {
+    font-style: italic;
+}
+
+.line-number {
+    font-size: 11px;
+}
+
+.no-line-number {
+    font-size: 11px;
+    color: gray;
+}
+
+.zoom {
+	position: absolute;
+	float: left;
+	white-space: nowrap;
+	background-color: #eee;
+}
+
+.zoom a:link, .zoom a:visited  {
+    text-decoration: none;
+    color: blue;
+    font-size: 16px;
+    padding: 4px 2px;
+}
+
+svg {
+    cursor: default;
+    outline: 1px solid #eee;
+}
+
+.highlight-aquamarine     { background-color: aquamarine; }
+.highlight-coral          { background-color: coral; }
+.highlight-lightpink      { background-color: lightpink; }
+.highlight-lightsteelblue { background-color: lightsteelblue; }
+.highlight-palegreen      { background-color: palegreen; }
+.highlight-skyblue        { background-color: skyblue; }
+.highlight-lightgray      { background-color: lightgray; }
+.highlight-yellow         { background-color: yellow; }
+.highlight-lime           { background-color: lime; }
+.highlight-khaki          { background-color: khaki; }
+.highlight-aqua           { background-color: aqua; }
+.highlight-salmon         { background-color: salmon; }
+
+.outline-blue           { outline: blue solid 2px; }
+.outline-red            { outline: red solid 2px; }
+.outline-blueviolet     { outline: blueviolet solid 2px; }
+.outline-darkolivegreen { outline: darkolivegreen solid 2px; }
+.outline-fuchsia        { outline: fuchsia solid 2px; }
+.outline-sienna         { outline: sienna solid 2px; }
+.outline-gold           { outline: gold solid 2px; }
+.outline-orangered      { outline: orangered solid 2px; }
+.outline-teal           { outline: teal solid 2px; }
+.outline-maroon         { outline: maroon solid 2px; }
+.outline-black          { outline: black solid 2px; }
+
+ellipse.outline-blue           { stroke-width: 2px; stroke: blue; }
+ellipse.outline-red            { stroke-width: 2px; stroke: red; }
+ellipse.outline-blueviolet     { stroke-width: 2px; stroke: blueviolet; }
+ellipse.outline-darkolivegreen { stroke-width: 2px; stroke: darkolivegreen; }
+ellipse.outline-fuchsia        { stroke-width: 2px; stroke: fuchsia; }
+ellipse.outline-sienna         { stroke-width: 2px; stroke: sienna; }
+ellipse.outline-gold           { stroke-width: 2px; stroke: gold; }
+ellipse.outline-orangered      { stroke-width: 2px; stroke: orangered; }
+ellipse.outline-teal           { stroke-width: 2px; stroke: teal; }
+ellipse.outline-maroon         { stroke-width: 2px; stroke: maroon; }
+ellipse.outline-black          { stroke-width: 2px; stroke: black; }
+
+</style>
+
+<script type="text/javascript">
+// ordered list of all available highlight colors
+var highlights = [
+    "highlight-aquamarine",
+    "highlight-coral",
+    "highlight-lightpink",
+    "highlight-lightsteelblue",
+    "highlight-palegreen",
+    "highlight-skyblue",
+    "highlight-lightgray",
+    "highlight-yellow",
+    "highlight-lime",
+    "highlight-khaki",
+    "highlight-aqua",
+    "highlight-salmon"
+];
+
+// state: which value is highlighted this color?
+var highlighted = {};
+for (var i = 0; i < highlights.length; i++) {
+    highlighted[highlights[i]] = "";
+}
+
+// ordered list of all available outline colors
+var outlines = [
+    "outline-blue",
+    "outline-red",
+    "outline-blueviolet",
+    "outline-darkolivegreen",
+    "outline-fuchsia",
+    "outline-sienna",
+    "outline-gold",
+    "outline-orangered",
+    "outline-teal",
+    "outline-maroon",
+    "outline-black"
+];
+
+// state: which value is outlined this color?
+var outlined = {};
+for (var i = 0; i < outlines.length; i++) {
+    outlined[outlines[i]] = "";
+}
+
+window.onload = function() {
+    var ssaElemClicked = function(elem, event, selections, selected) {
+        event.stopPropagation();
+
+        // TODO: pushState with updated state and read it on page load,
+        // so that state can survive across reloads
+
+        // find all values with the same name
+        var c = elem.classList.item(0);
+        var x = document.getElementsByClassName(c);
+
+        // if selected, remove selections from all of them
+        // otherwise, attempt to add
+
+        var remove = "";
+        for (var i = 0; i < selections.length; i++) {
+            var color = selections[i];
+            if (selected[color] == c) {
+                remove = color;
+                break;
+            }
+        }
+
+        if (remove != "") {
+            for (var i = 0; i < x.length; i++) {
+                x[i].classList.remove(remove);
+            }
+            selected[remove] = "";
+            return;
+        }
+
+        // we're adding a selection
+        // find first available color
+        var avail = "";
+        for (var i = 0; i < selections.length; i++) {
+            var color = selections[i];
+            if (selected[color] == "") {
+                avail = color;
+                break;
+            }
+        }
+        if (avail == "") {
+            alert("out of selection colors; go add more");
+            return;
+        }
+
+        // set that as the selection
+        for (var i = 0; i < x.length; i++) {
+            x[i].classList.add(avail);
+        }
+        selected[avail] = c;
+    };
+
+    var ssaValueClicked = function(event) {
+        ssaElemClicked(this, event, highlights, highlighted);
+    };
+
+    var ssaBlockClicked = function(event) {
+        ssaElemClicked(this, event, outlines, outlined);
+    };
+
+    var ssavalues = document.getElementsByClassName("ssa-value");
+    for (var i = 0; i < ssavalues.length; i++) {
+        ssavalues[i].addEventListener('click', ssaValueClicked);
+    }
+
+    var ssalongvalues = document.getElementsByClassName("ssa-long-value");
+    for (var i = 0; i < ssalongvalues.length; i++) {
+        // don't attach listeners to li nodes, just the spans they contain
+        if (ssalongvalues[i].nodeName == "SPAN") {
+            ssalongvalues[i].addEventListener('click', ssaValueClicked);
+        }
+    }
+
+    var ssablocks = document.getElementsByClassName("ssa-block");
+    for (var i = 0; i < ssablocks.length; i++) {
+        ssablocks[i].addEventListener('click', ssaBlockClicked);
+    }
+
+    var lines = document.getElementsByClassName("line-number");
+    for (var i = 0; i < lines.length; i++) {
+        lines[i].addEventListener('click', ssaValueClicked);
+    }
+
+    // Contains phase names which are expanded by default. Other columns are collapsed.
+    var expandedDefault = [
+        "start",
+        "deadcode",
+        "opt",
+        "lower",
+        "late deadcode",
+        "regalloc",
+        "genssa",
+    ];
+
+    function toggler(phase) {
+        return function() {
+            toggle_cell(phase+'-col');
+            toggle_cell(phase+'-exp');
+        };
+    }
+
+    function toggle_cell(id) {
+        var e = document.getElementById(id);
+        if (e.style.display == 'table-cell') {
+            e.style.display = 'none';
+        } else {
+            e.style.display = 'table-cell';
+        }
+    }
+
+    // Go through all columns and collapse needed phases.
+    var td = document.getElementsByTagName("td");
+    for (var i = 0; i < td.length; i++) {
+        var id = td[i].id;
+        var phase = id.substr(0, id.length-4);
+        var show = expandedDefault.indexOf(phase) !== -1
+        if (id.endsWith("-exp")) {
+            var h2 = td[i].getElementsByTagName("h2");
+            if (h2 && h2[0]) {
+                h2[0].addEventListener('click', toggler(phase));
+            }
+        } else {
+            td[i].addEventListener('click', toggler(phase));
+        }
+        if (id.endsWith("-col") && show || id.endsWith("-exp") && !show) {
+            td[i].style.display = 'none';
+            continue;
+        }
+        td[i].style.display = 'table-cell';
+    }
+
+    // find all svg block nodes, add their block classes
+    var nodes = document.querySelectorAll('*[id^="graph_node_"]');
+    for (var i = 0; i < nodes.length; i++) {
+    	var node = nodes[i];
+    	var name = node.id.toString();
+    	var block = name.substring(name.lastIndexOf("_")+1);
+    	node.classList.remove("node");
+    	node.classList.add(block);
+        node.addEventListener('click', ssaBlockClicked);
+        var ellipse = node.getElementsByTagName('ellipse')[0];
+        ellipse.classList.add(block);
+        ellipse.addEventListener('click', ssaBlockClicked);
+    }
+
+    // make big graphs smaller
+    var targetScale = 0.5;
+    var nodes = document.querySelectorAll('*[id^="svg_graph_"]');
+    // TODO: Implement smarter auto-zoom using the viewBox attribute
+    // and in case of big graphs set the width and height of the svg graph to
+    // maximum allowed.
+    for (var i = 0; i < nodes.length; i++) {
+    	var node = nodes[i];
+    	var name = node.id.toString();
+    	var phase = name.substring(name.lastIndexOf("_")+1);
+    	var gNode = document.getElementById("g_graph_"+phase);
+    	var scale = gNode.transform.baseVal.getItem(0).matrix.a;
+    	if (scale > targetScale) {
+    		node.width.baseVal.value *= targetScale / scale;
+    		node.height.baseVal.value *= targetScale / scale;
+    	}
+    }
+};
+
+function toggle_visibility(id) {
+    var e = document.getElementById(id);
+    if (e.style.display == 'block') {
+        e.style.display = 'none';
+    } else {
+        e.style.display = 'block';
+    }
+}
+
+function hideBlock(el) {
+    var es = el.parentNode.parentNode.getElementsByClassName("ssa-value-list");
+    if (es.length===0)
+        return;
+    var e = es[0];
+    if (e.style.display === 'block' || e.style.display === '') {
+        e.style.display = 'none';
+        el.innerHTML = '+';
+    } else {
+        e.style.display = 'block';
+        el.innerHTML = '-';
+    }
+}
+
+// TODO: scale the graph with the viewBox attribute.
+function graphReduce(id) {
+    var node = document.getElementById(id);
+    if (node) {
+    		node.width.baseVal.value *= 0.9;
+    		node.height.baseVal.value *= 0.9;
+    }
+    return false;
+}
+
+function graphEnlarge(id) {
+    var node = document.getElementById(id);
+    if (node) {
+    		node.width.baseVal.value *= 1.1;
+    		node.height.baseVal.value *= 1.1;
+    }
+    return false;
+}
+
+function makeDraggable(event) {
+    var svg = event.target;
+    if (window.PointerEvent) {
+        svg.addEventListener('pointerdown', startDrag);
+        svg.addEventListener('pointermove', drag);
+        svg.addEventListener('pointerup', endDrag);
+        svg.addEventListener('pointerleave', endDrag);
+    } else {
+        svg.addEventListener('mousedown', startDrag);
+        svg.addEventListener('mousemove', drag);
+        svg.addEventListener('mouseup', endDrag);
+        svg.addEventListener('mouseleave', endDrag);
+    }
+
+    var point = svg.createSVGPoint();
+    var isPointerDown = false;
+    var pointerOrigin;
+    var viewBox = svg.viewBox.baseVal;
+
+    function getPointFromEvent (event) {
+        point.x = event.clientX;
+        point.y = event.clientY;
+
+        // We get the current transformation matrix of the SVG and we inverse it
+        var invertedSVGMatrix = svg.getScreenCTM().inverse();
+        return point.matrixTransform(invertedSVGMatrix);
+    }
+
+    function startDrag(event) {
+        isPointerDown = true;
+        pointerOrigin = getPointFromEvent(event);
+    }
+
+    function drag(event) {
+        if (!isPointerDown) {
+            return;
+        }
+        event.preventDefault();
+
+        var pointerPosition = getPointFromEvent(event);
+        viewBox.x -= (pointerPosition.x - pointerOrigin.x);
+        viewBox.y -= (pointerPosition.y - pointerOrigin.y);
+    }
+
+    function endDrag(event) {
+        isPointerDown = false;
+    }
+}</script>
+
+</head>

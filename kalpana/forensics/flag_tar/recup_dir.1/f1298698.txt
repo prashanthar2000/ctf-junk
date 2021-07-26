@@ -1,0 +1,2296 @@
+_probe_end"
+ENV{DM_MULTIPATH_DEVICE_PATH}=="?*", GOTO="udisks_probe_end"
+ENV{DM_UDEV_DISABLE_OTHER_RULES_FLAG}=="?*", GOTO="udisks_probe_end"
+
+# MD-RAID (aka Linux Software RAID) members
+#
+# TODO: file bug against mdadm(8) to have --export-prefix option that can be used with e.g. UDISKS_MD_MEMBER
+#
+SUBSYSTEM=="block", ENV{ID_FS_USAGE}=="raid", ENV{ID_FS_TYPE}=="linux_raid_member", ENV{UDISKS_MD_MEMBER_LEVEL}=="", IMPORT{program}="/bin/sh -c '/sbin/mdadm --examine --export $tempnode | sed s/^MD_/UDISKS_MD_MEMBER_/g'"
+
+SUBSYSTEM=="block", KERNEL=="md*", ENV{DEVTYPE}!="partition", IMPORT{program}="/bin/sh -c '/sbin/mdadm --detail --export $tempnode | sed s/^MD_/UDISKS_MD_/g'"
+
+LABEL="udisks_probe_end"
+
+# ------------------------------------------------------------------------
+# Tag floppy drives since they need special care
+
+# PC floppy drives
+#
+KERNEL=="fd*", ENV{ID_DRIVE_FLOPPY}="1"
+
+# USB floppy drives
+#
+SUBSYSTEMS=="usb", ATTRS{bInterfaceClass}=="08", ATTRS{bInterfaceSubClass}=="04", ENV{ID_DRIVE_FLOPPY}="1"
+
+# ATA Zip drives
+#
+ENV{ID_VENDOR}=="*IOMEGA*", ENV{ID_MODEL}=="*ZIP*", ENV{ID_DRIVE_FLOPPY_ZIP}="1"
+
+# TODO: figure out if the drive supports SD and SDHC and what the current
+# kind of media is - right now we just assume SD
+KERNEL=="mmcblk[0-9]", SUBSYSTEMS=="mmc", ENV{DEVTYPE}=="disk", ENV{ID_DRIVE_FLASH_SD}="1", ENV{ID_DRIVE_MEDIA_FLASH_SD}="1"
+# ditto for memstick
+KERNEL=="mspblk[0-9]", SUBSYSTEMS=="memstick", ENV{DEVTYPE}=="disk", ENV{ID_DRIVE_FLASH_MS}="1", ENV{ID_DRIVE_MEDIA_FLASH_MS}="1"
+
+# TODO: maybe automatically convert udisks1 properties to udisks2 ones?
+# (e.g. UDISKS_PRESENTATION_HIDE -> UDISKS_IGNORE)
+
+# ------------------------------------------------------------------------
+# ------------------------------------------------------------------------
+# ------------------------------------------------------------------------
+# Whitelist for tagging drives with the property media type.
+# TODO: figure out where to store this database
+
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="050d", ATTRS{idProduct}=="0248", ENV{ID_INSTANCE}=="0:0", ENV{ID_DRIVE_FLASH_CF}="1"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="050d", ATTRS{idProduct}=="0248", ENV{ID_INSTANCE}=="0:1", ENV{ID_DRIVE_FLASH_MS}="1"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="050d", ATTRS{idProduct}=="0248", ENV{ID_INSTANCE}=="0:2", ENV{ID_DRIVE_FLASH_SM}="1"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="050d", ATTRS{idProduct}=="0248", ENV{ID_INSTANCE}=="0:3", ENV{ID_DRIVE_FLASH_SD}="1"
+
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="05e3", ATTRS{idProduct}=="070e", ENV{ID_INSTANCE}=="0:0", ENV{ID_DRIVE_FLASH_CF}="1"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="05e3", ATTRS{idProduct}=="070e", ENV{ID_INSTANCE}=="0:1", ENV{ID_DRIVE_FLASH_SM}="1"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="05e3", ATTRS{idProduct}=="070e", ENV{ID_INSTANCE}=="0:2", ENV{ID_DRIVE_FLASH_SD}="1"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="05e3", ATTRS{idProduct}=="070e", ENV{ID_INSTANCE}=="0:3", ENV{ID_DRIVE_FLASH_MS}="1"
+
+# APPLE SD Card Reader (MacbookPro5,4)
+#
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="05ac", ATTRS{idProduct}=="8403", ENV{ID_DRIVE_FLASH_SD}="1"
+
+# Realtek card readers
+DRIVERS=="rts_pstor", ENV{ID_DRIVE_FLASH_SD}="1"
+DRIVERS=="rts5229", ENV{ID_DRIVE_FLASH_SD}="1"
+
+# Lexar Dual Slot USB 3.0 Reader Professional
+SUBSYSTEMS=="usb", ENV{ID_VENDOR_ID}=="05dc",ENV{ID_MODEL_ID}=="b049", ENV{ID_INSTANCE}=="0:0", ENV{ID_DRIVE_FLASH_CF}="1"
+SUBSYSTEMS=="usb", ENV{ID_VENDOR_ID}=="05dc",ENV{ID_MODEL_ID}=="b049", ENV{ID_INSTANCE}=="0:1", ENV{ID_DRIVE_FLASH_SD}="1"
+
+# Transcend USB 3.0 Multi-Card Reader (TS-RDF8K)
+SUBSYSTEMS=="usb", ENV{ID_VENDOR_ID}=="8564",ENV{ID_MODEL_ID}=="4000", ENV{ID_INSTANCE}=="0:0", ENV{ID_DRIVE_FLASH_CF}="1"
+SUBSYSTEMS=="usb", ENV{ID_VENDOR_ID}=="8564",ENV{ID_MODEL_ID}=="4000", ENV{ID_INSTANCE}=="0:1", ENV{ID_DRIVE_FLASH_SD}="1"
+SUBSYSTEMS=="usb", ENV{ID_VENDOR_ID}=="8564",ENV{ID_MODEL_ID}=="4000", ENV{ID_INSTANCE}=="0:2", ENV{ID_DRIVE_FLASH_MS}="1"
+
+# Common theme
+#
+SUBSYSTEMS=="usb", ENV{ID_MODEL}=="*Reader*SD*", ENV{ID_DRIVE_FLASH_SD}="1"
+SUBSYSTEMS=="usb", ENV{ID_MODEL}=="*CF_Reader*", ENV{ID_DRIVE_FLASH_CF}="1"
+SUBSYSTEMS=="usb", ENV{ID_MODEL}=="*SM_Reader*", ENV{ID_DRIVE_FLASH_SM}="1"
+SUBSYSTEMS=="usb", ENV{ID_MODEL}=="*MS_Reader*", ENV{ID_DRIVE_FLASH_MS}="1"
+
+# USB stick / thumb drives
+#
+SUBSYSTEMS=="usb", ENV{ID_VENDOR}=="*Kingston*", ENV{ID_MODEL}=="*DataTraveler*", ENV{ID_DRIVE_THUMB}="1"
+SUBSYSTEMS=="usb", ENV{ID_VENDOR}=="*SanDisk*", ENV{ID_MODEL}=="*Cruzer*", ENV{ID_CDROM}!="1", ENV{ID_DRIVE_THUMB}="1"
+SUBSYSTEMS=="usb", ENV{ID_VENDOR}=="HP", ENV{ID_MODEL}=="*v125w*", ENV{ID_DRIVE_THUMB}="1"
+SUBSYSTEMS=="usb", ENV{ID_VENDOR_ID}=="13fe", ENV{ID_MODEL}=="*Patriot*", ENV{ID_DRIVE_THUMB}="1"
+SUBSYSTEMS=="usb", ENV{ID_VENDOR}=="*JetFlash*", ENV{ID_MODEL}=="*Transcend*", ENV{ID_DRIVE_THUMB}="1"
+
+# SD-Card reader in Chromebook Pixel
+SUBSYSTEMS=="usb", ENV{ID_VENDOR_ID}=="05e3", ENV{ID_MODEL_ID}=="0727", ENV{ID_DRIVE_FLASH_SD}="1"
+
+# ------------------------------------------------------------------------
+# ------------------------------------------------------------------------
+# ------------------------------------------------------------------------
+# Devices which should not be display in the user interface
+#
+# (note that RAID/LVM members are not normally shown in an user
+# interface so setting UDISKS_IGNORE at first does not seem to achieve
+# anything. However it helps for RAID/LVM members that are encrypted
+# using LUKS. See bug #51439.)
+
+# Apple Bootstrap partitions
+ENV{ID_PART_ENTRY_SCHEME}=="mac", ENV{ID_PART_ENTRY_TYPE}=="Apple_Bootstrap", ENV{UDISKS_IGNORE}="1"
+
+# Apple Boot partitions
+ENV{ID_PART_ENTRY_SCHEME}=="gpt", ENV{ID_PART_ENTRY_TYPE}=="426f6f74-0000-11aa-aa11-00306543ecac", ENV{UDISKS_IGNORE}="1"
+
+# special DOS partition types (EFI, hidden, etc.) and RAID/LVM
+# see http://www.win.tue.nl/~aeb/partitions/partition_types-1.html
+ENV{ID_PART_ENTRY_SCHEME}=="dos", \
+  ENV{ID_PART_ENTRY_TYPE}=="0x0|0x11|0x12|0x14|0x16|0x17|0x1b|0x1c|0x1e|0x27|0x3d|0x84|0x8d|0x8e|0x90|0x91|0x92|0x93|0x97|0x98|0x9a|0x9b|0xbb|0xc2|0xc3|0xdd|0xef|0xfd", \
+  ENV{UDISKS_IGNORE}="1"
+
+# special GUID-identified partition types (EFI System Partition, BIOS Boot partition, RAID/LVM)
+# see http://en.wikipedia.org/wiki/GUID_Partition_Table#Partition_type_GUIDs
+ENV{ID_PART_ENTRY_SCHEME}=="gpt", \
+  ENV{ID_PART_ENTRY_TYPE}=="c12a7328-f81f-11d2-ba4b-00a0c93ec93b|21686148-6449-6e6f-744e-656564454649|a19d880f-05fc-4d3b-a006-743f0f84911e|e6d6d379-f507-44c2-a23c-238f2a3df928|e3c9e316-0b5c-4db8-817d-f92df00215ae|de94bba4-06d1-4d40-a16a-bfd50179d6ac", \
+  ENV{UDISKS_IGNORE}="1"
+
+# MAC recovery/tool partitions which are useless on Linux
+ENV{ID_PART_ENTRY_SCHEME}=="mac", \
+  ENV{ID_CDROM}=="?*", ENV{ID_FS_TYPE}=="udf", ENV{ID_FS_LABEL}=="WD*SmartWare", \
+  ENV{UDISKS_IGNORE}="1"
+
+# recovery partitions
+ENV{ID_FS_TYPE}=="ntfs|vfat", \
+  ENV{ID_FS_LABEL}=="Recovery|RECOVERY|Lenovo_Recovery|HP_RECOVERY|Recovery_Partition|DellUtility|DellRestore|IBM_SERVICE|SERVICEV001|SERVICEV002|SYSTEM_RESERVED|System_Reserved|WINRE_DRV|DIAGS|IntelRST", \
+  ENV{UDISKS_IGNORE}="1"
+
+# read-only non-Linux software installer partitions
+ENV{ID_VENDOR}=="Sony", ENV{ID_MODEL}=="PRS*Launcher", ENV{UDISKS_IGNORE}="1"
+
+# non-Linux software
+KERNEL=="sr*", ENV{ID_VENDOR}=="SanDisk", ENV{ID_MODEL}=="Cruzer", ENV{ID_FS_LABEL}=="U3_System", ENV{UDISKS_IGNORE}="1"
+
+# Content created using isohybrid (typically used on CDs and USB
+# sticks for bootable media) is a bit special insofar that the
+# interesting content is on a DOS partition with type 0x00 ... which
+# is hidden above. So undo this.
+#
+# See http://mjg59.dreamwidth.org/11285.html for more details
+#
+ENV{ID_PART_TABLE_TYPE}=="dos", ENV{ID_PART_ENTRY_TYPE}=="0x0", ENV{ID_PART_ENTRY_NUMBER}=="1", ENV{ID_FS_TYPE}=="iso9660|udf", ENV{UDISKS_IGNORE}="0"
+
+# Description: can manage greengrass 'things' and their sandboxes. This
+# policy is intentionally not restrictive and is here to help guard against
+# programming errors and not for security confinement. The greengrassd
+# daemon by design requires extensive access to the system and
+# cannot be effectively confined against malicious activity.
+
+# greengrassd uses 'prctl(PR_CAPBSET_DROP, ...)'
+capability setpcap,
+
+# Allow managing child processes (signals, OOM, ptrace, cgroups)
+capability kill,
+
+capability sys_resource,
+/sys/kernel/mm/hugepages/ r,
+/sys/kernel/mm/transparent_hugepage/{,**} r,
+owner @{PROC}/[0-9]*/oom_score_adj rw,
+
+capability sys_ptrace,
+ptrace (trace) peer=@{profile_name},
+
+# allow use of ggc_user and ggc_group
+capability chown,
+capability fowner,
+capability fsetid,
+capability setuid,
+capability setgid,
+
+# Note: when AppArmor supports fine-grained owner matching, can match on
+# ggc_user (LP: #1697090)
+@{PROC}/[0-9]*/uid_map r,
+@{PROC}/[0-9]*/gid_map r,
+@{PROC}/[0-9]*/environ r,
+owner @{PROC}/[0-9]*/uid_map w,
+owner @{PROC}/[0-9]*/gid_map w,
+
+# Allow greengrassd to read restricted non-root directories (LP: #1697090)
+capability dac_read_search,
+
+# overlayfs
+capability sys_admin,
+capability dac_override,  # for various overlayfs accesses
+
+# for setting up mounts
+@{PROC}/[0-9]*/mountinfo r,
+@{PROC}/filesystems r,
+
+# runc needs this
+@{PROC}/[0-9]*/setgroups r,
+
+# cgroup accesses
+# greengrassd extensively uses cgroups to confine it's containers (AKA lambdas)
+# and needs to read what cgroups are available; we allow reading any cgroup, 
+# but limit writes below
+# also note that currently greengrass is not implemented in such a way that it
+# can stack it's cgroups inside the cgroup that snapd would normally enforce
+# but this may change in the future
+# an example cgroup access looks like this:
+# /old_rootfs/sys/fs/cgroup/cpuset/system.slice/7d23e67f-13f5-4b7e-5a85-83f8773345a8/
+# the old_rootfs prefix is due to the pivot_root - the "old" rootfs is mounted
+# at /old_rootfs before
+@{PROC}/cgroups r,
+owner @{PROC}/[0-9]*/cgroup r,
+owner /old_rootfs/sys/fs/cgroup/{,**} r,
+owner /old_rootfs/sys/fs/cgroup/{blkio,cpuset,devices,hugetlb,memory,perf_event,pids,freezer/snap.@{SNAP_NAME}}/{,system.slice/}system.slice/ rw,
+owner /old_rootfs/sys/fs/cgroup/{blkio,cpuset,devices,hugetlb,memory,perf_event,pids,freezer/snap.@{SNAP_NAME}}/{,system.slice/}system.slice/[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]/{,**} rw,
+# separated from the above rule for clarity due to the comma in "net_cls,net_prio"
+owner /old_rootfs/sys/fs/cgroup/net_cls,net_prio/{,system.slice/}system.slice/ rw,
+owner /old_rootfs/sys/fs/cgroup/net_cls,net_prio/{,system.slice/}system.slice/[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]/{,**} rw,
+owner /old_rootfs/sys/fs/cgroup/cpu,cpuacct/{,system.slice/}system.slice/ rw,
+owner /old_rootfs/sys/fs/cgroup/cpu,cpuacct/{,system.slice/}system.slice/[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]/{,**} rw,
+owner /old_rootfs/sys/fs/cgroup/{devices,memory,pids,blkio,systemd}/{,system.slice/}snap.@{SNAP_NAME}.greengrass{,d.service}/system.slice/ rw,
+owner /old_rootfs/sys/fs/cgroup/{devices,memory,pids,blkio,systemd}/{,system.slice/}snap.@{SNAP_NAME}.greengrass{,d.service}/system.slice/[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]/{,**} rw,
+owner /old_rootfs/sys/fs/cgroup/cpu,cpuacct/system.slice/snap.@{SNAP_NAME}.greengrass{,d.service}/system.slice/ rw,
+owner /old_rootfs/sys/fs/cgroup/cpu,cpuacct/system.slice/snap.@{SNAP_NAME}.greengrass{,d.service}/system.slice/{,**} rw,
+# specific rule for cpuset files
+owner /old_rootfs/sys/fs/cgroup/cpuset/{,system.slice/}cpuset.{cpus,mems} rw,
+
+# the wrapper scripts need to use mount/umount and pivot_root from the 
+# core snap
+/bin/{,u}mount ixr,
+/sbin/pivot_root ixr,
+
+# allow pivot_root'ing into the rootfs prepared for the greengrass daemon
+# parallel-installs: SNAP_{DATA,COMMON} are remapped, need to use SNAP_NAME, for
+# completeness allow SNAP_INSTANCE_NAME too
+pivot_root
+	oldroot=/var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/rootfs/old_rootfs/
+	/var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/rootfs/,
+
+# miscellaneous accesses by greengrassd
+/sys/devices/virtual/block/loop[0-9]*/loop/autoclear r,
+/sys/devices/virtual/block/loop[0-9]*/loop/backing_file r,
+
+# greengrassd needs protected hardlinks, symlinks, etc to run securely, but
+# won't turn them on itself, hence only read access for these things -
+# the user is clearly informed if these are disabled and so the user can
+# enable these themselves rather than give the snap permission to turn these
+# on
+@{PROC}/sys/fs/protected_hardlinks r,
+@{PROC}/sys/fs/protected_symlinks r,
+@{PROC}/sys/fs/protected_fifos r,
+@{PROC}/sys/fs/protected_regular r,
+
+# mount tries to access this, but it doesn't really need it
+deny /run/mount/utab rw,
+
+# these accesses are needed in order to mount a squashfs file for the rootfs
+# note that these accesses allow reading other snaps and thus grants device control
+/dev/loop-control rw,
+/dev/loop[0-9]* rw,
+/sys/devices/virtual/block/loop[0-9]*/ r,
+/sys/devices/virtual/block/loop[0-9]*/** r,
+
+# mount for mounting the rootfs which is a squashfs image inside $SNAP_DATA/rootfs
+mount options=ro /dev/loop[0-9]* -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/rootfs/,
+
+# generic mounts for allowing anything inside $SNAP_DATA to be remounted anywhere else inside $SNAP_DATA
+# parallel-installs: SNAP_{DATA,COMMON} are remapped, need to use SNAP_NAME, for
+# completeness allow SNAP_INSTANCE_NAME too
+mount options=(rw, bind) /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/** -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/** ,
+mount options=(rw, rbind) /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/** -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/** ,
+# also allow mounting new files anywhere underneath the rootfs of the target 
+# overlayfs directory, which is the rootfs of the container
+# this is for allowing local resource access which first makes a mount at 
+# the target destination and then a bind mount from the source to the destination
+# the source destination mount will be allowed under the above rule
+mount -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/packages/*/rootfs/merged/**,
+
+# specific mounts for setting up the mount namespace that greengrassd runs inside
+mount options=(rw, bind) /proc/ -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/rootfs/proc/,
+mount /sys -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/rootfs/sys/,
+mount options=(rw, bind) /dev/ -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/rootfs/dev/,
+mount options=(rw, bind) /{,var/}run/ -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/rootfs/{,var/}run/,
+mount options=(rw, nosuid, strictatime) fstype=tmpfs tmpfs -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/rootfs/dev/,
+# note that we don't mount a new tmpfs here so that everytime we run and setup
+# the mount ns for greengrassd it uses the same tmpfs which will be the tmpfs
+# that snapd sets up for the snap
+mount options=(rw, bind) /tmp/ -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/rootfs/tmp/,
+mount options=(rw, nosuid, nodev, noexec) fstype=mqueue mqueue -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/rootfs/dev/mqueue/,
+mount options=(rw, nosuid, noexec) fstype=devpts devpts -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/rootfs/dev/pts/,
+mount options=(rw, nosuid, nodev, noexec) fstype=tmpfs shm -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/rootfs/dev/shm/,
+mount fstype=proc proc -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/rootfs/proc/,
+
+# mounts for setting up child container rootfs
+mount options=(rw, rprivate) -> /,
+mount options=(ro, remount, rbind) -> /,
+mount fstype=overlay -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/packages/*/rootfs/merged/,
+
+# for jailing the process by removing the rootfs when the overlayfs is setup
+umount /,
+
+# mounts greengrassd performs for the containers
+mount fstype="tmpfs" options=(rw, nosuid, strictatime) tmpfs -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/packages/*/rootfs/merged/dev/,
+mount fstype="proc" proc -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/packages/*/rootfs/merged/proc/,
+mount fstype="devpts" options=(rw, nosuid, noexec) devpts -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/packages/*/rootfs/merged/dev/pts/,
+mount fstype="tmpfs" options=(rw, nosuid, nodev, noexec) shm -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/packages/*/rootfs/merged/dev/shm/,
+mount fstype="mqueue" options=(rw, nosuid, nodev, noexec) mqueue -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/packages/*/rootfs/merged/dev/mqueue/,
+mount options=(ro, remount, bind) -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/packages/*/rootfs/merged/lambda/,
+mount options=(ro, remount, bind) -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/packages/*/rootfs/merged/runtime/,
+mount options=(rw, bind) /dev/null -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/packages/*/rootfs/merged/dev/null,
+mount options=(rw, bind) /dev/random -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/packages/*/rootfs/merged/dev/random,
+mount options=(rw, bind) /dev/full -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/packages/*/rootfs/merged/dev/full,
+mount options=(rw, bind) /dev/tty -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/packages/*/rootfs/merged/dev/tty,
+mount options=(rw, bind) /dev/zero -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/packages/*/rootfs/merged/dev/zero,
+mount options=(rw, bind) /dev/urandom -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/packages/*/rootfs/merged/dev/urandom,
+
+# mounts for /run in the greengrassd mount namespace
+mount options=(rw, bind) /run/ -> /run/,
+
+# mounts for resolv.conf inside the container
+# we have to manually do this otherwise the go DNS resolver fails to work, because it isn't configured to 
+# use the system DNS server and attempts to do DNS resolution itself, manually inspecting /etc/resolv.conf
+mount options=(ro, bind) /run/systemd/resolve/stub-resolv.conf -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/rootfs/etc/resolv.conf,
+mount options=(ro, bind) /run/resolvconf/resolv.conf -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/rootfs/etc/resolv.conf,
+mount options=(ro, remount, bind) -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/rootfs/etc/resolv.conf,
+
+# pivot_root for the container initialization into the rootfs
+# note that the actual syscall is pivotroot(".",".")
+# so the oldroot is the same as the new root
+pivot_root 
+	oldroot=/var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/packages/*/rootfs/merged/
+	/var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/packages/*/rootfs/merged/,
+
+# mounts for /proc
+mount options=(ro, remount) -> /proc/{asound/,bus/,fs/,irq/,sys/,sysrq-trigger},
+mount options=(ro, remount, rbind) -> /proc/{asound/,bus/,fs/,irq/,sys/,sysrq-trigger},
+mount options=(ro, nosuid, nodev, noexec, remount, rbind) -> /proc/{asound/,bus/,fs/,irq/,sys/,sysrq-trigger},
+mount options=(rw, bind) /proc/asound/ -> /proc/asound/,
+mount options=(rw, bind) /proc/bus/ -> /proc/bus/,
+mount options=(rw, bind) /proc/fs/ -> /proc/fs/,
+mount options=(rw, bind) /proc/irq/ -> /proc/irq/,
+mount options=(rw, bind) /proc/sys/ -> /proc/sys/,
+mount options=(rw, bind) /proc/sysrq-trigger -> /proc/sysrq-trigger,
+
+# mount some devices using /dev/null
+mount options=(rw, bind) /dev/null -> /proc/kcore,
+mount options=(rw, bind) /dev/null -> /proc/sched_debug,
+mount options=(rw, bind) /dev/null -> /proc/timer_stats,
+
+# greengrass will also mount over /proc/latency_stats when running on
+# kernels configured with CONFIG_LATENCYTOP set
+mount options=(rw, bind) /dev/null -> /proc/latency_stats,
+
+# umounts for tearing down containers
+umount /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/**,
+
+# this is for container device creation
+# also need mknod and mknodat in seccomp
+capability mknod,
+
+# for the greengrassd pid file
+# note we can't use layouts for this because /var/run is a symlink to /run
+# and /run is explicitly disallowed for use by layouts
+# also note that technically this access is post-pivot_root, but during the setup
+# for the mount ns that the snap performs (not snapd), /var/run is bind mounted
+# from outside the pivot_root to inside the pivot_root, so this will always 
+# access the same files inside or outside the pivot_root
+owner /{var/,}run/greengrassd.pid rw,
+
+# all of the rest of the accesses are made by child containers and as such are 
+# "post-pivot_root", meaning that they aren't accessing these files on the 
+# host root filesystem, but rather somewhere inside $SNAP_DATA/rootfs/
+# Note: eventually greengrass will gain the ability to specify child profiles
+# for it's containers and include these rules in that profile so they won't
+# be here, but that work isn't done yet
+# Additionally see LP bug #1791711 for apparmor resolving file accesses after
+# a pivot_root
+
+# for IPC communication via lambda helpers
+/[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]/upper/{,greengrass_ipc.sock} rw,
+
+# for child container lambda certificates
+/certs/ r,
+/certs/** r,
+/group/ r,
+/group/** r,
+/state/ r,
+/state/{,**} krw,
+# the child containers need to use a file lock here
+owner /state/secretsmanager/secrets.db krw,
+owner /state/secretsmanager/secrets.db-journal rw,
+owner /state/shadow/ rw,
+owner /state/shadow/{,**} krw,
+# more specific accesses for writing
+owner /state/server/ rw,
+owner /state/server/{,**} rw,
+
+# for executing python, nodejs, java, and C (executable) lambda functions
+# currently the runtimes are "python2.7", "nodejs6.10", "java8" and "executable",
+# but those version numbers could change so we add a "*" on the end of the folders to be safe for
+# future potential upgrades
+/runtime/{python*,executable*,nodejs*,java*}/ r,
+/runtime/{python*,executable*,nodejs*,java*}/** r,
+
+# Ideally we would use a child profile for these but since the greengrass
+# sandbox is using prctl(PR_SET_NO_NEW_PRIVS, ...) we cannot since that blocks
+# profile transitions. With policy stacking we could use a more restrictive
+# child profile, but there are bugs which prevent that at this time
+# (LP: #1696552, LP: #1696551). As such, must simply rely on the greengrass
+# sandbox for now.
+/lambda/ r,
+/lambda/** ixr,
+
+# needed by cloneBinary.ensureSelfCloned()
+/ ix,
+
+# the python runtime tries to access /etc/debian_version, presumably to identify what system it's running on
+# note there may be other accesses that the containers try to run...
+/etc/ r,
+/etc/debian_version r,
+#include <abstractions/python>
+# additional accesses needed for newer pythons in later bases
+/usr/lib{,32,64}/python3.[0-9]/**.{pyc,so}           mr,
+/usr/lib{,32,64}/python3.[0-9]/**.{egg,py,pth}       r,
+/usr/lib{,32,64}/python3.[0-9]/{site,dist}-packages/ r,
+/usr/lib{,32,64}/python3.[0-9]/lib-dynload/*.so      mr,
+/etc/python3.[0-9]/**                                r,
+/usr/include/python3.[0-9]*/pyconfig.h               r,
+
+# manually add java certs here
+# see also https://bugs.launchpad.net/apparmor/+bug/1816372
+/etc/ssl/certs/java/{,*} r,
+#include <abstractions/ssl_certs>
+
+# Description: can manage greengrass 'things' and their sandboxes. This
+# policy is intentionally not restrictive and is here to help guard against
+# programming errors and not for security confinement. The greengrassd
+# daemon by design requires extensive access to the system and
+# cannot be effectively confined against malicious activity.
+
+# greengrassd uses 'prctl(PR_CAPBSET_DROP, ...)'
+capability setpcap,
+
+# Allow managing child processes (signals, OOM, ptrace, cgroups)
+capability kill,
+
+capability sys_resource,
+/sys/kernel/mm/hugepages/ r,
+/sys/kernel/mm/transparent_hugepage/{,**} r,
+owner @{PROC}/[0-9]*/oom_score_adj rw,
+
+capability sys_ptrace,
+ptrace (trace) peer=@{profile_name},
+
+# allow use of ggc_user and ggc_group
+capability chown,
+capability fowner,
+capability fsetid,
+capability setuid,
+capability setgid,
+
+# Note: when AppArmor supports fine-grained owner matching, can match on
+# ggc_user (LP: #1697090)
+@{PROC}/[0-9]*/uid_map r,
+@{PROC}/[0-9]*/gid_map r,
+@{PROC}/[0-9]*/environ r,
+owner @{PROC}/[0-9]*/uid_map w,
+owner @{PROC}/[0-9]*/gid_map w,
+
+# Allow greengrassd to read restricted non-root directories (LP: #1697090)
+capability dac_read_search,
+
+# overlayfs
+capability sys_admin,
+capability dac_override,  # for various overlayfs accesses
+
+# for setting up mounts
+@{PROC}/[0-9]*/mountinfo r,
+@{PROC}/filesystems r,
+
+# runc needs this
+@{PROC}/[0-9]*/setgroups r,
+
+# cgroup accesses
+# greengrassd extensively uses cgroups to confine it's containers (AKA lambdas)
+# and needs to read what cgroups are available; we allow reading any cgroup, 
+# but limit writes below
+# also note that currently greengrass is not implemented in such a way that it
+# can stack it's cgroups inside the cgroup that snapd would normally enforce
+# but this may change in the future
+# an example cgroup access looks like this:
+# /old_rootfs/sys/fs/cgroup/cpuset/system.slice/7d23e67f-13f5-4b7e-5a85-83f8773345a8/
+# the old_rootfs prefix is due to the pivot_root - the "old" rootfs is mounted
+# at /old_rootfs before
+@{PROC}/cgroups r,
+owner @{PROC}/[0-9]*/cgroup r,
+owner /old_rootfs/sys/fs/cgroup/{,**} r,
+owner /old_rootfs/sys/fs/cgroup/{blkio,cpuset,devices,hugetlb,memory,perf_event,pids,freezer/snap.@{SNAP_NAME}}/{,system.slice/}system.slice/ rw,
+owner /old_rootfs/sys/fs/cgroup/{blkio,cpuset,devices,hugetlb,memory,perf_event,pids,freezer/snap.@{SNAP_NAME}}/{,system.slice/}system.slice/[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]/{,**} rw,
+# separated from the above rule for clarity due to the comma in "net_cls,net_prio"
+owner /old_rootfs/sys/fs/cgroup/net_cls,net_prio/{,system.slice/}system.slice/ rw,
+owner /old_rootfs/sys/fs/cgroup/net_cls,net_prio/{,system.slice/}system.slice/[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]/{,**} rw,
+owner /old_rootfs/sys/fs/cgroup/cpu,cpuacct/{,system.slice/}system.slice/ rw,
+owner /old_rootfs/sys/fs/cgroup/cpu,cpuacct/{,system.slice/}system.slice/[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]/{,**} rw,
+owner /old_rootfs/sys/fs/cgroup/{devices,memory,pids,blkio,systemd}/{,system.slice/}snap.@{SNAP_NAME}.greengrass{,d.service}/system.slice/ rw,
+owner /old_rootfs/sys/fs/cgroup/{devices,memory,pids,blkio,systemd}/{,system.slice/}snap.@{SNAP_NAME}.greengrass{,d.service}/system.slice/[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]/{,**} rw,
+owner /old_rootfs/sys/fs/cgroup/cpu,cpuacct/system.slice/snap.@{SNAP_NAME}.greengrass{,d.service}/system.slice/ rw,
+owner /old_rootfs/sys/fs/cgroup/cpu,cpuacct/system.slice/snap.@{SNAP_NAME}.greengrass{,d.service}/system.slice/{,**} rw,
+# specific rule for cpuset files
+owner /old_rootfs/sys/fs/cgroup/cpuset/{,system.slice/}cpuset.{cpus,mems} rw,
+
+# the wrapper scripts need to use mount/umount and pivot_root from the 
+# core snap
+/bin/{,u}mount ixr,
+/sbin/pivot_root ixr,
+
+# allow pivot_root'ing into the rootfs prepared for the greengrass daemon
+# parallel-installs: SNAP_{DATA,COMMON} are remapped, need to use SNAP_NAME, for
+# completeness allow SNAP_INSTANCE_NAME too
+pivot_root
+	oldroot=/var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/rootfs/old_rootfs/
+	/var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/rootfs/,
+
+# miscellaneous accesses by greengrassd
+/sys/devices/virtual/block/loop[0-9]*/loop/autoclear r,
+/sys/devices/virtual/block/loop[0-9]*/loop/backing_file r,
+
+# greengrassd needs protected hardlinks, symlinks, etc to run securely, but
+# won't turn them on itself, hence only read access for these things -
+# the user is clearly informed if these are disabled and so the user can
+# enable these themselves rather than give the snap permission to turn these
+# on
+@{PROC}/sys/fs/protected_hardlinks r,
+@{PROC}/sys/fs/protected_symlinks r,
+@{PROC}/sys/fs/protected_fifos r,
+@{PROC}/sys/fs/protected_regular r,
+
+# mount tries to access this, but it doesn't really need it
+deny /run/mount/utab rw,
+
+# these accesses are needed in order to mount a squashfs file for the rootfs
+# note that these accesses allow reading other snaps and thus grants device control
+/dev/loop-control rw,
+/dev/loop[0-9]* rw,
+/sys/devices/virtual/block/loop[0-9]*/ r,
+/sys/devices/virtual/block/loop[0-9]*/** r,
+
+# mount for mounting the rootfs which is a squashfs image inside $SNAP_DATA/rootfs
+mount options=ro /dev/loop[0-9]* -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/rootfs/,
+
+# generic mounts for allowing anything inside $SNAP_DATA to be remounted anywhere else inside $SNAP_DATA
+# parallel-installs: SNAP_{DATA,COMMON} are remapped, need to use SNAP_NAME, for
+# completeness allow SNAP_INSTANCE_NAME too
+mount options=(rw, bind) /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/** -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/** ,
+mount options=(rw, rbind) /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/** -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/** ,
+# also allow mounting new files anywhere underneath the rootfs of the target 
+# overlayfs directory, which is the rootfs of the container
+# this is for allowing local resource access which first makes a mount at 
+# the target destination and then a bind mount from the source to the destination
+# the source destination mount will be allowed under the above rule
+mount -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/packages/*/rootfs/merged/**,
+
+# specific mounts for setting up the mount namespace that greengrassd runs inside
+mount options=(rw, bind) /proc/ -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/rootfs/proc/,
+mount /sys -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/rootfs/sys/,
+mount options=(rw, bind) /dev/ -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/rootfs/dev/,
+mount options=(rw, bind) /{,var/}run/ -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/rootfs/{,var/}run/,
+mount options=(rw, nosuid, strictatime) fstype=tmpfs tmpfs -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/rootfs/dev/,
+# note that we don't mount a new tmpfs here so that everytime we run and setup
+# the mount ns for greengrassd it uses the same tmpfs which will be the tmpfs
+# that snapd sets up for the snap
+mount options=(rw, bind) /tmp/ -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/rootfs/tmp/,
+mount options=(rw, nosuid, nodev, noexec) fstype=mqueue mqueue -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/rootfs/dev/mqueue/,
+mount options=(rw, nosuid, noexec) fstype=devpts devpts -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/rootfs/dev/pts/,
+mount options=(rw, nosuid, nodev, noexec) fstype=tmpfs shm -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/rootfs/dev/shm/,
+mount fstype=proc proc -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/rootfs/proc/,
+
+# mounts for setting up child container rootfs
+mount options=(rw, rprivate) -> /,
+mount options=(ro, remount, rbind) -> /,
+mount fstype=overlay -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/packages/*/rootfs/merged/,
+
+# for jailing the process by removing the rootfs when the overlayfs is setup
+umount /,
+
+# mounts greengrassd performs for the containers
+mount fstype="tmpfs" options=(rw, nosuid, strictatime) tmpfs -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/packages/*/rootfs/merged/dev/,
+mount fstype="proc" proc -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/packages/*/rootfs/merged/proc/,
+mount fstype="devpts" options=(rw, nosuid, noexec) devpts -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/packages/*/rootfs/merged/dev/pts/,
+mount fstype="tmpfs" options=(rw, nosuid, nodev, noexec) shm -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/packages/*/rootfs/merged/dev/shm/,
+mount fstype="mqueue" options=(rw, nosuid, nodev, noexec) mqueue -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/packages/*/rootfs/merged/dev/mqueue/,
+mount options=(ro, remount, bind) -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/packages/*/rootfs/merged/lambda/,
+mount options=(ro, remount, bind) -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/packages/*/rootfs/merged/runtime/,
+mount options=(rw, bind) /dev/null -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/packages/*/rootfs/merged/dev/null,
+mount options=(rw, bind) /dev/random -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/packages/*/rootfs/merged/dev/random,
+mount options=(rw, bind) /dev/full -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/packages/*/rootfs/merged/dev/full,
+mount options=(rw, bind) /dev/tty -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/packages/*/rootfs/merged/dev/tty,
+mount options=(rw, bind) /dev/zero -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/packages/*/rootfs/merged/dev/zero,
+mount options=(rw, bind) /dev/urandom -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/packages/*/rootfs/merged/dev/urandom,
+
+# mounts for /run in the greengrassd mount namespace
+mount options=(rw, bind) /run/ -> /run/,
+
+# mounts for resolv.conf inside the container
+# we have to manually do this otherwise the go DNS resolver fails to work, because it isn't configured to 
+# use the system DNS server and attempts to do DNS resolution itself, manually inspecting /etc/resolv.conf
+mount options=(ro, bind) /run/systemd/resolve/stub-resolv.conf -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/rootfs/etc/resolv.conf,
+mount options=(ro, bind) /run/resolvconf/resolv.conf -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/rootfs/etc/resolv.conf,
+mount options=(ro, remount, bind) -> /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/rootfs/etc/resolv.conf,
+
+# pivot_root for the container initialization into the rootfs
+# note that the actual syscall is pivotroot(".",".")
+# so the oldroot is the same as the new root
+pivot_root 
+	oldroot=/var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/packages/*/rootfs/merged/
+	/var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/packages/*/rootfs/merged/,
+
+# mounts for /proc
+mount options=(ro, remount) -> /proc/{asound/,bus/,fs/,irq/,sys/,sysrq-trigger},
+mount options=(ro, remount, rbind) -> /proc/{asound/,bus/,fs/,irq/,sys/,sysrq-trigger},
+mount options=(ro, nosuid, nodev, noexec, remount, rbind) -> /proc/{asound/,bus/,fs/,irq/,sys/,sysrq-trigger},
+mount options=(rw, bind) /proc/asound/ -> /proc/asound/,
+mount options=(rw, bind) /proc/bus/ -> /proc/bus/,
+mount options=(rw, bind) /proc/fs/ -> /proc/fs/,
+mount options=(rw, bind) /proc/irq/ -> /proc/irq/,
+mount options=(rw, bind) /proc/sys/ -> /proc/sys/,
+mount options=(rw, bind) /proc/sysrq-trigger -> /proc/sysrq-trigger,
+
+# mount some devices using /dev/null
+mount options=(rw, bind) /dev/null -> /proc/kcore,
+mount options=(rw, bind) /dev/null -> /proc/sched_debug,
+mount options=(rw, bind) /dev/null -> /proc/timer_stats,
+
+# greengrass will also mount over /proc/latency_stats when running on
+# kernels configured with CONFIG_LATENCYTOP set
+mount options=(rw, bind) /dev/null -> /proc/latency_stats,
+
+# umounts for tearing down containers
+umount /var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/**,
+
+# this is for container device creation
+# also need mknod and mknodat in seccomp
+capability mknod,
+
+# for the greengrassd pid file
+# note we can't use layouts for this because /var/run is a symlink to /run
+# and /run is explicitly disallowed for use by layouts
+# also note that technically this access is post-pivot_root, but during the setup
+# for the mount ns that the snap performs (not snapd), /var/run is bind mounted
+# from outside the pivot_root to inside the pivot_root, so this will always 
+# access the same files inside or outside the pivot_root
+owner /{var/,}run/greengrassd.pid rw,
+
+# all of the rest of the accesses are made by child containers and as such are 
+# "post-pivot_root", meaning that they aren't accessing these files on the 
+# host root filesystem, but rather somewhere inside $SNAP_DATA/rootfs/
+# Note: eventually greengrass will gain the ability to specify child profiles
+# for it's containers and include these rules in that profile so they won't
+# be here, but that work isn't done yet
+# Additionally see LP bug #1791711 for apparmor resolving file accesses after
+# a pivot_root
+
+# for IPC communication via lambda helpers
+/[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]/upper/{,greengrass_ipc.sock} rw,
+
+# for child container lambda certificates
+/certs/ r,
+/certs/** r,
+/group/ r,
+/group/** r,
+/state/ r,
+/state/{,**} krw,
+# the child containers need to use a file lock here
+owner /state/secretsmanager/secrets.db krw,
+owner /state/secretsmanager/secrets.db-journal rw,
+owner /state/shadow/ rw,
+owner /state/shadow/{,**} krw,
+# more specific accesses for writing
+owner /state/server/ rw,
+owner /state/server/{,**} rw,
+
+# for executing python, nodejs, java, and C (executable) lambda functions
+# currently the runtimes are "python2.7", "nodejs6.10", "java8" and "executable",
+# but those version numbers could change so we add a "*" on the end of the folders to be safe for
+# future potential upgrades
+/runtime/{python*,executable*,nodejs*,java*}/ r,
+/runtime/{python*,executable*,nodejs*,java*}/** r,
+
+# Ideally we would use a child profile for these but since the greengrass
+# sandbox is using prctl(PR_SET_NO_NEW_PRIVS, ...) we cannot since that blocks
+# profile transitions. With policy stacking we could use a more restrictive
+# child profile, but there are bugs which prevent that at this time
+# (LP: #1696552, LP: #1696551). As such, must simply rely on the greengrass
+# sandbox for now.
+/lambda/ r,
+/lambda/** ixr,
+
+# needed by cloneBinary.ensureSelfCloned()
+/ ix,
+
+# the python runtime tries to access /etc/debian_version, presumably to identify what system it's running on
+# note there may be other accesses that the containers try to run...
+/etc/ r,
+/etc/debian_version r,
+#include <abstractions/python>
+# additional accesses needed for newer pythons in later bases
+/usr/lib{,32,64}/python3.[0-9]/**.{pyc,so}           mr,
+/usr/lib{,32,64}/python3.[0-9]/**.{egg,py,pth}       r,
+/usr/lib{,32,64}/python3.[0-9]/{site,dist}-packages/ r,
+/usr/lib{,32,64}/python3.[0-9]/lib-dynload/*.so      mr,
+/etc/python3.[0-9]/**                                r,
+/usr/include/python3.[0-9]*/pyconfig.h               r,
+
+# manually add java certs here
+# see also https://bugs.launchpad.net/apparmor/+bug/1816372
+/etc/ssl/certs/java/{,*} r,
+#include <abstractions/ssl_certs>
+
+# these accesses are necessary for Ubuntu Core 16, likely due to the version 
+# of apparmor or the kernel which doesn't resolve the upper layer of an 
+# overlayfs mount correctly
+# the accesses show up as runc trying to read from
+# /system-data/var/snap/greengrass/x1/ggc-writable/packages/1.7.0/var/worker/overlays/$UUID/upper/
+/system-data/var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/ rw,
+/system-data/var/snap/{@{SNAP_NAME},@{SNAP_INSTANCE_NAME}}/*/ggc-writable/{,**} rw,
+
+# Description: Can access Unity7. Note, Unity 7 runs on X and requires access
+# to various DBus services and this environment does not prevent eavesdropping
+# or apps interfering with one another.
+
+#include <abstractions/dbus-strict>
+#include <abstractions/dbus-session-strict>
+
+# Allow finding the DBus session bus id (eg, via dbus_bus_get_id())
+dbus (send)
+     bus=session
+     path=/org/freedesktop/DBus
+     interface=org.freedesktop.DBus
+     member=GetId
+     peer=(name=org.freedesktop.DBus, label=unconfined),
+
+#include <abstractions/X>
+
+#include <abstractions/fonts>
+owner @{HOME}/.local/share/fonts/{,**} r,
+/var/cache/fontconfig/   r,
+/var/cache/fontconfig/** mr,
+
+# subset of gnome abstraction
+/etc/gnome/defaults.list r,
+/usr/share/gnome/applications/             r,
+/usr/share/applications/mimeinfo.cache     r,
+
+/etc/gtk-*/*                               r,
+/usr/lib{,32,64}/gtk-*/**                  mr,
+/usr/lib{,32,64}/gdk-pixbuf-*/**           mr,
+/usr/lib/@{multiarch}/gtk-*/**             mr,
+/usr/lib/@{multiarch}/gdk-pixbuf-*/**      mr,
+
+/etc/pango/*                               r,
+/usr/lib{,32,64}/pango/**                  mr,
+/usr/lib/@{multiarch}/pango/**             mr,
+
+/usr/share/icons/                          r,
+/usr/share/icons/**                        r,
+/usr/share/icons/*/index.theme             rk,
+/usr/share/pixmaps/                        r,
+/usr/share/pixmaps/**                      r,
+/usr/share/unity/icons/**                  r,
+/usr/share/thumbnailer/icons/**            r,
+/usr/share/themes/**                       r,
+
+# The snapcraft desktop part may look for schema files in various locations, so
+# allow reading system installed schemas.
+/usr/share/glib*/schemas/{,*}              r,
+/usr/share/gnome/glib*/schemas/{,*}        r,
+/usr/share/ubuntu/glib*/schemas/{,*}       r,
+
+# Snappy's 'xdg-open' talks to the snapd-xdg-open service which currently works
+# only in environments supporting dbus-send (eg, X11). In the future once
+# snappy's xdg-open supports all snaps images, this access may move to another
+# interface.
+/usr/bin/xdg-open ixr,
+/usr/share/applications/{,*} r,
+
+# This allow access to the first version of the snapd-xdg-open
+# version which was shipped outside of snapd
+dbus (send)
+    bus=session
+    path=/
+    interface=com.canonical.SafeLauncher
+    member=OpenURL
+    peer=(label=unconfined),
+# ... and this allows access to the new xdg-open service which
+# is now part of snapd itself.
+dbus (send)
+    bus=session
+    path=/io/snapcraft/Launcher
+    interface=io.snapcraft.Launcher
+    member={OpenURL,OpenFile}
+    peer=(label=unconfined),
+
+# Allow use of snapd's internal 'xdg-settings'
+/usr/bin/xdg-settings ixr,
+dbus (send)
+    bus=session
+    path=/io/snapcraft/Settings
+    interface=io.snapcraft.Settings
+    member={Check,Get,Set}
+    peer=(label=unconfined),
+
+# input methods (ibus)
+# subset of ibus abstraction
+/usr/lib/@{multiarch}/gtk-2.0/[0-9]*/immodules/im-ibus.so mr,
+owner @{HOME}/.config/ibus/      r,
+owner @{HOME}/.config/ibus/bus/  r,
+owner @{HOME}/.config/ibus/bus/* r,
+
+# allow communicating with ibus-daemon (this allows sniffing key events)
+unix (connect, receive, send)
+     type=stream
+     peer=(addr="@/tmp/ibus/dbus-*"),
+
+# abstract path in ibus >= 1.5.22 uses $XDG_CACHE_HOME (ie, @{HOME}/.cache)
+# This should use this, but due to LP: #1856738 we cannot
+#unix (connect, receive, send)
+#    type=stream
+#    peer=(addr="@@{HOME}/.cache/ibus/dbus-*"),
+unix (connect, receive, send)
+     type=stream
+     peer=(addr="@/home/*/.cache/ibus/dbus-*"),
+
+
+# input methods (mozc)
+# allow communicating with mozc server (TODO: investigate if allows sniffing)
+unix (connect, receive, send)
+     type=stream
+     peer=(addr="@tmp/.mozc.*"),
+
+
+# input methods (fcitx)
+# allow communicating with fcitx dbus service
+dbus send
+    bus=fcitx
+    path=/org/freedesktop/DBus
+    interface=org.freedesktop.DBus
+    member={Hello,AddMatch,RemoveMatch,GetNameOwner,NameHasOwner,StartServiceByName}
+    peer=(name=org.freedesktop.DBus),
+
+owner @{HOME}/.config/fcitx/dbus/* r,
+
+# allow creating an input context
+dbus send
+    bus={fcitx,session}
+    path=/inputmethod
+    interface=org.fcitx.Fcitx.InputMethod
+    member=CreateIC*
+    peer=(label=unconfined),
+
+# allow setting up and tearing down the input context
+dbus send
+    bus={fcitx,session}
+    path=/inputcontext_[0-9]*
+    interface=org.fcitx.Fcitx.InputContext
+    member="{Close,Destroy,Enable}IC"
+    peer=(label=unconfined),
+
+dbus send
+    bus={fcitx,session}
+    path=/inputcontext_[0-9]*
+    interface=org.fcitx.Fcitx.InputContext
+    member=Reset
+    peer=(label=unconfined),
+
+# allow service to send us signals
+dbus receive
+    bus=fcitx
+    peer=(label=unconfined),
+
+dbus receive
+    bus=session
+    interface=org.fcitx.Fcitx.*
+    peer=(label=unconfined),
+
+# use the input context
+dbus send
+    bus={fcitx,session}
+    path=/inputcontext_[0-9]*
+    interface=org.fcitx.Fcitx.InputContext
+    member="Focus{In,Out}"
+    peer=(label=unconfined),
+
+dbus send
+    bus={fcitx,session}
+    path=/inputcontext_[0-9]*
+    interface=org.fcitx.Fcitx.InputContext
+    member="{CommitPreedit,Set*}"
+    peer=(label=unconfined),
+
+# this is an information leak and allows key and mouse sniffing. If the input
+# context path were tied to the process' security label, this would not be an
+# issue.
+dbus send
+    bus={fcitx,session}
+    path=/inputcontext_[0-9]*
+    interface=org.fcitx.Fcitx.InputContext
+    member="{MouseEvent,ProcessKeyEvent}"
+    peer=(label=unconfined),
+
+# this method does not exist with the sunpinyin backend (at least), so allow
+# it for other input methods. This may consitute an information leak (which,
+# again, could be avoided if the path were tied to the process' security
+# label).
+dbus send
+    bus={fcitx,session}
+    path=/inputcontext_[0-9]*
+    interface=org.freedesktop.DBus.Properties
+    member=GetAll
+    peer=(label=unconfined),
+
+# Needed by QtSystems on X to detect mouse and keyboard. Note, the 'netlink
+# raw' rule is not finely mediated by apparmor so we mediate with seccomp arg
+# filtering.
+network netlink raw,
+/run/udev/data/c13:[0-9]* r,
+/run/udev/data/+input:* r,
+
+# subset of freedesktop.org
+/usr/share/mime/**                   r,
+owner @{HOME}/.local/share/mime/**   r,
+owner @{HOME}/.config/user-dirs.* r,
+
+/etc/xdg/user-dirs.conf r,
+/etc/xdg/user-dirs.defaults r,
+
+# gtk settings (subset of gnome abstraction)
+owner @{HOME}/.config/gtk-2.0/gtkfilechooser.ini r,
+owner @{HOME}/.config/gtk-3.0/settings.ini r,
+# Note: this leaks directory names that wouldn't otherwise be known to the snap
+owner @{HOME}/.config/gtk-3.0/bookmarks r,
+
+# accessibility
+#include <abstractions/dbus-accessibility-strict>
+dbus (send)
+    bus=session
+    path=/org/a11y/bus
+    interface=org.a11y.Bus
+    member=GetAddress
+    peer=(label=unconfined),
+dbus (send)
+    bus=session
+    path=/org/a11y/bus
+    interface=org.freedesktop.DBus.Properties
+    member=Get{,All}
+    peer=(label=unconfined),
+
+# unfortunate, but org.a11y.atspi is not designed for separation
+dbus (receive, send)
+    bus=accessibility
+    path=/org/a11y/atspi/**
+    peer=(label=unconfined),
+
+# org.freedesktop.Accounts
+dbus (send)
+    bus=system
+    path=/org/freedesktop/Accounts
+    interface=org.freedesktop.DBus.Introspectable
+    member=Introspect
+    peer=(label=unconfined),
+
+dbus (send)
+    bus=system
+    path=/org/freedesktop/Accounts
+    interface=org.freedesktop.Accounts
+    member=FindUserById
+    peer=(label=unconfined),
+
+# Get() is an information leak
+# TODO: verify what it is leaking
+dbus (receive, send)
+    bus=system
+    path=/org/freedesktop/Accounts/User[0-9]*
+    interface=org.freedesktop.DBus.Properties
+    member={Get,PropertiesChanged}
+    peer=(label=unconfined),
+
+# gmenu
+# Note: the gmenu DBus api was not designed for application isolation and apps
+# may specify anything as their 'path'. For example, these work in the many
+# cases:
+# - /org/gtk/Application/anonymous{,/**}
+# - /com/canonical/unity/gtk/window/[0-9]*
+# but libreoffice does:
+# - /org/libreoffice{,/**}
+# As such, cannot mediate by DBus path so we'll be as strict as we can in the
+# other mediated parts
+dbus (send)
+    bus=session
+    interface=org.gtk.Actions
+    member=Changed
+    peer=(name=org.freedesktop.DBus, label=unconfined),
+
+dbus (receive)
+    bus=session
+    interface=org.gtk.Actions
+    member={Activate,DescribeAll,SetState}
+    peer=(label=unconfined),
+
+dbus (receive)
+    bus=session
+    interface=org.gtk.Menus
+    member={Start,End}
+    peer=(label=unconfined),
+
+dbus (send)
+    bus=session
+    interface=org.gtk.Menus
+    member=Changed
+    peer=(name=org.freedesktop.DBus, label=unconfined),
+
+# Ubuntu menus
+dbus (send)
+    bus=session
+    path="/com/ubuntu/MenuRegistrar"
+    interface="com.ubuntu.MenuRegistrar"
+    member="{Register,Unregister}{App,Surface}Menu"
+    peer=(label=unconfined),
+
+# url helper
+dbus (send)
+    bus=session
+    interface=com.canonical.SafeLauncher.OpenURL
+    peer=(label=unconfined),
+# new url helper (part of snap userd)
+dbus (send)
+    bus=session
+    interface=io.snapcraft.Launcher.OpenURL
+    peer=(label=unconfined),
+
+# dbusmenu
+dbus (send)
+    bus=session
+    path=/{MenuBar{,/[0-9A-F]*},com/canonical/menu/[0-9A-F]*}
+    interface=com.canonical.dbusmenu
+    member="{LayoutUpdated,ItemsPropertiesUpdated}"
+    peer=(name=org.freedesktop.DBus, label=unconfined),
+
+dbus (receive)
+    bus=session
+    path=/{MenuBar{,/[0-9A-F]*},com/canonical/menu/[0-9A-F]*}
+    interface="{com.canonical.dbusmenu,org.freedesktop.DBus.Properties}"
+    member=Get*
+    peer=(label=unconfined),
+
+dbus (receive)
+    bus=session
+    path=/{MenuBar{,/[0-9A-F]*},com/canonical/menu/[0-9A-F]*}
+    interface=com.canonical.dbusmenu
+    member="{AboutTo*,Event*}"
+    peer=(label=unconfined),
+
+dbus (receive)
+    bus=session
+    path=/{MenuBar{,/[0-9A-F]*},com/canonical/menu/[0-9A-F]*}
+    interface=org.freedesktop.DBus.Introspectable
+    member=Introspect
+    peer=(label=unconfined),
+
+# app-indicators
+dbus (send)
+    bus=session
+    path=/StatusNotifierWatcher
+    interface=org.freedesktop.DBus.Introspectable
+    member=Introspect
+    peer=(name=org.kde.StatusNotifierWatcher, label=unconfined),
+
+dbus (send)
+    bus=session
+    path=/org/freedesktop/DBus
+    interface=org.freedesktop.DBus
+    member="{GetConnectionUnixProcessID,RequestName,ReleaseName}"
+    peer=(name=org.freedesktop.DBus, label=unconfined),
+
+dbus (bind)
+    bus=session
+    name=org.kde.StatusNotifierItem-[0-9]*,
+
+dbus (send)
+    bus=session
+    path=/StatusNotifierWatcher
+    interface=org.freedesktop.DBus.Properties
+    member=Get
+    peer=(name=org.kde.StatusNotifierWatcher, label=unconfined),
+
+dbus (send)
+    bus=session
+    path=/{StatusNotifierWatcher,org/ayatana/NotificationItem/*}
+    interface=org.kde.StatusNotifierWatcher
+    member=RegisterStatusNotifierItem
+    peer=(label=unconfined),
+
+dbus (send)
+    bus=session
+    path=/{StatusNotifierItem,org/ayatana/NotificationItem/*}
+    interface=org.kde.StatusNotifierItem
+    member="New{AttentionIcon,Icon,IconThemePath,OverlayIcon,Status,Title,ToolTip}"
+    peer=(name=org.freedesktop.DBus, label=unconfined),
+
+dbus (receive)
+    bus=session
+    path=/{StatusNotifierItem,org/ayatana/NotificationItem/*}
+    interface=org.kde.StatusNotifierItem
+    member={Activate,ContextMenu,Scroll,SecondaryActivate,XAyatanaSecondaryActivate}
+    peer=(label=unconfined),
+
+dbus (send)
+    bus=session
+    path=/{StatusNotifierItem/menu,org/ayatana/NotificationItem/*/Menu}
+    interface=com.canonical.dbusmenu
+    member="{LayoutUpdated,ItemsPropertiesUpdated}"
+    peer=(name=org.freedesktop.DBus, label=unconfined),
+
+dbus (receive)
+    bus=session
+    path=/{StatusNotifierItem,StatusNotifierItem/menu,org/ayatana/NotificationItem/**}
+    interface={org.freedesktop.DBus.Properties,com.canonical.dbusmenu}
+    member={Get*,AboutTo*,Event*}
+    peer=(label=unconfined),
+
+# notifications
+dbus (send)
+    bus=session
+    path=/org/freedesktop/Notifications
+    interface=org.freedesktop.Notifications
+    member="{GetCapabilities,GetServerInformation,Notify,CloseNotification}"
+    peer=(label=unconfined),
+
+dbus (receive)
+    bus=session
+    path=/org/freedesktop/Notifications
+    interface=org.freedesktop.Notifications
+    member={ActionInvoked,NotificationClosed,NotificationReplied}
+    peer=(label=unconfined),
+
+dbus (send)
+    bus=session
+    path=/org/ayatana/NotificationItem/*
+    interface=org.kde.StatusNotifierItem
+    member=XAyatanaNew*
+    peer=(name=org.freedesktop.DBus, label=unconfined),
+
+# unity launcher
+dbus (send)
+    bus=session
+    path=/com/canonical/unity/launcherentry/[0-9]*
+    interface=com.canonical.Unity.LauncherEntry
+    member=Update
+    peer=(name=org.freedesktop.DBus, label=unconfined),
+
+dbus (send)
+    bus=session
+    path=/com/canonical/unity/launcherentry/[0-9]*
+    interface=com.canonical.dbusmenu
+    member="{LayoutUpdated,ItemsPropertiesUpdated}"
+    peer=(name=org.freedesktop.DBus, label=unconfined),
+
+dbus (receive)
+    bus=session
+    path=/com/canonical/unity/launcherentry/[0-9]*
+    interface="{com.canonical.dbusmenu,org.freedesktop.DBus.Properties}"
+    member=Get*
+    peer=(label=unconfined),
+
+# unity messaging menu
+# first, allow finding the desktop file
+/usr/share/applications/ r,
+# this leaks the names of snaps with desktop files
+/var/lib/snapd/desktop/applications/ r,
+/var/lib/snapd/desktop/applications/mimeinfo.cache r,
+# Support BAMF_DESKTOP_FILE_HINT by allowing reading our desktop files
+# parallel-installs: when @{SNAP_INSTANCE_NAME} == @{SNAP_NAME},
+# this leaks read access to desktop files of parallel installs of the snap
+/var/lib/snapd/desktop/applications/@{SNAP_INSTANCE_NAME}_*.desktop r,
+
+# then allow talking to Unity DBus service
+dbus (send)
+    bus=session
+    interface=org.freedesktop.DBus.Properties
+    path=/com/canonical/indicator/messages/service
+    member=GetAll
+    peer=(label=unconfined),
+
+dbus (send)
+    bus=session
+    path=/com/canonical/indicator/messages/service
+    interface=com.canonical.indicator.messages.service
+    member={Register,Unregister}Application
+    peer=(label=unconfined),
+
+# When @{SNAP_NAME} == @{SNAP_INSTANCE_NAME}, this rule
+# allows the snap to access parallel installs of this snap.
+dbus (receive)
+    bus=session
+    interface=org.freedesktop.DBus.Properties
+    path=/com/canonical/indicator/messages/###UNITY_SNAP_NAME###_*_desktop
+    member=GetAll
+    peer=(label=unconfined),
+
+# When @{SNAP_NAME} == @{SNAP_INSTANCE_NAME}, this rule
+# allows the snap to access parallel installs of this snap.
+dbus (receive, send)
+    bus=session
+    interface=com.canonical.indicator.messages.application
+    path=/com/canonical/indicator/messages/###UNITY_SNAP_NAME###_*_desktop
+    peer=(label=unconfined),
+
+# This rule is meant to be covered by abstractions/dbus-session-strict but
+# the unity launcher code has a typo that uses /org/freedesktop/dbus as the
+# path instead of /org/freedesktop/DBus, so we need to all it here.
+dbus (send)
+    bus=session
+    path=/org/freedesktop/dbus
+    interface=org.freedesktop.DBus
+    member=NameHasOwner
+    peer=(name=org.freedesktop.DBus, label=unconfined),
+
+# appmenu
+dbus (send)
+    bus=session
+    path=/org/freedesktop/DBus
+    interface=org.freedesktop.DBus
+    member=ListNames
+    peer=(name=org.freedesktop.DBus, label=unconfined),
+
+dbus (send)
+    bus=session
+    path=/com/canonical/AppMenu/Registrar
+    interface=com.canonical.AppMenu.Registrar
+    member="{RegisterWindow,UnregisterWindow}"
+    peer=(label=unconfined),
+
+dbus (send)
+    bus=session
+    path=/com/canonical/AppMenu/Registrar
+    interface=com.canonical.dbusmenu
+    member=UnregisterWindow
+    peer=(label=unconfined),
+
+dbus (receive)
+    bus=session
+    path=/com/canonical/menu/[0-9]*
+    interface="{org.freedesktop.DBus.Properties,com.canonical.dbusmenu}"
+    member="{GetAll,GetLayout}"
+    peer=(label=unconfined),
+
+# Allow requesting interest in receiving media key events. This tells Gnome
+# settings that our application should be notified when key events we are
+# interested in are pressed, and allows us to receive those events.
+dbus (receive, send)
+  bus=session
+  interface=org.gnome.SettingsDaemon.MediaKeys
+  path=/org/gnome/SettingsDaemon/MediaKeys
+  peer=(label=unconfined),
+dbus (send)
+  bus=session
+  interface=org.freedesktop.DBus.Properties
+  path=/org/gnome/SettingsDaemon/MediaKeys
+  member="Get{,All}"
+  peer=(label=unconfined),
+
+# Allow checking status, activating and locking the screensaver
+# mate
+dbus (send)
+    bus=session
+    path="/{,org/mate/}ScreenSaver"
+    interface=org.mate.ScreenSaver
+    member="{GetActive,GetActiveTime,Lock,SetActive}"
+    peer=(label=unconfined),
+
+dbus (receive)
+    bus=session
+    path="/{,org/mate/}ScreenSaver"
+    interface=org.mate.ScreenSaver
+    member=ActiveChanged
+    peer=(label=unconfined),
+
+# Unity
+dbus (send)
+  bus=session
+  interface=com.canonical.Unity.Session
+  path=/com/canonical/Unity/Session
+  member="{ActivateScreenSaver,IsLocked,Lock}"
+  peer=(label=unconfined),
+
+# Allow unconfined to introspect us
+dbus (receive)
+    bus=session
+    interface=org.freedesktop.DBus.Introspectable
+    member=Introspect
+    peer=(label=unconfined),
+
+# gtk2/gvfs gtk_show_uri()
+dbus (send)
+    bus=session
+    path=/org/gtk/vfs/mounttracker
+    interface=org.gtk.vfs.MountTracker
+    member=ListMountableInfo,
+dbus (send)
+    bus=session
+    path=/org/gtk/vfs/mounttracker
+    interface=org.gtk.vfs.MountTracker
+    member=LookupMount,
+
+# Concatenation of all ModemManager udev rules
+# do not edit this file, it will be overwritten on update
+
+ACTION!="add|change|move", GOTO="mm_cinterion_port_types_end"
+SUBSYSTEM!="tty", GOTO="mm_cinterion_port_types_end"
+ENV{ID_VENDOR_ID}!="1e2d", GOTO="mm_cinterion_port_types_end"
+
+SUBSYSTEMS=="usb", ATTRS{bInterfaceNumber}=="?*", ENV{.MM_USBIFNUM}="$attr{bInterfaceNumber}"
+
+ATTRS{idVendor}=="1e2d", ATTRS{idProduct}=="0053", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_CINTERION_PORT_TYPE_GPS}="1"
+
+LABEL="mm_cinterion_port_types_end"
+# do not edit this file, it will be overwritten on update
+
+ACTION!="add|change|move", GOTO="mm_mbm_end"
+SUBSYSTEMS=="usb", GOTO="mm_mbm_check"
+GOTO="mm_mbm_end"
+
+LABEL="mm_mbm_check"
+
+# Ericsson F3507g
+ATTRS{idVendor}=="0bdb", ATTRS{idProduct}=="1900", ENV{ID_MM_ERICSSON_MBM}="1"
+ATTRS{idVendor}=="0bdb", ATTRS{idProduct}=="1902", ENV{ID_MM_ERICSSON_MBM}="1"
+
+# Ericsson F3607gw
+ATTRS{idVendor}=="0bdb", ATTRS{idProduct}=="1904", ENV{ID_MM_ERICSSON_MBM}="1"
+ATTRS{idVendor}=="0bdb", ATTRS{idProduct}=="1905", ENV{ID_MM_ERICSSON_MBM}="1"
+ATTRS{idVendor}=="0bdb", ATTRS{idProduct}=="1906", ENV{ID_MM_ERICSSON_MBM}="1"
+
+# Ericsson F3307
+ATTRS{idVendor}=="0bdb", ATTRS{idProduct}=="190a", ENV{ID_MM_ERICSSON_MBM}="1"
+ATTRS{idVendor}=="0bdb", ATTRS{idProduct}=="1909", ENV{ID_MM_ERICSSON_MBM}="1"
+
+# Ericsson F3307 R2
+ATTRS{idVendor}=="0bdb", ATTRS{idProduct}=="1914", ENV{ID_MM_ERICSSON_MBM}="1"
+
+# Ericsson C3607w
+ATTRS{idVendor}=="0bdb", ATTRS{idProduct}=="1049", ENV{ID_MM_ERICSSON_MBM}="1"
+
+# Ericsson C3607w v2
+ATTRS{idVendor}=="0bdb", ATTRS{idProduct}=="190b", ENV{ID_MM_ERICSSON_MBM}="1"
+
+# Ericsson F5521gw
+ATTRS{idVendor}=="0bdb", ATTRS{idProduct}=="190d", ENV{ID_MM_ERICSSON_MBM}="1"
+ATTRS{idVendor}=="0bdb", ATTRS{idProduct}=="1911", ENV{ID_MM_ERICSSON_MBM}="1"
+
+# Ericsson H5321gw
+ATTRS{idVendor}=="0bdb", ATTRS{idProduct}=="1919", ENV{ID_MM_ERICSSON_MBM}="1"
+
+# Ericsson H5321w
+ATTRS{idVendor}=="0bdb", ATTRS{idProduct}=="191d", ENV{ID_MM_ERICSSON_MBM}="1"
+
+# Ericsson F5321gw
+ATTRS{idVendor}=="0bdb", ATTRS{idProduct}=="1917", ENV{ID_MM_ERICSSON_MBM}="1"
+
+# Ericsson F5321w
+ATTRS{idVendor}=="0bdb", ATTRS{idProduct}=="191b", ENV{ID_MM_ERICSSON_MBM}="1"
+
+# Ericsson C5621gw
+ATTRS{idVendor}=="0bdb", ATTRS{idProduct}=="191f", ENV{ID_MM_ERICSSON_MBM}="1"
+
+# Ericsson C5621w
+ATTRS{idVendor}=="0bdb", ATTRS{idProduct}=="1921", ENV{ID_MM_ERICSSON_MBM}="1"
+
+# Ericsson H5321gw
+ATTRS{idVendor}=="0bdb", ATTRS{idProduct}=="1926", ENV{ID_MM_ERICSSON_MBM}="1"
+ATTRS{idVendor}=="0bdb", ATTRS{idProduct}=="1927", ENV{ID_MM_ERICSSON_MBM}="1"
+
+# Ericsson C3304w
+ATTRS{idVendor}=="0bdb", ATTRS{idProduct}=="1928", ENV{ID_MM_ERICSSON_MBM}="1"
+
+# Ericsson C5621 TFF
+ATTRS{idVendor}=="0bdb", ATTRS{idProduct}=="1936", ENV{ID_MM_ERICSSON_MBM}="1"
+
+# Sony-Ericsson MD300
+ATTRS{idVendor}=="0fce", ATTRS{idProduct}=="d0cf", ENV{ID_MM_ERICSSON_MBM}="1"
+
+# Sony-Ericsson MD400
+ATTRS{idVendor}=="0fce", ATTRS{idProduct}=="d0e1", ENV{ID_MM_ERICSSON_MBM}="1"
+
+# Sony-Ericsson MD400G
+ATTRS{idVendor}=="0fce", ATTRS{idProduct}=="d103", ENV{ID_MM_ERICSSON_MBM}="1"
+
+# Dell 5560
+ATTRS{idVendor}=="413c", ATTRS{idProduct}=="818e", ENV{ID_MM_ERICSSON_MBM}="1"
+
+# Dell 5550
+ATTRS{idVendor}=="413c", ATTRS{idProduct}=="818d", ENV{ID_MM_ERICSSON_MBM}="1"
+
+# Dell 5530 HSDPA
+ATTRS{idVendor}=="413c", ATTRS{idProduct}=="8147", ENV{ID_MM_ERICSSON_MBM}="1"
+
+# Dell F3607gw
+ATTRS{idVendor}=="413c", ATTRS{idProduct}=="8183", ENV{ID_MM_ERICSSON_MBM}="1"
+ATTRS{idVendor}=="413c", ATTRS{idProduct}=="8184", ENV{ID_MM_ERICSSON_MBM}="1"
+
+# Dell F3307
+ATTRS{idVendor}=="413c", ATTRS{idProduct}=="818b", ENV{ID_MM_ERICSSON_MBM}="1"
+ATTRS{idVendor}=="413c", ATTRS{idProduct}=="818c", ENV{ID_MM_ERICSSON_MBM}="1"
+
+# HP hs2330 Mobile Broadband Module
+ATTRS{idVendor}=="03f0", ATTRS{idProduct}=="271d", ENV{ID_MM_ERICSSON_MBM}="1"
+
+# HP hs2320 Mobile Broadband Module
+ATTRS{idVendor}=="03f0", ATTRS{idProduct}=="261d", ENV{ID_MM_ERICSSON_MBM}="1"
+
+# HP hs2340 Mobile Broadband Module
+ATTRS{idVendor}=="03f0", ATTRS{idProduct}=="3a1d", ENV{ID_MM_ERICSSON_MBM}="1"
+
+# HP hs2350 Mobile Broadband Module
+ATTRS{idVendor}=="03f0", ATTRS{idProduct}=="3d1d", ENV{ID_MM_ERICSSON_MBM}="1"
+
+# HP lc2000 Mobile Broadband Module
+ATTRS{idVendor}=="03f0", ATTRS{idProduct}=="301d", ENV{ID_MM_ERICSSON_MBM}="1"
+
+# HP lc2010 Mobile Broadband Module
+ATTRS{idVendor}=="03f0", ATTRS{idProduct}=="2f1d", ENV{ID_MM_ERICSSON_MBM}="1"
+
+# Toshiba
+ATTRS{idVendor}=="0930", ATTRS{idProduct}=="130b", ENV{ID_MM_ERICSSON_MBM}="1"
+
+# Toshiba F3607gw
+ATTRS{idVendor}=="0930", ATTRS{idProduct}=="130c", ENV{ID_MM_ERICSSON_MBM}="1"
+ATTRS{idVendor}=="0930", ATTRS{idProduct}=="1311", ENV{ID_MM_ERICSSON_MBM}="1"
+
+# Toshiba F3307
+ATTRS{idVendor}=="0930", ATTRS{idProduct}=="1315", ENV{ID_MM_ERICSSON_MBM}="1"
+ATTRS{idVendor}=="0930", ATTRS{idProduct}=="1316", ENV{ID_MM_ERICSSON_MBM}="1"
+ATTRS{idVendor}=="0930", ATTRS{idProduct}=="1317", ENV{ID_MM_ERICSSON_MBM}="1"
+
+# Toshiba F5521gw
+ATTRS{idVendor}=="0930", ATTRS{idProduct}=="1313", ENV{ID_MM_ERICSSON_MBM}="1"
+ATTRS{idVendor}=="0930", ATTRS{idProduct}=="1314", ENV{ID_MM_ERICSSON_MBM}="1"
+
+# Toshiba H5321gw
+ATTRS{idVendor}=="0930", ATTRS{idProduct}=="1319", ENV{ID_MM_ERICSSON_MBM}="1"
+
+# Lenovo N5321gw
+ATTRS{idVendor}=="0bdb", ATTRS{idProduct}=="193e", ENV{ID_MM_ERICSSON_MBM}="1"
+
+LABEL="mm_mbm_end"
+# do not edit this file, it will be overwritten on update
+ACTION!="add|change|move", GOTO="mm_huawei_port_types_end"
+
+ENV{ID_VENDOR_ID}!="12d1", GOTO="mm_huawei_port_types_end"
+
+# MU609 does not support getportmode (crashes modem with default firmware)
+ATTRS{idProduct}=="1573", ENV{ID_MM_HUAWEI_DISABLE_GETPORTMODE}="1"
+
+# Mark the modem and at port flags for ModemManager
+SUBSYSTEMS=="usb", ATTRS{bInterfaceClass}=="ff", ATTRS{bInterfaceSubClass}=="01", ATTRS{bInterfaceProtocol}=="01", ENV{ID_MM_HUAWEI_MODEM_PORT}="1"
+SUBSYSTEMS=="usb", ATTRS{bInterfaceClass}=="ff", ATTRS{bInterfaceSubClass}=="01", ATTRS{bInterfaceProtocol}=="02", ENV{ID_MM_HUAWEI_AT_PORT}="1"
+SUBSYSTEMS=="usb", ATTRS{bInterfaceClass}=="ff", ATTRS{bInterfaceSubClass}=="02", ATTRS{bInterfaceProtocol}=="01", ENV{ID_MM_HUAWEI_MODEM_PORT}="1"
+SUBSYSTEMS=="usb", ATTRS{bInterfaceClass}=="ff", ATTRS{bInterfaceSubClass}=="02", ATTRS{bInterfaceProtocol}=="02", ENV{ID_MM_HUAWEI_AT_PORT}="1"
+
+# GPS NMEA port on MU609
+SUBSYSTEMS=="usb", ATTRS{bInterfaceClass}=="ff", ATTRS{bInterfaceSubClass}=="01", ATTRS{bInterfaceProtocol}=="05", ENV{ID_MM_HUAWEI_GPS_PORT}="1"
+# GPS NMEA port on MU909
+SUBSYSTEMS=="usb", ATTRS{bInterfaceClass}=="ff", ATTRS{bInterfaceSubClass}=="01", ATTRS{bInterfaceProtocol}=="14", ENV{ID_MM_HUAWEI_GPS_PORT}="1"
+
+# Only the standard ECM or NCM port can support dial-up with AT NDISDUP through AT port
+SUBSYSTEMS=="usb", ATTRS{bInterfaceClass}=="02", ATTRS{bInterfaceSubClass}=="06",ATTRS{bInterfaceProtocol}=="00", ENV{ID_MM_HUAWEI_NDISDUP_SUPPORTED}="1"
+SUBSYSTEMS=="usb", ATTRS{bInterfaceClass}=="02", ATTRS{bInterfaceSubClass}=="0d",ATTRS{bInterfaceProtocol}=="00", ENV{ID_MM_HUAWEI_NDISDUP_SUPPORTED}="1"
+
+LABEL="mm_huawei_port_types_end"
+# do not edit this file, it will be overwritten on update
+
+# Longcheer makes modules that other companies rebrand, like:
+#
+# Alcatel One Touch X020
+# Alcatel One Touch X030
+# MobiData MBD-200HU
+# ST Mobile Connect HSUPA USB Modem
+#
+# Most of these values were scraped from various Longcheer-based Windows
+# driver .inf files.  cmmdm.inf lists the actual data (ie PPP) ports, while
+# cmser.inf lists the aux ports that may be either AT-capable or not but
+# cannot be used for PPP.
+
+
+ACTION!="add|change|move", GOTO="mm_longcheer_port_types_end"
+SUBSYSTEM!="tty", GOTO="mm_longcheer_port_types_end"
+
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="1c9e", GOTO="mm_longcheer_vendorcheck"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="1bbb", GOTO="mm_tamobile_vendorcheck"
+GOTO="mm_longcheer_port_types_end"
+
+LABEL="mm_longcheer_vendorcheck"
+SUBSYSTEMS=="usb", ATTRS{bInterfaceNumber}=="?*", ENV{.MM_USBIFNUM}="$attr{bInterfaceNumber}"
+
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="3197", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_LONGCHEER_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="3197", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="3197", ENV{ID_MM_LONGCHEER_TAGGED}="1"
+
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="6000", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_LONGCHEER_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="6000", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="6000", ENV{ID_MM_LONGCHEER_TAGGED}="1"
+
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="6060", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_LONGCHEER_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="6060", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="6060", ENV{ID_MM_LONGCHEER_TAGGED}="1"
+
+# Alcatel One Touch X020
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="6061", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_LONGCHEER_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="6061", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="6061", ENV{ID_MM_LONGCHEER_TAGGED}="1"
+
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="7001", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_LONGCHEER_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="7001", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="7001", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="7001", ENV{ID_MM_LONGCHEER_TAGGED}="1"
+
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="7002", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_LONGCHEER_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="7002", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="7002", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="7002", ENV{.MM_USBIFNUM}=="04", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="7002", ENV{ID_MM_LONGCHEER_TAGGED}="1"
+
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="7101", ENV{.MM_USBIFNUM}=="04", ENV{ID_MM_LONGCHEER_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="7101", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="7101", ENV{.MM_USBIFNUM}=="05", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="7101", ENV{ID_MM_LONGCHEER_TAGGED}="1"
+
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="7102", ENV{.MM_USBIFNUM}=="04", ENV{ID_MM_LONGCHEER_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="7102", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="7102", ENV{.MM_USBIFNUM}=="05", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="7102", ENV{.MM_USBIFNUM}=="06", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="7102", ENV{ID_MM_LONGCHEER_TAGGED}="1"
+
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="8000", ENV{.MM_USBIFNUM}=="05", ENV{ID_MM_LONGCHEER_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="8000", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="8000", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="8000", ENV{ID_MM_LONGCHEER_TAGGED}="1"
+
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="8001", ENV{.MM_USBIFNUM}=="04", ENV{ID_MM_LONGCHEER_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="8001", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="8001", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="8001", ENV{ID_MM_LONGCHEER_TAGGED}="1"
+
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="8002", ENV{.MM_USBIFNUM}=="04", ENV{ID_MM_LONGCHEER_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="8002", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="8002", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="8002", ENV{ID_MM_LONGCHEER_TAGGED}="1"
+
+# ChinaBird PL68
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9000", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_LONGCHEER_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9000", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9000", ENV{ID_MM_LONGCHEER_TAGGED}="1"
+
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9001", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_LONGCHEER_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9001", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9001", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9001", ENV{ID_MM_LONGCHEER_TAGGED}="1"
+
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9002", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_LONGCHEER_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9002", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9002", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9002", ENV{ID_MM_LONGCHEER_TAGGED}="1"
+
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9003", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_LONGCHEER_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9003", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9003", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9003", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9003", ENV{ID_MM_LONGCHEER_TAGGED}="1"
+
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9004", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_LONGCHEER_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9004", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9004", ENV{ID_MM_LONGCHEER_TAGGED}="1"
+
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9005", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_LONGCHEER_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9005", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9005", ENV{ID_MM_LONGCHEER_TAGGED}="1"
+
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9010", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_LONGCHEER_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9010", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9010", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9010", ENV{ID_MM_LONGCHEER_TAGGED}="1"
+
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9012", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_LONGCHEER_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9012", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9012", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9012", ENV{ID_MM_LONGCHEER_TAGGED}="1"
+
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9020", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_LONGCHEER_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9020", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9020", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9020", ENV{ID_MM_LONGCHEER_TAGGED}="1"
+
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9022", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_LONGCHEER_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9022", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9022", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9022", ENV{ID_MM_LONGCHEER_TAGGED}="1"
+
+# Zoom products
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9602", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_LONGCHEER_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9602", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9602", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9602", ENV{ID_MM_LONGCHEER_TAGGED}="1"
+
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9603", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_LONGCHEER_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9603", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9603", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9603", ENV{ID_MM_LONGCHEER_TAGGED}="1"
+
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9604", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_LONGCHEER_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9604", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9604", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9604", ENV{ID_MM_LONGCHEER_TAGGED}="1"
+
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9605", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_LONGCHEER_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9605", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9605", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9605", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9605", ENV{ID_MM_LONGCHEER_TAGGED}="1"
+
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9606", ENV{.MM_USBIFNUM}=="04", ENV{ID_MM_LONGCHEER_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9606", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9606", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9606", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9606", ENV{ID_MM_LONGCHEER_TAGGED}="1"
+
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9607", ENV{.MM_USBIFNUM}=="04", ENV{ID_MM_LONGCHEER_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9607", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9607", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9607", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9607", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1c9e", ATTRS{idProduct}=="9607", ENV{ID_MM_LONGCHEER_TAGGED}="1"
+
+GOTO="mm_longcheer_port_types_end"
+
+
+LABEL="mm_tamobile_vendorcheck"
+SUBSYSTEMS=="usb", ATTRS{bInterfaceNumber}=="?*", ENV{.MM_USBIFNUM}="$attr{bInterfaceNumber}"
+
+# Alcatel One Touch X060s
+ATTRS{idVendor}=="1bbb", ATTRS{idProduct}=="0000", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_LONGCHEER_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1bbb", ATTRS{idProduct}=="0000", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_LONGCHEER_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1bbb", ATTRS{idProduct}=="0000", ENV{ID_MM_LONGCHEER_TAGGED}="1"
+
+GOTO="mm_longcheer_port_types_end"
+
+
+LABEL="mm_longcheer_port_types_end"
+# do not edit this file, it will be overwritten on update
+
+ACTION!="add|change|move", GOTO="mm_mtk_port_types_end"
+
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="0e8d", GOTO="mm_mtk_port_types_vendorcheck"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="2001", GOTO="mm_dlink_port_types_vendorcheck"
+GOTO="mm_mtk_port_types_end"
+
+# MediaTek devices ---------------------------
+
+LABEL="mm_mtk_port_types_vendorcheck"
+ATTRS{bInterfaceNumber}=="?*", ENV{.MM_USBIFNUM}="$attr{bInterfaceNumber}"
+
+ATTRS{idVendor}=="0e8d", ATTRS{idProduct}=="00a1", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_MTK_MODEM_PORT}="1"
+ATTRS{idVendor}=="0e8d", ATTRS{idProduct}=="00a1", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_MTK_AT_PORT}="1"
+ATTRS{idVendor}=="0e8d", ATTRS{idProduct}=="00a1", ENV{ID_MM_MTK_TAGGED}="1"
+
+ATTRS{idVendor}=="0e8d", ATTRS{idProduct}=="00a2", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_MTK_MODEM_PORT}="1"
+ATTRS{idVendor}=="0e8d", ATTRS{idProduct}=="00a2", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_MTK_AT_PORT}="1"
+ATTRS{idVendor}=="0e8d", ATTRS{idProduct}=="00a2", ENV{ID_MM_MTK_TAGGED}="1"
+
+ATTRS{idVendor}=="0e8d", ATTRS{idProduct}=="00a4", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_MTK_MODEM_PORT}="1"
+ATTRS{idVendor}=="0e8d", ATTRS{idProduct}=="00a4", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_MTK_AT_PORT}="1"
+ATTRS{idVendor}=="0e8d", ATTRS{idProduct}=="00a4", ENV{ID_MM_MTK_TAGGED}="1"
+
+ATTRS{idVendor}=="0e8d", ATTRS{idProduct}=="00a5", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_MTK_MODEM_PORT}="1"
+ATTRS{idVendor}=="0e8d", ATTRS{idProduct}=="00a5", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_MTK_AT_PORT}="1"
+ATTRS{idVendor}=="0e8d", ATTRS{idProduct}=="00a5", ENV{ID_MM_MTK_TAGGED}="1"
+
+ATTRS{idVendor}=="0e8d", ATTRS{idProduct}=="00a7", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_MTK_MODEM_PORT}="1"
+ATTRS{idVendor}=="0e8d", ATTRS{idProduct}=="00a7", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_MTK_AT_PORT}="1"
+ATTRS{idVendor}=="0e8d", ATTRS{idProduct}=="00a7", ENV{ID_MM_MTK_TAGGED}="1"
+
+GOTO="mm_mtk_port_types_end"
+
+# D-Link devices ---------------------------
+
+LABEL="mm_dlink_port_types_vendorcheck"
+ATTRS{bInterfaceNumber}=="?*", ENV{.MM_USBIFNUM}="$attr{bInterfaceNumber}"
+
+# D-Link DWM-156 A5 (and later?)
+ATTRS{idVendor}=="2001", ATTRS{idProduct}=="7d00", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_MTK_MODEM_PORT}="1"
+ATTRS{idVendor}=="2001", ATTRS{idProduct}=="7d00", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_MTK_AT_PORT}="1"
+ATTRS{idVendor}=="2001", ATTRS{idProduct}=="7d00", ENV{ID_MM_MTK_TAGGED}="1"
+
+GOTO="mm_mtk_port_types_end"
+
+LABEL="mm_mtk_port_types_end"
+# do not edit this file, it will be overwritten on update
+
+ACTION!="add|change|move", GOTO="mm_nokia_port_types_end"
+SUBSYSTEM!="tty", GOTO="mm_nokia_port_types_end"
+
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="0421", GOTO="mm_nokia_port_types_vendorcheck"
+GOTO="mm_nokia_port_types_end"
+
+LABEL="mm_nokia_port_types_vendorcheck"
+SUBSYSTEMS=="usb", ATTRS{bInterfaceNumber}=="?*", ENV{.MM_USBIFNUM}="$attr{bInterfaceNumber}"
+
+# For Nokia Internet Sticks (CS-xx) the modem/PPP port appears to always be USB interface 1
+
+ATTRS{idVendor}=="0421", ATTRS{idProduct}=="060D", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_NOKIA_PORT_TYPE_MODEM}="1"
+
+ATTRS{idVendor}=="0421", ATTRS{idProduct}=="0611", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_NOKIA_PORT_TYPE_MODEM}="1"
+
+ATTRS{idVendor}=="0421", ATTRS{idProduct}=="061A", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_NOKIA_PORT_TYPE_MODEM}="1"
+
+ATTRS{idVendor}=="0421", ATTRS{idProduct}=="061B", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_NOKIA_PORT_TYPE_MODEM}="1"
+
+ATTRS{idVendor}=="0421", ATTRS{idProduct}=="061F", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_NOKIA_PORT_TYPE_MODEM}="1"
+
+ATTRS{idVendor}=="0421", ATTRS{idProduct}=="0619", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_NOKIA_PORT_TYPE_MODEM}="1"
+
+ATTRS{idVendor}=="0421", ATTRS{idProduct}=="0620", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_NOKIA_PORT_TYPE_MODEM}="1"
+
+ATTRS{idVendor}=="0421", ATTRS{idProduct}=="0623", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_NOKIA_PORT_TYPE_MODEM}="1"
+
+ATTRS{idVendor}=="0421", ATTRS{idProduct}=="0624", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_NOKIA_PORT_TYPE_MODEM}="1"
+
+ATTRS{idVendor}=="0421", ATTRS{idProduct}=="0625", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_NOKIA_PORT_TYPE_MODEM}="1"
+
+ATTRS{idVendor}=="0421", ATTRS{idProduct}=="062A", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_NOKIA_PORT_TYPE_MODEM}="1"
+
+ATTRS{idVendor}=="0421", ATTRS{idProduct}=="062E", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_NOKIA_PORT_TYPE_MODEM}="1"
+
+ATTRS{idVendor}=="0421", ATTRS{idProduct}=="062F", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_NOKIA_PORT_TYPE_MODEM}="1"
+
+LABEL="mm_nokia_port_types_end"
+# do not edit this file, it will be overwritten on update
+
+ACTION!="add|change|move", GOTO="mm_pcmcia_device_blacklist_end"
+SUBSYSTEM!="pcmcia", GOTO="mm_pcmcia_device_blacklist_end"
+
+# Gemplus Serial Port smartcard adapter
+ATTRS{prod_id1}=="Gemplus", ATTRS{prod_id2}=="SerialPort", ATTRS{prod_id3}=="GemPC Card", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+LABEL="mm_pcmcia_device_blacklist_end"
+# do not edit this file, it will be overwritten on update
+
+ACTION!="add|change|move", GOTO="mm_platform_device_whitelist_end"
+SUBSYSTEM!="platform", GOTO="mm_platform_device_whitelist_end"
+
+# Be careful here since many devices connected to platform drivers on PCs
+# are legacy devices that won't like probing.  But often on embedded
+# systems serial ports are provided by platform devices.
+
+# Allow atmel_usart
+DRIVERS=="atmel_usart", ENV{ID_MM_PLATFORM_DRIVER_PROBE}="1"
+
+LABEL="mm_platform_device_whitelist_end"
+# do not edit this file, it will be overwritten on update
+
+# Simtech makes modules that other companies rebrand, like:
+#
+# A-LINK 3GU
+# SCT UM300
+#
+# Most of these values were scraped from various SimTech-based Windows
+# driver .inf files.  *mdm.inf lists the main command ports, while
+# *ser.inf lists the aux ports that may be used for PPP.
+
+
+ACTION!="add|change|move", GOTO="mm_simtech_port_types_end"
+SUBSYSTEM!="tty", GOTO="mm_simtech_port_types_end"
+
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="1e0e", GOTO="mm_alink_vendorcheck"
+GOTO="mm_simtech_port_types_end"
+
+LABEL="mm_alink_vendorcheck"
+SUBSYSTEMS=="usb", ATTRS{bInterfaceNumber}=="?*", ENV{.MM_USBIFNUM}="$attr{bInterfaceNumber}"
+
+# A-LINK 3GU
+ATTRS{idVendor}=="1e0e", ATTRS{idProduct}=="cefe", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_SIMTECH_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1e0e", ATTRS{idProduct}=="cefe", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_SIMTECH_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1e0e", ATTRS{idProduct}=="cefe", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_SIMTECH_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1e0e", ATTRS{idProduct}=="cefe", ENV{ID_MM_SIMTECH_TAGGED}="1"
+
+# Prolink PH-300
+ATTRS{idVendor}=="1e0e", ATTRS{idProduct}=="9100", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_SIMTECH_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1e0e", ATTRS{idProduct}=="9100", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_SIMTECH_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1e0e", ATTRS{idProduct}=="9100", ENV{ID_MM_SIMTECH_TAGGED}="1"
+
+# SCT UM300
+ATTRS{idVendor}=="1e0e", ATTRS{idProduct}=="9200", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_SIMTECH_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1e0e", ATTRS{idProduct}=="9200", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_SIMTECH_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1e0e", ATTRS{idProduct}=="9200", ENV{ID_MM_SIMTECH_TAGGED}="1"
+
+GOTO="mm_simtech_port_types_end"
+
+LABEL="mm_simtech_port_types_end"
+# do not edit this file, it will be overwritten on update
+
+ACTION!="add|change|move", GOTO="mm_telit_port_types_end"
+SUBSYSTEM!="tty", GOTO="mm_telit_port_types_end"
+
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="1bc7", GOTO="mm_telit_vendorcheck"
+GOTO="mm_telit_port_types_end"
+
+LABEL="mm_telit_vendorcheck"
+SUBSYSTEMS=="usb", ATTRS{bInterfaceNumber}=="?*", ENV{.MM_USBIFNUM}="$attr{bInterfaceNumber}"
+
+# UC864-E, UC864-E-AUTO, UC864-K, UC864-WD, UC864-WDU
+ATTRS{idVendor}=="1bc7", ATTRS{idProduct}=="1003", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_TELIT_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1bc7", ATTRS{idProduct}=="1003", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_TELIT_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1bc7", ATTRS{idProduct}=="1003", ENV{ID_MM_TELIT_TAGGED}="1"
+
+# UC864-G
+ATTRS{idVendor}=="1bc7", ATTRS{idProduct}=="1004", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_TELIT_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1bc7", ATTRS{idProduct}=="1004", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_TELIT_PORT_TYPE_NMEA}="1"
+ATTRS{idVendor}=="1bc7", ATTRS{idProduct}=="1004", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_TELIT_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1bc7", ATTRS{idProduct}=="1004", ENV{ID_MM_TELIT_TAGGED}="1"
+
+# CC864-DUAL
+ATTRS{idVendor}=="1bc7", ATTRS{idProduct}=="1005", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_TELIT_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1bc7", ATTRS{idProduct}=="1005", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_TELIT_PORT_TYPE_NMEA}="1"
+ATTRS{idVendor}=="1bc7", ATTRS{idProduct}=="1005", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_TELIT_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1bc7", ATTRS{idProduct}=="1005", ENV{ID_MM_TELIT_TAGGED}="1"
+
+# CC864-SINGLE, CC864-KPS
+ATTRS{idVendor}=="1bc7", ATTRS{idProduct}=="1006", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_TELIT_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1bc7", ATTRS{idProduct}=="1006", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_TELIT_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1bc7", ATTRS{idProduct}=="1006", ENV{ID_MM_TELIT_TAGGED}="1"
+
+# DE910-DUAL
+ATTRS{idVendor}=="1bc7", ATTRS{idProduct}=="1010", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_TELIT_PORT_TYPE_NMEA}="1"
+ATTRS{idVendor}=="1bc7", ATTRS{idProduct}=="1010", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_TELIT_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1bc7", ATTRS{idProduct}=="1010", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_TELIT_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1bc7", ATTRS{idProduct}=="1010", ENV{ID_MM_TELIT_TAGGED}="1"
+
+# CE910-DUAL
+ATTRS{idVendor}=="1bc7", ATTRS{idProduct}=="1011", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_TELIT_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1bc7", ATTRS{idProduct}=="1011", ENV{ID_MM_TELIT_TAGGED}="1"
+
+# NOTE: Qualcomm Gobi-based devices like the LE920 should not be handled
+# by this plugin, but by the Gobi plugin.
+
+GOTO="mm_telit_port_types_end"
+LABEL="mm_telit_port_types_end"
+# do not edit this file, it will be overwritten on update
+
+ACTION!="add|change|move", GOTO="mm_usb_device_blacklist_end"
+SUBSYSTEM!="usb", GOTO="mm_usb_device_blacklist_end"
+ENV{DEVTYPE}!="usb_device",  GOTO="mm_usb_device_blacklist_end"
+
+# Telegesis zigbee dongle
+ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="0003", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+# APC UPS devices
+ATTRS{idVendor}=="051d", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+# Sweex 1000VA
+ATTRS{idVendor}=="0925", ATTRS{idProduct}=="1234", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+# Agiler UPS
+ATTRS{idVendor}=="05b8", ATTRS{idProduct}=="0000", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+# Krauler UP-M500VA
+ATTRS{idVendor}=="0001", ATTRS{idProduct}=="0000", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+# Ablerex 625L USB
+ATTRS{idVendor}=="ffff", ATTRS{idProduct}=="0000", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+# Belkin F6C1200-UNV
+ATTRS{idVendor}=="0665", ATTRS{idProduct}=="5161", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+# Various Liebert and Phoenixtec Power devices
+ATTRS{idVendor}=="06da", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+# Unitek Alpha 1200Sx
+ATTRS{idVendor}=="0f03", ATTRS{idProduct}=="0001", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+# Various Tripplite devices
+ATTRS{idVendor}=="09ae", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+# Various MGE Office Protection Systems devices
+ATTRS{idVendor}=="0463", ATTRS{idProduct}=="0001", ENV{ID_MM_DEVICE_IGNORE}="1"
+ATTRS{idVendor}=="0463", ATTRS{idProduct}=="ffff", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+# CyberPower 900AVR/BC900D
+ATTRS{idVendor}=="0764", ATTRS{idProduct}=="0005", ENV{ID_MM_DEVICE_IGNORE}="1"
+# CyberPower CP1200AVR/BC1200D
+ATTRS{idVendor}=="0764", ATTRS{idProduct}=="0501", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+# Various Belkin devices
+ATTRS{idVendor}=="050d", ATTRS{idProduct}=="0980", ENV{ID_MM_DEVICE_IGNORE}="1"
+ATTRS{idVendor}=="050d", ATTRS{idProduct}=="0900", ENV{ID_MM_DEVICE_IGNORE}="1"
+ATTRS{idVendor}=="050d", ATTRS{idProduct}=="0910", ENV{ID_MM_DEVICE_IGNORE}="1"
+ATTRS{idVendor}=="050d", ATTRS{idProduct}=="0912", ENV{ID_MM_DEVICE_IGNORE}="1"
+ATTRS{idVendor}=="050d", ATTRS{idProduct}=="0551", ENV{ID_MM_DEVICE_IGNORE}="1"
+ATTRS{idVendor}=="050d", ATTRS{idProduct}=="0751", ENV{ID_MM_DEVICE_IGNORE}="1"
+ATTRS{idVendor}=="050d", ATTRS{idProduct}=="0375", ENV{ID_MM_DEVICE_IGNORE}="1"
+ATTRS{idVendor}=="050d", ATTRS{idProduct}=="1100", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+# HP R/T 2200 INTL (like SMART2200RMXL2U)
+ATTRS{idVendor}=="03f0", ATTRS{idProduct}=="1f0a", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+# Powerware devices
+ATTRS{idVendor}=="0592", ATTRS{idProduct}=="0002", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+# Palm Treo 700/900/etc
+# Shouldn't be probed themselves, but you can install programs like
+# "MobileStream USB Modem" which changes the USB PID of the device to something
+# that isn't blacklisted.
+ATTRS{idVendor}=="0830", ATTRS{idProduct}=="0061", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+# GlobalScaleTechnologies SheevaPlug
+ATTRS{idVendor}=="9e88", ATTRS{idProduct}=="9e8f", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+# Atmel Corp at91sam SAMBA bootloader
+ATTRS{idVendor}=="03eb", ATTRS{idProduct}=="6124", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+# Dangerous Prototypes Bus Pirate v4
+ATTRS{idVendor}=="04d8", ATTRS{idProduct}=="fb00", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+# All devices from the Swiss Federal Institute of Technology
+ATTRS{idVendor}=="0617", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+# West Mountain Radio devices
+ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="814a", ENV{ID_MM_DEVICE_IGNORE}="1"
+ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="814b", ENV{ID_MM_DEVICE_IGNORE}="1"
+ATTRS{idVendor}=="2405", ATTRS{idProduct}=="0003", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+# Arduinos
+ATTRS{idVendor}=="2341", ENV{ID_MM_DEVICE_IGNORE}="1"
+ATTRS{idVendor}=="1b4f", ATTRS{idProduct}=="9207", ENV{ID_MM_DEVICE_IGNORE}="1"
+ATTRS{idVendor}=="1b4f", ATTRS{idProduct}=="9208", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+# Adafruit Flora
+ATTRS{idVendor}=="239a", ATTRS{idProduct}=="0004", ENV{ID_MM_DEVICE_IGNORE}="1"
+ATTRS{idVendor}=="239a", ATTRS{idProduct}=="8004", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+# All devices from Pololu Corporation
+# except some possible future products.
+ATTRS{idVendor}=="1ffb", ENV{ID_MM_DEVICE_IGNORE}="1"
+ATTRS{idVendor}=="1ffb", ATTRS{idProduct}=="00ad", ENV{ID_MM_DEVICE_IGNORE}="0"
+ATTRS{idVendor}=="1ffb", ATTRS{idProduct}=="00ae", ENV{ID_MM_DEVICE_IGNORE}="0"
+
+# Altair U-Boot device
+ATTRS{idVendor}=="0216", ATTRS{idProduct}=="0051", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+# Bluegiga BLE112B
+ATTRS{idVendor}=="2458", ATTRS{idProduct}=="0001", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+# Analog Devices BLIP camera
+ATTRS{idVendor}=="064b", ATTRS{idProduct}=="7823", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+# MediaTek GPS chip (HOLUX M-1200E, GlobalTop Gms-d1, etc)
+ATTRS{idVendor}=="0e8d", ATTRS{idProduct}=="3329", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+# PS-360 OEM (GPS sold with MS Street and Trips 2005)
+ATTRS{idVendor}=="067b", ATTRS{idProduct}=="aaa0", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+# u-blox AG, u-blox 5 GPS chips
+ATTRS{idVendor}=="1546", ATTRS{idProduct}=="01a5", ENV{ID_MM_DEVICE_IGNORE}="1"
+ATTRS{idVendor}=="1546", ATTRS{idProduct}=="01a6", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+# Garmin GPS devices
+DRIVERS=="garmin_gps", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+# Cypress M8-based GPS devices, UPSes, and serial converters
+DRIVERS=="cypress_m8", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+# All devices in the Openmoko vendor ID
+ATTRS{idVendor}=="1d50", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+# All devices from 3D Robotics
+ATTRS{idVendor}=="26ac", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+# empiriKit science lab controller device
+ATTRS{idVendor}=="0425", ATTRS{idProduct}=="0408", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+# Infineon Flashloader used by Intel XMM modem bootloader
+ATTRS{idVendor}=="8087", ATTRS{idProduct}=="0716", ENV{ID_MM_DEVICE_IGNORE}="1"
+
+LABEL="mm_usb_device_blacklist_end"
+# do not edit this file, it will be overwritten on update
+
+ACTION!="add|change|move", GOTO="mm_usb_serial_adapters_greylist_end"
+SUBSYSTEM!="usb", GOTO="mm_usb_serial_adapters_greylist_end"
+ENV{DEVTYPE}!="usb_device",  GOTO="mm_usb_serial_adapters_greylist_end"
+
+# Belkin F5U183 Serial Adapter
+ATTRS{idVendor}=="050d", ATTRS{idProduct}=="0103", ENV{ID_MM_DEVICE_MANUAL_SCAN_ONLY}="1"
+
+# FTDI-based serial adapters
+#   FTDI does USB to serial converter ICs; and it's very likely that they'll
+#   never do modems themselves, so it should be safe to add a rule only based
+#   on the vendor Id.
+ATTRS{idVendor}=="0403", ENV{ID_MM_DEVICE_MANUAL_SCAN_ONLY}="1"
+
+# ATEN Intl UC-232A (Prolific)
+ATTRS{idVendor}=="0557", ATTRS{idProduct}=="2008", ENV{ID_MM_DEVICE_MANUAL_SCAN_ONLY}="1"
+
+# Prolific USB to Serial adapter
+ATTRS{idVendor}=="067b", ATTRS{idProduct}=="2303", ENV{ID_MM_DEVICE_MANUAL_SCAN_ONLY}="1"
+
+# Magic Control Technology Corp adapters
+ATTRS{idVendor}=="0711", ENV{ID_MM_DEVICE_MANUAL_SCAN_ONLY}="1"
+
+# Cygnal Integrated Products, Inc. CP210x
+ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", ENV{ID_MM_DEVICE_MANUAL_SCAN_ONLY}="1"
+ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea71", ENV{ID_MM_DEVICE_MANUAL_SCAN_ONLY}="1"
+
+# QinHeng Electronics HL-340
+ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="7523", ENV{ID_MM_DEVICE_MANUAL_SCAN_ONLY}="1"
+
+# Atmel Corp. LUFA USB to Serial Adapter Project (Arduino)
+ATTRS{idVendor}=="03eb", ATTRS{idProduct}=="204b", ENV{ID_MM_DEVICE_MANUAL_SCAN_ONLY}="1"
+
+# Netchip Technology, Inc. Linux-USB Serial Gadget (CDC ACM mode)
+ATTRS{idVendor}=="0525", ATTRS{idProduct}=="a4a7", ENV{ID_MM_DEVICE_MANUAL_SCAN_ONLY}="1"
+
+LABEL="mm_usb_serial_adapters_greylist_end"
+# do not edit this file, it will be overwritten on update
+
+# Alcatel One Touch X220D
+# Alcatel One Touch X200
+#
+# These values were scraped from the X220D's Windows .inf files.  jrdmdm.inf
+# lists the actual command and data (ie PPP) ports, while jrdser.inf lists the
+# aux ports that may be either AT-capable or not but cannot be used for PPP.
+
+
+ACTION!="add|change|move", GOTO="mm_x22x_port_types_end"
+SUBSYSTEM!="tty", GOTO="mm_x22x_port_types_end"
+
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="1bbb", GOTO="mm_x22x_generic_vendorcheck"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="0b3c", GOTO="mm_x22x_olivetti_vendorcheck"
+GOTO="mm_x22x_port_types_end"
+
+# Generic JRD devices ---------------------------
+
+LABEL="mm_x22x_generic_vendorcheck"
+SUBSYSTEMS=="usb", ATTRS{bInterfaceNumber}=="?*", ENV{.MM_USBIFNUM}="$attr{bInterfaceNumber}"
+
+# Alcatel X200
+ATTRS{idVendor}=="1bbb", ATTRS{idProduct}=="0000", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_X22X_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1bbb", ATTRS{idProduct}=="0000", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_X22X_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1bbb", ATTRS{idProduct}=="0000", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_X22X_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1bbb", ATTRS{idProduct}=="0000", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_X22X_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1bbb", ATTRS{idProduct}=="0000", ENV{ID_MM_X22X_TAGGED}="1"
+
+ATTRS{idVendor}=="1bbb", ATTRS{idProduct}=="0017", ENV{.MM_USBIFNUM}=="05", ENV{ID_MM_X22X_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1bbb", ATTRS{idProduct}=="0017", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_X22X_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1bbb", ATTRS{idProduct}=="0017", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_X22X_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1bbb", ATTRS{idProduct}=="0017", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_X22X_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1bbb", ATTRS{idProduct}=="0017", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_X22X_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1bbb", ATTRS{idProduct}=="0017", ENV{ID_MM_X22X_TAGGED}="1"
+
+# Archos G9
+ATTRS{idVendor}=="1bbb", ATTRS{idProduct}=="00B7", ENV{.MM_USBIFNUM}=="04", ENV{ID_MM_X22X_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="1bbb", ATTRS{idProduct}=="00B7", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_X22X_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1bbb", ATTRS{idProduct}=="00B7", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_X22X_PORT_TYPE_NMEA}="1"
+ATTRS{idVendor}=="1bbb", ATTRS{idProduct}=="00B7", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_X22X_PORT_TYPE_VOICE}="1"
+ATTRS{idVendor}=="1bbb", ATTRS{idProduct}=="00B7", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_X22X_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="1bbb", ATTRS{idProduct}=="00B7", ENV{ID_MM_X22X_TAGGED}="1"
+
+GOTO="mm_x22x_port_types_end"
+
+# Olivetti devices ---------------------------
+
+LABEL="mm_x22x_olivetti_vendorcheck"
+SUBSYSTEMS=="usb", ATTRS{bInterfaceNumber}=="?*", ENV{.MM_USBIFNUM}="$attr{bInterfaceNumber}"
+
+# Olicard 200
+ATTRS{idVendor}=="0b3c", ATTRS{idProduct}=="c005", ENV{.MM_USBIFNUM}=="05", ENV{ID_MM_X22X_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="0b3c", ATTRS{idProduct}=="c005", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_X22X_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="0b3c", ATTRS{idProduct}=="c005", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_X22X_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="0b3c", ATTRS{idProduct}=="c005", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_X22X_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="0b3c", ATTRS{idProduct}=="c005", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_X22X_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="0b3c", ATTRS{idProduct}=="c005", ENV{.MM_USBIFNUM}=="06", ENV{ID_MM_X22X_PORT_TYPE_AUX}="1"
+ATTRS{idVendor}=="0b3c", ATTRS{idProduct}=="c005", ENV{ID_MM_X22X_TAGGED}="1"
+
+GOTO="mm_x22x_port_types_end"
+
+LABEL="mm_x22x_port_types_end"
+# do not edit this file, it will be overwritten on update
+
+ACTION!="add|change|move", GOTO="mm_zte_port_types_end"
+SUBSYSTEM!="tty", GOTO="mm_zte_port_types_end"
+
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="19d2", GOTO="mm_zte_port_types_vendorcheck"
+GOTO="mm_zte_port_types_end"
+
+LABEL="mm_zte_port_types_vendorcheck"
+SUBSYSTEMS=="usb", ATTRS{bInterfaceNumber}=="?*", ENV{.MM_USBIFNUM}="$attr{bInterfaceNumber}"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0001", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0001", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0002", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0002", ENV{.MM_USBIFNUM}=="04", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0003", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0003", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0004", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0004", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0005", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0005", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0006", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0006", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0007", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0007", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0008", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0008", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0009", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0009", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="000A", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="000A", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0012", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0012", ENV{.MM_USBIFNUM}=="04", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0015", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0015", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0016", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0016", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0017", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0017", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0018", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0018", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0019", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0019", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0021", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0021", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0024", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0024", ENV{.MM_USBIFNUM}=="04", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0025", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0025", ENV{.MM_USBIFNUM}=="04", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0030", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0030", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0031", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0031", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0033", ENV{.MM_USBIFNUM}=="04", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0033", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0037", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0037", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0039", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0039", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0042", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0042", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0043", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0043", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0048", ENV{.MM_USBIFNUM}=="04", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0048", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0049", ENV{.MM_USBIFNUM}=="04", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0049", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0052", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0052", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0054", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0054", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0055", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0055", ENV{.MM_USBIFNUM}=="04", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0057", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0057", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0058", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0058", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0061", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0061", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0063", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0063", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0064", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0064", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0066", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0066", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0078", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0078", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0082", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0082", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0091", ENV{.MM_USBIFNUM}=="04", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0091", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0104", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0104", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0106", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0106", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0108", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0108", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0113", ENV{.MM_USBIFNUM}=="04", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0113", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0117", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0117", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0118", ENV{.MM_USBIFNUM}=="04", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0118", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0121", ENV{.MM_USBIFNUM}=="04", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0121", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0122", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0122", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0123", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0123", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0124", ENV{.MM_USBIFNUM}=="04", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0124", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0125", ENV{.MM_USBIFNUM}=="05", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0125", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0126", ENV{.MM_USBIFNUM}=="04", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0126", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0128", ENV{.MM_USBIFNUM}=="04", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0128", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="1007", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="1007", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="1008", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="1008", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="1010", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="1010", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="1254", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="1254", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="1515", ENV{.MM_USBIFNUM}=="00", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="1515", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="2002", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="2002", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="2003", ENV{.MM_USBIFNUM}=="03", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="2003", ENV{.MM_USBIFNUM}=="01", ENV{ID_MM_ZTE_PORT_TYPE_AUX}="1"
+
+# Icera-based devices that use DHCP, not AT%IPDPADDR
+ATTRS{product}=="K3805-z", ENV{ID_MM_ZTE_ICERA_DHCP}="1"
+
+LABEL="mm_zte_port_types_end"
+# do not edit this file, it will be overwritten on update
+
+# Tag any devices that MM might be interested in; if ModemManager is started
+# up right after udev, when MM explicitly requests devices on startup it may
+# get devices that haven't had all rules run yet.  Thus, we tag devices we're
+# interested in and when handling devices during MM startup we ignore any
+# that don't have this tag.  MM will still get the udev 'add' event for the
+# device a short while later and then process it as normal.
+
+ACTION!="add|change|move", GOTO="mm_candidate_end"
+
+SUBSYSTEM=="tty", ENV{ID_MM_CANDIDATE}="1"
+SUBSYSTEM=="net", ENV{ID_MM_CANDIDATE}="1"
+KERNEL=="cdc-wdm*", SUBSYSTEM=="usb", ENV{ID_MM_CANDIDATE}="1"
+KERNEL=="cdc-wdm*", SUBSYSTEM=="usbmisc", ENV{ID_MM_CANDIDATE}="1"
+
+LABEL="mm_candidate_end"

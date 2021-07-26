@@ -1,0 +1,4 @@
+ OpArg/OpPhi/OpLoweredGetClosurePtr at beginning of block %s in %s
+%slocation lists:
+	%v : empty list
+	%v : %q

@@ -1,0 +1,7 @@
+)
+{
+    imulExtended_emu(x.x, y.x, msb.x, lsb.x);
+    imulExtended_emu(x.y, y.y, msb.y, lsb.y);
+    imulExtended_emu(x.z, y.z, msb.z, lsb.z);
+    imulExtended_emu(x.w, y.w, msb.w, lsb.w);
+}

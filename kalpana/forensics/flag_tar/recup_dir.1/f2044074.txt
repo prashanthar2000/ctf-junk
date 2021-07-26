@@ -1,0 +1,5 @@
+  Returns true when called within ion. When ion is disabled or when compilation is abnormally
+  slow to start, this function returns an error string. Otherwise, this function returns false.
+  This behaviour ensures that a falsy value means that we are not in ion, but expect a
+  compilation to occur in the future. Conversely, a truthy value means that we are either in
+  ion or that there is litle or no chance of ion ever compiling the current script.

@@ -1,0 +1,1 @@
+SYSLOG_RAW=<30>Jul  5 13:03:14 charon: 12[KNL] 2402:3a80:cfb:25:329e:7d0f:e233:68f6 appeared on wlan0

@@ -1,0 +1,2 @@
+nvariant tsc (INVTSC) register and/or cannot guarantee tsc synchronization between sockets at startup.
+Values returned via rdtsc() are not guaranteed to be accurate, esp. when comparing values from cross sockets reads. Enabling UseFastUnorderedTimeStamps on non-invariant tsc hardware should be considered experimental.

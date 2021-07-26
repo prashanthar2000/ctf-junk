@@ -1,0 +1,5 @@
+< (bits - 1));
+    uint insertMask = ((maskMsb - 1u) | maskMsb) << offset;
+    uint baseMask = ~insertMask;
+    return (base & baseMask) | ((insert << offset) & insertMask);
+}

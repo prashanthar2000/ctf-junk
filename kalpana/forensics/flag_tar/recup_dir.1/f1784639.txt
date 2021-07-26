@@ -1,0 +1,7 @@
+llu disambiguations %llu queries
+               %llu are in alias set 0
+               %llu queries asked about the same object
+               %llu queries asked about the same alias set
+               %llu access volatile
+               %llu are dependent in the DAG
+               %llu are aritificially in conflict with void *

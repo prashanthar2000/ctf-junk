@@ -1,0 +1,94 @@
+Enter the Encrypted text:LUPAUJFUDIWGWKFMLGA
+['LUPAUJFUDIWGWKFMLGA']
+['LPUFDWWFLA', 'UAJUIGKMG']
+['LAFIWMA', 'UUUWKL', 'PJDGFG']
+['LUDWL', 'UJIKG', 'PFWFA', 'AUGM']
+['LJWM', 'UFGL', 'PUWG', 'ADKA', 'UIF']
+['LFWA', 'UUK', 'PDF', 'AIM', 'UWL', 'JGG']
+['LUF', 'UDM', 'PIL', 'AWG', 'UGA', 'JW', 'FK']
+['LDL', 'UIG', 'PWA', 'AG', 'UW', 'JK', 'FF', 'UM']
+['LIA', 'UW', 'PG', 'AW', 'UK', 'JF', 'FM', 'UL', 'DG']
+[3, 6, 8]
+['YNSVJZN', 'XMRUIYM', 'WLQTHXL', 'VKPSGWK', 'UJORFVJ', 'TINQEUI', 'SHMPDTH', 'RGLOCSG', 'QFKNBRF', 'PEJMAQE', 'ODILZPD', 'NCHKYOC', 'MBGJXNB', 'LAFIWMA', 'KZEHVLZ', 'JYDGUKY', 'IXCFTJX', 'HWBESIW', 'GVADRHV', 'FUZCQGU', 'ETYBPFT', 'DSXAOES', 'CRWZNDR', 'BQVYMCQ', 'APUXLBP', 'ZOTWKAO']
+{'Y': 1, 'N': 2, 'S': 1, 'V': 1, 'J': 1, 'Z': 1}
+{'X': 1, 'M': 2, 'R': 1, 'U': 1, 'I': 1, 'Y': 1}
+{'W': 1, 'L': 2, 'Q': 1, 'T': 1, 'H': 1, 'X': 1}
+{'V': 1, 'K': 2, 'P': 1, 'S': 1, 'G': 1, 'W': 1}
+{'U': 1, 'J': 2, 'O': 1, 'R': 1, 'F': 1, 'V': 1}
+{'T': 1, 'I': 2, 'N': 1, 'Q': 1, 'E': 1, 'U': 1}
+{'S': 1, 'H': 2, 'M': 1, 'P': 1, 'D': 1, 'T': 1}
+{'R': 1, 'G': 2, 'L': 1, 'O': 1, 'C': 1, 'S': 1}
+{'Q': 1, 'F': 2, 'K': 1, 'N': 1, 'B': 1, 'R': 1}
+{'P': 1, 'E': 2, 'J': 1, 'M': 1, 'A': 1, 'Q': 1}
+{'O': 1, 'D': 2, 'I': 1, 'L': 1, 'Z': 1, 'P': 1}
+{'N': 1, 'C': 2, 'H': 1, 'K': 1, 'Y': 1, 'O': 1}
+{'M': 1, 'B': 2, 'G': 1, 'J': 1, 'X': 1, 'N': 1}
+{'L': 1, 'A': 2, 'F': 1, 'I': 1, 'W': 1, 'M': 1}
+{'K': 1, 'Z': 2, 'E': 1, 'H': 1, 'V': 1, 'L': 1}
+{'J': 1, 'Y': 2, 'D': 1, 'G': 1, 'U': 1, 'K': 1}
+{'I': 1, 'X': 2, 'C': 1, 'F': 1, 'T': 1, 'J': 1}
+{'H': 1, 'W': 2, 'B': 1, 'E': 1, 'S': 1, 'I': 1}
+{'G': 1, 'V': 2, 'A': 1, 'D': 1, 'R': 1, 'H': 1}
+{'F': 1, 'U': 2, 'Z': 1, 'C': 1, 'Q': 1, 'G': 1}
+{'E': 1, 'T': 2, 'Y': 1, 'B': 1, 'P': 1, 'F': 1}
+{'D': 1, 'S': 2, 'X': 1, 'A': 1, 'O': 1, 'E': 1}
+{'C': 1, 'R': 2, 'W': 1, 'Z': 1, 'N': 1, 'D': 1}
+{'B': 1, 'Q': 2, 'V': 1, 'Y': 1, 'M': 1, 'C': 1}
+{'A': 1, 'P': 2, 'U': 1, 'X': 1, 'L': 1, 'B': 1}
+{'Z': 1, 'O': 2, 'T': 1, 'W': 1, 'K': 1, 'A': 1}
+['YSJN', 'XRIM', 'WQHL', 'VPGK', 'UOFJ', 'TNEI', 'SMDH', 'RLCG', 'QKBF', 'PJAE', 'OIZD', 'NHYC', 'MGXB', 'LFWA', 'KEVZ', 'JDUY', 'ICTX', 'HBSW', 'GARV', 'FZQU', 'EYPT', 'DXOS', 'CWNR', 'BVMQ', 'AULP', 'ZTKO']
+{'Y': 1, 'S': 1, 'J': 1, 'N': 1}
+{'X': 1, 'R': 1, 'I': 1, 'M': 1}
+{'W': 1, 'Q': 1, 'H': 1, 'L': 1}
+{'V': 1, 'P': 1, 'G': 1, 'K': 1}
+{'U': 1, 'O': 1, 'F': 1, 'J': 1}
+{'T': 1, 'N': 1, 'E': 1, 'I': 1}
+Possible Key: LFWA
+APTAJEJUSDAGLFJMABEE
+{'S': 1, 'M': 1, 'D': 1, 'H': 1}
+{'R': 1, 'L': 1, 'C': 1, 'G': 1}
+{'Q': 1, 'K': 1, 'B': 1, 'F': 1}
+{'P': 1, 'J': 1, 'A': 1, 'E': 1}
+{'O': 1, 'I': 1, 'Z': 1, 'D': 1}
+{'N': 1, 'H': 1, 'Y': 1, 'C': 1}
+{'M': 1, 'G': 1, 'X': 1, 'B': 1}
+{'L': 1, 'F': 1, 'W': 1, 'A': 1}
+{'K': 1, 'E': 1, 'V': 1, 'Z': 1}
+{'J': 1, 'D': 1, 'U': 1, 'Y': 1}
+{'I': 1, 'C': 1, 'T': 1, 'X': 1}
+{'H': 1, 'B': 1, 'S': 1, 'W': 1}
+{'G': 1, 'A': 1, 'R': 1, 'V': 1}
+{'F': 1, 'Z': 1, 'Q': 1, 'U': 1}
+{'E': 1, 'Y': 1, 'P': 1, 'T': 1}
+{'D': 1, 'X': 1, 'O': 1, 'S': 1}
+{'C': 1, 'W': 1, 'N': 1, 'R': 1}
+{'B': 1, 'V': 1, 'M': 1, 'Q': 1}
+{'A': 1, 'U': 1, 'L': 1, 'P': 1}
+{'Z': 1, 'T': 1, 'K': 1, 'O': 1}
+['YQY', 'XPX', 'WOW', 'VNV', 'UMU', 'TLT', 'SKS', 'RJR', 'QIQ', 'PHP', 'OGO', 'NFN', 'MEM', 'LDL', 'KCK', 'JBJ', 'IAI', 'HZH', 'GYG', 'FXF', 'EWE', 'DVD', 'CUC', 'BTB', 'ASA', 'ZRZ']
+{'Y': 2, 'Q': 1}
+{'X': 2, 'P': 1}
+{'W': 2, 'O': 1}
+{'V': 2, 'N': 1}
+{'U': 2, 'M': 1}
+{'T': 2, 'L': 1}
+{'S': 2, 'K': 1}
+{'R': 2, 'J': 1}
+{'Q': 2, 'I': 1}
+{'P': 2, 'H': 1}
+{'O': 2, 'G': 1}
+{'N': 2, 'F': 1}
+{'M': 2, 'E': 1}
+{'L': 2, 'D': 1}
+{'K': 2, 'C': 1}
+{'J': 2, 'B': 1}
+{'I': 2, 'A': 1}
+{'H': 2, 'Z': 1}
+{'G': 2, 'Y': 1}
+{'F': 2, 'X': 1}
+{'E': 2, 'W': 1}
+{'D': 2, 'V': 1}
+{'C': 2, 'U': 1}
+{'B': 2, 'T': 1}
+{'A': 2, 'S': 1}
+{'Z': 2, 'R': 1}

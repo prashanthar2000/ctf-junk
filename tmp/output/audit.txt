@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sat Aug  1 20:07:32 2020
+Invocation: foremost a129d99659f34479a7d40afd4a10b5ae.zip 
+Output directory: /home/prashanth/Music/tmp/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: a129d99659f34479a7d40afd4a10b5ae.zip
+Start: Sat Aug  1 20:07:32 2020
+Length: 768 KB (786471 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.zip 	     768 KB 	          0 	 
+Finish: Sat Aug  1 20:07:32 2020
+
+1 FILES EXTRACTED
+	
+zip:= 1
+------------------------------------------------------------------
+
+Foremost finished at Sat Aug  1 20:07:32 2020

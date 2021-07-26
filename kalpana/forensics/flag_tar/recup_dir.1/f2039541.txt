@@ -1,0 +1,10 @@
+ld ]
+   /ItalicAngle 0
+   /Ascent %ld
+   /Descent %ld
+   /CapHeight %ld
+   /StemV 80
+   /StemH 80
+   /FontFile3 %u 0 R
+>>
+endobj

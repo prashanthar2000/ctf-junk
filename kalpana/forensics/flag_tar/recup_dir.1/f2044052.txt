@@ -1,0 +1,2 @@
+ofiling contents for the given script index.
+  The script index must be in the range [0, pc.count()).

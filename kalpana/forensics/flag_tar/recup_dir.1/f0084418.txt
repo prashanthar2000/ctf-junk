@@ -1,0 +1,1 @@
+ev,nosuid,uhelper=udisks2,allow_other,nonempty,relatime,rw,default_permissions,fsname=/dev/nvme0n1p4,blkdev,blksize=4096

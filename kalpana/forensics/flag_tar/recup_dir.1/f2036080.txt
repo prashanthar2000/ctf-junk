@@ -1,0 +1,8 @@
+d = (asuint(value) & mask) >> offset;
+    if (bits != 32 && (resultUnsigned & maskMsb) != 0)
+    {
+        uint higherBitsMask = ((1u << (32 - bits)) - 1u) << bits;
+        resultUnsigned |= higherBitsMask;
+    }
+    return asint(resultUnsigned);
+}

@@ -1,0 +1,30 @@
+
+
+CEO Of Compression Point :
+
+I have a really weird way of remebering things
+
+Character With there Frequencies:
+
+1 01000 
+5 11100
+M 01001
+R 01010
+_ 011
+a 1111
+b 11000
+c 0000
+e 001
+f 11101
+g 1101
+h 10101
+i 10110
+m 11001
+n 0001
+r 10111
+t 100
+{ 01011
+} 10100
+ctf{Ramen_15_better_than_Meggi}
+ctf{Ramen_15_better_than_Maggi} 
+

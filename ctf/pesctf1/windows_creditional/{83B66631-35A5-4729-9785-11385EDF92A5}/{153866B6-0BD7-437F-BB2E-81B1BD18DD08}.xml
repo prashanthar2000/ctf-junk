@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+	<name>AndroidAP</name>
+	<SSIDConfig>
+		<SSID>
+			<hex>416E64726F69644150</hex>
+			<name>AndroidAP</name>
+		</SSID>
+	</SSIDConfig>
+	<connectionType>ESS</connectionType>
+	<connectionMode>auto</connectionMode>
+	<MSM>
+		<security>
+			<authEncryption>
+				<authentication>WPA2PSK</authentication>
+				<encryption>AES</encryption>
+				<useOneX>false</useOneX>
+			</authEncryption>
+			<sharedKey>
+				<keyType>passPhrase</keyType>
+				<protected>true</protected>
+				<keyMaterial>01000000D08C9DDF0115D1118C7A00C04FC297EB0100000001B744BA51EEBA408244EA5F4F4D1D9300000000020000000000106600000001000020000000BB4A59AA1F60C2A0DCFA26B8AC879F8B272F56CB135D86F9C6BF622E18D5FBBD000000000E80000000020000200000004705E74609A5B37987B384B1E4E883DC762071B6D4B21C94D55629886E4E2DFB10000000125A45BA5B6BC5C5B25BCED041687B7940000000FA0608CA1AA54AC8F04C740CC2F281E4D1785B8157E25218B0626AC45E08E410791BCD92F0A1E911F9A1DEA0A35A6E4D54D1707CB5A7101AB308E1E02A140B5C</keyMaterial>
+			</sharedKey>
+		</security>
+	</MSM>
+</WLANProfile>

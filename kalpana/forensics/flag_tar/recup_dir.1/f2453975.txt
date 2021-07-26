@@ -1,0 +1,2 @@
+M option '%s' is diagnostic and must be enabled via -XX:+UnlockDiagnosticVMOptions.
+Error: The unlock option must precede '%s'.

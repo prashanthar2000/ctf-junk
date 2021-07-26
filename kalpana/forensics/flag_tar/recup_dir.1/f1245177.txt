@@ -1,0 +1,8 @@
+EN c;
+WHILE 1 = 1 LOOP
+  FETCH c INTO my_func();
+  IF c % NOTFOUND THEN
+    EXIT;
+  END IF;
+END LOOP;
+CLOSE c;

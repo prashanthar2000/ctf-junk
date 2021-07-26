@@ -1,0 +1,30 @@
+l = "GATCCGGCGCGCACTCTAACACCCGCACTGTCTACCTCTAACTACGTCTTCCTATCCAGCGCGCCCGCTTCCGCGCGATCAATACTGCTTCCTAACAATAGATCTTGCGTACACTACTTC"
+#     GATCCGGCGCGCACTCTAACACCCGCACTGTCTACCTCTAACTACGTCTTCCTATCCAGCGATCCGGCGCGCACTCTAACACCCGCACTGTCTACCTCTAACTACGTCTTCCTATCCAGC
+r = "CUAGGCCGCGCGUGAGAUUGUGGGCGUGACAGAUGGAGAUUGAUGCAGAAGGAUAGGUCGCGCGGGCGAAGGCGCGCUAGUUAUGACGAAGGAUUGUUAUCUAGAACGCAUGUGAUGAAG"
+d = "CTAGGCCGCGCGTGAGATTGTGGGCGTGACAGATGGAGATTGATGCAGAAGGATAGGTCGCGCGGGCGAAGGCGCGCTAGTTATGACGAAGGATTGTTATCTAGAACGCATGTGATGAAG"
+
+s= ""
+for i in range(len(l)):
+    if l[i] == "G" :
+        s += "C"
+    elif l[i] == "A":
+        s += "U"
+    elif l[i] == "C":
+        s += "G" 
+    elif l[i] == "T":
+        s += "A"
+b = ""
+for i in range(len(l)):
+    if l[i] == "G" :
+        b += "3"
+    elif l[i] == "A":
+        b += "2"
+    elif l[i] == "C":
+        b += "3" 
+    elif l[i] == "T":
+        b += "2"
+print(b)
+#print(s)    
+#l = l[:int(len(l)/2)]
+#l = l[:int(len(l)/2)]
+#print(l[:int(len(l)/2)] , l[::-1], sep = "\n")

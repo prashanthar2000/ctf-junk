@@ -1,0 +1,5 @@
+  Use this information to judge how likely it is that a large(r) free block
+  might get created by code cache sweeping.
+  If all the occupied blocks can be swept, the three free blocks will be
+  merged into one (much larger) free block. That would reduce free space
+  fragmentation.

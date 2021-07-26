@@ -1,0 +1,9 @@
+ill parse data remaining in Expat's buffer and new data.
+Content of Expat's buffer:
+-----
+%s
+-----
+New data:
+-----
+%s
+-----

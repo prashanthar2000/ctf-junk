@@ -1,0 +1,8 @@
+   /BBox [0 0 %d %d]
+   /PaintProc {
+      CairoPattern
+      [-1 0 0  1 %d 0] concat CairoPattern
+      [ 1 0 0 -1 0 %d] concat CairoPattern
+      [-1 0 0  1 %d 0] concat CairoPattern
+      CairoPattern
+   } bind

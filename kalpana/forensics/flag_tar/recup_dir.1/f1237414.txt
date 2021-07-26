@@ -1,0 +1,8 @@
+ status:
+read_key:   %10lu
+read_next:  %10lu
+read_rnd    %10lu
+read_first: %10lu
+write:      %10lu
+delete      %10lu
+update:     %10lu

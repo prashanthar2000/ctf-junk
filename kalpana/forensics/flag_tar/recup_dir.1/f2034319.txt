@@ -1,0 +1,22 @@
+     
+            #define VARYING varying                                          
+        #endif                                                               
+                                                                             
+        ATTRIBUTE vec2 aVert; // [0.0-1.0]                                   
+                                                                             
+        uniform mat3 uDestMatrix;                                            
+        uniform mat3 uTexMatrix0;                                            
+        uniform mat3 uTexMatrix1;                                            
+                                                                             
+        VARYING vec2 vTexCoord0;                                             
+        VARYING vec2 vTexCoord1;                                             
+                                                                             
+        void main(void)                                                      
+        {                                                                    
+            vec2 destPos = (uDestMatrix * vec3(aVert, 1.0)).xy;              
+            gl_Position = vec4(destPos * 2.0 - 1.0, 0.0, 1.0);               
+                                                                             
+            vTexCoord0 = (uTexMatrix0 * vec3(aVert, 1.0)).xy;                
+            vTexCoord1 = (uTexMatrix1 * vec3(aVert, 1.0)).xy;                
+        }                                                                    
+    

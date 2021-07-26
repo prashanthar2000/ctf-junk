@@ -1,0 +1,2 @@
+ord offset is nonsensical %lu in record at offset %lu
+InnoDB: rec address %p, space id %lu, page %lu

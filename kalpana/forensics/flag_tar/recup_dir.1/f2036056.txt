@@ -1,0 +1,4 @@
+x[3] == 0 && y[3] == 0) x[3] = 1;
+    return float4(atan2(y[0], x[0]), atan2(y[1], x[1]), atan2(y[2], 
+    x[2]), atan2(y[3], x[3]));
+}

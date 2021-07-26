@@ -1,0 +1,1 @@
+: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:1d.6/0000:08:00.0': not supported by any plugin

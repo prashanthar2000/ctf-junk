@@ -1,0 +1,2 @@
+o find 3D rootFilter ops and filter primitives are not allowed on the same stacking context.popped shadows, but none were presentno backdrop root foundno active stacking contextno backdrop root?Iterator logic errorShould have returned in parent method.webrender::scene_buildingUnknown font instance keyrwlock maximum reader count exceededrwlock read lock would result in deadlockUnexpected out of 3D context by index
+webrender::rendererusing KHRMarkerEXT

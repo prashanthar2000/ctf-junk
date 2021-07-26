@@ -1,0 +1,1 @@
+orized: estimated iteration count smaller than specified loop bound parameter or minimum profitable iterations (whichever is more conservative).

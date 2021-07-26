@@ -1,0 +1,7 @@
+ts" SET
+database_name = :new_dbname_utf8,
+table_name = :new_tablename_utf8
+WHERE
+database_name = :old_dbname_utf8 AND
+table_name = :old_tablename_utf8;
+END;

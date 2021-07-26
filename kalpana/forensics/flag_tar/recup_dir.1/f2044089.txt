@@ -1,0 +1,3 @@
+r undefined, the caller's script is used.
+  If the value is the string 'unknown' or 'unknownObject'
+  the TypeSet is marked as unknown or unknownObject, respectively.

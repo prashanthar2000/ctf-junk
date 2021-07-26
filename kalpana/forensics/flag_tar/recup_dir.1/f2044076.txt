@@ -1,0 +1,7 @@
+cify whether SharedArrayBuffers may be serialized.
+    'scope' - SameProcess, DifferentProcess, or
+      DifferentProcessForIndexedDB. Determines how some values will be
+      serialized. Clone buffers may only be deserialized with a compatible
+      scope. NOTE - For DifferentProcess/DifferentProcessForIndexedDB,
+      must also set SharedArrayBuffer:'deny' if data contains any shared memory
+      object.

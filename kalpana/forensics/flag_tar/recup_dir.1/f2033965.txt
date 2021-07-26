@@ -1,0 +1,1 @@
+%s Parsed H.264 attributes: profile-level-id=%s, parameter-sets=%s, packetization-mode=%d level-asymmetry-allowed=%d interleaving-depth=%d deint-buf-req=%u max-don-diff=%u, init_buf-time=%u

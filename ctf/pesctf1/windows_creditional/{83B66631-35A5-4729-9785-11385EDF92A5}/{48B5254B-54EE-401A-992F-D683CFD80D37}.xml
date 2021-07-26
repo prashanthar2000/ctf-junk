@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+	<name>Honor 9 Lite_ED93</name>
+	<SSIDConfig>
+		<SSID>
+			<hex>486F6E6F722039204C6974655F45443933</hex>
+			<name>Honor 9 Lite_ED93</name>
+		</SSID>
+	</SSIDConfig>
+	<connectionType>ESS</connectionType>
+	<connectionMode>auto</connectionMode>
+	<MSM>
+		<security>
+			<authEncryption>
+				<authentication>WPA2PSK</authentication>
+				<encryption>AES</encryption>
+				<useOneX>false</useOneX>
+			</authEncryption>
+			<sharedKey>
+				<keyType>passPhrase</keyType>
+				<protected>true</protected>
+				<keyMaterial>01000000D08C9DDF0115D1118C7A00C04FC297EB0100000001B744BA51EEBA408244EA5F4F4D1D9300000000020000000000106600000001000020000000ED76142EFC6B8D60ECEDC2FFD6006251F1DB7AC276E3B17B39F05BC5473297D8000000000E8000000002000020000000D9A163119E8BCD41A0BE1A0AE318A245131D9E84452B441EC8D28D65D4AC578710000000C7221BF4C88606A033DC09A5AA0198FD400000005FB0443A81082912CE692C29053391CCC9107DF2733E96DE3C2050881E204F6ACFE99EF4CD739F51DC159467349E4CDE4EFD7F86054AF31AA86A3FC049CD5178</keyMaterial>
+			</sharedKey>
+		</security>
+	</MSM>
+</WLANProfile>

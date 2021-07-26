@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+	<name>||CriTicaL||</name>
+	<SSIDConfig>
+		<SSID>
+			<hex>7C7C437269546963614C7C7C</hex>
+			<name>||CriTicaL||</name>
+		</SSID>
+	</SSIDConfig>
+	<connectionType>ESS</connectionType>
+	<connectionMode>auto</connectionMode>
+	<MSM>
+		<security>
+			<authEncryption>
+				<authentication>WPA2PSK</authentication>
+				<encryption>AES</encryption>
+				<useOneX>false</useOneX>
+			</authEncryption>
+			<sharedKey>
+				<keyType>passPhrase</keyType>
+				<protected>true</protected>
+				<keyMaterial>01000000D08C9DDF0115D1118C7A00C04FC297EB01000000A7257D8D3F66134CA3380A5C96EAD7720000000002000000000010660000000100002000000016485A0F8DA4713D87A3E695918DC5F3417CF186A7086DF197C0254E63366405000000000E8000000002000020000000A7602ACFBBC72EBB69EA3F9BCCA4109E19F6C7235D7BD521CB54F0AB734F0497100000006210C414D6929B8AB72AD1DFEAC69B12400000008398BCEE81ED2245110415FD4C3C348490667886269FB0EBDE3214474F4B9759E4A9BA45B45DDFE57B9F6BF44A6910FCB3994378E0926082B62E6CCB4B686D5D</keyMaterial>
+			</sharedKey>
+		</security>
+	</MSM>
+</WLANProfile>

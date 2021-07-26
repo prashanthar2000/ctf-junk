@@ -1,0 +1,2 @@
+aths in each of those arrays is bounded by |maxNumPaths|. Each element in a
+  path is of the form |{ predecessor, edge }|.

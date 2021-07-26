@@ -1,0 +1,6 @@
+or (int i = 0; i < 3; i++)
+    {
+        isnan[i] = (x[i] > 0.0 || x[i] < 0.0) ? false : x[i] != 0.0;
+    }
+    return isnan;
+}

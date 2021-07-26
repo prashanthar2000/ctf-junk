@@ -1,0 +1,2 @@
+e given compartment.  If no global are provided then
+  the current global is used as the default one.

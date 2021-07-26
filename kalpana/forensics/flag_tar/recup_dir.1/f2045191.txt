@@ -1,0 +1,13 @@
+gs.rsassertion failed: unsafe {
+    ffi::dbus_message_iter_open_container(i, ffi::DBUS_TYPE_ARRAY, t.as_ptr(),
+                                          &mut subiter)
+} != 0assertion failed: unsafe { ffi::dbus_message_iter_close_container(i, &mut subiter) } != 0assertion failed: res != 0assertion failed: res2 != 0assertion failed: unsafe {
+    ffi::dbus_message_iter_open_container(i, ffi::DBUS_TYPE_VARIANT,
+                                          atype.as_ptr(), &mut subiter)
+} != 0assertion failed: unsafe {
+    ffi::dbus_message_iter_open_container(i, ffi::DBUS_TYPE_DICT_ENTRY,
+                                          ptr::null(), &mut subiter)
+} != 0D-Bus error: dbus_message_new_signal failedD-Bus dict entry errorD-Bus variant errorD-Bus string errorD-Bus object path errororg.freedesktop.DBus.PropertiesGetInvalidReplyInvalid reply for property get : 'StructVariantDictEntryObjectPathInt16Int32Int64UInt16UInt32UInt64UnixFdOwnedFdsigSignature./third_party/rust/dbus/src/connection.rsdbus_connection_set_watch_functions failedassertion failed: unsafe {
+    ffi::dbus_connection_add_filter(c.conn(), Some(filter_message_cb),
+                                    mem::transmute(&*c.i), None)
+} != 0./third_party/rust/dbus/src/watch.rsD-Bus error: D-Bus error./third_party/rust/dns-parser/src/name.rsAdditionalOPTBadPointerHeaderTooShortUnexpectedEOFReservedBitsAreNonZeroUnknownLabelFormatInvalidQueryClassInvalidTypeInvalidClassLabelIsNotAsciiWrongState

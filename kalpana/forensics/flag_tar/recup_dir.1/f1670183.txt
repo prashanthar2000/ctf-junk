@@ -1,0 +1,1 @@
+rget construct into a gridified HSA kernel because the inner loop loop bounds computation contains a complex statement

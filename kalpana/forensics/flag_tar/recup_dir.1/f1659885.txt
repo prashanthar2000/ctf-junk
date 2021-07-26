@@ -1,0 +1,2 @@
+alized, %i speculatively devirtualized, %i cold
+%i have multiple targets, %i overwritable, %i already speculated (%i agree, %i disagree), %i external, %i not defined, %i artificial, %i infos dropped

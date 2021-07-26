@@ -1,0 +1,3 @@
+ not shown in any tab, is not in a browsing context group with any non-detached windows, and has met these criteria for at least memory.ghost_window_timeout_seconds, or has survived a round of about:memory's minimize memory usage button.
+
+Ghost windows can happen legitimately, but they are often indicative of leaks in the browser or add-ons.

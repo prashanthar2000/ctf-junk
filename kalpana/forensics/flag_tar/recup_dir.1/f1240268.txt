@@ -1,0 +1,2 @@
+Error message file '%s' had only %d error messages, but it should contain at least %d error messages.
+Check that the above file is the right version for this program!

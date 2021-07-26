@@ -1,0 +1,1 @@
+ turn target construct into a gridified HSA kernel because the distribute construct contains collapse clause with parameter greater than 3

@@ -1,0 +1,14 @@
+ ] def
+  end
+  /MaskDict 8 dict def
+     MaskDict begin
+    /ImageType 1 def
+    /Width %d def
+    /Height %d def
+    /Interpolate %s def
+    /BitsPerComponent 1 def
+    /Decode [ 1 0 ] def
+    /ImageMatrix [ 1 0 0 -1 0 %d ] def
+  end
+end
+image

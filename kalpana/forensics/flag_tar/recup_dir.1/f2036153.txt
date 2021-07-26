@@ -1,0 +1,5 @@
+amp(x, -2.0, 2.0);
+    x = x * 256.0;
+    x = sign(x) * floor(abs(x));
+    return x * 0.00390625;
+}

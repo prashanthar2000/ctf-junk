@@ -1,0 +1,6 @@
+eType 1 def
+    /Width %d def
+    /Height %d def
+    /Interpolate %s def
+    /BitsPerComponent 8 def
+    /Decode [ 0 1 0 1 0 1 ] def

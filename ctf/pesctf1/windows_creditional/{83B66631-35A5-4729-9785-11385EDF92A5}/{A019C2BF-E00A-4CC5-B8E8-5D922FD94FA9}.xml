@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+	<name>Harshi</name>
+	<SSIDConfig>
+		<SSID>
+			<hex>486172736869</hex>
+			<name>Harshi</name>
+		</SSID>
+	</SSIDConfig>
+	<connectionType>ESS</connectionType>
+	<connectionMode>auto</connectionMode>
+	<MSM>
+		<security>
+			<authEncryption>
+				<authentication>WPA2PSK</authentication>
+				<encryption>AES</encryption>
+				<useOneX>false</useOneX>
+			</authEncryption>
+			<sharedKey>
+				<keyType>passPhrase</keyType>
+				<protected>true</protected>
+				<keyMaterial>01000000D08C9DDF0115D1118C7A00C04FC297EB010000001732243DC6B53D4C96DEEA61FD0516700000000002000000000010660000000100002000000005F34CAF93A2613345F305C28D952DD371354BC2F0D69E16862F9B4F9E2D284D000000000E8000000002000020000000FA9ACC446371682C805CD9EE90C612947BA91999152AA82D3E1BAA750106E1D910000000EBC80EA1EB94E959114B439B60DDCFA040000000D59A31E7C45481DAE21DBB49D4ABD5A78F803EA8834251BF98CFA8EACFA4720455127D338F7057BA1AEFE628B5BBE9485BF29BDE24A51F23DE8BB61629966041</keyMaterial>
+			</sharedKey>
+		</security>
+	</MSM>
+</WLANProfile>

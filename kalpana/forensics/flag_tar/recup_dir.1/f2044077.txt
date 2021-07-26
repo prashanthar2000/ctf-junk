@@ -1,0 +1,10 @@
+ an options hash.
+  Valid keys:
+    'SharedArrayBuffer' - either 'allow' or 'deny' (the default)
+      to specify whether SharedArrayBuffers may be serialized.
+    'scope', which limits the clone buffers that are considered
+  valid. Allowed values: ''SameProcess', 'DifferentProcess',
+  and 'DifferentProcessForIndexedDB'. So for example, a
+  DifferentProcessForIndexedDB clone buffer may be deserialized in any scope, but
+  a SameProcess clone buffer cannot be deserialized in a
+  DifferentProcess scope.

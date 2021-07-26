@@ -1,0 +1,6 @@
+(v.x);
+    uint y = webgl_toUnorm8(v.y);
+    uint z = webgl_toUnorm8(v.z);
+    uint w = webgl_toUnorm8(v.w);
+    return (w << 24) | (z << 16) | (y << 8) | x;
+}

@@ -1,0 +1,40 @@
+g destination EXTERNAL_DRAM
+Sep  7 12:15:38 parrot kernel: [13704.977441] iwlwifi 0000:08:00.0: FW already configured (0) - re-configuring
+Sep  7 12:15:38 parrot kernel: [13705.867595] Bluetooth: hci0: Waiting for firmware download to complete
+Sep  7 12:15:38 parrot kernel: [13705.869352] Bluetooth: hci0: Firmware loaded in 1550086 usecs
+Sep  7 12:15:38 parrot kernel: [13705.869364] Bluetooth: hci0: Waiting for device to boot
+Sep  7 12:15:38 parrot kernel: [13705.882185] Bluetooth: hci0: Device booted in 12526 usecs
+Sep  7 12:15:38 parrot kernel: [13705.882191] Bluetooth: hci0: Found Intel DDC parameters: intel/ibt-20-1-3.ddc
+Sep  7 12:15:38 parrot kernel: [13705.897286] Bluetooth: hci0: Applying Intel DDC parameters completed
+Sep  7 12:15:38 parrot kernel: [13705.899296] Bluetooth: hci0: Firmware revision 0.0 build 54 week 27 2019
+Sep  7 12:15:47 parrot mate-notificati[9856]: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Sep  7 12:16:04 parrot kernel: [13730.974722] wlan0: authenticate with d2:f8:8c:fa:7f:5f
+Sep  7 12:16:04 parrot kernel: [13730.978567] wlan0: send auth to d2:f8:8c:fa:7f:5f (try 1/3)
+Sep  7 12:16:04 parrot kernel: [13731.005057] wlan0: authenticated
+Sep  7 12:16:04 parrot kernel: [13731.006171] wlan0: associate with d2:f8:8c:fa:7f:5f (try 1/3)
+Sep  7 12:16:04 parrot kernel: [13731.017241] wlan0: RX AssocResp from d2:f8:8c:fa:7f:5f (capab=0x431 status=0 aid=1)
+Sep  7 12:16:04 parrot kernel: [13731.018737] wlan0: associated
+Sep  7 12:16:04 parrot kernel: [13731.034440] IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+Sep  7 12:20:36 parrot kernel: [14003.481759] perf: interrupt took too long (3291 > 3263), lowering kernel.perf_event_max_sample_rate to 60750
+Sep  7 12:36:04 parrot mate-system-mon[10835]: SELinux was found but is not enabled.
+Sep  7 13:31:23 parrot mtp-probe: checking bus 1, device 4: "/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8"
+Sep  7 13:31:23 parrot mtp-probe: bus: 1, device: 4 was not an MTP device
+Sep  7 13:31:23 parrot mtp-probe: checking bus 1, device 3: "/sys/devices/pci0000:00/0000:00:14.0/usb1/1-5"
+Sep  7 13:31:23 parrot mtp-probe: bus: 1, device: 3 was not an MTP device
+Sep  7 13:31:23 parrot mtp-probe: checking bus 1, device 2: "/sys/devices/pci0000:00/0000:00:14.0/usb1/1-4"
+Sep  7 13:31:23 parrot mtp-probe: bus: 1, device: 2 was not an MTP device
+Sep  7 13:31:23 parrot rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2004.0]
+Sep  7 13:31:23 parrot rsyslogd: [origin software="rsyslogd" swVersion="8.2004.0" x-pid="826" x-info="https://www.rsyslog.com"] start
+Sep  7 13:31:23 parrot kernel: [    0.000000] microcode: microcode updated early to revision 0xca, date = 2019-10-03
+Sep  7 13:31:23 parrot kernel: [    0.000000] Linux version 5.5.0-1parrot1-amd64 (team@parrotsec.org) (gcc version 9.3.0 (Debian 9.3.0-10)) #1 SMP Parrot 5.5.17-1parrot1 (2020-04-25)
+Sep  7 13:31:23 parrot kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-5.5.0-1parrot1-amd64 root=UUID=79aad670-8ab5-43a5-977a-fa06e46e2644 ro quiet splash noautomount quiet
+Sep  7 13:31:23 parrot kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Sep  7 13:31:23 parrot kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Sep  7 13:31:23 parrot kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Sep  7 13:31:23 parrot kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x008: 'MPX bounds registers'
+Sep  7 13:31:23 parrot kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x010: 'MPX CSR'
+Sep  7 13:31:23 parrot kernel: [    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Sep  7 13:31:23 parrot kernel: [    0.000000] x86/fpu: xstate_offset[3]:  832, xstate_sizes[3]:   64
+Sep  7 13:31:23 parrot kernel: [    0.000000] x86/fpu: xstate_offset[4]:  896, xstate_sizes[4]:   64
+Sep  7 13:31:23 parrot kernel: [    0.000000] x86/fpu: Enabled xstate features 0x1f, context size is 960 bytes, using 'compacted' format.
+Sep  7 13:31:23 parrot k

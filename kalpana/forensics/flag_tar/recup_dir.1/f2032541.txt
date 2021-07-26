@@ -1,0 +1,6 @@
+olicy" content="default-src chrome:; object-src 'none'"/>
+  <link rel="stylesheet" href="chrome://global/skin/about.css"/>
+  <link rel="stylesheet" href="chrome://global/skin/aboutCache.css"/>
+</head>
+<body class="aboutPageWideContainer">
+<h1>Information about the Network Cache Storage Service</h1>

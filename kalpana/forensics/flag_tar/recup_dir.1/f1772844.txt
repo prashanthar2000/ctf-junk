@@ -1,0 +1,1 @@
+     good_cloning_opportunity_p (time: %i, size: %i, freq_sum: %i%s%s) -> evaluation: %ld, threshold: %i

@@ -1,0 +1,7 @@
+t dfacexdx = 0.5f * (m * dudx - u * dmdx) / (m * m);
+    float dfaceydx = 0.5f * (m * dvdx - v * dmdx) / (m * m);
+    float dfacexdy = 0.5f * (m * dudy - u * dmdy) / (m * m);
+    float dfaceydy = 0.5f * (m * dvdy - v * dmdy) / (m * m);
+    float2 sizeVec = float2(width, height);
+    float2 faceddx = float2(dfacexdx, dfaceydx) * sizeVec;
+    float2 faceddy = float2(dfacexdy, dfaceydy) * sizeVec;

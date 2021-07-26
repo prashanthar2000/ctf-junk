@@ -1,0 +1,2 @@
+flag.js
+bin/bash \n ls 

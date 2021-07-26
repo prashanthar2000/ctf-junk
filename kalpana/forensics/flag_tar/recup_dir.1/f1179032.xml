@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/prashanth/Videos/photos/HOT-Kylie-Jenner-soaks-in-the-sun-flaunting-her-curves-in-beige-bikini-amid-quarantine-period.jpg" added="2020-07-11T13:50:46Z" modified="2020-08-30T07:00:17Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-30T07:00:17Z" count="15"/>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-21T14:21:58Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_prashanth0/grownuprsa.txt" added="2020-07-15T15:04:54Z" modified="2020-08-09T10:14:50Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-08-09T10:14:50Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Videos/photos/unnamed.gif" added="2020-07-28T17:21:34Z" modified="2020-08-30T07:00:17Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/gif"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-30T07:00:17Z" count="11"/>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-21T14:22:00Z" count="4"/>
+          <bookmark:application name="Telegram" exec="&apos;Telegram %u&apos;" modified="2020-08-18T19:06:15Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Videos/photos/cumshot.gif" added="2020-07-28T17:22:45Z" modified="2020-08-30T07:00:17Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/gif"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-30T07:00:17Z" count="9"/>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-21T14:22:01Z" count="6"/>
+          <bookmark:application name="qbittorrent" exec="&apos;qbittorrent %u&apos;" modified="2020-08-24T18:03:56Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/sahana/meghana/projects.zip" added="2020-07-29T15:57:39Z" modified="2020-08-22T16:50:06Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-07-29T15:57:39Z" count="2"/>
+          <bookmark:application name="Engrampa" exec="&apos;engrampa&apos;" modified="2020-08-22T16:50:06Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Downloads/Sons.Of.Anarchy.S03.Season.3.720p.5.1Ch.BluRay.ReEnc-DeeJayAhmed/Sons.Of.Anarchy.S03E03.720p.5.1Ch.BluRay.ReEnc-DeeJayAhmed.mkv" added="2020-08-02T16:54:50Z" modified="2020-08-14T19:15:01Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-matroska"/>
+        <bookmark:applications>
+          <bookmark:application name="Caja" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2020-08-14T19:15:01Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Downloads/Sons.Of.Anarchy.S03.Season.3.720p.5.1Ch.BluRay.ReEnc-DeeJayAhmed/Sons.Of.Anarchy.S03E04.720p.5.1Ch.BluRay.ReEnc-DeeJayAhmed.mkv" added="2020-08-02T17:43:25Z" modified="2020-08-14T19:16:47Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-matroska"/>
+        <bookmark:applications>
+          <bookmark:application name="Caja" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2020-08-14T19:16:47Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/.gitignore" added="2020-08-02T19:29:31Z" modified="2020-08-10T14:17:09Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-08-10T14:17:09Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Music/ctf/3pesctf/steg/hats.png" added="2020-08-04T07:19:50Z" modified="2020-08-16T16:19:15Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-16T16:19:15Z" count="30"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Music/ctf/3pesctf/steg/pixelopia.png" added="2020-08-04T07:23:18Z" modified="2020-08-16T16:19:15Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-16T16:19:15Z" count="37"/>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-04T07:25:10Z" count="1"/>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.10 %u&apos;" modified="2020-08-04T17:25:48Z" count="5"/>
+          <bookmark:application name="Caja" exec="&apos;gimp-2.10 %U&apos;" modified="2020-08-04T17:25:46Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Music/ctf/3pesctf/steg/resized_image.jpg" added="2020-08-04T17:07:16Z" modified="2020-08-12T13:12:06Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-04T17:07:16Z" count="1"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-12T13:12:06Z" count="18"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Music/ctf/3pesctf/steg/priyanka.jpg" added="2020-08-04T17:40:39Z" modified="2020-08-16T16:19:15Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-16T16:19:15Z" count="37"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Music/ctf/3pesctf/steg/mr_cuddles.jpg" added="2020-08-05T07:50:23Z" modified="2020-08-16T16:19:15Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-16T16:19:15Z" count="38"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Music/ctf/3pesctf/steg/la_dit_dah_di_da_dee_day_oh.png" added="2020-08-05T08:50:18Z" modified="2020-08-16T16:19:15Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-16T16:19:15Z" count="50"/>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-05T08:50:44Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Music/ctf/3pesctf/steg/thiscatdoesnotexist.com.jpeg" added="2020-08-05T14:39:41Z" modified="2020-08-16T16:19:15Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-16T16:19:15Z" count="31"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Music/ctf/3pesctf/steg/index.jpg" added="2020-08-07T21:14:26Z" modified="2020-08-16T16:19:15Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-16T16:19:15Z" count="35"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Music/ctf/3pesctf/steg/la_dit_dah_di_da_dee%20day%20oh.png" added="2020-08-07T23:08:53Z" modified="2020-08-16T16:19:15Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-16T16:19:15Z" count="21"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/2.JPG" added="2020-08-08T14:45:42Z" modified="2020-08-12T14:16:34Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-08T14:45:42Z" count="1"/>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:16:34Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/6.jpg" added="2020-08-08T14:45:52Z" modified="2020-08-12T14:17:48Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-08T14:45:52Z" count="1"/>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:17:48Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/4.jpg" added="2020-08-08T14:46:01Z" modified="2020-08-12T14:17:21Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-08T14:46:01Z" count="1"/>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:17:21Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/8.jpg" added="2020-08-08T14:46:10Z" modified="2020-08-12T14:17:59Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-08T14:49:11Z" count="2"/>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:17:59Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/11.jpg" added="2020-08-08T14:46:13Z" modified="2020-08-12T14:18:09Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-08T14:53:51Z" count="2"/>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:18:09Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/5.jpg" added="2020-08-08T14:48:34Z" modified="2020-08-12T14:17:34Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-08T14:48:34Z" count="1"/>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:17:34Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/10.jpg" added="2020-08-08T14:48:37Z" modified="2020-08-12T14:18:08Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-08T14:54:18Z" count="2"/>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:18:08Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/12.jpg" added="2020-08-08T14:48:40Z" modified="2020-08-12T14:18:10Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-08T14:48:40Z" count="1"/>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:18:10Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/7.jpg" added="2020-08-08T14:49:07Z" modified="2020-08-12T14:17:55Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-08T14:49:07Z" count="1"/>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:17:55Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/13.jpg" added="2020-08-08T14:53:54Z" modified="2020-08-12T14:18:10Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-08T14:53:54Z" count="1"/>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:18:10Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/14.jpg" added="2020-08-08T14:53:57Z" modified="2020-08-12T14:18:10Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-08T14:53:57Z" count="1"/>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:18:10Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/17.jpg" added="2020-08-08T14:54:08Z" modified="2020-08-12T14:18:12Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-08T14:54:08Z" count="1"/>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:18:12Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/fresh_start.sh" added="2020-08-08T15:43:52Z" modified="2020-08-11T13:27:18Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-08-11T13:27:18Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/README.md" added="2020-08-08T15:55:24Z" modified="2020-08-10T14:16:18Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/markdown"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-08-10T14:16:18Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Downloads/discord-0.0.11.deb" added="2020-08-09T09:50:51Z" modified="2020-08-09T09:51:31Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-09T09:51:31Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Downloads/zoom_amd64.deb" added="2020-08-10T03:50:15Z" modified="2020-08-10T03:50:37Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-10T03:50:37Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_prashanth0/rsa.py" added="2020-08-10T11:29:12Z" modified="2020-08-10T11:29:12Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-08-10T11:29:12Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/instance_auth/vinay.pem" added="2020-08-10T11:43:42Z" modified="2020-08-10T11:43:43Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-x509-ca-cert"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-10T11:43:43Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/requirements.txt" added="2020-08-10T14:10:58Z" modified="2020-08-10T14:13:18Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-08-10T14:13:18Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/sahana/meghana/flask/events%20form-20200810T171803Z-001.zip" added="2020-08-10T17:18:41Z" modified="2020-08-10T17:18:41Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-10T17:18:41Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_prashanth0/v1-os-duty-def_20200807235629.pdf" added="2020-08-11T06:00:01Z" modified="2020-08-11T06:00:01Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-11T06:00:01Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/fresh_start.py" added="2020-08-11T13:26:46Z" modified="2020-08-11T13:26:48Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>pluma</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Pluma" exec="&apos;pluma %u&apos;" modified="2020-08-11T13:26:48Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/SCT/SCT" added="2020-08-11T14:14:39Z" modified="2020-08-11T14:14:39Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Engrampa" exec="&apos;engrampa %u&apos;" modified="2020-08-11T14:14:39Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/SCT" added="2020-08-12T11:51:13Z" modified="2020-08-22T17:18:41Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Engrampa" exec="&apos;engrampa %u&apos;" modified="2020-08-22T17:18:41Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/SCT/wp-content/uploads/2014/12/DSCN0662.jpg" added="2020-08-12T11:59:35Z" modified="2020-08-12T12:00:48Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Caja" exec="&apos;eom %U&apos;" modified="2020-08-12T12:00:47Z" count="2"/>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T12:00:48Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/SCT/wp-content/uploads/2014/12/resized_image" added="2020-08-12T12:00:31Z" modified="2020-08-12T12:00:31Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T12:00:31Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/SCT/wp-content/uploads/2014/12/resized" added="2020-08-12T12:05:51Z" modified="2020-08-12T12:05:51Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T12:05:51Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/SCT/wp-content/uploads/2014/resized" added="2020-08-12T12:06:23Z" modified="2020-08-12T12:12:47Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T12:12:47Z" count="14"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/SCT/wp-content/uploads/2014/20151220_112548.jpg" added="2020-08-12T12:06:31Z" modified="2020-08-12T12:12:48Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T12:12:48Z" count="15"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/1.jpg" added="2020-08-12T14:15:53Z" modified="2020-08-12T14:15:53Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:15:53Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/3.jpg" added="2020-08-12T14:15:58Z" modified="2020-08-12T14:17:19Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:17:19Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/resized/1.jpg" added="2020-08-12T14:16:05Z" modified="2020-08-12T14:18:30Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:18:30Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/resized/2.JPG" added="2020-08-12T14:16:08Z" modified="2020-08-12T14:18:30Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:18:30Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/resized/3.jpg" added="2020-08-12T14:17:04Z" modified="2020-08-12T14:18:31Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:18:31Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/resized/4.jpg" added="2020-08-12T14:17:06Z" modified="2020-08-12T14:17:06Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:17:06Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/resized/5.jpg" added="2020-08-12T14:17:31Z" modified="2020-08-12T14:17:31Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:17:31Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/resized/6.jpg" added="2020-08-12T14:17:46Z" modified="2020-08-12T14:17:46Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:17:46Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/resized/7.jpg" added="2020-08-12T14:17:53Z" modified="2020-08-12T14:17:53Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:17:53Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/resized/8.jpg" added="2020-08-12T14:17:57Z" modified="2020-08-12T14:17:57Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:17:57Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/9.jpg" added="2020-08-12T14:18:08Z" modified="2020-08-12T14:18:08Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:18:08Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/15.jpg" added="2020-08-12T14:18:11Z" modified="2020-08-12T14:18:11Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:18:11Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/16.jpg" added="2020-08-12T14:18:12Z" modified="2020-08-12T14:18:12Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:18:12Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/18.jpg" added="2020-08-12T14:18:13Z" modified="2020-08-12T14:18:13Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:18:13Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/19.jpg" added="2020-08-12T14:18:14Z" modified="2020-08-12T14:18:14Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:18:14Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/back.jpg" added="2020-08-12T14:18:15Z" modified="2020-08-12T14:18:15Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:18:15Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/boy.jpg" added="2020-08-12T14:18:17Z" modified="2020-08-15T11:43:18Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:23:32Z" count="2"/>
+          <bookmark:application name="Caja" exec="&apos;eom %U&apos;" modified="2020-08-12T14:23:31Z" count="1"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-15T11:43:18Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/boyslide.jpg" added="2020-08-12T14:18:17Z" modified="2020-08-12T14:18:17Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:18:17Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/braille.jpg" added="2020-08-12T14:18:18Z" modified="2020-08-12T14:18:18Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:18:18Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/braille.png" added="2020-08-12T14:18:19Z" modified="2020-08-12T14:18:19Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:18:19Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/bridgeschool.jpg" added="2020-08-12T14:18:19Z" modified="2020-08-12T14:18:19Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:18:19Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/resized/9.jpg" added="2020-08-12T14:18:20Z" modified="2020-08-12T14:18:20Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:18:20Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/resized/10.jpg" added="2020-08-12T14:18:21Z" modified="2020-08-12T14:18:21Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:18:21Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/resized/11.jpg" added="2020-08-12T14:18:21Z" modified="2020-08-12T14:18:21Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:18:21Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/resized/12.jpg" added="2020-08-12T14:18:21Z" modified="2020-08-12T14:18:21Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:18:21Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/resized/13.jpg" added="2020-08-12T14:18:22Z" modified="2020-08-12T14:18:22Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:18:22Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/resized/14.jpg" added="2020-08-12T14:18:22Z" modified="2020-08-12T14:18:25Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:18:25Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/resized/15.jpg" added="2020-08-12T14:18:23Z" modified="2020-08-12T14:18:26Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:18:26Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/resized/16.jpg" added="2020-08-12T14:18:23Z" modified="2020-08-12T14:18:26Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:18:26Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/resized/17.jpg" added="2020-08-12T14:18:26Z" modified="2020-08-12T14:18:27Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:18:27Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/resized/18.jpg" added="2020-08-12T14:18:27Z" modified="2020-08-12T14:18:28Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:18:28Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/resized/19.jpg" added="2020-08-12T14:18:29Z" modified="2020-08-12T14:18:29Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:18:29Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/about/3.jpg" added="2020-08-12T14:19:41Z" modified="2020-08-12T14:19:42Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Caja" exec="&apos;eom %U&apos;" modified="2020-08-12T14:19:41Z" count="1"/>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:19:42Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prashanth/Pictures/flask_sahana/sahana/backend/static/images/hands.jpg" added="2020-08-12T14:21:41Z" modified="2020-08-15T11:42:56Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Caja" exec="&apos;eom %U&apos;" modified="2020-08-12T14:21:41Z" count="1"/>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2020-08-12T14:21:42Z" count="1"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-15T11:42:56Z" count="2"/>
+        </bookmark:applicatio{"account_id_migration_state":2,"account_info":[{"account_id":"111172069387177949276","email":"prashanthathunt@gmail.com","full_name":"prashanth ar","gaia":"111172069387177949276","given_name":"prashanth","hd":"NO_HOSTED_DOMAIN","is_child_account":false,"is_under_advanced_protection":false,"last_downloaded_image_url_with_size":"https://lh3.googleusercontent.com/a-/AOh14GgWcXhJJrtg4_XbX6rXW-8SNP3Bw-bkXbqAqHziVw=s256-c-ns","locale":"en","picture_url":"https://lh3.googleusercontent.com/a-/AOh14GgWcXhJJrtg4_XbX6rXW-8SNP3Bw-bkXbqAqHziVw=s96-c"},{"account_id":"107217141685181535417","email":"rudhira5577@gmail.com","full_name":"rudhira d.r","gaia":"107217141685181535417","given_name":"rudhira","hd":"NO_HOSTED_DOMAIN","is_child_account":false,"is_under_advanced_protection":false,"last_downloaded_image_url_with_size":"https://lh5.googleusercontent.com/-b8QARhIXvwQ/AAAAAAAAAAI/AAAAAAAAKUE/AMZuucmsmC_X1n65nw6xabPfhM3Yg41PSg/s256-c-ns/photo.jpg","locale":"en","picture_url":"https://lh5.googleusercontent.com/-b8QARhIXvwQ/AAAAAAAAAAI/AAAAAAAAKUE/AMZuucmsmC_X1n65nw6xabPfhM3Yg41PSg/s96-c/photo.jpg"}],"account_tracker_service_last_update":"13248624129962013","alternate_error_pages":{"backup":true},"announcement_notification_service_first_run_time":"13242889903797453","autocomplete":{"retention_policy_last_version":85},"autofill":{"last_version_disused_addresses_deleted":69,"orphan_rows_removed":true},"bookmark_bar":{"show_on_all_tabs":true},"browser":{"clear_data":{"browsing_history_basic":true,"cookies_basic":true,"form_data":true,"passwords":true,"site_settings":true,"time_period":0,"time_period_basic":0},"default_browser_infobar_last_declined":"13242890666135787","has_seen_welcome_page":true,"show_home_button":true,"window_placement":{"bottom":873,"left":0,"maximized":true,"right":1598,"top":26,"work_area_bottom":873,"work_area_left":0,"work_area_right":1598,"work_area_top":26},"window_placement_popup":{"bottom":808,"left":498,"maximized":false,"right":1099,"top":178,"work_area_bottom":873,"work_area_left":0,"work_area_right":1598,"work_area_top":26}},"countryid_at_install":18766,"credentials_enable_service":true,"data_reduction":{"daily_original_length":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","5467227","0","0","0","0","0","1513111","2030345","75999","0","451107","7507","893907","558816","0","0","0","0","0","0","1977451","2576811","28809214","0","638963","2354151","1144687","0","35801623","0","22728671","4486631","3765379","1846001"],"daily_received_length":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","5467227","0","0","0","0","0","1513111","2030345","75999","0","451107","7507","893907","558816","0","0","0","0","0","0","1977451","2576811","28809214","0","638963","2354151","1144687","0","35801623","0","22728671","4486631","3765379","1846001"],"last_update_date":"13248556200000000","last_week_services_downstream_background_kb":{},"last_week_services_downstream_foreground_kb":{"102595701":2,"103052331":8,"1112842":22,"111904019":17,"112189210":168,"115188287":6,"119324658":0,"125522256":2,"129872904":49,"130931413":1155,"133982351":0,"137116619":1,"16927377":14,"17400350":13,"25790702":53075,"26216847":126,"27915688":60,"35370363":61,"35473769":26,"35565745":12,"39877119":3,"4300475":2,"4598626":1,"47815025":121,"49601082":4,"54845618":321,"57144960":316,"6019475":2206,"6055066":5,"61656965":1,"64733114":18,"65957842":2,"67052219":31,"69585116":0,"72087791":31,"73107389":144,"7687691":1,"78917933":2649,"82509217":779,"83476155":0,"8561691":0,"88754904":0,"88863520":9,"97978464":2,"98658519":4},"last_week_user_traffic_contenttype_downstream_kb":{},"this_week_number":2652,"this_week_services_downstream_background_kb":{},"this_week_services_downstream_foreground_kb":{"102595701":6,"103052331":4,"1112842":15,"111904019":10,"112189210":348,"115188287":5,"119324658":2,"125522256":3,"129872904":302,"130931413":634,"137116619":1,"17400350":67,"17562717":2,"25790702":3853,"27915688":32,"35370363":46,"35473769":32,"35565745":5,"47815025":71,"49601082":3,"54845618":148,"57144960":202,"6019475":1445,"6055066":3,"65957842":1,"67052219":4,"69585116":7,"72087791":31,"73107389":92,"78917933":1851,"82509217":310,"83476155":0,"8561691":0,"88863520":12},"this_week_user_traffic_contenttype_downstream_kb":{}},"default_apps_install_state":3,"devtools":{"adb_key":"MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCp2l0NZwqdlNF3wVVeLrf/fHyVkfhxNv5KprUUqGP0Hb12D0zVLOXbuQ7vl9sACGwlfqOb3LqQSl0p/CdJ9GDC25DBwaB3qSOnKpeFICH/BrFM1Gs6j9SmPW35P+b/GZ03zF0aZgBat33B4z7kF9fDDE0o2r5VeFLq8K2hJUD9ux28c0lK7ANrUvf955ex4+7PRZZs4JXbyAMBskyW1alZy4oHomuC0+odUOOU6BuGJVlhgelUdezfSHbKgCqoahq8HboqcISv146/BVOr2BbAMBHTNK8kv6GaGvWbcuHgQVLrAWiKIoOHZI+hFY42hmCNJ7GopuNKpyM5TDYqlNVxAgMBAAECggEAAak03n4O1qRnSXtiozOEAVu1aK2HH01NPovjiq6MXq1hRkunQdDo9QV54corfjQ24YV74ljt2p4di9zvQewBu7oTr+9dqznkUzzJg0fhiTnGp1SO8WFJcDA62HSBZOZ6WPq2wNy1PW3crRYUrfyVM681vHPqJ1IQRoOgwQoJGQoUr/B8XToRS4n5kXuie5o+N6ball4sg3SsvCIdMrrLG8aRXC4jOrQN0qfcoVYQAjaWxaTyNZ62CELjRqj9RsJJnbLams8hYBL/Uq95TtuYvut285haHKlvKKt4rIv6rmbWoGzwW8rvf0BYEUNul3y83gjyanVdGJSnN8DqS+Sg+QKBgQDQloSx2jmJ246yZlILI55OTqA2gvnkkI9WUu1rriW1S1AWmEUVX1P+k4yMg+8oRGoJ47di41fbsx6otLCVPHLv87gFovcjv5MJROjxTEXKG5XyTNRamFRwGvJFiLehxSpGlcvrlEUrvfb6LIYYK51I849XQYBKv3YBxqrDMKo4mQKBgQDQdedHttQevj7C8Ag0ux7NVVOkCCfARYD/2IW7eP5PmpH3QW2mfhADOM3DSgRyUp6bC3XMq16eMNbA7xuOIeQkpY6T9WE85+4UqHqO4Tt6BjwA18smwW2DCypZFbdQh+7xEIbQNDY0nDQVvKl7xGAJqPLMlazj9n7a4az2n3hSmQKBgGYk31Qs1jJhFw7btl+IELSuIhyvpOm9tMOEFom9nO+bsttts57UsNAgtxn0XcAtSHQRVDOTuul2XJQm77YVBP/mLH5uIHIcFUfbu+q1/BMN0S73WqIGqIrBV1Sfr7UDVUF9h3+Uew8BlplKBlx9tycLRm1nQQjZm1MhU2wEP8c5AoGBAIIeBgXqZc7muvAcuVKItfo+111cxcsq1xFbSmYxaLOxbIjkKxgwObh5HV5Xdh0R2vQ2HAprsTyWiYWV+iImn2wMdsl98Xr93crBOvayOdi5yXxRNfnz5HJWZtGCT5ERuCB6S1vsKyV9lrk2sKeTdMqyzRLMHkWQl6/yC29JLOaJAoGAVa1vw5xUYheKlE6g0BoXnwiX7vdl8gNyqCPiP8f4GPqepwhWLStz5EppIPzaPVsA4vpVmBI55bSddyjWw0rG2ouv3TLzOfwmQy2d8d6qd6qNSq21dlFwGONiNcYTXoiO+Bimh12+iFAqSj/91FMvoqvrJX64zsEPaBp8lZUDB3k=","preferences":{"Inspector.drawerSplitViewState":"{\"horizontal\":{\"size\":0,\"showMode\":\"Both\"}}","InspectorView.splitViewState":"{\"vertical\":{\"size\":487}}","closeableTabs":"{\"security\":true,\"issues-pane\":true}","console.sidebar.width":"{\"vertical\":{\"size\":0,\"showMode\":\"OnlyMain\"}}","console.sidebarSelectedFilter":"\"message\"","currentDockState":"\"right\"","dataGrid-networkLog-columnWeights":"{\"name\":20,\"path\":6,\"url\":6,\"method\":6,\"status\":3.9452054794520546,\"protocol\":6,\"scheme\":6,\"domain\":6,\"remoteaddress\":10,\"type\":6,\"initiator\":10,\"cookies\":6,\"setcookies\":6,\"size\":6,\"time\":8.054794520547945,\"priority\":6,\"connectionid\":6,\"cache-control\":6,\"connection\":6,\"content-encoding\":6,\"content-length\":6,\"etag\":6,\"keep-alive\":6,\"last-modified\":6,\"server\":6,\"vary\":6,\"waterfall\":6}","drawer-view-selectedTab":"\"console-view\"","drawer-view-tabOrder":"{\"console-view\":10,\"issues-pane\":20}","emulation.deviceModeValue":"{\"device\":\"\",\"orientation\":\"\",\"mode\":\"\"}","emulation.deviceWidth":"348","emulation.showDeviceMode":"false","inspectorVersion":"30","lighthouse.device_type":"\"mobile\"","navigator-view-selectedTab":"\"navigator-network\"","networkPanelSidebarState":"{\"vertical\":{\"size\":0,\"showMode\":\"OnlyMain\"}}","networkPanelSplitViewState":"{\"vertical\":{\"size\":202}}","networkPanelSplitViewWaterfall":"{\"vertical\":{\"size\":0}}","panel-selectedTab":"\"network\"","panel-tabOrder":"{\"elements\":10,\"console\":20,\"sources\":30,\"network\":40,\"timeline\":50,\"heap_profiler\":60,\"resources\":70,\"security\":80,\"lighthouse\":90,\"chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddbAdblockPlus\":100}","releaseNoteVersionSeen":"27","request-info-formData-category-expanded":"true","request-info-general-category-expanded":"true","request-info-queryString-category-expanded":"true","request-info-requestHeaders-category-expanded":"true","request-info-requestPayload-category-expanded":"true","request-info-responseHeaders-category-expanded":"true","resourcesCookiesExpanded":"true","resourcesLastSelectedElementPath":"[\"frame://top\"]","resourcesLocalStorageExpanded":"false","resourcesSessionStorageExpanded":"false","selectedProfileType":"\"HEAP\"","settings-view-tabOrder":"{\"preferences\":10,\"workspace\":20,\"experiments\":30,\"blackbox\":40,\"devices\":50,\"throttling-conditions\":60,\"emulation-locations\":70,\"Shortcuts\":80}","sourcesPanelNavigatorSplitViewState":"{\"vertical\":{\"size\":0,\"showMode\":\"Both\"}}","sourcesPanelSplitViewState":"{\"vertical\":{\"size\":0,\"showMode\":\"Both\"},\"horizontal\":{\"size\":0,\"showMode\":\"Both\"}}","standardEmulatedDeviceList":"[{\"title\":\"iPhone 4\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.0 Mobile/11D257 Safari/9537.53\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":320,\"height\":480},\"horizontal\":{\"width\":480,\"height\":320}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"show\":\"Default\"},{\"title\":\"BlackBerry Z30\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (BB10; Touch) AppleWebKit/537.10+ (KHTML, like Gecko) Version/10.0.9.2372 Mobile Safari/537.10+\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":360,\"height\":640},\"horizontal\":{\"width\":640,\"height\":360}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"show\":\"Default\"},{\"title\":\"Nexus 4\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":384,\"height\":640},\"horizontal\":{\"width\":640,\"height\":384}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"show\":\"Default\"},{\"title\":\"Nexus 5\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":3,\"vertical\":{\"width\":360,\"height\":640},\"horizontal\":{\"width\":640,\"height\":360}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":25,\"right\":0,\"bottom\":48},\"image\":\"@url(google-nexus-5-vertical-default-1x.png) 1x, @url(google-nexus-5-vertical-default-2x.png) 2x\"},{\"title\":\"navigation bar\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":80,\"right\":0,\"bottom\":48},\"image\":\"@url(google-nexus-5-vertical-navigation-1x.png) 1x, @url(google-nexus-5-vertical-navigation-2x.png) 2x\"},{\"title\":\"keyboard\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":80,\"right\":0,\"bottom\":312},\"image\":\"@url(google-nexus-5-vertical-keyboard-1x.png) 1x, @url(google-nexus-5-vertical-keyboard-2x.png) 2x\"},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":25,\"right\":42,\"bottom\":0},\"image\":\"@url(google-nexus-5-horizontal-default-1x.png) 1x, @url(google-nexus-5-horizontal-default-2x.png) 2x\"},{\"title\":\"navigation bar\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":80,\"right\":42,\"bottom\":0},\"image\":\"@url(google-nexus-5-horizontal-navigation-1x.png) 1x, @url(google-nexus-5-horizontal-navigation-2x.png) 2x\"},{\"title\":\"keyboard\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":80,\"right\":42,\"bottom\":202},\"image\":\"@url(google-nexus-5-horizontal-keyboard-1x.png) 1x, @url(google-nexus-5-horizontal-keyboard-2x.png) 2x\"}],\"show-by-default\":false,\"dual-screen\":false,\"show\":\"Default\"},{\"title\":\"Nexus 5X\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 8.0.0; Nexus 5X Build/OPR4.170623.006) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2.625,\"vertical\":{\"width\":412,\"height\":732,\"outline\":{\"insets\":{\"left\":18,\"top\":88,\"right\":22,\"bottom\":98},\"image\":\"@url(Nexus5X-portrait.svg)\"}},\"horizontal\":{\"width\":732,\"height\":412,\"outline\":{\"insets\":{\"left\":88,\"top\":21,\"right\":98,\"bottom\":19},\"image\":\"@url(Nexus5X-landscape.svg)\"}}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":24,\"right\":0,\"bottom\":48},\"image\":\"@url(google-nexus-5x-vertical-default-1x.png) 1x, @url(google-nexus-5x-vertical-default-2x.png) 2x\"},{\"title\":\"navigation bar\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":80,\"right\":0,\"bottom\":48},\"image\":\"@url(google-nexus-5x-vertical-navigation-1x.png) 1x, @url(google-nexus-5x-vertical-navigation-2x.png) 2x\"},{\"title\":\"keyboard\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":80,\"right\":0,\"bottom\":342},\"image\":\"@url(google-nexus-5x-vertical-keyboard-1x.png) 1x, @url(google-nexus-5x-vertical-keyboard-2x.png) 2x\"},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":24,\"right\":48,\"bottom\":0},\"image\":\"@url(google-nexus-5x-horizontal-default-1x.png) 1x, @url(google-nexus-5x-horizontal-default-2x.png) 2x\"},{\"title\":\"navigation bar\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":80,\"right\":48,\"bottom\":0},\"image\":\"@url(google-nexus-5x-horizontal-navigation-1x.png) 1x, @url(google-nexus-5x-horizontal-navigation-2x.png) 2x\"},{\"title\":\"keyboard\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":80,\"right\":48,\"bottom\":222},\"image\":\"@url(google-nexus-5x-horizontal-keyboard-1x.png) 1x, @url(google-nexus-5x-horizontal-keyboard-2x.png) 2x\"}],\"show-by-default\":false,\"dual-screen\":false,\"show\":\"Default\"},{\"title\":\"Nexus 6\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 7.1.1; Nexus 6 Build/N6F26U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":3.5,\"vertical\":{\"width\":412,\"height\":732},\"horizontal\":{\"width\":732,\"height\":412}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"show\":\"Default\"},{\"title\":\"Nexus 6P\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 8.0.0; Nexus 6P Build/OPP3.170518.006) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":3.5,\"vertical\":{\"width\":412,\"height\":732,\"outline\":{\"insets\":{\"left\":16,\"top\":94,\"right\":16,\"bottom\":88},\"image\":\"@url(Nexus6P-portrait.svg)\"}},\"horizontal\":{\"width\":732,\"height\":412,\"outline\":{\"insets\":{\"left\":94,\"top\":17,\"right\":88,\"bottom\":17},\"image\":\"@url(Nexus6P-landscape.svg)\"}}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"show\":\"Default\"},{\"title\":\"LG Optimus L70\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; U; Android 4.4.2; en-us; LGMS323 Build/KOT49I.MS32310c) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.83 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":1.25,\"vertical\":{\"width\":384,\"height\":640},\"horizontal\":{\"width\":640,\"height\":384}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"show\":\"Default\"},{\"title\":\"Nokia N9\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (MeeGo; NokiaN9) AppleWebKit/534.13 (KHTML, like Gecko) NokiaBrowser/8.5.0 Mobile Safari/534.13\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":1,\"vertical\":{\"width\":480,\"height\":854},\"horizontal\":{\"width\":854,\"height\":480}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"show\":\"Default\"},{\"title\":\"Nokia Lumia 520\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 520)\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":1.5,\"vertical\":{\"width\":320,\"height\":533},\"horizontal\":{\"width\":533,\"height\":320}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"show\":\"Default\"},{\"title\":\"Microsoft Lumia 550\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 550) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Mobile Safari/537.36 Edge/14.14263\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":640,\"height\":360},\"horizontal\":{\"width\":640,\"height\":360}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"show\":\"Default\"},{\"title\":\"Microsoft Lumia 950\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 950) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Mobile Safari/537.36 Edge/14.14263\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":4,\"vertical\":{\"width\":360,\"height\":640},\"horizontal\":{\"width\":640,\"height\":360}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"show\":\"Default\"},{\"title\":\"Galaxy S III\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; U; Android 4.0; en-us; GT-I9300 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":360,\"height\":640},\"horizontal\":{\"width\":640,\"height\":360}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"show\":\"Default\"},{\"title\":\"Kindle Fire HDX\",\"type\":\"tablet\",\"user-agent\":\"Mozilla/5.0 (Linux; U; en-us; KFAPWI Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.13 Safari/535.19 Silk-Accelerated=true\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":800,\"height\":1280},\"horizontal\":{\"width\":1280,\"height\":800}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"show\":\"Default\"},{\"title\":\"iPad Mini\",\"type\":\"tablet\",\"user-agent\":\"Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":768,\"height\":1024},\"horizontal\":{\"width\":1024,\"height\":768}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"show\":\"Default\"},{\"title\":\"Blackberry PlayBook\",\"type\":\"tablet\",\"user-agent\":\"Mozilla/5.0 (PlayBook; U; RIM Tablet OS 2.1.0; en-US) AppleWebKit/536.2+ (KHTML like Gecko) Version/7.2.1.0 Safari/536.2+\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":1,\"vertical\":{\"width\":600,\"height\":1024},\"horizontal\":{\"width\":1024,\"height\":600}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"show\":\"Default\"},{\"title\":\"Nexus 10\",\"type\":\"tablet\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 6.0.1; Nexus 10 Build/MOB31T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":800,\"height\":1280},\"horizontal\":{\"width\":1280,\"height\":800}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"show\":\"Default\"},{\"title\":\"Nexus 7\",\"type\":\"tablet\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 6.0.1; Nexus 7 Build/MOB30X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":600,\"height\":960},\"horizontal\":{\"width\":960,\"height\":600}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"show\":\"Default\"},{\"title\":\"Galaxy Note 3\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":3,\"vertical\":{\"width\":360,\"height\":640},\"horizontal\":{\"width\":640,\"height\":360}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"show\":\"Default\"},{\"title\":\"Galaxy Note II\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; U; Android 4.1; en-us; GT-N7100 Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":360,\"height\":640},\"horizontal\":{\"width\":640,\"height\":360}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"show\":\"Default\"},{\"title\":\"Laptop with touch\",\"type\":\"notebook\",\"user-agent\":\"\",\"capabilities\":[\"touch\"],\"screen\":{\"device-pixel-ratio\":1,\"vertical\":{\"width\":950,\"height\":1280},\"horizontal\":{\"width\":1280,\"height\":950}},\"modes\":[{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"show\":\"Default\"},{\"title\":\"Laptop with HiDPI screen\",\"type\":\"notebook\",\"user-agent\":\"\",\"capabilities\":[],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":900,\"height\":1440},\"horizontal\":{\"width\":1440,\"height\":900}},\"modes\":[{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"show\":\"Default\"},{\"title\":\"Laptop with MDPI screen\",\"type\":\"notebook\",\"user-agent\":\"\",\"capabilities\":[],\"screen\":{\"device-pixel-ratio\":1,\"vertical\":{\"width\":800,\"height\":1280},\"horizontal\":{\"width\":1280,\"height\":800}},\"modes\":[{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"show\":\"Default\"},{\"title\":\"Moto G4\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 6.0.1; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":3,\"vertical\":{\"width\":360,\"height\":640,\"outline\":{\"insets\":{\"left\":80,\"top\":91,\"right\":80,\"bottom\":74},\"image\":\"@url(MotoG4-portrait.svg)\"}},\"horizontal\":{\"width\":640,\"height\":360,\"outline\":{\"insets\":{\"left\":91,\"top\":80,\"right\":74,\"bottom\":80},\"image\":\"@url(MotoG4-landscape.svg)\"}}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"dual-screen\":false,\"show\":\"Default\"},{\"title\":\"JioPhone 2\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Mobile; LYF/F300B/LYF-F300B-001-01-15-130718-i;Android; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.5\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":1,\"vertical\":{\"width\":240,\"height\":320},\"horizontal\":{\"width\":320,\"height\":240}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"show\":\"Default\"},{\"title\":\"Galaxy S5\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":3,\"vertical\":{\"width\":360,\"height\":640},\"horizontal\":{\"width\":640,\"height\":360}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"dual-screen\":false,\"show\":\"Default\"},{\"title\":\"Pixel 2\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2.625,\"vertical\":{\"width\":411,\"height\":731},\"horizontal\":{\"width\":731,\"height\":411}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"dual-screen\":false,\"show\":\"Default\"},{\"title\":\"Pixel 2 XL\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":3.5,\"vertical\":{\"width\":411,\"height\":823},\"horizontal\":{\"width\":823,\"height\":411}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"dual-screen\":false,\"show\":\"Default\"},{\"title\":\"iPhone 5/SE\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":320,\"height\":568,\"outline\":{\"insets\":{\"left\":29,\"top\":105,\"right\":25,\"bottom\":111},\"image\":\"@url(iPhone5-portrait.svg)\"}},\"horizontal\":{\"width\":568,\"height\":320,\"outline\":{\"insets\":{\"left\":115,\"top\":25,\"right\":115,\"bottom\":28},\"image\":\"@url(iPhone5-landscape.svg)\"}}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"dual-screen\":false,\"show\":\"Default\"},{\"title\":\"iPhone 6/7/8\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":375,\"height\":667,\"outline\":{\"insets\":{\"left\":28,\"top\":105,\"right\":28,\"bottom\":105},\"image\":\"@url(iPhone6-portrait.svg)\"}},\"horizontal\":{\"width\":667,\"height\":375,\"outline\":{\"insets\":{\"left\":106,\"top\":28,\"right\":106,\"bottom\":28},\"image\":\"@url(iPhone6-landscape.svg)\"}}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"dual-screen\":false,\"show\":\"Default\"},{\"title\":\"iPhone 6/7/8 Plus\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":3,\"vertical\":{\"width\":414,\"height\":736,\"outline\":{\"insets\":{\"left\":26,\"top\":107,\"right\":30,\"bottom\":111},\"image\":\"@url(iPhone6Plus-portrait.svg)\"}},\"horizontal\":{\"width\":736,\"height\":414,\"outline\":{\"insets\":{\"left\":109,\"top\":29,\"right\":109,\"bottom\":27},\"image\":\"@url(iPhone6Plus-landscape.svg)\"}}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"dual-screen\":false,\"show\":\"Default\"},{\"title\":\"iPhone X\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":3,\"vertical\":{\"width\":375,\"height\":812},\"horizontal\":{\"width\":812,\"height\":375}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"dual-screen\":false,\"show\":\"Default\"},{\"title\":\"iPad\",\"type\":\"tablet\",\"user-agent\":\"Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":768,\"height\":1024,\"outline\":{\"insets\":{\"left\":52,\"top\":114,\"right\":55,\"bottom\":114},\"image\":\"@url(iPad-portrait.svg)\"}},\"horizontal\":{\"width\":1024,\"height\":768,\"outline\":{\"insets\":{\"left\":112,\"top\":56,\"right\":116,\"bottom\":52},\"image\":\"@url(iPad-landscape.svg)\"}}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"dual-screen\":false,\"show\":\"Default\"},{\"title\":\"iPad Pro\",\"type\":\"tablet\",\"user-agent\":\"Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":1024,\"height\":1366},\"horizontal\":{\"width\":1366,\"height\":1024}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"dual-screen\":false,\"show\":\"Default\"},{\"title\":\"Surface Duo\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2.5,\"vertical\":{\"width\":540,\"height\":720},\"horizontal\":{\"width\":720,\"height\":540},\"vertical-spanned\":{\"width\":1114,\"height\":720,\"hinge\":{\"width\":34,\"height\":720,\"x\":540,\"y\":0,\"contentColor\":{\"r\":38,\"g\":38,\"b\":38,\"a\":1}}},\"horizontal-spanned\":{\"width\":720,\"height\":1114,\"hinge\":{\"width\":720,\"height\":34,\"x\":0,\"y\":540,\"contentColor\":{\"r\":38,\"g\":38,\"b\":38,\"a\":1}}}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"spanned\",\"orientation\":\"vertical-spanned\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"spanned\",\"orientation\":\"horizontal-spanned\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"dual-screen\":true,\"show\":\"Default\"},{\"title\":\"Galaxy Fold\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":3,\"vertical\":{\"width\":280,\"height\":653},\"horizontal\":{\"width\":653,\"height\":280},\"vertical-spanned\":{\"width\":717,\"height\":512},\"horizontal-spanned\":{\"width\":512,\"height\":717}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"spanned\",\"orientation\":\"vertical-spanned\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"spanned\",\"orientation\":\"horizontal-spanned\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"dual-screen\":true,\"show\":\"Default\"}]","undefined-tabOrder":"{\"Styles\":10,\"Computed\":20,\"sources.scopeChain\":21,\"sources.watch\":22}"}},"dom_distiller":{"font_family":0,"reader_for_accessibility":true,"theme":2},"domain_diversity":{"last_reporting_timestamp":"13248566805604406"},"download":{"default_directory":"/home/prashanth/Downloads/google_downloads","directory_upgrade":true},"extensions":{"alerts":{"initialized":true},"chrome_url_overrides":{},"commands":{},"last_chrome_version":"85.0.4183.83","pinned_extension_migration":true,"pinned_extensions":[],"settings":{"aapocclcgogkmnckokdopfmhonfmgoek":{"ack_external":true,"active_permissions":{"api":[],"manifest_permissions":[]},"app_launcher_ordinal":"w","commands":{},"content_settings":[],"creation_flags":137,"events":[],"from_bookmark":false,"from_webstore":true,"granted_permissions":{"api":[],"manifest_permissions":[]},"incognito_content_settings":[],"incognito_preferences":{},"install_time":"13242889923559321","lastpingday":"13242812407739850","location":1,"manifest":{"api_console_project_id":"889782162350","app":{"launch":{"local_path":"main.html"}},"container":"GOOGLE_DRIVE","current_locale":"en_GB","default_locale":"en_US","description":"Create and edit presentations","icons":{"128":"icon_128.png","16":"icon_16.png"},"key":"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDLOGW2Hoztw8m2z6SmCjm7y4Oe2o6aRqO+niYKCXhZab572by7acqFIFF0On3e3a967SwNijsTx2n+7Mt3KqWzEKtnwUZqzHYSsdZZK64vWIHIduawP0EICWRMf2RGIBEdDC6I1zErtcDiSrJWeRlnb0DHWXDXlt1YseM7RiON9wIDAQAB","manifest_version":2,"name":"Slides","offline_enabled":true,"update_url":"https://clients2.google.com/service/update2/crx","version":"0.10"},"page_ordinal":"n","path":"aapocclcgogkmnckokdopfmhonfmgoek/0.10_0","preferences":{},"regular_only_preferences":{},"state":1,"was_installed_by_default":true,"was_installed_by_oem":false,"withholding_permissions":false},"ahfgeienlihckogmohjhadlkjgocpleb":{"active_permissions":{"api":["management","system.display","system.storage","webstorePrivate","system.cpu","system.memory","system.network"],"manifest_permissions":[]},"app_launcher_ordinal":"t","commands":{},"content_settings":[],"creation_flags":1,"events":[],"from_bookmark":false,"from_webstore":false,"incognito_content_settings":[],"incognito_preferences":{},"install_time":"13242889903798825","location":5,"manifest":{"app":{"launch":{"web_url":"https://chrome.google.com/webstore"},"urls":["https://chrome.google.com/webstore"]},"description":"Discover great apps, games, extensions and themes for Google Chrome.","icons":{"128":"webstore_icon_128.png","16":"webstore_icon_16.png"},"key":"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCtl3tO0osjuzRsf6xtD2SKxPlTfuoy7AWoObysitBPvH5fE1NaAA1/2JkPWkVDhdLBWLaIBPYeXbzlHp3y4Vv/4XG+aN5qFE3z+1RU/NqkzVYHtIpVScf3DjTYtKVL66mzVGijSoAIwbFCC3LpGdaoe6Q1rSRDp76wR6jjFzsYwQIDAQAB","name":"Web Store","permissions":["webstorePrivate","management","system.cpu","system.display","system.memory","system.network","system.storage"],"version":"0.2"},"page_ordinal":"n","path":"/opt/google/chrome/resources/web_store","preferences":{},"regular_only_preferences":{},"state":1,"was_installed_by_default":false,"was_installed_by_oem":false},"aohghmighlieiainnegkcijnfilokake":{"ack_external":true,"active_permissions":{"api":[],"manifest_permissions":[]},"app_launcher_ordinal":"x","commands":{},"content_settings":[],"creation_flags":137,"events":[],"from_bookmark":false,"from_webstore":true,"granted_permissions":{"api":[],"manifest_permissions":[]},"incognito_content_settings":[],"incognito_preferences":{},"install_time":"13242889923659783","lastpingday":"13242812407739850","location":1,"manifest":{"api_console_project_id":"619683526622","app":{"launch":{"local_path":"main.html"}},"container":"GOOGLE_DRIVE","current_locale":"en_GB","default_locale":"en_US","description":"Create and edit documents","icons":{"128":"icon_128.png","16":"icon_16.png"},"key":"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDJhLK6fk/BWTEvJhywpk7jDe4A2r0bGXGOLZW4/AdBp3IiD9o9nx4YjLAtv0tIPxi7MvFd/GUUbQBwHT5wQWONJj1z/0Rc2qBkiJA0yqXh42p0snuA8dCfdlhOLsp7/XTMEwAVasjV5hC4awl78eKfJYlZ+8fM/UldLWJ/51iBQwIDAQAB","manifest_version":2,"name":"Docs","offline_enabled":true,"update_url":"https://clients2.google.com/service/update2/crx","version":"0.10"},"page_ordinal":"n","path":"aohghmighlieiainnegkcijnfilokake/0.10_0","preferences":{},"regular_only_preferences":{},"state":1,"was_installed_by_default":true,"was_installed_by_oem":false,"withholding_permissions":false},"apdfllckaahabafndbhieahigkjlhalf":{"ack_external":true,"active_permissions":{"api":["clipboardRead","clipboardWrite","notifications"],"manifest_permissions":[]},"app_launcher_ordinal":"y","commands":{},"content_settings":[],"creation_flags":137,"events":[],"from_bookmark":false,"from_webstore":true,"granted_permissions":{"api":["clipboardRead","clipboardWrite","notifications"],"manifest_permissions":[]},"incognito_content_settings":[],"incognito_preferences":{},"install_time":"13248129751766852","lastpingday":"13242812407739850","location":1,"manifest":{"app":{"launch":{"web_url":"https://drive.google.com/?usp=chrome_app"},"urls":["http://docs.google.com/","http://drive.google.com/","https://docs.google.com/","https://drive.google.com/"]},"background":{"allow_js_access":false},"current_locale":"en_GB","default_locale":"en_US","description":"Google Drive: create, share and keep all your stuff in one place.","differential_fingerprint":"1.d7089602fa181dfd161165dc1bb34271e7481f88ee2ca06230da2a2269a68c80","icons":{"128":"128.png"},"key":"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIl5KlKwL2TSkntkpY3naLLz5jsN0YwjhZyObcTOK6Nda4Ie21KRqZau9lx5SHcLh7pE2/S9OiArb+na2dn7YK5EvH+aRXS1ec3uxVlBhqLdnleVgwgwlg5fH95I52IeHcoeK6pR4hW/Nv39GNlI/Uqk6O6GBCCsAxYrdxww9BiQIDAQAB","manifest_version":2,"name":"Google Drive","offline_enabled":true,"options_page":"https://drive.google.com/drive/settings","permissions":["clipboardRead","clipboardWrite","notifications"],"update_url":"https://clients2.google.com/service/update2/crx","version":"14.5"},"page_ordinal":"n","path":"apdfllckaahabafndbhieahigkjlhalf/14.5_0","preferences":{},"regular_only_preferences":{},"state":1,"was_installed_by_default":true,"was_installed_by_oem":false},"blpcfgokakmgnkcojhhkbfbldkacnbeo":{"ack_external":true,"active_permissions":{"api":[],"manifest_permissions":[]},"app_launcher_ordinal":"zm","commands":{},"content_settings":[],"creation_flags":137,"events":[],"from_bookmark":false,"from_webstore":true,"granted_permissions":{"api":[],"manifest_permissions":[]},"incognito_content_settings":[],"incognito_preferences":{},"install_time":"13242889925493001","lastpingday":"13242812407739850","location":1,"manifest":{"app":{"launch":{"container":"tab","web_url":"http://www.youtube.com"},"web_content":{"enabled":true,"origin":"http://www.youtube.com"}},"current_locale":"en_GB","default_locale":"en","description":"","icons":{"128":"128.png"},"key":"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDC/HotmFlyuz5FaHaIbVBhhL4BwbcUtsfWwzgUMpZt5ZsLB2nW/Y5xwNkkPANYGdVsJkT2GPpRRIKBO5QiJ7jPMa3EZtcZHpkygBlQLSjMhdrAKevpKgIl6YTkwzNvExY6rzVDzeE9zqnIs33eppY4S5QcoALMxuSWlMKqgFQjHQIDAQAB","manifest_version":2,"name":"YouTube","update_url":"http://clients2.google.com/service/update2/crx","version":"4.2.8"},"page_ordinal":"n","path":"blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0","preferences":{},"regular_only_preferences":{},"state":1,"was_installed_by_default":true,"was_installed_by_oem":false},"cfhdojbkjhnklbpkdaibdccddilifddb":{"active_permissions":{"api":["contextMenus","devtools","notifications","storage","tabs","unlimitedStorage","webNavigation","webRequest","webRequestBlocking"],"explicit_host":["\u003Call_urls>","chrome://favicon/*"],"manifest_permissions":[],"scriptable_host":["http://*/*","https://*/*"]},"commands":{},"content_settings":[],"creation_flags":9,"events":[],"from_bookmark":false,"from_webstore":true,"granted_permissions":{"api":["contextMenus","devtools","notifications","storage","tabs","unlimitedStorage","webNavigation","webRequest","webRequestBlocking"],"explicit_host":["\u003Call_urls>","chrome://favicon/*"],"manifest_permissions":[],"scriptable_host":["http://*/*","https://*/*"]},"incognito_content_settings":[],"incognito_preferences":{},"install_time":"13248440611889130","location":1,"manifest":{"author":"eyeo GmbH","background":{"persistent":true,"scripts":["polyfill.js","ext/common.js","ext/background.js","lib/adblockplus.js"]},"browser_action":{"default_icon":{"16":"icons/abp-16.png","20":"icons/abp-20.png","32":"icons/abp-32.png","40":"icons/abp-40.png"},"default_popup":"popup.html","default_title":"Adblock Plus"},"content_scripts":[{"all_frames":true,"js":["polyfill.js","ext/common.js","ext/content.js","include.preload.js"],"match_about_blank":true,"matches":["http://*/*","https://*/*"],"run_at":"document_start"},{"all_frames":true,"js":["include.postload.js"],"match_about_blank":true,"matches":["http://*/*","https://*/*"],"run_at":"document_end"}],"current_locale":"en_GB","default_locale":"en_US","description":"Block YouTube™ ads, pop-ups & fight malware!","devtools_page":"devtools.html","icons":{"128":"icons/detailed/abp-128.png","16":"icons/abp-16.png","32":"icons/abp-32.png","48":"icons/detailed/abp-48.png","64":"icons/detailed/abp-64.png"},"key":"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCxGWIIBRUVzQIXITqE6+js1FA24fsZC58G0fxcO1Duwfps+9gip5tedTziErKEpeAQVkgasdT4kk+b6Lw27yp3oysAj6zD9j+j4W+EMArTXqMIc6SMYD7Z8bPcwPb3tC1MUxMSpO6oOVpFE23UhKe91SYnrK92nHI2cmsor5elXQIDAQAB","manifest_version":2,"minimum_chrome_version":"52.0","minimum_opera_version":"39.0","name":"Adblock Plus - free ad blocker","optional_permissions":["contentSettings","management"],"options_ui":{"open_in_tab":true,"page":"options.html"},"permissions":["tabs","\u003Call_urls>

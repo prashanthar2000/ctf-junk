@@ -1,0 +1,1 @@
+d, grp_assignment_write = %d, grp_scalar_read = %d, grp_scalar_write = %d, grp_total_scalarization = %d, grp_hint = %d, grp_covered = %d, grp_unscalarizable_region = %d, grp_unscalarized_data = %d, grp_partial_lhs = %d, grp_to_be_replaced = %d, grp_to_be_debug_replaced = %d, grp_maybe_modified = %d, grp_not_necessarilly_dereferenced = %d

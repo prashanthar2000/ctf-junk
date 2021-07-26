@@ -1,0 +1,25 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Fri Jul  9 18:45:36 2021
+Invocation: foremost Mashaa.wav 
+Output directory: /home/prashanth/Music/cyberchase/crypto/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: Mashaa.wav
+Start: Fri Jul  9 18:45:36 2021
+Length: 5 MB (6248058 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.wav 	       5 MB 	          0 	 
+1:	00011029.png 	     587 KB 	    5646921 	  (900 x 510)
+Finish: Fri Jul  9 18:45:36 2021
+
+2 FILES EXTRACTED
+	
+rif:= 1
+png:= 1
+------------------------------------------------------------------
+
+Foremost finished at Fri Jul  9 18:45:36 2021

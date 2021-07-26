@@ -1,0 +1,21 @@
+
+Scalpel version 1.60 audit file
+Started at Wed Aug  5 16:13:04 2020
+Command line:
+scalpel pixelopia.png 
+
+Output directory: /home/prashanth/Music/ctf/3pesctf/steg/scalpel-output
+Configuration file: /etc/scalpel/scalpel.conf
+
+Opening target "H="
+
+The following files were carved:
+File		  Start			Chop		Length		Extracted From
+ERROR: The configuration file didn't specify any file types to carve.
+(If you're using the default configuration file, you'll have to
+uncomment some of the file types.)
+
+See /etc/scalpel/scalpel.conf.
+
+
+Completed at Wed Aug  5 16:13:04 2020

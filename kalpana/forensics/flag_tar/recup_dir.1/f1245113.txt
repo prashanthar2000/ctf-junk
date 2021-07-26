@@ -1,0 +1,4 @@
+ whose names differ only in
+the character case, then collisions in constraint
+names can occur. Workaround: name your constraints
+explicitly with unique names.

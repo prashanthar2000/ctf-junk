@@ -1,0 +1,19 @@
+#bash
+pwn cyclic 100 
+pwn cyclic -l address   -- offeset
+
+#python
+from pwn import *
+cyclic(100)
+cyclic_find(p32(0x6161616c))
+vlun = ELF("./vlun")
+p32(vlun.symbols['win'])
+
+radare2              gdb          desc
+db                  break        break pointer 
+dc                  s or c       continue
+              info add funtion   addreass 
+
+get_return_address()
+
+disassemble main

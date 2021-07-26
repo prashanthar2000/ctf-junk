@@ -1,0 +1,3 @@
+or (var i=0; i<1; i++) {} ...
+  The interpreter will enter the new jitcode at the loop header unless
+  baselineCompile returned a string or threw an error.

@@ -1,0 +1,6 @@
+ource {
+    CairoImageData CairoImageDataIndex get
+    /CairoImageDataIndex CairoImageDataIndex 1 add def
+    CairoImageDataIndex CairoImageData length 1 sub gt
+     { /CairoImageDataIndex 0 def } if
+  } /ASCII85Decode filter /DCTDecode filter def

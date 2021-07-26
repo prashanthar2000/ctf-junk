@@ -1,0 +1,8 @@
+eturn uint(round(clamp(x, 0.0, 1.0) * 65535.0));
+}
+uint packUnorm2x16_emu(in float2 v)
+{
+    uint x = webgl_toUnorm16(v.x);
+    uint y = webgl_toUnorm16(v.y);
+    return (y << 16) | x;
+}

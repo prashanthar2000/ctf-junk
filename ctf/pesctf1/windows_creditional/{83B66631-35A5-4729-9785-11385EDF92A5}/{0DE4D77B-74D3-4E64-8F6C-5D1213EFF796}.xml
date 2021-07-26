@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+	<name>BrN6-cmFjaGVsZ3JlZW44Mzg</name>
+	<SSIDConfig>
+		<SSID>
+			<hex>42724E362D636D466A614756735A334A6C5A5734344D7A67</hex>
+			<name>BrN6-cmFjaGVsZ3JlZW44Mzg</name>
+		</SSID>
+	</SSIDConfig>
+	<connectionType>ESS</connectionType>
+	<connectionMode>manual</connectionMode>
+	<MSM>
+		<security>
+			<authEncryption>
+				<authentication>open</authentication>
+				<encryption>none</encryption>
+				<useOneX>false</useOneX>
+			</authEncryption>
+		</security>
+	</MSM>
+</WLANProfile>

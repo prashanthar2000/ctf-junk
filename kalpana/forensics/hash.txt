@@ -1,0 +1,1 @@
+john-listens-to-rockyou.zip/flag.txt:$pkzip2$1*2*2*0*23*17*14d7b884*0*42*0*23*14d7*7f2e*4539c35aacbee806831a49ac1e099e211bbea32e496bdf1fbf4b577909b0d1ef299f3c*$/pkzip2$:flag.txt:john-listens-to-rockyou.zip::john-listens-to-rockyou.zip

@@ -1,0 +1,12 @@
+
+    return int(round(clamp(x, -1.0, 1.0) * 127.0));
+}
+uint packSnorm4x8_emu(in float4 v)
+{
+    int x = webgl_toSnorm8(v.x);
+    int y = webgl_toSnorm8(v.y);
+    int z = webgl_toSnorm8(v.z);
+    int w = webgl_toSnorm8(v.w);
+    return ((asuint(w) & 0xffu) << 24) | ((asuint(z) & 0xffu) << 16) 
+    | ((asuint(y) & 0xffu) << 8) | (asuint(x) & 0xffu);
+}

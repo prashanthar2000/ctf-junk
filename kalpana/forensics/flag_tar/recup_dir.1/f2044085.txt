@@ -1,0 +1,5 @@
+ated only by calls
+  to this function, never implicitly by the system, making them
+  suitable for use in allocation tooling tests. Takes an optional
+  options object which may contain the following properties:
+    * nursery: bool, whether to allocate the object in the nursery

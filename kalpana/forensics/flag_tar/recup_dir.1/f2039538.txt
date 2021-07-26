@@ -1,0 +1,7 @@
+atternType 2
+   /Matrix [ %f %f %f %f %f %f ]
+   /Shading
+      << /ShadingType 3
+         /ColorSpace /DeviceRGB
+         /Coords [ %f %f %f %f %f %f ]
+         /Function %d 0 R

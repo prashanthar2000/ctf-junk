@@ -1,0 +1,23 @@
+                     
+            #ifdef GL_FRAGMENT_PRECISION_HIGH                                
+                precision highp float;                                       
+            #else                                                            
+                precision mediump float;                                     
+            #endif                                                           
+        #endif                                                               
+                                                                             
+        #if __VERSION__ >= 130                                               
+            #define VARYING in                                               
+            #define FRAG_COLOR oFragColor                                    
+            out vec4 FRAG_COLOR;                                             
+        #else                                                                
+            #define VARYING varying                                          
+            #define FRAG_COLOR gl_FragColor                                  
+        #endif                                                               
+                                                                             
+        #if __VERSION__ >= 120                                               
+            #define MAT4X3 mat4x3                                            
+        #else                                                                
+            #define MAT4X3 mat4                                              
+        #endif                                                               
+    

@@ -1,0 +1,5 @@
+     %12lu(%5.1lf%%)]
+         [New:       %12lu(%5.1lf%%) %8.1lf%s]
+      [Deduplicated: %12lu(%5.1lf%%) %8.1lf%s(%5.1lf%%)]
+         [Young:     %12lu(%5.1lf%%) %8.1lf%s(%5.1lf%%)]
+         [Old:       %12lu(%5.1lf%%) %8.1lf%s(%5.1lf%%)]

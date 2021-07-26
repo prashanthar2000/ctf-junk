@@ -1,0 +1,4 @@
+check logs HEAD 
+flag hash 
+git show $hash 
++pesuctf{a96f178c3f5c8d18e2ae8bfe68014b1b3c063939}

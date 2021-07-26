@@ -1,0 +1,4 @@
+ated machine code from WebAssembly.Module.  The tier is a string,
+  'stable', 'best', 'baseline', or 'ion'; the default is 'stable'.  If the request
+  cannot be satisfied then null is returned.  If the request is 'ion' then block
+  until background compilation is complete.

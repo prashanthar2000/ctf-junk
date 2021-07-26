@@ -1,0 +1,1 @@
+che-hit-ratio: %4.3f word-cache-space: %d word-cache-long: %d pref-fallbacks: %d system-fallbacks: %d textruns-const: %d textruns-destr: %d generic-lookups: %d cumulative-textruns-destr: %d

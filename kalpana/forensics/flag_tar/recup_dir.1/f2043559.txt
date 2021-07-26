@@ -1,0 +1,14 @@
+gration wizard.
+  --ProfileManager   Start with ProfileManager.
+  --no-remote        Do not accept or send remote commands; implies
+                     --new-instance.
+  --new-instance     Open new instance, not a new window in running instance.
+  --UILocale <locale> Start with <locale> resources as UI Locale.
+  --safe-mode        Disables extensions and themes for this session.
+  --allow-downgrade  Allows downgrading a profile.
+  --MOZ_LOG=<modules> Treated as MOZ_LOG=<modules> environment variable,
+                     overrides it.
+  --MOZ_LOG_FILE=<file> Treated as MOZ_LOG_FILE=<file> environment variable,
+                     overrides it. If MOZ_LOG_FILE is not specified as an
+                     argument or as an environment variable, logging will be
+                     written to stdout.

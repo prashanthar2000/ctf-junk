@@ -1,0 +1,280 @@
+21:45:35 parrot NetworkManager[779]: <info>  [1604592935.9077] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:45:37 parrot NetworkManager[779]: <info>  [1604592937.0443] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:45:37 parrot NetworkManager[779]: <info>  [1604592937.0444] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:45:39 parrot NetworkManager[779]: <info>  [1604592939.6032] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:45:39 parrot NetworkManager[779]: <info>  [1604592939.6033] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:45:40 parrot NetworkManager[779]: <info>  [1604592940.0439] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:45:40 parrot NetworkManager[779]: <info>  [1604592940.0440] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:45:41 parrot NetworkManager[779]: <info>  [1604592941.5579] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:45:41 parrot NetworkManager[779]: <info>  [1604592941.5580] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:45:50 parrot NetworkManager[779]: <info>  [1604592950.0520] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:45:50 parrot NetworkManager[779]: <info>  [1604592950.0521] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:45:52 parrot NetworkManager[779]: <info>  [1604592952.0274] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:45:52 parrot NetworkManager[779]: <info>  [1604592952.0275] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:45:54 parrot NetworkManager[779]: <info>  [1604592954.0433] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:45:54 parrot NetworkManager[779]: <info>  [1604592954.0433] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:45:55 parrot NetworkManager[779]: <info>  [1604592955.7961] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:45:55 parrot NetworkManager[779]: <info>  [1604592955.7962] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:45:57 parrot NetworkManager[779]: <info>  [1604592957.0441] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:45:57 parrot NetworkManager[779]: <info>  [1604592957.0441] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:45:58 parrot NetworkManager[779]: <info>  [1604592958.9049] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:45:58 parrot NetworkManager[779]: <info>  [1604592958.9050] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:46:00 parrot NetworkManager[779]: <info>  [1604592960.0440] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:46:00 parrot NetworkManager[779]: <info>  [1604592960.0440] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:46:02 parrot NetworkManager[779]: <info>  [1604592962.6061] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:46:02 parrot NetworkManager[779]: <info>  [1604592962.6061] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:46:03 parrot NetworkManager[779]: <info>  [1604592963.0452] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:46:03 parrot NetworkManager[779]: <info>  [1604592963.0452] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:46:04 parrot NetworkManager[779]: <info>  [1604592964.0997] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:46:04 parrot NetworkManager[779]: <info>  [1604592964.0998] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:46:07 parrot NetworkManager[779]: <info>  [1604592967.0454] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:46:07 parrot NetworkManager[779]: <info>  [1604592967.0454] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:46:07 parrot NetworkManager[779]: <info>  [1604592967.8773] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:46:07 parrot NetworkManager[779]: <info>  [1604592967.8774] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:46:09 parrot NetworkManager[779]: <info>  [1604592969.0443] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:46:09 parrot NetworkManager[779]: <info>  [1604592969.0444] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:46:10 parrot NetworkManager[779]: <info>  [1604592970.1012] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:46:10 parrot NetworkManager[779]: <info>  [1604592970.1013] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:46:23 parrot NetworkManager[779]: <info>  [1604592983.0556] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:46:23 parrot NetworkManager[779]: <info>  [1604592983.0556] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:46:25 parrot NetworkManager[779]: <info>  [1604592985.6186] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:46:25 parrot NetworkManager[779]: <info>  [1604592985.6187] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:46:31 parrot NetworkManager[779]: <info>  [1604592991.0477] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:46:31 parrot NetworkManager[779]: <info>  [1604592991.0478] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:46:33 parrot NetworkManager[779]: <info>  [1604592993.3639] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:46:33 parrot NetworkManager[779]: <info>  [1604592993.3640] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:46:34 parrot NetworkManager[779]: <info>  [1604592994.0441] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:46:34 parrot NetworkManager[779]: <info>  [1604592994.0442] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:46:36 parrot NetworkManager[779]: <info>  [1604592996.1379] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:46:36 parrot NetworkManager[779]: <info>  [1604592996.1380] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:46:37 parrot NetworkManager[779]: <info>  [1604592997.0436] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:46:37 parrot NetworkManager[779]: <info>  [1604592997.0436] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:46:38 parrot NetworkManager[779]: <info>  [1604592998.9010] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:46:38 parrot NetworkManager[779]: <info>  [1604592998.9010] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:46:41 parrot NetworkManager[779]: <info>  [1604593001.0451] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:46:41 parrot NetworkManager[779]: <info>  [1604593001.0452] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:46:42 parrot NetworkManager[779]: <info>  [1604593002.6824] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:46:42 parrot NetworkManager[779]: <info>  [1604593002.6826] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:46:46 parrot NetworkManager[779]: <info>  [1604593006.0442] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:46:46 parrot NetworkManager[779]: <info>  [1604593006.0443] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:46:48 parrot NetworkManager[779]: <info>  [1604593008.6051] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:46:48 parrot NetworkManager[779]: <info>  [1604593008.6052] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:46:49 parrot NetworkManager[779]: <info>  [1604593009.0442] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:46:49 parrot NetworkManager[779]: <info>  [1604593009.0443] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:46:50 parrot NetworkManager[779]: <info>  [1604593010.6764] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:46:50 parrot NetworkManager[779]: <info>  [1604593010.6765] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:46:56 parrot NetworkManager[779]: <info>  [1604593016.0480] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:46:56 parrot NetworkManager[779]: <info>  [1604593016.0481] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:46:57 parrot NetworkManager[779]: <info>  [1604593017.7914] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:46:57 parrot NetworkManager[779]: <info>  [1604593017.7915] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:46:59 parrot NetworkManager[779]: <info>  [1604593019.0434] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:46:59 parrot NetworkManager[779]: <info>  [1604593019.0434] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:47:00 parrot NetworkManager[779]: <info>  [1604593020.5637] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:47:00 parrot NetworkManager[779]: <info>  [1604593020.5638] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:47:02 parrot NetworkManager[779]: <info>  [1604593022.0450] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:47:02 parrot NetworkManager[779]: <info>  [1604593022.0451] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:47:03 parrot NetworkManager[779]: <info>  [1604593023.7882] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:47:03 parrot NetworkManager[779]: <info>  [1604593023.7883] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:47:06 parrot NetworkManager[779]: <info>  [1604593026.0463] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:47:06 parrot NetworkManager[779]: <info>  [1604593026.0465] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:47:08 parrot NetworkManager[779]: <info>  [1604593028.6061] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:47:08 parrot NetworkManager[779]: <info>  [1604593028.6062] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:47:11 parrot NetworkManager[779]: <info>  [1604593031.0445] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:47:11 parrot NetworkManager[779]: <info>  [1604593031.0445] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:47:11 parrot NetworkManager[779]: <info>  [1604593031.7551] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:47:11 parrot NetworkManager[779]: <info>  [1604593031.7552] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:47:16 parrot NetworkManager[779]: <info>  [1604593036.0480] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:47:16 parrot NetworkManager[779]: <info>  [1604593036.0480] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:47:18 parrot NetworkManager[779]: <info>  [1604593038.4902] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:47:18 parrot NetworkManager[779]: <info>  [1604593038.4903] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:47:23 parrot hostapd-wpe[953]: wlan0: INTERFACE-DISABLED
+Nov  5 21:47:23 parrot charon: 05[KNL] interface wlan0 deactivated
+Nov  5 21:47:23 parrot NetworkManager[779]: <info>  [1604593043.1574] device (wlan0): set-hw-addr: set MAC address to 02:15:82:21:7E:27 (scanning)
+Nov  5 21:47:23 parrot geoclue[1788]: WiFi scan failed
+Nov  5 21:47:23 parrot charon: 06[KNL] interface wlan0 activated
+Nov  5 21:47:23 parrot hostapd-wpe[953]: wlan0: INTERFACE-ENABLED
+Nov  5 21:47:23 parrot hostapd-wpe[953]: Failed to set beacon parameters
+Nov  5 21:47:23 parrot NetworkManager[779]: <info>  [1604593043.1601] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:47:23 parrot NetworkManager[779]: <info>  [1604593043.1602] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:47:23 parrot NetworkManager[779]: <info>  [1604593043.1690] device (wlan0): supplicant interface state: scanning -> interface_disabled
+Nov  5 21:47:23 parrot NetworkManager[779]: <info>  [1604593043.1691] device (p2p-dev-wlan0): supplicant management interface state: scanning -> interface_disabled
+Nov  5 21:47:23 parrot NetworkManager[779]: <info>  [1604593043.2223] device (wlan0): supplicant interface state: interface_disabled -> disconnected
+Nov  5 21:47:23 parrot NetworkManager[779]: <info>  [1604593043.2224] device (p2p-dev-wlan0): supplicant management interface state: interface_disabled -> disconnected
+Nov  5 21:47:27 parrot NetworkManager[779]: <info>  [1604593047.0447] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:47:27 parrot NetworkManager[779]: <info>  [1604593047.0448] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:47:29 parrot NetworkManager[779]: <info>  [1604593049.6089] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:47:29 parrot NetworkManager[779]: <info>  [1604593049.6089] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:47:36 parrot NetworkManager[779]: <info>  [1604593056.0478] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:47:36 parrot NetworkManager[779]: <info>  [1604593056.0479] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:47:38 parrot NetworkManager[779]: <info>  [1604593058.6100] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:47:38 parrot NetworkManager[779]: <info>  [1604593058.6101] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:47:39 parrot NetworkManager[779]: <info>  [1604593059.0443] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:47:39 parrot NetworkManager[779]: <info>  [1604593059.0444] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:47:40 parrot NetworkManager[779]: <info>  [1604593060.4438] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:47:40 parrot NetworkManager[779]: <info>  [1604593060.4439] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:47:41 parrot NetworkManager[779]: <info>  [1604593061.0435] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:47:41 parrot NetworkManager[779]: <info>  [1604593061.0436] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:47:42 parrot NetworkManager[779]: <info>  [1604593062.2213] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:47:42 parrot NetworkManager[779]: <info>  [1604593062.2214] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:47:46 parrot NetworkManager[779]: <info>  [1604593066.0469] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:47:46 parrot NetworkManager[779]: <info>  [1604593066.0470] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:47:48 parrot NetworkManager[779]: <info>  [1604593068.2527] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:47:48 parrot NetworkManager[779]: <info>  [1604593068.2528] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:47:49 parrot NetworkManager[779]: <info>  [1604593069.0443] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:47:49 parrot NetworkManager[779]: <info>  [1604593069.0444] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:47:51 parrot NetworkManager[779]: <info>  [1604593071.0258] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:47:51 parrot NetworkManager[779]: <info>  [1604593071.0259] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:47:51 parrot NetworkManager[779]: <info>  [1604593071.0445] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:47:51 parrot NetworkManager[779]: <info>  [1604593071.0446] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:47:53 parrot NetworkManager[779]: <info>  [1604593073.6054] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:47:53 parrot NetworkManager[779]: <info>  [1604593073.6055] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:48:00 parrot NetworkManager[779]: <info>  [1604593080.0478] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:48:00 parrot NetworkManager[779]: <info>  [1604593080.0479] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:48:02 parrot NetworkManager[779]: <info>  [1604593082.3669] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:48:02 parrot NetworkManager[779]: <info>  [1604593082.3670] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:48:09 parrot NetworkManager[779]: <info>  [1604593089.0477] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:48:09 parrot NetworkManager[779]: <info>  [1604593089.0478] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:48:11 parrot NetworkManager[779]: <info>  [1604593091.8336] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:48:11 parrot NetworkManager[779]: <info>  [1604593091.8337] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:48:12 parrot NetworkManager[779]: <info>  [1604593092.0440] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:48:12 parrot NetworkManager[779]: <info>  [1604593092.0441] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:48:14 parrot NetworkManager[779]: <info>  [1604593094.6058] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:48:14 parrot NetworkManager[779]: <info>  [1604593094.6059] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:48:15 parrot NetworkManager[779]: <info>  [1604593095.0453] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:48:15 parrot NetworkManager[779]: <info>  [1604593095.0453] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:48:17 parrot NetworkManager[779]: <info>  [1604593097.2479] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:48:17 parrot NetworkManager[779]: <info>  [1604593097.2480] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:48:23 parrot NetworkManager[779]: <info>  [1604593103.0480] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:48:23 parrot NetworkManager[779]: <info>  [1604593103.0481] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:48:25 parrot NetworkManager[779]: <info>  [1604593105.6079] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:48:25 parrot NetworkManager[779]: <info>  [1604593105.6080] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:48:28 parrot NetworkManager[779]: <info>  [1604593108.0443] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:48:28 parrot NetworkManager[779]: <info>  [1604593108.0444] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:48:28 parrot NetworkManager[779]: <info>  [1604593108.9903] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:48:28 parrot NetworkManager[779]: <info>  [1604593108.9904] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:48:30 parrot NetworkManager[779]: <info>  [1604593110.0444] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:48:30 parrot NetworkManager[779]: <info>  [1604593110.0446] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:48:30 parrot NetworkManager[779]: <info>  [1604593110.9900] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:48:30 parrot NetworkManager[779]: <info>  [1604593110.9901] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:48:31 parrot NetworkManager[779]: <info>  [1604593111.0438] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:48:31 parrot NetworkManager[779]: <info>  [1604593111.0439] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:48:32 parrot NetworkManager[779]: <info>  [1604593112.9033] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:48:32 parrot NetworkManager[779]: <info>  [1604593112.9034] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:48:35 parrot NetworkManager[779]: <info>  [1604593115.0452] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:48:35 parrot NetworkManager[779]: <info>  [1604593115.0454] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:48:37 parrot NetworkManager[779]: <info>  [1604593117.6075] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:48:37 parrot NetworkManager[779]: <info>  [1604593117.6076] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:48:38 parrot NetworkManager[779]: <info>  [1604593118.0450] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:48:38 parrot NetworkManager[779]: <info>  [1604593118.0451] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:48:39 parrot NetworkManager[779]: <info>  [1604593119.6745] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:48:39 parrot NetworkManager[779]: <info>  [1604593119.6746] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:48:42 parrot NetworkManager[779]: <info>  [1604593122.0443] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:48:42 parrot NetworkManager[779]: <info>  [1604593122.0444] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:48:43 parrot NetworkManager[779]: <info>  [1604593123.4504] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:48:43 parrot NetworkManager[779]: <info>  [1604593123.4505] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:48:44 parrot NetworkManager[779]: <info>  [1604593124.0430] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:48:44 parrot NetworkManager[779]: <info>  [1604593124.0431] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:48:45 parrot NetworkManager[779]: <info>  [1604593125.2165] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:48:45 parrot NetworkManager[779]: <info>  [1604593125.2166] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:48:52 parrot NetworkManager[779]: <info>  [1604593132.0480] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:48:52 parrot NetworkManager[779]: <info>  [1604593132.0481] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:48:54 parrot NetworkManager[779]: <info>  [1604593134.3723] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:48:54 parrot NetworkManager[779]: <info>  [1604593134.3724] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:48:55 parrot NetworkManager[779]: <info>  [1604593135.0437] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:48:55 parrot NetworkManager[779]: <info>  [1604593135.0438] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:48:57 parrot NetworkManager[779]: <info>  [1604593137.6061] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:48:57 parrot NetworkManager[779]: <info>  [1604593137.6063] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:48:58 parrot NetworkManager[779]: <info>  [1604593138.0463] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:48:58 parrot NetworkManager[779]: <info>  [1604593138.0464] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:49:00 parrot NetworkManager[779]: <info>  [1604593140.4746] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:49:00 parrot NetworkManager[779]: <info>  [1604593140.4746] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:49:02 parrot NetworkManager[779]: <info>  [1604593142.0451] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:49:02 parrot NetworkManager[779]: <info>  [1604593142.0452] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:49:04 parrot NetworkManager[779]: <info>  [1604593144.2528] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:49:04 parrot NetworkManager[779]: <info>  [1604593144.2529] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:49:05 parrot NetworkManager[779]: <info>  [1604593145.0415] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:49:05 parrot NetworkManager[779]: <info>  [1604593145.0416] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:49:06 parrot NetworkManager[779]: <info>  [1604593146.2171] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:49:06 parrot NetworkManager[779]: <info>  [1604593146.2172] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:49:07 parrot NetworkManager[779]: <info>  [1604593147.0478] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:49:07 parrot NetworkManager[779]: <info>  [1604593147.0479] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:49:07 parrot NetworkManager[779]: <info>  [1604593147.9948] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:49:07 parrot NetworkManager[779]: <info>  [1604593147.9949] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:49:08 parrot NetworkManager[779]: <info>  [1604593148.0426] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:49:08 parrot NetworkManager[779]: <info>  [1604593148.0427] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:49:10 parrot NetworkManager[779]: <info>  [1604593150.6029] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:49:10 parrot NetworkManager[779]: <info>  [1604593150.6031] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:49:11 parrot NetworkManager[779]: <info>  [1604593151.0445] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:49:11 parrot NetworkManager[779]: <info>  [1604593151.0446] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:49:12 parrot NetworkManager[779]: <info>  [1604593152.1009] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:49:12 parrot NetworkManager[779]: <info>  [1604593152.1010] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:49:17 parrot NetworkManager[779]: <info>  [1604593157.0479] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:49:17 parrot NetworkManager[779]: <info>  [1604593157.0480] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:49:18 parrot NetworkManager[779]: <info>  [1604593158.9064] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:49:18 parrot NetworkManager[779]: <info>  [1604593158.9065] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:49:20 parrot NetworkManager[779]: <info>  [1604593160.0447] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:49:20 parrot NetworkManager[779]: <info>  [1604593160.0448] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:49:21 parrot NetworkManager[779]: <info>  [1604593161.6795] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:49:21 parrot NetworkManager[779]: <info>  [1604593161.6796] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:49:23 parrot NetworkManager[779]: <info>  [1604593163.0439] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:49:23 parrot NetworkManager[779]: <info>  [1604593163.0440] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:49:25 parrot NetworkManager[779]: <info>  [1604593165.3617] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:49:25 parrot NetworkManager[779]: <info>  [1604593165.3619] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:49:26 parrot NetworkManager[779]: <info>  [1604593166.0465] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:49:26 parrot NetworkManager[779]: <info>  [1604593166.0466] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:49:28 parrot NetworkManager[779]: <info>  [1604593168.6092] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:49:28 parrot NetworkManager[779]: <info>  [1604593168.6093] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:49:29 parrot NetworkManager[779]: <info>  [1604593169.0396] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:49:29 parrot NetworkManager[779]: <info>  [1604593169.0397] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:49:29 parrot NetworkManager[779]: <info>  [1604593169.9861] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:49:29 parrot NetworkManager[779]: <info>  [1604593169.9862] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:49:32 parrot NetworkManager[779]: <info>  [1604593172.0445] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:49:32 parrot NetworkManager[779]: <info>  [1604593172.0446] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:49:32 parrot NetworkManager[779]: <info>  [1604593172.7632] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:49:32 parrot NetworkManager[779]: <info>  [1604593172.7633] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:49:34 parrot NetworkManager[779]: <info>  [1604593174.0453] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:49:34 parrot NetworkManager[779]: <info>  [1604593174.0454] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:49:35 parrot NetworkManager[779]: <info>  [1604593175.5599] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:49:35 parrot NetworkManager[779]: <info>  [1604593175.5600] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:49:43 parrot NetworkManager[779]: <info>  [1604593183.0466] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:49:43 parrot NetworkManager[779]: <info>  [1604593183.0467] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:49:45 parrot NetworkManager[779]: <info>  [1604593185.6079] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:49:45 parrot NetworkManager[779]: <info>  [1604593185.6080] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:49:46 parrot NetworkManager[779]: <info>  [1604593186.0447] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:49:46 parrot NetworkManager[779]: <info>  [1604593186.0448] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:49:48 parrot NetworkManager[779]: <info>  [1604593188.2498] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:49:48 parrot NetworkManager[779]: <info>  [1604593188.2499] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:49:49 parrot NetworkManager[779]: <info>  [1604593189.0454] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:49:49 parrot NetworkManager[779]: <info>  [1604593189.0455] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:49:51 parrot NetworkManager[779]: <info>  [1604593191.0235] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:49:51 parrot NetworkManager[779]: <info>  [1604593191.0236] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:49:51 parrot NetworkManager[779]: <info>  [1604593191.0437] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:49:51 parrot NetworkManager[779]: <info>  [1604593191.0438] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:49:53 parrot NetworkManager[779]: <info>  [1604593193.0225] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:49:53 parrot NetworkManager[779]: <info>  [1604593193.0226] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:49:54 parrot NetworkManager[779]: <info>  [1604593194.0444] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:49:54 parrot NetworkManager[779]: <info>  [1604593194.0445] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:49:55 parrot NetworkManager[779]: <info>  [1604593195.5610] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:49:55 parrot NetworkManager[779]: <info>  [1604593195.5611] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:49:57 parrot NetworkManager[779]: <info>  [1604593197.0442] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:49:57 parrot NetworkManager[779]: <info>  [1604593197.0443] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:49:59 parrot NetworkManager[779]: <info>  [1604593199.6038] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:49:59 parrot NetworkManager[779]: <info>  [1604593199.6039] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:50:07 parrot NetworkManager[779]: <info>  [1604593207.0469] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:50:07 parrot NetworkManager[779]: <info>  [1604593207.0469] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:50:09 parrot NetworkManager[779]: <info>  [1604593209.0217] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:50:09 parrot NetworkManager[779]: <info>  [1604593209.0218] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:50:09 parrot NetworkManager[779]: <info>  [1604593209.0438] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:50:09 parrot NetworkManager[779]: <info>  [1604593209.0439] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:50:10 parrot NetworkManager[779]: <info>  [1604593210.7950] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:50:10 parrot NetworkManager[779]: <info>  [1604593210.7951] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:50:12 parrot NetworkManager[779]: <info>  [1604593212.0440] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:50:12 parrot NetworkManager[779]: <info>  [1604593212.0441] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:50:13 parrot NetworkManager[779]: <info>  [1604593213.7936] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:50:13 parrot NetworkManager[779]: <info>  [1604593213.7936] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:50:14 parrot NetworkManager[779]: <info>  [1604593214.0441] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov  5 21:50:14 parrot NetworkManager[779]: <info>  [1604593214.0442] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+Nov  5 21:50:15 parrot NetworkManager[779]: <info>  [1604593215.6736] device (wlan0): supplicant interface state: scanning -> disconnected
+Nov  5 21:50:15 parrot NetworkManager[779]: <info>  [1604593215.6737] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+Nov  5 21:50:16 parrot NetworkManager[779]: <info>  [1604593216.0431] device (wlan0): supplicant interface state: disconnected -> scanning
+Nov

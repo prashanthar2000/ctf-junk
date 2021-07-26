@@ -1,0 +1,10 @@
+s)
+{
+    if (offset < 0 || bits <= 0 || offset >= 32 || bits > 32 || offset + bits > 32)
+    {
+        return 0u;
+    }
+    uint maskMsb = (1u << (bits - 1));
+    uint mask = ((maskMsb - 1u) | maskMsb) << offset;
+    return (value & mask) >> offset;
+}

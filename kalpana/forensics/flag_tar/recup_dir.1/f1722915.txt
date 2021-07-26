@@ -1,0 +1,1 @@
+HSA kernel because group size cannot be set using thread_limit or schedule clauses when also using a collapse clause greater than 1

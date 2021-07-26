@@ -1,0 +1,11 @@
+         
+    uniform SAMPLER uTex1;                                                   
+    uniform MAT4X3 uColorMatrix;                                             
+                                                                             
+    void main(void)                                                          
+    {                                                                        
+        vec4 yuv = vec4(TEXTURE(uTex0, vTexCoord0).x,                        
+                        TEXTURE(uTex1, vTexCoord1).xy,                       
+                        1.0);                                                
+        FRAG_COLOR = vec4((uColorMatrix * yuv).rgb, 1.0);                    
+    }                                                                        

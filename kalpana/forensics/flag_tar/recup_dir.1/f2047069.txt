@@ -1,0 +1,4 @@
+/webrender/src/segment.rsgfx/wr/webrender/src/record.rspath contains invalid UTF-8 characters	Transaction: ms - bug: invalid clear mode for color taskgfx/wr/webrender/src/render_target.rsBUG: 3d primitive was not assigned a surfaceBUG: no surfacebug: surface must be allocated by nowassertion failed: filter.is_visible()no secondary!?no backdrop!?assertion failed: textures.colors[1..yuv_image_data.format.get_plane_num()].iter().all(|&tid|
+                                                                         buffer_kind
+                                                                             ==
+                                                                             get_buffer_kind(tid))backdrop surface should be alloc by nowbackdrop task not available

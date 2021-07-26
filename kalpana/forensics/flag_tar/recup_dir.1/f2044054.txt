@@ -1,0 +1,2 @@
+llector on the Nursery. When aboutToOverflow is true, marks
+  the store buffer as about-to-overflow before collecting.

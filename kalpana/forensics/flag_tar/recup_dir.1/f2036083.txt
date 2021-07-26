@@ -1,0 +1,12 @@
+       return int4(0, 0, 0, 0);
+    }
+    uint maskMsb = (1u << (bits - 1));
+    uint mask = ((maskMsb - 1u) | maskMsb) << offset;
+    uint4 resultUnsigned = (asuint(value) & mask) >> offset;
+    if (bits != 32)
+    {
+        uint higherBitsMask = ((1u << (32 - bits)) - 1u) << bits;
+        resultUnsigned |= ((resultUnsigned & maskMsb) >> (bits - 1)) * higherBitsMask;
+    }
+    return asint(resultUnsigned);
+}

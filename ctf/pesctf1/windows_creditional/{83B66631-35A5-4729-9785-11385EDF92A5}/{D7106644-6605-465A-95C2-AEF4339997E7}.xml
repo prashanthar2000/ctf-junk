@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+	<name>Lenovo K8 Note 7049</name>
+	<SSIDConfig>
+		<SSID>
+			<hex>4C656E6F766F204B38204E6F74652037303439</hex>
+			<name>Lenovo K8 Note 7049</name>
+		</SSID>
+	</SSIDConfig>
+	<connectionType>ESS</connectionType>
+	<connectionMode>manual</connectionMode>
+	<MSM>
+		<security>
+			<authEncryption>
+				<authentication>WPA2PSK</authentication>
+				<encryption>AES</encryption>
+				<useOneX>false</useOneX>
+			</authEncryption>
+			<sharedKey>
+				<keyType>passPhrase</keyType>
+				<protected>true</protected>
+				<keyMaterial>01000000D08C9DDF0115D1118C7A00C04FC297EB010000001732243DC6B53D4C96DEEA61FD051670000000000200000000001066000000010000200000003621CD4704EF6D46DACC8387E4A2C3C958EA7A9331A6CAD033E5A034D6233E9B000000000E80000000020000200000009B820D29CFBCF3C4029BBDD5292938B8B080F89538A7C9C560F6960933BF7DB410000000C5C67C06C1D7EF80E2275FC58A5ED02A40000000B68D6409F05898CB985C76C8B9FE09B3449FAF02F7C849573A5F39DDC1D7E63945C7BBC762E8CAB9DBCF8649FC09D3DF5B50CD9746FBBBB7C7312F027F842A3A</keyMaterial>
+			</sharedKey>
+		</security>
+	</MSM>
+</WLANProfile>

@@ -1,0 +1,7 @@
+s trained.
+%i (%3.2f%%) have common target.
+%i (%3.2f%%) targets was not found.
+%i (%3.2f%%) targets had parameter count mismatch.
+%i (%3.2f%%) targets was not in polymorphic call target list.
+%i (%3.2f%%) speculations seems useless.
+%i (%3.2f%%) speculations produced.

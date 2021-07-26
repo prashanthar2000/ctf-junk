@@ -1,0 +1,2 @@
+  Return the size in bytes occupied by |value|, or |undefined| if value
+  is not allocated in memory.

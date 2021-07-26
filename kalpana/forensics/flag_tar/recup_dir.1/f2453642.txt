@@ -1,0 +1,6 @@
+ggregate step takes an aggregated snapshot of the CodeHeap.
+   Subsequent print functions create their output based on this snapshot.
+   The CodeHeap is a living thing, and every effort has been made for the
+   collected data to be consistent. Only the method names and signatures
+   are retrieved at print time. That may lead to rare cases where the
+   name of a method is no longer available, e.g. because it was unloaded.

@@ -1,0 +1,1 @@
+SYSLOG_RAW=<31>Jul  3 17:19:18 rtkit-daemon[1068]: Supervising 1 threads of 1 processes of 1 users.

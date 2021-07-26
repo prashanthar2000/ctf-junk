@@ -1,0 +1,15 @@
+POST /Shred/doLogin.action HTTP/1.1
+Host: 52-53-156-26-shred.vulnerablesites.net
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 32
+DNT: 1
+Connection: close
+Referer: http://52-53-156-26-shred.vulnerablesites.net/Shred/login
+Cookie: JSESSIONID=01EF7F7689E98D70C5F55B8A721895EA
+Upgrade-Insecure-Requests: 1
+
+redirect=&username=ad&password=a

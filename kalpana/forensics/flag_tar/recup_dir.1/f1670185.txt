@@ -1,0 +1,1 @@
+ turn target construct into a gridified HSA kernel because an inner loop does not have use the same collapse clause

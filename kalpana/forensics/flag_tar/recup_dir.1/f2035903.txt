@@ -1,0 +1,14 @@
+, -1.0, 1.0);
+    }
+#endif
+
+vec2 unpackSnorm2x16_emu(uint u)
+{
+    #if defined(GL_ARB_shading_language_packing)
+        return unpackSnorm2x16(u);
+    #else
+        uint y = (u >> 16);
+        uint x = u;
+        return vec2(fromSnorm(x), fromSnorm(y));
+    #endif
+}

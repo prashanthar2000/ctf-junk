@@ -1,0 +1,1 @@
+rimary key in InnoDB data dictionary, but not in MariaDB! Have you mixed up .frm files from different installations? See https://mariadb.com/kb/en/innodb-troubleshooting/

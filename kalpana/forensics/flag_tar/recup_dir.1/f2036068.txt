@@ -1,0 +1,12 @@
+[1] * m[1][2];
+    float cof01 = -(m[1][0] * m[2][2] - m[2][0] * m[1][2]);
+    float cof02 = m[1][0] * m[2][1] - m[2][0] * m[1][1];
+    float cof10 = -(m[0][1] * m[2][2] - m[2][1] * m[0][2]);
+    float cof11 = m[0][0] * m[2][2] - m[2][0] * m[0][2];
+    float cof12 = -(m[0][0] * m[2][1] - m[2][0] * m[0][1]);
+    float cof20 = m[0][1] * m[1][2] - m[1][1] * m[0][2];
+    float cof21 = -(m[0][0] * m[1][2] - m[1][0] * m[0][2]);
+    float cof22 = m[0][0] * m[1][1] - m[1][0] * m[0][1];
+    float3x3 cof = { cof00, cof10, cof20, cof01, cof11, cof21, cof02, cof12, cof22 };
+    return cof / determinant(transpose(m));
+}

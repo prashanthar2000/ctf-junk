@@ -1,0 +1,40 @@
+s
+    , PhaseOptions usage:
+
+    go tool compile -d=ssa/<phase>/<flag>[=<value>|<function_name>]
+
+where:
+
+- <phase> is one of:
+
+
+- <flag> is one of:
+    on, off, debug, mem, time, test, stats, dump
+
+- <value> defaults to 1
+
+- <function_name> is required for the "dump" flag, and specifies the
+  name of function to dump after <phase>
+
+Phase "all" supports flags "time", "mem", and "dump".
+Phase "intrinsics" supports flags "on", "off", and "debug".
+
+If the "dump" flag is specified, the output is written on a file named
+<phase>__<function_name>_<seq>.dump; otherwise it is directed to stdout.
+
+Examples:
+
+    -d=ssa/check/on
+enables checking after each phase
+
+    -d=ssa/all/time
+enables time reporting for all phases
+
+    -d=ssa/prove/debug=2
+sets debugging level to 2 in the prove pass
+
+Multiple flags can be passed at once, by separating them with
+commas. For example:
+
+    -d=ssa/check/on,ssa/all/time
+Did not find a flag matching %s in -d=ssa/%s debug optionError %s in regexp for phase %s, flag %sCannot disable required SSA phase %s using -d=ssa/%s debug optionDid not find a phase matching %s in -d=ssa/... debug option

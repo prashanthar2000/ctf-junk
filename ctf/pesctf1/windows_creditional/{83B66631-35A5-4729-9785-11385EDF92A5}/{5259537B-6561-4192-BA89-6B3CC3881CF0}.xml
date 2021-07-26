@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+	<name>Galaxy M30s0E6B</name>
+	<SSIDConfig>
+		<SSID>
+			<hex>47616C617879204D33307330453642</hex>
+			<name>Galaxy M30s0E6B</name>
+		</SSID>
+	</SSIDConfig>
+	<connectionType>ESS</connectionType>
+	<connectionMode>auto</connectionMode>
+	<MSM>
+		<security>
+			<authEncryption>
+				<authentication>WPA2PSK</authentication>
+				<encryption>AES</encryption>
+				<useOneX>false</useOneX>
+			</authEncryption>
+			<sharedKey>
+				<keyType>passPhrase</keyType>
+				<protected>true</protected>
+				<keyMaterial>01000000D08C9DDF0115D1118C7A00C04FC297EB01000000C605F196D3081E4E9212445D96235DDC000000000200000000001066000000010000200000009216E55859577A230321CD6ADDD83EAFD8D8D8116D3CEF8F90F940BD2844DA42000000000E8000000002000020000000A5112DB3E8C3595B3F49334929EE3C22DD2DF0405769E1DA270F7E296F0158A810000000C47A851FF4A4746AF897A278449A487D40000000E1CACDAB776B9E8E1E18AF03D2FD6B057D180B12ADDC082118AA640CC978130C114AE293802CC51B6879A806EA7EFA275FD3D89EE98DF8CE6963A2B46675F521</keyMaterial>
+			</sharedKey>
+		</security>
+	</MSM>
+</WLANProfile>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+	<name>Lenovo K8 Note 3875</name>
+	<SSIDConfig>
+		<SSID>
+			<hex>4C656E6F766F204B38204E6F74652033383735</hex>
+			<name>Lenovo K8 Note 3875</name>
+		</SSID>
+	</SSIDConfig>
+	<connectionType>ESS</connectionType>
+	<connectionMode>manual</connectionMode>
+	<MSM>
+		<security>
+			<authEncryption>
+				<authentication>WPA2PSK</authentication>
+				<encryption>AES</encryption>
+				<useOneX>false</useOneX>
+			</authEncryption>
+			<sharedKey>
+				<keyType>passPhrase</keyType>
+				<protected>true</protected>
+				<keyMaterial>01000000D08C9DDF0115D1118C7A00C04FC297EB01000000A212466FF78B2C4D9E1485165548681C00000000020000000000106600000001000020000000B66637DF55DFC1FED9C13308758B86742A74448057334EA9E17D5514D10FBBE0000000000E8000000002000020000000E7D4B4881B7F58F142674EA64226AC28A6B3D33030CFD7CA206F8E15F33B90ED100000005AFB31449BE1511F652A5CE946F69A2F40000000A2C9369092C4CFE271C91D10B550FB378537C3A31DF2567BFA4C2CF572DBBA403136A9866701D2121A2315BAD9CC681BC45AA106F4BAEC52172C05CEE586E5DB</keyMaterial>
+			</sharedKey>
+		</security>
+	</MSM>
+</WLANProfile>

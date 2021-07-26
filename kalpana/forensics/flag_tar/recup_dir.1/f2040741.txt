@@ -1,0 +1,38 @@
+ set to any value other than '' or '0'/'N'/'n', starts the
+  profiler immediately on start-up.
+  Useful if you want profile code that runs very early.
+
+  MOZ_PROFILER_STARTUP_ENTRIES=<1..>
+  If MOZ_PROFILER_STARTUP is set, specifies the number of entries per
+  process in the profiler's circular buffer when the profiler is first
+  started.
+  If unset, the platform default is used:
+  %u entries per process, or %u when MOZ_PROFILER_STARTUP is set.
+  (8 bytes per entry -> %u or %u total bytes per process)
+
+  MOZ_PROFILER_STARTUP_DURATION=<1..>
+  If MOZ_PROFILER_STARTUP is set, specifies the maximum life time of
+  entries in the the profiler's circular buffer when the profiler is
+  first started, in seconds.
+  If unset, the life time of the entries will only be restricted by
+  MOZ_PROFILER_STARTUP_ENTRIES (or its default value), and no
+  additional time duration restriction will be applied.
+
+  MOZ_PROFILER_STARTUP_INTERVAL=<1..%d>
+  If MOZ_PROFILER_STARTUP is set, specifies the sample interval,
+  measured in milliseconds, when the profiler is first started.
+  If unset, the platform default is used.
+
+  MOZ_PROFILER_STARTUP_FEATURES_BITFIELD=<Number>
+  If MOZ_PROFILER_STARTUP is set, specifies the profiling features, as
+  the integer value of the features bitfield.
+  If unset, the value from MOZ_PROFILER_STARTUP_FEATURES is used.
+
+  MOZ_PROFILER_STARTUP_FEATURES=<Features>
+  If MOZ_PROFILER_STARTUP is set, specifies the profiling features, as
+  a comma-separated list of strings.
+  Ignored if  MOZ_PROFILER_STARTUP_FEATURES_BITFIELD is set.
+  If unset, the platform default is used.
+
+    Features: (x=unavailable, D/d=default/unavailable,
+               S/s=MOZ_PROFILER_STARTUP extra default/unavailable)

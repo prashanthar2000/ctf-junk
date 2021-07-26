@@ -1,0 +1,272 @@
+"/actions/firefox" : { 
+         "poses" : [        
+           {                
+             "output" : "/actions/firefox/in/LHand_pose", 
+              "path" : "/user/hand/left/pose/raw"     
+            },
+            {                                             
+              "output" : "/actions/firefox/in/RHand_pose", 
+              "path" : "/user/hand/right/pose/raw"    
+            }
+         ],
+         "haptics" : [ 
+            {
+              "output" : "/actions/firefox/out/LHand_haptic",  
+              "path" : "/user/hand/left/output/haptic"     
+            },
+            { 
+              "output" : "/actions/firefox/out/RHand_haptic", 
+              "path" : "/user/hand/right/output/haptic"    
+            }
+		  ],
+       "sources" : [ 
+           {
+             "inputs" : { 
+               "position" : { 
+                   "output" : "/actions/firefox/in/LHand_trackpad_analog" 
+               }, 
+               "click" : { 
+                   "output" : "/actions/firefox/in/LHand_trackpad_pressed" 
+               }, 
+               "touch" : { 
+                   "output" : "/actions/firefox/in/LHand_trackpad_touched" 
+               } 
+             }, 
+             "mode" : "trackpad", 
+             "path" : "/user/hand/left/input/trackpad" 
+           },
+           {
+             "inputs" : { 
+               "position" : { 
+                   "output" : "/actions/firefox/in/RHand_trackpad_analog" 
+               }, 
+               "click" : { 
+                   "output" : "/actions/firefox/in/RHand_trackpad_pressed" 
+               }, 
+               "touch" : { 
+                   "output" : "/actions/firefox/in/RHand_trackpad_touched" 
+               } 
+             }, 
+             "mode" : "trackpad", 
+             "path" : "/user/hand/right/input/trackpad" 
+           }, 
+           {
+             "inputs" : { 
+                 "pull" : { 
+                    "output" : "/actions/firefox/in/LHand_trigger_value"  
+                   } 
+              },
+             "mode" : "trigger", 
+             "path" : "/user/hand/left/input/trigger" 
+           }, 
+           {
+             "inputs" : { 
+                 "pull" : { 
+                    "output" : "/actions/firefox/in/RHand_trigger_value"  
+                   } 
+              },
+             "mode" : "trigger", 
+             "path" : "/user/hand/right/input/trigger" 
+           }, 
+           {
+             "inputs" : { 
+               "click" : { 
+                "output" : "/actions/firefox/in/LHand_grip_pressed" 
+              }, 
+               "touch" : { 
+                "output" : "/actions/firefox/in/LHand_grip_touched" 
+              } 
+             }, 
+             "mode" : "button", 
+             "path" : "/user/hand/left/input/grip" 
+           }, 
+           {
+             "inputs" : { 
+               "click" : { 
+                "output" : "/actions/firefox/in/RHand_grip_pressed" 
+              }, 
+               "touch" : { 
+                 "output" : "/actions/firefox/in/RHand_grip_touched" 
+              } 
+           }, 
+             "mode" : "button", 
+             "path" : "/user/hand/right/input/grip" 
+           }, 
+           {
+             "inputs" : { 
+                 "click" : { 
+                    "output" : "/actions/firefox/in/LHand_system_pressed"  
+                   }, 
+                 "touch" : { 
+                    "output" : "/actions/firefox/in/LHand_system_touched"  
+                   } 
+              },
+             "mode" : "button", 
+             "path" : "/user/hand/left/input/system" 
+           }, 
+           {
+             "inputs" : { 
+                 "click" : { 
+                    "output" : "/actions/firefox/in/RHand_system_pressed"  
+                   }, 
+                 "touch" : { 
+                    "output" : "/actions/firefox/in/RHand_system_touched"  
+                   } 
+              },
+             "mode" : "button", 
+             "path" : "/user/hand/right/input/system" 
+           }, 
+           {
+             "inputs" : { 
+                 "click" : { 
+                    "output" : "/actions/firefox/in/LHand_a_pressed"  
+                   }, 
+                 "touch" : { 
+                    "output" : "/actions/firefox/in/LHand_a_touched"  
+                   } 
+              },
+             "mode" : "button", 
+             "path" : "/user/hand/left/input/a" 
+           }, 
+           {
+             "inputs" : { 
+                 "click" : { 
+                    "output" : "/actions/firefox/in/RHand_a_pressed"  
+                   }, 
+                 "touch" : { 
+                    "output" : "/actions/firefox/in/RHand_a_touched"  
+                   } 
+              },
+             "mode" : "button", 
+             "path" : "/user/hand/right/input/a" 
+           }, 
+           {
+             "inputs" : { 
+                 "click" : { 
+                    "output" : "/actions/firefox/in/LHand_b_pressed"  
+                   }, 
+                 "touch" : { 
+                    "output" : "/actions/firefox/in/LHand_b_touched"  
+                   } 
+              },
+             "mode" : "button", 
+             "path" : "/user/hand/left/input/b" 
+           }, 
+           {
+             "inputs" : { 
+                 "click" : { 
+                    "output" : "/actions/firefox/in/RHand_b_pressed"  
+                   }, 
+                 "touch" : { 
+                    "output" : "/actions/firefox/in/RHand_b_touched"  
+                   } 
+              },
+             "mode" : "button", 
+             "path" : "/user/hand/right/input/b" 
+           }, 
+           {
+             "inputs" : { 
+               "position" : { 
+                   "output" : "/actions/firefox/in/LHand_thumbstick_analog" 
+               }, 
+               "click" : { 
+                   "output" : "/actions/firefox/in/LHand_thumbstick_pressed" 
+               }, 
+               "touch" : { 
+                   "output" : "/actions/firefox/in/LHand_thumbstick_touched" 
+               } 
+             }, 
+             "mode" : "joystick", 
+             "path" : "/user/hand/left/input/thumbstick" 
+           },
+           {
+             "inputs" : { 
+               "position" : { 
+                   "output" : "/actions/firefox/in/RHand_thumbstick_analog" 
+               }, 
+               "click" : { 
+                   "output" : "/actions/firefox/in/RHand_thumbstick_pressed" 
+               }, 
+               "touch" : { 
+                   "output" : "/actions/firefox/in/RHand_thumbstick_touched" 
+               } 
+             }, 
+             "mode" : "joystick", 
+             "path" : "/user/hand/right/input/thumbstick" 
+           }, 
+           {
+             "inputs" : { 
+               "pull" : { 
+                   "output" : "/actions/firefox/in/LHand_finger_index_value" 
+               } 
+             }, 
+             "mode" : "trigger", 
+             "path" : "/user/hand/left/input/finger/index" 
+           }, 
+           {
+             "inputs" : { 
+               "pull" : { 
+                   "output" : "/actions/firefox/in/RHand_finger_index_value" 
+               } 
+             }, 
+             "mode" : "trigger", 
+             "path" : "/user/hand/right/input/finger/index" 
+           }, 
+           {
+             "inputs" : { 
+               "pull" : { 
+                   "output" : "/actions/firefox/in/LHand_finger_middle_value" 
+               } 
+             }, 
+             "mode" : "trigger", 
+             "path" : "/user/hand/left/input/finger/middle" 
+           }, 
+           {
+             "inputs" : { 
+               "pull" : { 
+                   "output" : "/actions/firefox/in/RHand_finger_middle_value" 
+               } 
+             }, 
+             "mode" : "trigger", 
+             "path" : "/user/hand/right/input/finger/middle" 
+           }, 
+           {
+             "inputs" : { 
+               "pull" : { 
+                   "output" : "/actions/firefox/in/LHand_finger_ring_value" 
+               } 
+             }, 
+             "mode" : "trigger", 
+             "path" : "/user/hand/left/input/finger/ring" 
+           }, 
+           {
+             "inputs" : { 
+               "pull" : { 
+                   "output" : "/actions/firefox/in/RHand_finger_ring_value" 
+               } 
+             }, 
+             "mode" : "trigger", 
+             "path" : "/user/hand/right/input/finger/ring" 
+           }, 
+           {
+             "inputs" : { 
+               "pull" : { 
+                   "output" : "/actions/firefox/in/LHand_finger_pinky_value" 
+               } 
+             }, 
+             "mode" : "trigger", 
+             "path" : "/user/hand/left/input/finger/pinky" 
+           }, 
+           {
+             "inputs" : { 
+               "pull" : { 
+                   "output" : "/actions/firefox/in/RHand_finger_pinky_value" 
+               } 
+             }, 
+             "mode" : "trigger", 
+             "path" : "/user/hand/right/input/finger/pinky" 
+           } 
+         ]
+     }
+  }
+}

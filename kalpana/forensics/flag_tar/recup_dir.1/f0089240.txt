@@ -1,0 +1,1 @@
+ul  4 00:22:47 smartd[724]: smartd 7.1 2019-12-30 r5022 [x86_64-linux-5.5.0-1parrot1-amd64] (local build)

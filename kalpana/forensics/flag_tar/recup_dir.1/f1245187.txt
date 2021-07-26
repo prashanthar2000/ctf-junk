@@ -1,0 +1,12 @@
+word LIKE :word
+ ORDER BY first_doc_id;
+BEGIN
+
+OPEN c;
+WHILE 1 = 1 LOOP
+  FETCH c INTO my_func();
+  IF c % NOTFOUND THEN
+    EXIT;
+  END IF;
+END LOOP;
+CLOSE c;

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+	<name>o redmiy1 2</name>
+	<SSIDConfig>
+		<SSID>
+			<hex>6F207265646D697931</hex>
+			<name>o redmiy1</name>
+		</SSID>
+	</SSIDConfig>
+	<connectionType>ESS</connectionType>
+	<connectionMode>auto</connectionMode>
+	<MSM>
+		<security>
+			<authEncryption>
+				<authentication>WPA2PSK</authentication>
+				<encryption>AES</encryption>
+				<useOneX>false</useOneX>
+			</authEncryption>
+			<sharedKey>
+				<keyType>passPhrase</keyType>
+				<protected>true</protected>
+				<keyMaterial>01000000D08C9DDF0115D1118C7A00C04FC297EB0100000001B744BA51EEBA408244EA5F4F4D1D93000000000200000000001066000000010000200000004D50DB069A3FC0278D4165A12801F9BBBF3D92DCE705C96F27DF76EDA990F019000000000E800000000200002000000060EF0C93A930BF0DDC0BEF07F951AE380631AD5802CDB3A1E158688EBBBC8C7E10000000454A205B954C5B60C66B543409A224FE40000000A2342B2D0280799E56A0FE73FF5345AFC87D642F4A2EA2B0A1FC5DE02C1CC5D3444980558636C554F851CC77ED0CA9836F0BBBEAB1FEE38F1944559226BDC30A</keyMaterial>
+			</sharedKey>
+		</security>
+	</MSM>
+</WLANProfile>

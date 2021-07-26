@@ -1,0 +1,1 @@
+selectors,[PERF],styles_reused,[PERF],styles_shared,[PERF],elements_matched,[PERF],elements_styled,[PERF],elements_traversed,[PERF],traversal,[PERF] perf block start

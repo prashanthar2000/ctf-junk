@@ -1,0 +1,13 @@
+ 0;
+        ELSIF (SUBSTR(for_name, 0, LENGTH(:dbname)) <> :dbname) THEN
+                found := 0;
+        ELSIF (1=1) THEN
+                DELETE FROM SYS_FOREIGN_COLS
+                WHERE ID = foreign_id;
+                DELETE FROM SYS_FOREIGN
+                WHERE ID = foreign_id;
+        END IF;
+END LOOP;
+CLOSE cur;
+COMMIT WORK;
+END;

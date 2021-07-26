@@ -1,0 +1,4 @@
+ro = exponent < -25.0;
+    v = v * exp2(-exponent);
+    v = sign(v) * floor(abs(v));
+    return v * exp2(exponent) * (float

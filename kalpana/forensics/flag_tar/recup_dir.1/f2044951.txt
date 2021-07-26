@@ -1,0 +1,208 @@
+      p.guid AS parentGuid, p.title AS parentTitle,
+                       .type, .title,
+                       h.id AS placeId,
+                       IFNULL(substr(h.url, 1, 6) = 'place:', 0) AS isQuery,
+                       h.url,
+                       (SELECT keyword FROM moz_keywords WHERE place_id = h.id),
+                       .position,
+                       (SELECT get_query_param(substr(url, 7), 'tag')
+                        WHERE substr(h.url, 1, 6) = 'place:') AS tagFolderName
+                FROM moz_bookmarks 
+                JOIN moz_bookmarks p ON p.id = .parent
+                LEFT JOIN moz_places h ON h.id = .fkStaging weak uploadsCleaning up staged items left from last syncStaging items to uploadDELETE FROM itemsAdded;
+         DELETE FROM guidsChanged;
+         DELETE FROM itemsChanged;
+         DELETE FROM itemsRemoved;
+         DELETE FROM itemsMoved;Can't apply remote item without remote nodeDELETE FROM moz_updateoriginsinsert_tempCan't change local GUID without local nodeDELETE FROM changeGuidOpsINSERT INTO itemsAdded(guid, keywordChanged, level)
+         SELECT n.mergedGuid, n.newKeyword NOT NULL OR
+                              EXISTS(SELECT 1 FROM moz_keywords k
+                                     WHERE k.place_id = n.newPlaceId OR
+                                           k.keyword = n.newKeyword),
+                n.newLevel
+         FROM itemsToApply n
+         WHERE n.localId IS NULLINSERT INTO itemsChanged(itemId, oldTitle, oldPlaceId, keywordChanged,
+                                 level)
+        SELECT n.localId, n.oldTitle, n.oldPlaceId,
+               n.newKeyword NOT NULL OR EXISTS(
+                 SELECT 1 FROM moz_keywords k
+                 WHERE k.place_id IN (n.oldPlaceId, n.newPlaceId) OR
+                       k.keyword = n.newKeyword
+               ),
+               n.newLevel
+        FROM itemsToApply n
+        WHERE n.localId NOT NULLDELETE FROM moz_keywords
+         WHERE place_id IN (SELECT oldPlaceId FROM itemsToApply
+                            WHERE oldPlaceId NOT NULL) OR
+               place_id IN (SELECT newPlaceId FROM itemsToApply
+                            WHERE newPlaceId NOT NULL) OR
+               keyword IN (SELECT newKeyword FROM itemsToApply
+                           WHERE newKeyword NOT NULL)
+    DELETE FROM localTags
+         WHERE placeId IN (SELECT oldPlaceId FROM itemsToApply
+                           WHERE oldPlaceId NOT NULL) OR
+               placeId IN (SELECT newPlaceId FROM itemsToApply
+                           WHERE newPlaceId NOT NULL)UPDATE moz_places SET
+           frecency = -frecency
+         WHERE frecency > 0 AND (
+           id IN (
+             SELECT oldPlaceId FROM itemsToApply
+             WHERE oldPlaceId <> newPlaceId
+           ) OR id IN (
+             SELECT newPlaceId FROM itemsToApply
+             WHERE newPlaceId <> oldPlaceId
+           )
+         )INSERT OR IGNORE INTO moz_keywords(keyword, place_id, post_data)
+         SELECT newKeyword, newPlaceId, ''
+         FROM itemsToApply
+         WHERE newKeyword NOT NULLINSERT INTO localTags(tag, placeId, lastModifiedMicroseconds)
+         SELECT t.tag, n.newPlaceId, n.lastModifiedMicroseconds
+         FROM itemsToApply n
+         JOIN tags t ON t.itemId = n.remoteIdDELETE FROM moz_updateoriginsupdate_tempDELETE FROM applyNewLocalStructureOpsUPDATE items SET
+               needsMerge = 0
+             WHERE guid IN (Flagging applied remote items as mergedUPDATE moz_bookmarks SET
+               syncChangeCounter = 1
+             WHERE guid IN (Bumping change counters for items that should be uploadedUPDATE moz_bookmarks SET
+               syncChangeCounter = 0
+             WHERE guid IN (Resetting change counters for items that shouldn't be uploadedApplying new local structureUpdating origins for changed URLsInserting new tags for new URLsInserting new keywords for new URLsFlagging frecencies for recalculationINSERT INTO moz_bookmarks(id, guid, parent, position, type, fk, title,
+                                   dateAdded,
+                                   lastModified,
+                                   syncStatus, syncChangeCounter)
+         SELECT localId, mergedGuid, -1, -1, newType, newPlaceId, newTitle,
+                /* Pick the older of the local and remote date added. We'll
+                   weakly reupload any items with an older local date. */
+                MIN(IFNULL(localDateAddedMicroseconds,
+                           remoteDateAddedMicroseconds),
+                    remoteDateAddedMicroseconds),
+                /* The last modified date should always be newer than the date
+                   added, so we pick the newer of the two here. */
+                MAX(lastModifiedMicroseconds, remoteDateAddedMicroseconds),
+                , 0
+         FROM itemsToApply
+         WHERE 1
+         ON CONFLICT(id) DO UPDATE SET
+           title = excluded.title,
+           dateAdded = excluded.dateAdded,
+           lastModified = excluded.lastModified,
+           /* It's important that we update the URL *after* removing old keywords
+              and *before* inserting new ones, so that the above DELETEs select
+              the correct affected items. */
+           fk = excluded.fkUpserting new itemsRemoving old tagsRemoving old keywordsRecording item changed notifications for existing itemsRecording item added notifications for new itemsApplying remote itemsChanging GUIDsDELETE FROM moz_bookmarks
+         WHERE guid IN (Removing deleted items from PlacesDELETE FROM moz_items_annos
+         WHERE item_id = (SELECT b.id FROM moz_bookmarks b
+                          WHERE b.guid IN ())UPDATE moz_places SET
+           frecency = -frecency
+         WHERE id IN (SELECT b.fk FROM moz_bookmarks b
+                      WHERE b.guid IN ()) AND
+               frecency > 0Recalculating frecencies for removed bookmark URLsWITH
+         ops(guid, level) AS (VALUES )
+         INSERT INTO itemsRemoved(itemId, parentId, position, type, placeId,
+                                  guid, parentGuid, level)
+         SELECT b.id, b.parent, b.position, b.type, b.fk,
+                b.guid, p.guid, n.level
+         FROM ops n
+         JOIN moz_bookmarks b ON b.guid = n.guid
+         JOIN moz_bookmarks p ON p.id = b.parentRecording observer notifications for removed itemsRemoving local itemsINSERT INTO moz_bookmarks_deleted(guid, dateRemoved)
+             VALUES Inserting new tombstones for non-syncable and invalid itemsDELETE FROM moz_bookmarks_deleted
+             WHERE guid IN (Removing tombstones for revived itemsINSERT INTO applyNewLocalStructureOps(mergedGuid, mergedParentGuid,
+                                                   position, level,
+                                                   lastModifiedMicroseconds)
+             VALUES (?, ?, Staging apply new local structure ops./third_party/rust/dogear/src/merge.rsINSERT INTO changeGuidOps(localGuid, mergedGuid, syncStatus, level,
+                                       lastModifiedMicroseconds)
+             VALUES Staging change GUID opsOption<WITH
+             ops(mergedGuid, localGuid, remoteGuid, level) AS (VALUES )
+             INSERT INTO itemsToApply(mergedGuid, localId, remoteId,
+                                      remoteGuid, newLevel,
+                                      newType,
+                                      localDateAddedMicroseconds,
+                                      remoteDateAddedMicroseconds,
+                                      lastModifiedMicroseconds,
+                                      oldTitle, newTitle, oldPlaceId,
+                                      newPlaceId,
+                                      newKeyword)
+             SELECT n.mergedGuid, b.id, v.id,
+                    v.guid, n.level,
+                    (CASE WHEN v.kind IN () THEN 
+                          WHEN v.kind IN (
+                     END),
+                    b.dateAdded,
+                    v.dateAdded * 1000,
+                    MAX(v.dateAdded * 1000, ),
+                    b.title, v.title, b.fk,
+                    (SELECT h.id FROM moz_places h
+                     JOIN urls u ON u.hash = h.url_hash
+                     WHERE u.id = v.urlId AND
+                           u.url = h.url),
+                    v.keyword
+             FROM ops n
+             JOIN items v ON v.guid = n.remoteGuid
+             LEFT JOIN moz_bookmarks b ON b.guid = n.localGuid(?, ?, ?, Staging apply remote item opsUpdating origins for new URLsINSERT OR IGNORE INTO moz_places(url, url_hash, rev_host, hidden,
+                                              frecency, guid)
+             SELECT u.url, u.hash, u.revHost, 0,
+                    (CASE v.kind WHEN  THEN 0 ELSE -1 END),
+                    IFNULL((SELECT h.guid FROM moz_places h
+                            WHERE h.url_hash = u.hash AND
+                                  h.url = u.url), u.guid)
+             FROM items v
+             JOIN urls u ON u.id = v.urlId
+             WHERE v.guid IN (Inserting Places for new itemsCleaning up observer notifications left from last syncUpdating local items in PlacesApplying merged treeBuilt new merged tree
+
+Delete Locally: []
+Delete Remotely: [dogear::mergeUnchanged local child shouldn't have been mergedUnchanged remote child shouldn't have been mergedCan't check for structure changes without remote parentLocal node  deleted remotely and not changed locally; taking remote deletionLocal folder  deleted remotely and changed locally; taking remote deletionLocal non-folder  deleted remotely and changed locally; taking local change is syncable, but remote node Generating new GUID for local node  only exists locallyRelocating local orphan Local child  can't be an orphan; already mergedDeleting non-syncable local node Can't check for structure changes without local parentRemote node  deleted locally and not changed remotely; taking local deletionRemote folder  deleted locally and changed remotely; taking local deletionRemote non-folder  deleted locally and changed remotely; taking remote change is syncable, but local node Generating new GUID for remote node  only exists remotelyRelocating remote orphan Remote child Deleting non-syncable remote node Can't merge existing remote child without local parentMerged node  doesn't exist locally; no potential dupes for remote child Not deduping remote child  without content info; no local content matches; no remaining local content matchesDeduping local child  to remote child ; already deduped; already deleted or exists locallyNot deduping remote built-in root Not deduping local child ; already deleted or exists remotelyNot deduping local built-in root First remote child  doesn't exist locally; finding all matching dupes in local  and remote  doesn't exist locally; looking for local content match repositioned locally in  and remotely in ; keeping child in newer remote position reparented locally to  and remotely to ; keeping child in newer remote parent moved locally to ; keeping child in newer local parent and positionUnconditionally taking remote move for  because local parent  is deleted remotely exists locally in Merging remote child  into  already seen in another folder and mergedCan't merge existing local child without remote parent doesn't exist remotely; no potential dupes for local child First local child  doesn't exist remotely; finding all matching dupes in local  doesn't exist remotely; looking for remote content match; keeping child in newer local position; keeping child in newer local parentUnconditionally taking local move for  because remote parent  is deleted locallyMerging local child Generating new valid GUID for node Merging local  with different kindsItem exists locally as  and remotely as Building merged treeBuilt remote tree from mirror
+isDeletedparentGuidSELECT guid, parentGuid FROM structure
+             WHERE guid <> ''
+             ORDER BY parentGuid, positionSELECT v.guid, v.parentGuid, v.serverModified, v.kind,
+                    IFNULL(v.title, '') AS title, v.needsMerge, v.validity,
+                    v.isDeleted,
+                    (SELECT u.url FROM urls u
+                     WHERE u.id = v.urlId) AS url
+             FROM items v
+             WHERE v.guid <> ''
+             ORDER BY v.guidneedsMergeserverModifiedtitleSELECT guid, serverModified, kind, needsMerge, validity
+             FROM items
+             WHERE guid = 'Building remote treeBuilt local tree from mirror
+SELECT guid FROM moz_bookmarks_deletedSELECT b.guid, p.guid AS parentGuid, b.type, b.syncChangeCounter,
+                    b.syncStatus, b.lastModified / 1000 AS localModified,
+                    IFNULL(b.title, '') AS title,
+                    (SELECT h.url FROM moz_places h WHERE h.id = b.fk) AS url,
+                    EXISTS(SELECT 1 FROM moz_items_annos a
+                           JOIN moz_anno_attributes n ON n.id = a.anno_attribute_id
+                           WHERE a.item_id = b.id AND
+                                 n.name = '') AS isLivemark
+             FROM moz_bookmarks b
+             JOIN moz_bookmarks p ON p.id = b.parent
+             WHERE b.guid <> ''
+             ORDER BY b.parent, b.positionplaceisLivemarklocalModifiedsyncChangeCountersyncStatusFailed to parse URL for local item SELECT guid, type, syncChangeCounter, syncStatus,
+                    lastModified / 1000 AS localModified,
+                    NULL AS url, 0 AS isLivemark
+             FROM moz_bookmarks
+             WHERE guid = 'Building local treeUPDATE items SET
+               validity = 
+             WHERE validity =  AND (
+               urlId IN (
+                 /* Same URL, different keywords. `COUNT` ignores NULLs, so
+                    we need to count them separately. This handles cases where
+                    a keyword was removed from one, but not all bookmarks with
+                    the same URL. */
+                 SELECT urlId FROM items
+                 GROUP BY urlId
+                 HAVING COUNT(DISTINCT keyword) +
+                        COUNT(DISTINCT CASE WHEN keyword IS NULL
+                                       THEN 1 END) > 1
+               ) OR keyword IN (
+                 /* Different URLs, same keyword. Bookmarks with keywords but
+                    without URLs are already invalid, so we don't need to handle
+                    NULLs here. */
+                 SELECT keyword FROM items
+                 WHERE keyword NOT NULL
+                 GROUP BY keyword
+                 HAVING COUNT(DISTINCT urlId) > 1
+               )
+             )SELECT NOT EXISTS(
+               SELECT 1 FROM moz_bookmarks
+               WHERE id = (SELECT parent FROM moz_bookmarks
+                           WHERE guid = '')
+             ) AND NOT EXISTS(
+               SELECT 1 FROM moz_bookmarks b
+               JOIN moz_bookmarks p ON p.id = b.parent
+               WHERE b.guid IN ('') AND
+                     p.guid <> 'toolkit/components/places/bookmark_sync/src/merger.rsmozISyncedBookmarksMirrorProgressListener

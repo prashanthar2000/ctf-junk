@@ -1,0 +1,22 @@
+ AND
+  table_name = :table_name;
+BEGIN
+OPEN table_stats_cur;
+FETCH table_stats_cur INTO
+  fetch_table_stats_step();
+IF (SQL % NOTFOUND) THEN
+  CLOSE table_stats_cur;
+  RETURN;
+END IF;
+CLOSE table_stats_cur;
+OPEN index_stats_cur;
+found := 1;
+WHILE found = 1 LOOP
+  FETCH index_stats_cur INTO
+    fetch_index_stats_step();
+  IF (SQL % NOTFOUND) THEN
+    found := 0;
+  END IF;
+END LOOP;
+CLOSE index_stats_cur;
+END;

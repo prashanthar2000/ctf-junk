@@ -1,0 +1,2 @@
+value, int minValue, int maxValue) { return ((value < minValue) ? minValue : ((value > maxValue) ? maxValue : value)); }
+

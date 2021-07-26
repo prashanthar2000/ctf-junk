@@ -1,0 +1,11 @@
+in blocks:                %lu
+Number of mmapped regions:               %lu
+Space in mmapped regions:                %s
+Maximum total allocated space:           %s
+Space available in freed fastbin blocks: %s
+Total allocated space:                   %s
+Total free space:                        %s
+Top-most, releasable space:              %s
+Estimated memory (with thread stack):    %s
+Global memory allocated by server:       %s
+Memory allocated by threads:             %s

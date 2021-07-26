@@ -1,0 +1,4 @@
+heddotveeblue%v -> %v [label=" %d ",style="%s",color="%s",arrowhead="%s"];#eea24f#f38385#f4d164#ca89fcgray%s -> %s [color="%s"];dot: %v
+%v
+svg_graph_<div class="zoom"><button onclick="return graphReduce('%s');">-</button> <button onclick="return graphEnlarge('%s');">+</button></div><svg injecting attributes: %v
+ id="%s" onload="makeDraggable(evt)" 

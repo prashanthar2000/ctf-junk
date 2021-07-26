@@ -1,0 +1,1 @@
+Will not turn target construct into a gridified HSA kernel because %s construct contains multiple OpenMP constructs
